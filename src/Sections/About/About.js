@@ -1,19 +1,35 @@
 import React from "react";
+import "./About.css";
+
+import runningLady from "../../Images/runninglady.png";
 
 export function AboutV1() {
   return (
-    <div className="container-fluid" style={styles.container}>
-      About V1
+    <div className="container-fluid" id="mainContainer">
+      <div className="row">
+        <div className="col-md-7">
+          <div>
+            <img alt="headerImage" src={runningLady} id="aboutImage" />
+          </div>
+        </div>
+        <div className="col-md-5">
+          <div id="abouMessageContainer">
+            <div id="abouMessageHeaderContainer">
+              <p id="abouMessageHeader">Kennedy Fitness</p>
+            </div>
+
+            <div id="abouMessageParagraphContainer">
+              <p id="abouMessageParagraph">
+                Physical fitness is a state of health and well-being and, more
+                specifically, the ability to perform aspects of sports,
+                occupations and daily activities. Physical fitness is generally
+                achieved through proper nutrition, moderate-vigorous physical
+                exercise, and sufficient rest.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
-
-const styles = {
-  container: {
-    height: "200vh",
-    backgroundColor: "red",
-    color: "black",
-    position: "relative",
-    top: "56px",
-  },
-};
