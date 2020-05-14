@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kennedyfitness/static/css/main.cc545c4d.chunk.css",
+    "main.js": "/kennedyfitness/static/js/main.237f571d.chunk.js",
+    "main.js.map": "/kennedyfitness/static/js/main.237f571d.chunk.js.map",
+    "runtime-main.js": "/kennedyfitness/static/js/runtime-main.3a698612.js",
+    "runtime-main.js.map": "/kennedyfitness/static/js/runtime-main.3a698612.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/kennedyfitness/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6c497dcb.chunk.js": "/kennedyfitness/static/js/2.6c497dcb.chunk.js",
+    "static/js/2.6c497dcb.chunk.js.map": "/kennedyfitness/static/js/2.6c497dcb.chunk.js.map",
+    "index.html": "/kennedyfitness/index.html",
+    "precache-manifest.03dcbe1ff1ee80dbbc71cd0e9212589f.js": "/kennedyfitness/precache-manifest.03dcbe1ff1ee80dbbc71cd0e9212589f.js",
+    "service-worker.js": "/kennedyfitness/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/kennedyfitness/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.cc545c4d.chunk.css.map": "/kennedyfitness/static/css/main.cc545c4d.chunk.css.map",
+    "static/js/2.6c497dcb.chunk.js.LICENSE.txt": "/kennedyfitness/static/js/2.6c497dcb.chunk.js.LICENSE.txt",
+    "static/media/runninglady.png": "/kennedyfitness/static/media/runninglady.6e3d411c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a698612.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6c497dcb.chunk.js",
+    "static/css/main.cc545c4d.chunk.css",
+    "static/js/main.237f571d.chunk.js"
+  ]
+}
