@@ -1,0 +1,43 @@
+/* phone */
+@media (max-width: 760px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 760px) and (max-width: 992px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .cardBtnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .cardRowR {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px;
+    justify-content: flex-end;
+  }
+  .cardRowL {
+    width: 100%;
+    display: flex;
+    margin: 100px 0px;
+    flex-direction: row;
+  }
+  .card {
+    width: 700px;
+  }
+  .cardPrice {
+    position: relative;
+    top: 5px;
+    right: 5px;
+    font-size: 1.2em;
+    font-weight: 200;
+  }
+}
