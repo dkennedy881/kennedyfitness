@@ -1,5 +1,5 @@
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 768px) {
+/* phone */
+@media (max-width: 760px) {
   #aboutImage {
     position: relative;
     top: 56px;
@@ -8,10 +8,22 @@
   #abouMessageContainer {
     margin-top: 100px;
   }
+  #abouMessageHeaderContainer {
+    display: none;
+  }
+  #abouMessageParagraph {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 1em;
+    text-align: center;
+  }
+  #abouMessageBtnContainer {
+    display: none;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 760px) and (max-width: 992px) {
   #mainContainer {
     position: relative;
     top: 56px;

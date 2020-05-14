@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 
+import { Button, Form, Row, Col } from "react-bootstrap";
+
+//images
 import runningLady from "../../Images/runninglady.png";
 
 export function AboutV1() {
@@ -26,6 +29,9 @@ export function AboutV1() {
                 achieved through proper nutrition, moderate-vigorous physical
                 exercise, and sufficient rest.
               </p>
+            </div>
+            <div id="abouMessageBtnContainer">
+              <Button variant="warning">Git Fit</Button>
             </div>
           </div>
         </div>
