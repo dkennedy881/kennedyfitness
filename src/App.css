@@ -1,1 +1,7 @@
+body {
+  overflow-x: hidden;
+}
 
+.App {
+  overflow-x: hidden;
+}

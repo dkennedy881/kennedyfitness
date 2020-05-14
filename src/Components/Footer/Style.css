@@ -1,0 +1,177 @@
+/* phone */
+@media (max-width: 760px) {
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+  }
+  #formContainer {
+    width: 600px;
+    padding-bottom: 50px;
+  }
+  #iconRow {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .footerIcon {
+    font-size: 1.6em;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  #footerFormMessageContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px;
+  }
+  #footerFormMessageContainer > p {
+    width: 100%;
+    margin: 5px 0px;
+  }
+  #formEmailContainer {
+    display: flex;
+    margin: 10px 20px;
+  }
+  #footerBtn {
+    width: 80px;
+  }
+  #footerEmail {
+    flex: 1;
+    margin-right: 10px;
+  }
+}
+
+/* reg ipad */
+@media (min-width: 760px) and (max-width: 992px) {
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+  }
+  #formContainer {
+    width: 600px;
+    padding-bottom: 50px;
+  }
+  #iconRow {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .footerIcon {
+    font-size: 1.6em;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  #footerFormMessageContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  #footerFormMessageContainer > p {
+    width: 100%;
+    margin: 5px 0px;
+  }
+  #formEmailContainer {
+    display: flex;
+    margin: 10px 0px;
+    padding: 0px 100px;
+  }
+  #footerBtn {
+    width: 80px;
+  }
+  #footerEmail {
+    flex: 1;
+    margin-right: 20px;
+  }
+}
+
+/* big ipad */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+  }
+  #formContainer {
+    width: 600px;
+    padding-bottom: 50px;
+  }
+  #iconRow {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .footerIcon {
+    font-size: 1.6em;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  #footerFormMessageContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  #footerFormMessageContainer > p {
+    width: 100%;
+    margin: 5px 0px;
+  }
+  #formEmailContainer {
+    display: flex;
+    margin: 10px 0px;
+    padding: 0px 100px;
+  }
+  #footerBtn {
+    width: 80px;
+  }
+  #footerEmail {
+    flex: 1;
+    margin-right: 20px;
+  }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+  }
+  #formContainer {
+    width: 600px;
+    padding-bottom: 50px;
+  }
+  #iconRow {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .footerIcon {
+    font-size: 1.6em;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  #footerFormMessageContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  #footerFormMessageContainer > p {
+    width: 100%;
+    margin: 5px 0px;
+  }
+  #formEmailContainer {
+    display: flex;
+    margin: 10px 0px;
+  }
+  #footerBtn {
+    width: 80px;
+  }
+  #footerEmail {
+    flex: 1;
+    margin-right: 20px;
+  }
+}
