@@ -1,0 +1,91 @@
+/* phone */
+@media (max-width: 760px) {
+  #aboutImage {
+    position: relative;
+    top: 56px;
+    width: 300px;
+  }
+  #abouMessageContainer {
+    margin-top: 100px;
+  }
+  #abouMessageHeaderContainer {
+    display: none;
+  }
+  #abouMessageParagraph {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 1em;
+    text-align: center;
+  }
+  #abouMessageBtnContainer {
+    display: none;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 760px) and (max-width: 992px) {
+  #mainContainer {
+    position: relative;
+    top: 56px;
+    width: 100%;
+  }
+  #aboutImage {
+    width: 100%;
+    position: relative;
+    top: 56px;
+  }
+  #abouMessageContainer {
+    margin: 200px 20px 0px 0px;
+  }
+  #abouMessageHeader {
+    font-size: 2.2em;
+  }
+  #abouMessageParagraph {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 1em;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  #mainContainer {
+    position: relative;
+    top: 56px;
+  }
+  #aboutImage {
+    width: 600px;
+  }
+  #abouMessageContainer {
+    margin: 200px 20px 0px 0px;
+  }
+  #abouMessageHeader {
+    font-size: 3em;
+  }
+  #abouMessageParagraph {
+    font-weight: 300;
+    line-height: 40px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #mainContainer {
+    position: relative;
+    top: 56px;
+  }
+  #aboutImage {
+    width: 800px;
+  }
+
+  #abouMessageContainer {
+    margin: 200px 100px 0px 0px;
+  }
+  #abouMessageHeader {
+    font-size: 3.2em;
+  }
+  #abouMessageParagraph {
+    font-weight: 300;
+    line-height: 50px;
+  }
+}
