@@ -1,7 +1,7 @@
 import React from "react";
-import "./About.css";
+import "./Style.css";
 
-import { Button, Form, Row, Col } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 //images
 import runningLady from "../../Images/runninglady.png";
