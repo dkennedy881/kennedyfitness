@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Col, Row, Button } from "react-bootstrap";
+import { Form, Col, Row } from "react-bootstrap";
 import "./Style.css";
 export default function Footer() {
   return (
@@ -12,15 +12,6 @@ export default function Footer() {
                 Submit your email to get the fitness plans you see here and
                 future updates.
               </p>
-            </Col>
-            <Col sm="12" id="formEmailContainer">
-              <Form.Control
-                id="footerEmail"
-                placeholder="youremail@gmail.com"
-              />
-              <Button variant="secondary" id="footerBtn">
-                Git Fit
-              </Button>
             </Col>
             <Col sm="12" id="iconRow">
               <i className="footerIcon footerIconBg fab fa-instagram"></i>

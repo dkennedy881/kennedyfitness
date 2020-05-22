@@ -75,20 +75,35 @@
   #mainContainer {
     position: relative;
     top: 56px;
-    height: 1300px;
+    height: 1800px;
   }
   #aboutImage {
     width: 800px;
+    position: relative;
+    left: -300px;
   }
 
   #abouMessageContainer {
-    margin: 200px 100px 0px 0px;
+    margin: 200px 100px 0px 200px;
   }
   #abouMessageHeader {
     font-size: 3.2em;
+    font-weight: 900;
   }
   #abouMessageParagraph {
     font-weight: 300;
     line-height: 50px;
+  }
+  #mainMessageContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  #mainMessage1 {
+    font-size: 7em;
+  }
+  #mainMessage2 {
+    font-size: 7em;
   }
 }
