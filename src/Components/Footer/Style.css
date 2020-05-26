@@ -6,7 +6,6 @@
   }
   #formContainer {
     width: 600px;
-    padding-bottom: 50px;
   }
   #iconRow {
     display: flex;
@@ -23,7 +22,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 10px;
+    margin: 10px 25px;
+    font-size: 1em;
   }
   #footerFormMessageContainer > p {
     width: 100%;
@@ -50,7 +50,7 @@
   }
   #formContainer {
     width: 600px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
   #iconRow {
     display: flex;
@@ -58,7 +58,7 @@
     margin: 10px 0px;
   }
   .footerIcon {
-    font-size: 1.6em;
+    font-size: 1.1em;
     margin: 0px 10px;
     cursor: pointer;
   }
@@ -72,6 +72,7 @@
   #footerFormMessageContainer > p {
     width: 100%;
     margin: 5px 0px;
+    font-size: 0.8em;
   }
   #formEmailContainer {
     display: flex;
@@ -88,14 +89,16 @@
 }
 
 /* big ipad */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1100px) {
   .footerContainer {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 50px;
   }
   #formContainer {
     width: 600px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
   #iconRow {
     display: flex;
@@ -133,14 +136,16 @@
 }
 
 /* desktop */
-@media (min-width: 1200px) {
+@media (min-width: 1101px) {
   .footerContainer {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 80px;
   }
   #formContainer {
     width: 600px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
   #iconRow {
     display: flex;

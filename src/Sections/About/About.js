@@ -13,7 +13,7 @@ export function AboutV1() {
           <span id="mainMessage2">Kennedy FITNESS</span>
         </div>
       </div>
-      <div className="row">
+      <div className="row" id="reverse">
         <div className="col-md-7">
           <div id="abouMessageContainer">
             <div id="abouMessageHeaderContainer">
@@ -32,7 +32,7 @@ export function AboutV1() {
           </div>
         </div>
         <div className="col-md-5">
-          <div>
+          <div id="aboutImageContainer">
             <img alt="headerImage" src={runningLady} id="aboutImage" />
           </div>
         </div>

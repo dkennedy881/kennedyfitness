@@ -8,10 +8,7 @@ export default function Footer() {
         <Form id="formContainer">
           <Form.Group as={Row}>
             <Col sm="12" id="footerFormMessageContainer">
-              <p>
-                Submit your email to get the fitness plans you see here and
-                future updates.
-              </p>
+              <p>Questions ? contact me at demarcuskennedy@gmail.com</p>
             </Col>
             <Col sm="12" id="iconRow">
               <i className="footerIcon footerIconBg fab fa-instagram"></i>
