@@ -4,9 +4,9 @@ import "./Style.css";
 //images
 import runningLady from "../../Images/runninglady.png";
 
-export function AboutV1() {
+export function AboutMe() {
   return (
-    <div className="container-fluid" id="mainContainer">
+    <div className="container-fluid flex-fill" id="mainContainer">
       <div className="row">
         <div className="col-md-12" id="mainMessageContainer">
           <span id="mainMessage1">Train With Me</span>

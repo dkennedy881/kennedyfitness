@@ -1,0 +1,14 @@
+/* phone */
+@media (max-width: 759px) {
+  .priceCards {
+    margin: 0px 0px;
+  }
+  .priceCard {
+    width: inherit;
+    margin: 20px 0px;
+  }
+  .cardImage {
+    width: 150px;
+    height: 200px;
+  }
+}

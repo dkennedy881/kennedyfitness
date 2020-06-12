@@ -1,34 +1,7 @@
 /* phone */
-@media (max-width: 760px) {
+@media (max-width: 759px) {
   #mainContainer {
-    position: relative;
-    top: 100px;
-    height: 950px;
-  }
-  #reverse {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  #aboutImageContainer {
-    display: flex;
-    justify-content: center;
-  }
-  #aboutImage {
-    width: 200px;
-    position: relative;
-    top: 50px;
-    /* display: none; */
-  }
-  #abouMessageContainer {
-    margin-top: 50px;
-    text-align: center;
-  }
-  #abouMessageHeader {
-    font-size: 2em;
-  }
-  #abouMessageParagraph {
-    font-weight: 300;
-    line-height: 40px;
+    margin-top: 57px;
   }
   #mainMessageContainer {
     text-align: center;
@@ -36,10 +9,35 @@
     flex-direction: column;
   }
   #mainMessage1 {
-    font-size: 2em;
+    font-size: 3em;
   }
   #mainMessage2 {
-    font-size: 2em;
+    font-size: 3em;
+  }
+  #reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px 0px;
+  }
+  #aboutImage {
+    width: 150px;
+    position: relative;
+  }
+  #aboutImageContainer {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    margin: 10px 0px;
+  }
+  #abouMessageContainer {
+    margin-top: 25px;
+  }
+  #abouMessageHeader {
+    font-size: 1.5em;
+  }
+  #abouMessageParagraph {
+    font-size: 1em;
+    font-weight: 300;
   }
 }
 

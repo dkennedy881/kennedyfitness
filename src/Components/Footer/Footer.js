@@ -1,10 +1,10 @@
 import React from "react";
 import { Form, Col, Row } from "react-bootstrap";
 import "./Style.css";
-export default function Footer() {
+export function Footer() {
   return (
     <React.Fragment>
-      <div className="footerContainer">
+      <div id="footerContainer">
         <Form id="formContainer">
           <Form.Group as={Row}>
             <Col sm="12" id="footerFormMessageContainer">
