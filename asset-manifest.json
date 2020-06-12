@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/kennedyfitness/static/css/main.b352fd1b.chunk.css",
-    "main.js": "/kennedyfitness/static/js/main.9719dfe0.chunk.js",
-    "main.js.map": "/kennedyfitness/static/js/main.9719dfe0.chunk.js.map",
+    "main.css": "/kennedyfitness/static/css/main.8b63a5ba.chunk.css",
+    "main.js": "/kennedyfitness/static/js/main.54ac7a8f.chunk.js",
+    "main.js.map": "/kennedyfitness/static/js/main.54ac7a8f.chunk.js.map",
     "runtime-main.js": "/kennedyfitness/static/js/runtime-main.3a698612.js",
     "runtime-main.js.map": "/kennedyfitness/static/js/runtime-main.3a698612.js.map",
     "static/css/2.af3c1da9.chunk.css": "/kennedyfitness/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ff6b104a.chunk.js": "/kennedyfitness/static/js/2.ff6b104a.chunk.js",
-    "static/js/2.ff6b104a.chunk.js.map": "/kennedyfitness/static/js/2.ff6b104a.chunk.js.map",
+    "static/js/2.67483039.chunk.js": "/kennedyfitness/static/js/2.67483039.chunk.js",
+    "static/js/2.67483039.chunk.js.map": "/kennedyfitness/static/js/2.67483039.chunk.js.map",
     "index.html": "/kennedyfitness/index.html",
-    "precache-manifest.d5635397eb8521f99e38237431fb0cf2.js": "/kennedyfitness/precache-manifest.d5635397eb8521f99e38237431fb0cf2.js",
+    "precache-manifest.2d8c5c40e4ba62b3536ac69d58dc88e9.js": "/kennedyfitness/precache-manifest.2d8c5c40e4ba62b3536ac69d58dc88e9.js",
     "service-worker.js": "/kennedyfitness/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/kennedyfitness/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.b352fd1b.chunk.css.map": "/kennedyfitness/static/css/main.b352fd1b.chunk.css.map",
-    "static/js/2.ff6b104a.chunk.js.LICENSE.txt": "/kennedyfitness/static/js/2.ff6b104a.chunk.js.LICENSE.txt",
+    "static/css/main.8b63a5ba.chunk.css.map": "/kennedyfitness/static/css/main.8b63a5ba.chunk.css.map",
+    "static/js/2.67483039.chunk.js.LICENSE.txt": "/kennedyfitness/static/js/2.67483039.chunk.js.LICENSE.txt",
     "static/media/runninglady.png": "/kennedyfitness/static/media/runninglady.6e3d411c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3a698612.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ff6b104a.chunk.js",
-    "static/css/main.b352fd1b.chunk.css",
-    "static/js/main.9719dfe0.chunk.js"
+    "static/js/2.67483039.chunk.js",
+    "static/css/main.8b63a5ba.chunk.css",
+    "static/js/main.54ac7a8f.chunk.js"
   ]
 }
