@@ -5,10 +5,18 @@
   }
   .priceCard {
     width: inherit;
-    margin: 20px 0px;
+    margin: 10px 0px;
+    padding: 0px 10px;
   }
   .cardImage {
     width: 150px;
     height: 200px;
+  }
+  .priceSection {
+    padding: 20px 0px;
+    /* min-height: 90vh; */
+  }
+  .priceSectionTitle {
+    text-align: center;
   }
 }

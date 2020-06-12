@@ -16,9 +16,6 @@ body {
 
 /* phone */
 @media (max-width: 759px) {
-  .section {
-    margin: 10px 0px !important;
-  }
   .pageTitle {
     font-size: 2.5em;
     text-align: center;
@@ -31,4 +28,10 @@ body {
   .pageSubTitle {
     font-size: 2em;
   }
+}
+
+.cardFooterBtn {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  padding: 10px !important;
 }

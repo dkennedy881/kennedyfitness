@@ -18,99 +18,99 @@ export function Pricing() {
           </p>
         </div>
       </div>
-      <div class="row section">
+      <div class="row priceSection">
         <div className="col-md-12">
           <p className="priceSectionTitle pageSubTitle">In Person</p>
         </div>
-        <div className="priceCards">
-          <div className="col-md-6">
-            <Card className="priceCard">
+        <div className="col-md-6">
+          <div className="priceCard">
+            <Card className="shadow">
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Card Subtitle
-                </Card.Subtitle>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <Card.Title className="text-center">Individual</Card.Title>
+                <Card.Text className="text-center">
+                  With supporting text below as a natural lead-in to additional
+                  content.
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
-              </Card.Body>
-            </Card>
-          </div>
-          <div className="col-md-6">
-            <Card className="priceCard">
-              <div style={{ display: "flex", justifyContent: "center" }}>
-                <Card.Img variant="top" src={image} className="cardImage" />
-              </div>
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-              <Card.Body>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
-              </Card.Body>
-            </Card>
-          </div>
-        </div>
-        <div className="col-md-12">
-          <p className="priceSectionTitle pageSubTitle">Virtural</p>
-        </div>
-        <div className="priceCards">
-          <div className="col-md-6">
-            <Card className="priceCard">
-              <Card.Header as="h5">Featured</Card.Header>
-              <Card.Body>
-                <Card.Title>Special title treatment</Card.Title>
                 <ListGroup variant="flush">
                   <ListGroup.Item>Cras justo odio</ListGroup.Item>
                   <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
                   <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
                 </ListGroup>
-                <Card.Text>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                {/* <Button variant="primary">Go somewhere</Button> */}
               </Card.Body>
+              <Button variant="warning cardFooterBtn">Book Now</Button>
             </Card>
           </div>
-          <div className="col-md-6">
-            <Card className="priceCard">
-              <Card.Header as="h5">Featured</Card.Header>
+        </div>
+        <div className="col-md-6">
+          <div className="priceCard">
+            <Card className="shadow">
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <Card.Img variant="top" src={image} className="cardImage" />
+              </div>
               <Card.Body>
-                <Card.Title>Special title treatment</Card.Title>
+                <Card.Title className="text-center">Card Title</Card.Title>
+
                 <Card.Text>
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <ListGroup variant="flush">
+                  <ListGroup.Item>Cras justo odio</ListGroup.Item>
+                  <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+                  <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                </ListGroup>
+                <Button variant="primary float-right">Go somewhere</Button>
               </Card.Body>
             </Card>
           </div>
         </div>
-        <div className="priceCards">
-          <div className="col-md-6 priceCard">
-            <Card className="text-center">
-              <Card.Header>Featured</Card.Header>
+      </div>
+      <div class="row priceSection">
+        <div className="col-md-12">
+          <p className="priceSectionTitle pageSubTitle">Virtural</p>
+        </div>
+        <div className="col-md-6">
+          <div className="priceCard">
+            <Card className="shadow">
               <Card.Body>
-                <Card.Title>Special title treatment</Card.Title>
+                <Card.Title className="text-center">Hybrid</Card.Title>
                 <Card.Text>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <ListGroup variant="flush">
+                  <ListGroup.Item>Cras justo odio</ListGroup.Item>
+                  <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+                  <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                </ListGroup>
+                <Button variant="primary float-right">Go somewhere</Button>
               </Card.Body>
-              <Card.Footer className="text-muted">2 days ago</Card.Footer>
             </Card>
           </div>
-          <div className="col-md-6"></div>
         </div>
+
+        <div className="col-md-6">
+          <div className="priceCard">
+            <Card className="shadow">
+              <Card.Body>
+                <Card.Title className="text-center">Online</Card.Title>
+                <Card.Text className="text-center">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </Card.Text>
+                <ListGroup variant="flush">
+                  <ListGroup.Item>Cras justo odio</ListGroup.Item>
+                  <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+                  <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                </ListGroup>
+                {/* <Button variant="primary">Go somewhere</Button> */}
+              </Card.Body>
+              <Button variant="warning cardFooterBtn">Book Now</Button>
+            </Card>
+          </div>
+        </div>
+        <div className="col-md-6"></div>
       </div>
     </div>
   );
