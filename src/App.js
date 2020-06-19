@@ -7,15 +7,17 @@ import NavBar from "./Components/Nav/NavBar";
 import { Footer } from "./Components/Footer/Footer";
 
 //pages
-import { About } from "./Pages/About/About";
-import { Pricing } from "./Pages/Pricing/Pricing";
+import About from "./Pages/About/About";
+import Pricing from "./Pages/Pricing/Pricing";
+import Scheduling from "./Pages/Scheduling/Scheduling";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       {/* <About /> */}
-      <Pricing />
+      {/* <Pricing /> */}
+      <Scheduling />
       <Footer />
     </div>
   );

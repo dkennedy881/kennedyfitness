@@ -3,7 +3,7 @@ import React from "react";
 //sections
 import { AboutMe } from "../../Sections/About/About";
 
-export function About() {
+export default function About() {
   return (
     <React.Fragment>
       <AboutMe />

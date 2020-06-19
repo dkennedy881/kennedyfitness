@@ -1,0 +1,25 @@
+/* phone */
+@media (max-width: 759px) {
+  .formSection {
+    width: -webkit-fill-available;
+  }
+  .formFieldGroupCenter {
+    text-align: left;
+  }
+  #schedulingFormContainer {
+  }
+  .formSectionTitleContainer {
+    margin-bottom: 1rem;
+  }
+  .formSectionTitle {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  .formSectionSubTitle {
+    font-size: 1em;
+    font-weight: 300;
+    color: rgb(110, 110, 110);
+    margin-bottom: 0px;
+  }
+}
