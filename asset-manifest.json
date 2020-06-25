@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/kennedyfitness/static/css/main.801a4f5f.chunk.css",
-    "main.js": "/kennedyfitness/static/js/main.4a238c72.chunk.js",
-    "main.js.map": "/kennedyfitness/static/js/main.4a238c72.chunk.js.map",
+    "main.js": "/kennedyfitness/static/js/main.fdf34117.chunk.js",
+    "main.js.map": "/kennedyfitness/static/js/main.fdf34117.chunk.js.map",
     "runtime-main.js": "/kennedyfitness/static/js/runtime-main.3a698612.js",
     "runtime-main.js.map": "/kennedyfitness/static/js/runtime-main.3a698612.js.map",
     "static/css/2.af3c1da9.chunk.css": "/kennedyfitness/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.888237ca.chunk.js": "/kennedyfitness/static/js/2.888237ca.chunk.js",
-    "static/js/2.888237ca.chunk.js.map": "/kennedyfitness/static/js/2.888237ca.chunk.js.map",
+    "static/js/2.50e13f59.chunk.js": "/kennedyfitness/static/js/2.50e13f59.chunk.js",
+    "static/js/2.50e13f59.chunk.js.map": "/kennedyfitness/static/js/2.50e13f59.chunk.js.map",
     "index.html": "/kennedyfitness/index.html",
-    "precache-manifest.4f5d3a92e1374fb83d6f215598bb016e.js": "/kennedyfitness/precache-manifest.4f5d3a92e1374fb83d6f215598bb016e.js",
+    "precache-manifest.45481e201974522486f9134b789a458c.js": "/kennedyfitness/precache-manifest.45481e201974522486f9134b789a458c.js",
     "service-worker.js": "/kennedyfitness/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/kennedyfitness/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.801a4f5f.chunk.css.map": "/kennedyfitness/static/css/main.801a4f5f.chunk.css.map",
-    "static/js/2.888237ca.chunk.js.LICENSE.txt": "/kennedyfitness/static/js/2.888237ca.chunk.js.LICENSE.txt",
+    "static/js/2.50e13f59.chunk.js.LICENSE.txt": "/kennedyfitness/static/js/2.50e13f59.chunk.js.LICENSE.txt",
     "static/media/runninglady.png": "/kennedyfitness/static/media/runninglady.6e3d411c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3a698612.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.888237ca.chunk.js",
+    "static/js/2.50e13f59.chunk.js",
     "static/css/main.801a4f5f.chunk.css",
-    "static/js/main.4a238c72.chunk.js"
+    "static/js/main.fdf34117.chunk.js"
   ]
 }

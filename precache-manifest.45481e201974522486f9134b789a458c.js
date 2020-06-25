@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3ca0761d9f00fb66783079893bf2217",
+    "revision": "11356ea2082f49cec542b7b875ef590e",
     "url": "/kennedyfitness/index.html"
   },
   {
-    "revision": "94ef505484483914ca46",
+    "revision": "1cb1902a2365753cedfa",
     "url": "/kennedyfitness/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "168c5ce450ff3c870962",
+    "revision": "89273d4264d4c13dbc2b",
     "url": "/kennedyfitness/static/css/main.801a4f5f.chunk.css"
   },
   {
-    "revision": "94ef505484483914ca46",
-    "url": "/kennedyfitness/static/js/2.888237ca.chunk.js"
+    "revision": "1cb1902a2365753cedfa",
+    "url": "/kennedyfitness/static/js/2.50e13f59.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/kennedyfitness/static/js/2.888237ca.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/kennedyfitness/static/js/2.50e13f59.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "168c5ce450ff3c870962",
-    "url": "/kennedyfitness/static/js/main.4a238c72.chunk.js"
+    "revision": "89273d4264d4c13dbc2b",
+    "url": "/kennedyfitness/static/js/main.fdf34117.chunk.js"
   },
   {
     "revision": "e74e0646fc185db44e24",
