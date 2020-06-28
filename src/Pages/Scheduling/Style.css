@@ -1,8 +1,5 @@
 /* phone */
 @media (max-width: 759px) {
-  .formSection {
-    width: -webkit-fill-available;
-  }
   .formFieldGroupCenter {
     text-align: left;
   }
@@ -22,4 +19,13 @@
     color: rgb(110, 110, 110);
     margin-bottom: 0px;
   }
+}
+
+.formSection {
+  width: -webkit-fill-available;
+}
+
+.fields {
+  display: flex;
+  margin: 0px;
 }

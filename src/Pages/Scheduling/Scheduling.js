@@ -22,7 +22,9 @@ class Scheduling extends Component {
             </p>
           </div>
         </div>
-        <SchedulingForm />
+        <div className="container">
+          <SchedulingForm />
+        </div>
 
         {/* <div>
             <div className="col-md-6">

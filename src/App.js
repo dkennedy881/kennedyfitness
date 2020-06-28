@@ -10,14 +10,25 @@ import { Footer } from "./Components/Footer/Footer";
 import About from "./Pages/About/About";
 import Pricing from "./Pages/Pricing/Pricing";
 import Scheduling from "./Pages/Scheduling/Scheduling";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      {/* <About /> */}
-      {/* <Pricing /> */}
-      <Scheduling />
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route exact path="/kennedyfitness">
+            <About />
+          </Route>
+          <Route path="/kennedyfitness/pricing">
+            <Pricing />
+          </Route>
+          <Route path="/kennedyfitness/scheduling">
+            <Scheduling />
+          </Route>
+        </Switch>
+      </Router>
       <Footer />
     </div>
   );
