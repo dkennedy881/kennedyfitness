@@ -1,6 +1,26 @@
 import React, { useState } from "react";
+import { useAsync } from "react-async";
 
-import { Form, Button, Alert } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
+import { css } from "@emotion/core";
+import PacmanLoader from "react-spinners/PacmanLoader";
+
+// Can be a string as well. Need to ensure each key-value pair ends with ;
+const override = css`
+  display: block;
+  margin-left: 30px;
+`;
+
+const sendEmail = async ([email, subject, messageBody]) => {
+  let request = await new Promise((res, rej) => {
+    setTimeout(() => {
+      console.log(email);
+      console.log(messageBody);
+      res();
+    }, 15000);
+  });
+  return request;
+};
 
 export default function SchedulingForm() {
   const [firstName, setFirstName] = useState("");
@@ -17,10 +37,23 @@ export default function SchedulingForm() {
   const [gymHistory, setGymHistory] = useState("");
 
   const [personalMessage, setPersonalMessage] = useState("");
+  const [isSending, setIsSending] = useState(false);
 
-  const submitForm = () => {
+  const { run } = useAsync({
+    deferFn: sendEmail,
+    onResolve: () => {
+      setIsSending(false);
+    },
+  });
+
+  useState(() => {
+    console.log(isSending);
+  });
+
+  const submitForm = async () => {
     const subject = `${sessionType} workout request from ${firstName} ${lastName}`;
     let messageBody = `Name - ${firstName} ${lastName}`;
+    messageBody += `\nEmail - ${email}`;
     //check online vs in person switch
     if (sessionType === "In Person") {
       messageBody += `\nWorkout Type - ${sessionType} ${isGroup}`;
@@ -40,18 +73,38 @@ export default function SchedulingForm() {
     messageBody += gymHistory ? `\nGym History - ${gymHistory}` : ``;
 
     messageBody += `\n\nPersonal Message:\n${personalMessage}`;
-
-    console.log(subject);
-    console.log(messageBody);
+    await setIsSending(true);
+    run(email, subject, messageBody);
   };
+
+  const clearForm = () => {};
+
+  if (isSending) {
+    return (
+      <div className="sweet-loading mt-5">
+        <PacmanLoader css={override} size={50} color={"yellow"} />
+        <div
+          className="col-md-12"
+          style={{
+            marginTop: "70px",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <p className="formSectionTitle">Sending Email</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div id="schedulingFormContainer" className="row">
-      <div style={{ position: "fixed", width: "100%", zIndex: 1 }}>
+      {/* <div style={{ position: "fixed", width: "100%", zIndex: 1 }}>
         <Alert variant={"warning"} style={{ flex: 1 }}>
           This is a alert—check it out!
         </Alert>
-      </div>
+      </div> */}
+
       <div className="formSection">
         <div className="col-md-12 formSectionTitleContainer">
           <p className="formSectionTitle">Contact Infomation</p>
@@ -122,7 +175,7 @@ export default function SchedulingForm() {
             >
               <option value={null}>Select....</option>
               <option value={"In Person"}>In Person</option>
-              <option value={"Online"}>Online</option>
+              {/* <option value={"Online"}>Online</option> */}
             </Form.Control>
           </Form.Group>
         </div>
@@ -220,7 +273,7 @@ function SessionTypeSwitch({ sessionType, isGroup, setIsGroup }) {
   return sessionType === "In Person" ? (
     <div className="col-md-12">
       <Form.Group controlId="formFirstName" className="formFieldGroupCenter">
-        <Form.Label>Will your sessions be one on one or in a group?</Form.Label>
+        <Form.Label>Individual or Group Session ?</Form.Label>
         <Form.Control
           as="select"
           defaultValue={isGroup}
@@ -250,7 +303,10 @@ function IndividualGroupSwitch({
     <>
       <div className="col-md-12" key={isGroup}>
         <Form.Group controlId="formGroupCount" className="formFieldGroupCenter">
-          <Form.Label>How many people will be in your group?</Form.Label>
+          <Form.Label>
+            How many people will be in your group? <br />
+            <span style={{ color: "#6e6e6e" }}>($10 per person)</span>
+          </Form.Label>
           <Form.Control
             type="text"
             value={groupCount}

@@ -1,7 +1,7 @@
 /* phone */
 @media (max-width: 759px) {
   #mainContainer {
-    margin-top: 57px;
+    margin-top: 65px;
   }
   #mainMessageContainer {
     text-align: center;
@@ -31,6 +31,7 @@
   }
   #abouMessageContainer {
     margin-top: 25px;
+    text-align: center;
   }
   #abouMessageHeader {
     font-size: 1.5em;
