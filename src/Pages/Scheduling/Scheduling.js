@@ -8,6 +8,18 @@ class Scheduling extends Component {
     super(props);
     this.state = {};
   }
+
+  sendEmail = async ([email, subject, messageBody]) => {
+    let request = await new Promise((res, rej) => {
+      setTimeout(() => {
+        console.log(email);
+        console.log(messageBody);
+        res();
+      }, 3000);
+    });
+    return request;
+  };
+
   render() {
     return (
       <div className="container-fluid flex-fill" id="mainContainer">
@@ -16,14 +28,11 @@ class Scheduling extends Component {
             <p className="pageTitle">Schedule your person training</p>
           </div>
           <div className="col-md-8">
-            <p className="pageMessage">
-              Fill out the form to schedule your personal training. I will
-              respond via email ASAP.
-            </p>
+            <p className="pageMessage">Personalize your personal training.</p>
           </div>
         </div>
         <div className="container">
-          <SchedulingForm />
+          <SchedulingForm sendEmail={this.sendEmail} />
         </div>
 
         {/* <div>

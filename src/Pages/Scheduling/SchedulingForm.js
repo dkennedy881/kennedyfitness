@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useAsync } from "react-async";
 
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Card } from "react-bootstrap";
 import { css } from "@emotion/core";
 import PacmanLoader from "react-spinners/PacmanLoader";
 
@@ -11,18 +11,7 @@ const override = css`
   margin-left: 30px;
 `;
 
-const sendEmail = async ([email, subject, messageBody]) => {
-  let request = await new Promise((res, rej) => {
-    setTimeout(() => {
-      console.log(email);
-      console.log(messageBody);
-      res();
-    }, 15000);
-  });
-  return request;
-};
-
-export default function SchedulingForm() {
+export default function SchedulingForm({ sendEmail }) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setlastName] = useState("");
   const [email, setEmail] = useState("");
@@ -38,11 +27,13 @@ export default function SchedulingForm() {
 
   const [personalMessage, setPersonalMessage] = useState("");
   const [isSending, setIsSending] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const { run } = useAsync({
     deferFn: sendEmail,
     onResolve: () => {
       setIsSending(false);
+      setSubmitted(true);
     },
   });
 
@@ -74,12 +65,15 @@ export default function SchedulingForm() {
 
     messageBody += `\n\nPersonal Message:\n${personalMessage}`;
     await setIsSending(true);
+    scrollToTop();
     run(email, subject, messageBody);
   };
 
+  const scrollToTop = () => window.scrollTo(0, 0);
+
   const clearForm = () => {};
 
-  if (isSending) {
+  if (isSending && !submitted) {
     return (
       <div className="sweet-loading mt-5">
         <PacmanLoader css={override} size={50} color={"yellow"} />
@@ -97,6 +91,74 @@ export default function SchedulingForm() {
     );
   }
 
+  if (!isSending && submitted) {
+    return (
+      <div id="schedulingFormContainer" className="row">
+        <div className="formSection">
+          <div className="col-md-12 formSectionTitleContainer">
+            <div class="alert alert-warning text-center" role="alert">
+              Thank you for you submission! Once received I will respond via
+              email ASAP.
+            </div>
+          </div>
+          <div className="col-md-12 formSectionTitleContainer">
+            {/* <p className="formSectionTitle">Details</p> */}
+            <hr />
+          </div>
+          <div className="col-md-12 formSectionTitleContainer">
+            <Card border="dark" style={{ width: "auto" }}>
+              <Card.Body>
+                <Card.Title>Submission Details</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <div className="fields row">
+                  <div className="col-md-6">
+                    <Form.Group
+                      controlId="formFirstName"
+                      className="formFieldGroupCenter"
+                    >
+                      <Form.Label>First Name</Form.Label>
+                      <Form.Control
+                        type="text"
+                        value={firstName}
+                        disabled={true}
+                      />
+                    </Form.Group>
+                  </div>
+                  <div className="col-md-6">
+                    <Form.Group
+                      controlId="formLastName"
+                      className="formFieldGroupCenter"
+                    >
+                      <Form.Label>Last Name</Form.Label>
+                      <Form.Control
+                        type="text"
+                        value={lastName}
+                        disabled={true}
+                      />
+                    </Form.Group>
+                  </div>
+                  <div className="col-md-6">
+                    <Form.Group
+                      controlId="formEmail"
+                      className="formFieldGroupCenter"
+                    >
+                      <Form.Label>Email</Form.Label>
+                      <Form.Control type="text" value={email} disabled={true} />
+                    </Form.Group>
+                  </div>
+                  <div className="col-md-6"></div>
+                </div>
+              </Card.Body>
+            </Card>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div id="schedulingFormContainer" className="row">
       {/* <div style={{ position: "fixed", width: "100%", zIndex: 1 }}>
@@ -106,6 +168,12 @@ export default function SchedulingForm() {
       </div> */}
 
       <div className="formSection">
+        <div className="col-md-12 formSectionTitleContainer">
+          <p className="formSectionSubTitle">
+            Fill out the form to schedule your personal training. I will respond
+            via email ASAP.
+          </p>
+        </div>
         <div className="col-md-12 formSectionTitleContainer">
           <p className="formSectionTitle">Contact Infomation</p>
         </div>
@@ -157,12 +225,6 @@ export default function SchedulingForm() {
       </div>
 
       <div className="formSection">
-        <div className="col-md-12 formSectionTitleContainer">
-          <p className="formSectionTitle">Personalize your personal training</p>
-          <p className="formSectionSubTitle">
-            Fill out these questions to schedule your custom session.
-          </p>
-        </div>
         <div className="col-md-12">
           <Form.Group controlId="formInPerson" className="formFieldGroupCenter">
             <Form.Label>In person or virtual online training</Form.Label>
@@ -250,7 +312,10 @@ export default function SchedulingForm() {
             </div>
             <div
               className="col-md-12"
-              style={{ display: "flex", flexDirection: "row-reverse" }}
+              style={{
+                display: "flex",
+                flexDirection: "row-reverse",
+              }}
             >
               <Button
                 variant="warning"
