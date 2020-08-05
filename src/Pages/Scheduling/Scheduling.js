@@ -30,6 +30,9 @@ class Scheduling extends Component {
           <div className="col-md-8">
             <p className="pageMessage">Personalize your personal training.</p>
           </div>
+          <div className="col-md-12">
+            <hr />
+          </div>
         </div>
         <div className="container">
           <SchedulingForm sendEmail={this.sendEmail} />

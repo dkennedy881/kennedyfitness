@@ -28,6 +28,7 @@ export default function SchedulingForm({ sendEmail }) {
   const [personalMessage, setPersonalMessage] = useState("");
   const [isSending, setIsSending] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [submissionMessage, setSubmissionMessage] = useState("");
 
   const { run } = useAsync({
     deferFn: sendEmail,
@@ -43,35 +44,44 @@ export default function SchedulingForm({ sendEmail }) {
 
   const submitForm = async () => {
     const subject = `${sessionType} workout request from ${firstName} ${lastName}`;
+    let submissionMessageText = "";
     let messageBody = `Name - ${firstName} ${lastName}`;
     messageBody += `\nEmail - ${email}`;
     //check online vs in person switch
     if (sessionType === "In Person") {
       messageBody += `\nWorkout Type - ${sessionType} ${isGroup}`;
+      submissionMessageText += `Workout Type:\n${sessionType} ${isGroup}`;
       if (isGroup !== "Individual") {
         messageBody += ` - ${groupCount} people`;
+        submissionMessageText += `\n${groupCount} people`;
       } else {
         messageBody += `\n${monthly} - `;
+        submissionMessageText += `\n${monthly}`;
         if (monthly === "monthly") {
           messageBody += `${sessionPerWeek} `;
+          submissionMessageText += `\n${sessionPerWeek} `;
         } else {
           messageBody += `${payInFull}`;
+          submissionMessageText += `\n${payInFull}`;
         }
       }
     } else {
     }
 
     messageBody += gymHistory ? `\nGym History - ${gymHistory}` : ``;
+    submissionMessageText += gymHistory
+      ? `\n\nGym History:\n${gymHistory}`
+      : ``;
 
     messageBody += `\n\nPersonal Message:\n${personalMessage}`;
+    submissionMessageText += `\n\nPersonal Message:\n${personalMessage}`;
+    await setSubmissionMessage(submissionMessageText);
     await setIsSending(true);
     scrollToTop();
     run(email, subject, messageBody);
   };
 
   const scrollToTop = () => window.scrollTo(0, 0);
-
-  const clearForm = () => {};
 
   if (isSending && !submitted) {
     return (
@@ -96,25 +106,26 @@ export default function SchedulingForm({ sendEmail }) {
       <div id="schedulingFormContainer" className="row">
         <div className="formSection">
           <div className="col-md-12 formSectionTitleContainer">
-            <div class="alert alert-warning text-center" role="alert">
+            <div className="alert alert-warning text-center" role="alert">
               Thank you for you submission! Once received I will respond via
               email ASAP.
             </div>
           </div>
           <div className="col-md-12 formSectionTitleContainer">
-            {/* <p className="formSectionTitle">Details</p> */}
-            <hr />
-          </div>
-          <div className="col-md-12 formSectionTitleContainer">
-            <Card border="dark" style={{ width: "auto" }}>
+            <Card border="warning" style={{ width: "auto" }}>
               <Card.Body>
-                <Card.Title>Submission Details</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
+                <Card.Title className="text-center">
+                  Submission Details
+                </Card.Title>
+                {/* <Card.Text>
+                  Off to a great start! Please review the information below. If
+                  there are any problems, please email{" "}
+                  <a href="mailto:demarcuskennedy95@gmail.com">
+                    demarcuskennedy95@gmail.com
+                  </a>
+                </Card.Text> */}
                 <div className="fields row">
-                  <div className="col-md-6">
+                  <div className="col-md-12">
                     <Form.Group
                       controlId="formFirstName"
                       className="formFieldGroupCenter"
@@ -127,7 +138,7 @@ export default function SchedulingForm({ sendEmail }) {
                       />
                     </Form.Group>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-12">
                     <Form.Group
                       controlId="formLastName"
                       className="formFieldGroupCenter"
@@ -140,7 +151,7 @@ export default function SchedulingForm({ sendEmail }) {
                       />
                     </Form.Group>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-12">
                     <Form.Group
                       controlId="formEmail"
                       className="formFieldGroupCenter"
@@ -149,7 +160,31 @@ export default function SchedulingForm({ sendEmail }) {
                       <Form.Control type="text" value={email} disabled={true} />
                     </Form.Group>
                   </div>
-                  <div className="col-md-6"></div>
+                  <div className="col-md-12">
+                    <Form.Group
+                      controlId="formEmail"
+                      className="formFieldGroupCenter"
+                    >
+                      <Form.Label>Scheduling Details:</Form.Label>
+                    </Form.Group>
+                  </div>
+                  <div className="col-md-12">
+                    <Form.Group
+                      controlId="sessionTypeLabel"
+                      className="formFieldGroupCenter"
+                    >
+                      <pre
+                        style={{
+                          fontWeight: "300",
+                          backgroundColor: " #eee",
+                          padding: "10px",
+                          borderRadius: "8px",
+                          borderColor: "#eee",
+                          borderStyle: "solid",
+                        }}
+                      >{`${submissionMessage}`}</pre>
+                    </Form.Group>
+                  </div>
                 </div>
               </Card.Body>
             </Card>
