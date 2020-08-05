@@ -4,4 +4,34 @@ body {
 
 .App {
   overflow-x: hidden;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+  min-height: calc(100vh - 106px);
+}
+
+/* phone */
+@media (max-width: 759px) {
+  .pageTitle {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .pageMessage {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+  }
+  .pageSubTitle {
+    font-size: 1.6em;
+  }
+}
+
+.cardFooterBtn {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  padding: 10px !important;
 }

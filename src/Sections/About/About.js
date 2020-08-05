@@ -4,16 +4,16 @@ import "./Style.css";
 //images
 import runningLady from "../../Images/runninglady.png";
 
-export function AboutV1() {
+export function AboutMe() {
   return (
-    <div className="container-fluid" id="mainContainer">
+    <div className="container-fluid flex-fill" id="mainContainer">
       <div className="row">
         <div className="col-md-12" id="mainMessageContainer">
           <span id="mainMessage1">Train With Me</span>
           <span id="mainMessage2">Kennedy FITNESS</span>
         </div>
       </div>
-      <div className="row">
+      <div className="row" id="reverse">
         <div className="col-md-7">
           <div id="abouMessageContainer">
             <div id="abouMessageHeaderContainer">
@@ -32,7 +32,7 @@ export function AboutV1() {
           </div>
         </div>
         <div className="col-md-5">
-          <div>
+          <div id="aboutImageContainer">
             <img alt="headerImage" src={runningLady} id="aboutImage" />
           </div>
         </div>

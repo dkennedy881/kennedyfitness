@@ -1,0 +1,25 @@
+/* phone */
+@media (max-width: 759px) {
+  .priceCards {
+    margin: 0px 0px;
+  }
+  .priceCard {
+    width: inherit;
+    margin: 10px 0px;
+    padding: 0px 10px;
+  }
+  .cardImage {
+    width: 150px;
+    height: 200px;
+  }
+  .priceSection {
+    padding: 20px 0px;
+    /* min-height: 90vh; */
+  }
+  .priceSectionTitle {
+    text-align: center;
+  }
+  .listDetailItem {
+    text-align: center;
+  }
+}
