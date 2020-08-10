@@ -1,3 +1,21 @@
+/* desktop */
+@media (min-width: 1026px) {
+  .formSectionSubTitle {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 50px 0px;
+  }
+}
+
+/* iPads */
+@media (min-width: 760px) and (max-width: 1025px) {
+  .formSectionSubTitle {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 20px 0px;
+  }
+}
+
 /* phone */
 @media (max-width: 759px) {
   .formFieldGroupCenter {

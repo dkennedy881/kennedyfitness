@@ -1,3 +1,23 @@
+/* desktop */
+@media (min-width: 1026px) {
+  #iconRow {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .footerIcon {
+    font-size: 1.1em;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  #formContainer {
+    text-align: center;
+  }
+  #footerContainer {
+    padding-top: 100px;
+  }
+}
+
 /* iPads */
 @media (min-width: 760px) and (max-width: 1025px) {
   #iconRow {
@@ -14,10 +34,7 @@
     text-align: center;
   }
   #footerContainer {
-    margin-top: 25px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-top: 100px;
   }
 }
 

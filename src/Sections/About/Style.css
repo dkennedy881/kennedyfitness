@@ -42,13 +42,9 @@
   }
 }
 
+/* ipads */
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 760px) and (max-width: 992px) {
-  #mainContainer {
-    position: relative;
-    top: 100px;
-    height: 1000px;
-  }
+@media (min-width: 760px) and (max-width: 1366px) {
   #aboutImage {
     width: 400px;
     position: relative;
@@ -64,6 +60,7 @@
   #abouMessageParagraph {
     font-weight: 300;
     line-height: 40px;
+    font-size: 1.4em;
   }
   #mainMessageContainer {
     text-align: center;
@@ -80,11 +77,6 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1200px) {
-  #mainContainer {
-    position: relative;
-    top: 100px;
-    height: 1200px;
-  }
   #aboutImage {
     width: 500px;
     position: relative;
@@ -115,12 +107,7 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  #mainContainer {
-    position: relative;
-    top: 56px;
-    /* height: 1000px; */
-  }
+@media (min-width: 1201px) {
   #aboutImage {
     width: 100%;
     position: relative;
