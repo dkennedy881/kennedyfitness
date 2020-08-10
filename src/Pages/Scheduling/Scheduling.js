@@ -22,17 +22,17 @@ class Scheduling extends Component {
 
   render() {
     return (
-      <div className="container-fluid flex-fill" id="mainContainer">
-        <div className="row">
-          <div className="col-md-4">
-            <p className="pageTitle">Schedule your person training</p>
+      <div className="container flex-fill" id="mainContainer">
+        <div className="row headerContainer">
+          <div className="col-md-6">
+            <p className="pageTitle">Schedule your Personal Training</p>
           </div>
-          <div className="col-md-8">
-            <p className="pageMessage">Personalize your personal training.</p>
+          <div className="col-md-6 d-flex flex-column justify-content-center text-center">
+            <p className="pageMessage">Personalize your Personal Training.</p>
           </div>
-          <div className="col-md-12">
-            <hr />
-          </div>
+        </div>
+        <div className="col-md-12">
+          <hr />
         </div>
         <div className="container">
           <SchedulingForm sendEmail={this.sendEmail} />

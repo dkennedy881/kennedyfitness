@@ -1,3 +1,65 @@
+/* desktop */
+@media (min-width: 1026px) {
+  .priceCards {
+    margin: 0px 0px;
+  }
+  .priceCard {
+    width: 60%;
+    margin: 50px 0px;
+    padding: 0px 50px;
+  }
+  .cardImage {
+    width: 150px;
+    height: 200px;
+  }
+  .priceSection {
+    padding: 30px 100px;
+    /* min-height: 90vh; */
+  }
+  .priceSectionTitle {
+    text-align: center;
+    font-size: 30px;
+  }
+  .listDetailItem {
+    text-align: center;
+  }
+  .leftSide {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+/* iPads */
+@media (min-width: 760px) and (max-width: 1025px) {
+  .priceCards {
+    margin: 0px 0px;
+  }
+  .priceCard {
+    width: 60%;
+    margin: 50px 0px;
+    padding: 0px 50px;
+  }
+  .cardImage {
+    width: 150px;
+    height: 200px;
+  }
+  .priceSection {
+    padding: 30px 0px;
+    /* min-height: 90vh; */
+  }
+  .priceSectionTitle {
+    text-align: center;
+    font-size: 30px;
+  }
+  .listDetailItem {
+    text-align: center;
+  }
+  .leftSide {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
 /* phone */
 @media (max-width: 759px) {
   .priceCards {

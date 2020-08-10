@@ -8,12 +8,12 @@ export default function Pricing() {
 
   return (
     <div className="flex-fill" id="mainContainer">
-      <div className="container">
+      <div className="container headerContainer">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-5 d-flex flex-column justify-content-center">
             <p className="pageTitle">Pricing</p>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-7 d-flex flex-column justify-content-center text-center">
             <p className="pageMessage">
               This is what the pricing is about yadata yada yada. There is
               something for everyone.
@@ -21,12 +21,19 @@ export default function Pricing() {
           </div>
         </div>
       </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <hr />
+          </div>
+        </div>
+      </div>
       <div className="container-fluid">
         <div className="row priceSection">
-          <div className="col-md-12">
+          <div className="col-md-12 ">
             <p className="priceSectionTitle pageSubTitle">In Person</p>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6 col-md-12">
             <div className="priceCard">
               <Card className="shadow">
                 <Card.Body>
@@ -59,7 +66,7 @@ export default function Pricing() {
               </Card>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6 col-md-12 leftSide">
             <div className="priceCard">
               <Card className="shadow">
                 <Card.Body>
@@ -97,7 +104,7 @@ export default function Pricing() {
               </Card>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6 col-md-12">
             <div className="priceCard">
               <Card className="shadow">
                 <Card.Body>
@@ -123,14 +130,14 @@ export default function Pricing() {
               </Card>
             </div>
           </div>
-          <div className="col-md-6"></div>
+          <div className="col-sm-6 col-md-12 leftSide"></div>
         </div>
 
         <div className="row priceSection" style={{ display: "none" }}>
           <div className="col-md-12">
             <p className="priceSectionTitle pageSubTitle">Virtural</p>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6 col-md-12">
             <div className="priceCard">
               <Card className="shadow">
                 <Card.Body>
@@ -152,7 +159,7 @@ export default function Pricing() {
               </Card>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-sm-6 col-md-12">
             <div className="priceCard">
               <Card className="shadow">
                 <Card.Body>
@@ -174,7 +181,7 @@ export default function Pricing() {
               </Card>
             </div>
           </div>
-          <div className="col-md-6"></div>
+          <div className="col-sm-6 col-md-12"></div>
         </div>
       </div>
     </div>
