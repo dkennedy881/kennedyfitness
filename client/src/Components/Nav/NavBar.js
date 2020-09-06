@@ -8,31 +8,23 @@ const NavBar = ({ location }) => {
     <Navbar bg="dark" variant="dark" fixed="top">
       <Nav className="justify-content-center" style={{ width: "100%" }}>
         <Link
-          to={"/kennedyfitness"}
-          className={
-            location.pathname === "/kennedyfitness"
-              ? "nav-link active"
-              : "nav-link"
-          }
+          to={""}
+          className={location.pathname === "" ? "nav-link active" : "nav-link"}
         >
           About
         </Link>
         <Link
-          to={"/kennedyfitness/pricing"}
+          to={"/pricing"}
           className={
-            location.pathname === "/kennedyfitness/pricing"
-              ? "nav-link active"
-              : "nav-link"
+            location.pathname === "/pricing" ? "nav-link active" : "nav-link"
           }
         >
           Pricing
         </Link>
         <Link
-          to={"/kennedyfitness/scheduling"}
+          to={"/scheduling"}
           className={
-            location.pathname === "/kennedyfitness/scheduling"
-              ? "nav-link active"
-              : "nav-link"
+            location.pathname === "/scheduling" ? "nav-link active" : "nav-link"
           }
         >
           Book Your Workout

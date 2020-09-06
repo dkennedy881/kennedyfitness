@@ -58,7 +58,7 @@ export default function Pricing() {
                 <Button
                   variant="warning cardFooterBtn"
                   onClick={() => {
-                    history.push("/kennedyfitness/scheduling");
+                    history.push("/scheduling");
                   }}
                 >
                   Book Now
@@ -96,7 +96,7 @@ export default function Pricing() {
                 <Button
                   variant="warning cardFooterBtn"
                   onClick={() => {
-                    history.push("/kennedyfitness/scheduling");
+                    history.push("/scheduling");
                   }}
                 >
                   Book Now
@@ -122,7 +122,7 @@ export default function Pricing() {
                 <Button
                   variant="warning cardFooterBtn"
                   onClick={() => {
-                    history.push("/kennedyfitness/scheduling");
+                    history.push("/scheduling");
                   }}
                 >
                   Book Now
@@ -154,7 +154,7 @@ export default function Pricing() {
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
                 <Button variant="warning cardFooterBtn">
-                  <Link to={"/kennedyfitness/scheduling"}>Book Now</Link>
+                  <Link to={"/scheduling"}>Book Now</Link>
                 </Button>
               </Card>
             </div>
@@ -176,7 +176,7 @@ export default function Pricing() {
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
                 <Button variant="warning cardFooterBtn">
-                  <Link to={"/kennedyfitness/scheduling"}>Book Now</Link>
+                  <Link to={"/scheduling"}>Book Now</Link>
                 </Button>
               </Card>
             </div>

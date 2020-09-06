@@ -20,14 +20,17 @@ function App() {
         <ScrollToTop />
         <NavBar />
         <Switch>
-          <Route exact path="/kennedyfitness">
+          <Route path="/" exact>
             <About />
           </Route>
-          <Route path="/kennedyfitness/pricing">
+          <Route exact path="/pricing">
             <Pricing />
           </Route>
-          <Route path="/kennedyfitness/scheduling">
+          <Route exact path="/scheduling">
             <Scheduling />
+          </Route>
+          <Route path="/">
+            <About />
           </Route>
         </Switch>
       </Router>
