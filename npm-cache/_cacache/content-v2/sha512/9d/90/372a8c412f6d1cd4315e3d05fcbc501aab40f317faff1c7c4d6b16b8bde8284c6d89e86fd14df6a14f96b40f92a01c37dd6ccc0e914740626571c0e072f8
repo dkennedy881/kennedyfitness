@@ -1,0 +1,1206 @@
+{
+  "_id" : "@emotion/stylis",
+  "_rev" : "23-806bd4a10e670c05243a1107624bc951",
+  "name" : "@emotion/stylis",
+  "description" : "A custom build of Stylis",
+  "dist-tags" : {
+    "really-unsafe-please-do-not-use" : "10.0.0-really-unsafe-please-do-not-use.2",
+    "latest" : "0.8.5"
+  },
+  "versions" : {
+    "0.7.0" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.7.0.tgz",
+        "shasum" : "4c30e6fccc9555e42fa6fef98b3bd0788b954684"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.3"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.7.0",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.7.0_1533346722134_0.9437448325925233"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.6.4" : {
+      "name" : "@emotion/stylis",
+      "description" : "internal flow types and constants for emotion",
+      "version" : "0.6.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.4.tgz",
+        "shasum" : "ad7dee926df2704745c38bc559b66682f25e711a"
+      },
+      "devDependencies" : {
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.4",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.4_1523744679759_0.8579052127913112"
+      }
+    },
+    "0.8.2" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.8.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.8.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.8.2.tgz",
+        "shasum" : "e9098154ce140ede3444ee1006557bec4c42fa8f"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.8.2",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.8.2_1541999809727_0.923396921203745"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.6.5" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.6.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.5.tgz",
+        "shasum" : "3e1bb0e52307d66212bcd307e2cb4d079f2a0b6a"
+      },
+      "devDependencies" : {
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.5",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.5_1523752502213_0.20946582764269217"
+      }
+    },
+    "0.8.3" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.8.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.8.3.tgz",
+        "shasum" : "3ca7e9bcb31b3cb4afbaeb66156d86ee85e23246"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.8.3",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js",
+        "./dist/stylis.esm.js" : "./dist/stylis.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.8.3_1542717299858_0.5754230267215978"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.6.2" : {
+      "name" : "@emotion/stylis",
+      "description" : "internal flow types and constants for emotion",
+      "version" : "0.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.2.tgz",
+        "shasum" : "7236eabd043cde98abdd8218840dbc3c73e9eefc"
+      },
+      "devDependencies" : {
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.2",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.2_1523699796900_0.8745573213184488"
+      }
+    },
+    "0.7.1" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.7.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.7.1.tgz",
+        "shasum" : "50f63225e712d99e2b2b39c19c70fff023793ca5"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-stylis-0.7.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.7.1",
+      "gitHead" : "94fed7652759a0f1962da66b922299398e39fe4d",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.7.1_1537477061204_0.6601131459440948"
+      },
+      "_resolved" : "",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.10.0"
+    },
+    "0.8.0" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.8.0.tgz",
+        "shasum" : "7f7e6c039274c481482a5169d718405bf0bf2207"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.8.0",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.8.0_1539416095241_0.4674383682668477"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.6.3" : {
+      "name" : "@emotion/stylis",
+      "description" : "internal flow types and constants for emotion",
+      "version" : "0.6.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.3.tgz",
+        "shasum" : "4ad87410fbf79f3bc50b3c73e61d17a02604cf7f"
+      },
+      "devDependencies" : {
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.3",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.3_1523711521829_0.35508058493191896"
+      }
+    },
+    "0.8.1" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.8.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.8.1.tgz",
+        "shasum" : "970e023b5172ecbc926374c2c79dc189d44ab60c"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.8.1",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.8.1_1541998772092_0.9509679144197904"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.6.8" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.6.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.8.tgz",
+        "shasum" : "6ad4e8d32b19b440efa4481bbbcb98a8c12765bb"
+      },
+      "devDependencies" : {
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.8",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.8_1526713564302_0.08627273637754174"
+      },
+      "umd:main" : "./dist/index.min.js"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.1" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-10.0.0-really-unsafe-please-do-not-use.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+        "shasum" : "e18d8f5518cc94cacc07d7c0dc70e5e4ffe53a2b"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-stylis-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@10.0.0-really-unsafe-please-do-not-use.1",
+      "gitHead" : "2b1bf6ef43eaa9133ba7a9d7c8d96ebc1d3877e2",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_10.0.0-really-unsafe-please-do-not-use.1_1538108298582_0.16994931528421975"
+      },
+      "_resolved" : "",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.6.9" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.6.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.9.tgz",
+        "shasum" : "2145c179cc0fda18e5544bd65e249d3601920997"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.9",
+      "types" : "types/index.d.ts",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.9_1529192453907_0.7269900689623834"
+      },
+      "umd:main" : "./dist/index.min.js"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.2" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-10.0.0-really-unsafe-please-do-not-use.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+        "shasum" : "9f016b9139159a4b2f9cec8d29bf1dbba6b6cca4"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-stylis-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@10.0.0-really-unsafe-please-do-not-use.2",
+      "gitHead" : "0da0de50f6f2c19e46bca7662d1a954d48db1264",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_10.0.0-really-unsafe-please-do-not-use.2_1538109428094_0.8725977129855775"
+      },
+      "_resolved" : "",
+      "readme" : "# @emotion/stylis\n\n> A custom build of Stylis\n\n`@emotion/stylis` is a version of [Stylis](https://github.com/thysultan/stylis.js) that has been modified slightly to make it smaller. The only Stylis option that can be changed is `prefix`, the rest of the options are already set to the values shown below and cannot be changed. This package also only exports the constructer, so you have to do `new Stylis()` and use the result from that rather than directly calling `Stylis`. The result of that function also cannot be used to create a stylis instance unlike stylis.\n\n```js\ntype Options = {\n  global: false,\n  preserve: false,\n  keyframe: false,\n  semicolon: true,\n  cascade: true,\n  compress: false,\n  prefix: boolean | ((key: string, value: string, context: number) => boolean)\n}\n```\n\n```jsx\nimport Stylis from '@emotion/stylis'\n\nconst stylis = new Stylis()\n\nstylis('.css-hash', 'display:flex;') // .css-hash{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n```\n\n## Building this package\n\nTo build this package from a newer version of stylis, update the version of stylis that is installed as a devDependency and run `node build.js` in the directory of this package. This will read the source of stylis, transform it slightly, use the [Google Closure Compiler REST API](https://developers.google.com/closure/compiler/docs/gettingstarted_api) to minify it, format it with Prettier and then write it to `src/stylis.min.js`.\n\n# Thanks\n\nStylis was written by [Sultan Tarimo](https://github.com/thysultan). ❤️\n",
+      "readmeFilename" : "README.md",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.6.6" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.6.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.6.tgz",
+        "shasum" : "86e7ccac7a6108cbbbea65cd8ae76818dc66db53"
+      },
+      "devDependencies" : {
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.6",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.6_1524906164754_0.600745924095309"
+      },
+      "umd:main" : "./dist/index.min.js"
+    },
+    "0.8.4" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.8.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.8.4.tgz",
+        "shasum" : "6c51afdf1dd0d73666ba09d2eb6c25c220d6fe4c"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.8.4",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js",
+        "./dist/stylis.esm.js" : "./dist/stylis.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.8.4_1561504128415_0.6110138163708709"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "0.6.7" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.6.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.7.tgz",
+        "shasum" : "730a6aa2198257124940014d7fffac7cf3e6614c"
+      },
+      "devDependencies" : {
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.7",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.7_1525493079521_0.5504237392242852"
+      },
+      "umd:main" : "./dist/index.min.js"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.0" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-10.0.0-really-unsafe-please-do-not-use.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+        "shasum" : "260c560f57fd56ee724138ccd4a12c118c1a252a"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-stylis-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@10.0.0-really-unsafe-please-do-not-use.0",
+      "gitHead" : "a5f3825603dffd69fddb44bf5f29afd7c49eabd5",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_10.0.0-really-unsafe-please-do-not-use.0_1538091249507_0.11004714616373046"
+      },
+      "_resolved" : "",
+      "readme" : "# @emotion/stylis\n\n> A custom build of Stylis\n\n`@emotion/stylis` is a version of [Stylis](https://github.com/thysultan/stylis.js) that has been modified slightly to make it smaller. The only Stylis option that can be changed is `prefix`, the rest of the options are already set to the values shown below and cannot be changed. This package also only exports the constructer, so you have to do `new Stylis()` and use the result from that rather than directly calling `Stylis`. The result of that function also cannot be used to create a stylis instance unlike stylis.\n\n```js\ntype Options = {\n  global: false,\n  preserve: false,\n  keyframe: false,\n  semicolon: true,\n  cascade: true,\n  compress: false,\n  prefix: boolean | ((key: string, value: string, context: number) => boolean)\n}\n```\n\n```jsx\nimport Stylis from '@emotion/stylis'\n\nconst stylis = new Stylis()\n\nstylis('.css-hash', 'display:flex;') // .css-hash{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n```\n\n## Building this package\n\nTo build this package from a newer version of stylis, update the version of stylis that is installed as a devDependency and run `node build.js` in the directory of this package. This will read the source of stylis, transform it slightly, use the [Google Closure Compiler REST API](https://developers.google.com/closure/compiler/docs/gettingstarted_api) to minify it, format it with Prettier and then write it to `src/stylis.min.js`.\n\n# Thanks\n\nStylis was written by [Sultan Tarimo](https://github.com/thysultan). ❤️\n",
+      "readmeFilename" : "README.md",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.8.5" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.8.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.8.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.8.5.tgz",
+        "shasum" : "deacb389bd6ee77d1e7fcaccce9e16c5c7e78e04"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mitchell+emotion-release-bot@hamil.town",
+        "name" : "emotion-release-bot"
+      }, {
+        "email" : "mitchell@mitchellhamilton.me",
+        "name" : "mitchellhamilton"
+      }, {
+        "email" : "kye.hohenberger@gmail.com",
+        "name" : "tkh44"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "emotion-release-bot",
+        "email" : "mitchell+emotion-release-bot@hamil.town"
+      },
+      "_id" : "@emotion/stylis@0.8.5",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "browser" : {
+        "./dist/stylis.cjs.js" : "./dist/stylis.browser.cjs.js",
+        "./dist/stylis.esm.js" : "./dist/stylis.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.8.5_1577056281118_0.08352547181207948"
+      },
+      "_nodeVersion" : "10.18.0"
+    },
+    "0.6.11" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.6.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.11.tgz",
+        "shasum" : "6eed7d27b7d6e833f3af354e910b9f8adc285f28"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.3"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.11",
+      "types" : "types/index.d.ts",
+      "module" : "dist/index.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.11_1531541362397_0.8984142542790652"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.6.12" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.6.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/stylis"
+      },
+      "main" : "dist/stylis.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.12.tgz",
+        "shasum" : "3fb58220e0fc9e380bcabbb3edde396ddc1dfe6e"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "3.5.3"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.12",
+      "types" : "types/index.d.ts",
+      "module" : "dist/stylis.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.12_1531627521396_0.9849297205669374"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.6.10" : {
+      "name" : "@emotion/stylis",
+      "description" : "A custom build of Stylis",
+      "version" : "0.6.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/stylis"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/stylis/-/stylis-0.6.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fstylis%2F-%2Fstylis-0.6.10.tgz",
+        "shasum" : "7d321e639ebc8ba23ace5990c20e94dcebb8f3dd"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0",
+        "jscodeshift" : "^0.5.0",
+        "request" : "^2.85.0",
+        "request-promise-native" : "^1.0.5",
+        "stylis" : "^3.5.1"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/stylis@0.6.10",
+      "types" : "types/index.d.ts",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/stylis_0.6.10_1529612794681_0.8408283005170178"
+      },
+      "umd:main" : "./dist/index.min.js"
+    }
+  },
+  "readme" : "# @emotion/stylis\n\n> A custom build of Stylis\n\n`@emotion/stylis` is a version of [Stylis](https://github.com/thysultan/stylis.js) that has been modified slightly to make it smaller. The only Stylis option that can be changed is `prefix`, the rest of the options are already set to the values shown below and cannot be changed. This package also only exports the constructer, so you have to do `new Stylis()` and use the result from that rather than directly calling `Stylis`. The result of that function also cannot be used to create a stylis instance unlike stylis.\n\n```js\ntype Options = {\n  global: false,\n  preserve: false,\n  keyframe: false,\n  semicolon: true,\n  cascade: true,\n  compress: false,\n  prefix: boolean | ((key: string, value: string, context: number) => boolean)\n}\n```\n\n```jsx\nimport Stylis from '@emotion/stylis'\n\nconst stylis = new Stylis()\n\nstylis('.css-hash', 'display:flex;') // .css-hash{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n```\n\n## Building this package\n\nTo build this package from a newer version of stylis, update the version of stylis that is installed as a devDependency and run `node build.js` in the directory of this package. This will read the source of stylis, transform it slightly, use the [Google Closure Compiler REST API](https://developers.google.com/closure/compiler/docs/gettingstarted_api) to minify it, format it with Prettier and then write it to `src/stylis.min.js`.\n\n# Thanks\n\nStylis was written by [Sultan Tarimo](https://github.com/thysultan). ❤️\n",
+  "maintainers" : [ {
+    "email" : "mitchell+emotion-release-bot@hamil.town",
+    "name" : "emotion-release-bot"
+  }, {
+    "email" : "mitchell@mitchellhamilton.me",
+    "name" : "mitchellhamilton"
+  }, {
+    "email" : "kye.hohenberger@gmail.com",
+    "name" : "tkh44"
+  } ],
+  "time" : {
+    "0.7.0" : "2018-08-04T01:38:42.208Z",
+    "0.6.4" : "2018-04-14T22:24:39.975Z",
+    "0.8.2" : "2018-11-12T05:16:49.850Z",
+    "0.6.5" : "2018-04-15T00:35:02.290Z",
+    "0.8.3" : "2018-11-20T12:34:59.999Z",
+    "created" : "2018-04-14T09:56:36.828Z",
+    "0.6.2" : "2018-04-14T09:56:37.004Z",
+    "0.7.1" : "2018-09-20T20:57:41.318Z",
+    "0.8.0" : "2018-10-13T07:34:55.347Z",
+    "0.6.3" : "2018-04-14T13:12:01.959Z",
+    "0.8.1" : "2018-11-12T04:59:32.214Z",
+    "0.6.8" : "2018-05-19T07:06:04.427Z",
+    "10.0.0-really-unsafe-please-do-not-use.1" : "2018-09-28T04:18:18.835Z",
+    "modified" : "2019-12-22T23:11:36.376Z",
+    "0.6.9" : "2018-06-16T23:40:54.002Z",
+    "10.0.0-really-unsafe-please-do-not-use.2" : "2018-09-28T04:37:08.221Z",
+    "0.6.6" : "2018-04-28T09:02:44.849Z",
+    "0.8.4" : "2019-06-25T23:08:48.533Z",
+    "0.6.7" : "2018-05-05T04:04:39.672Z",
+    "10.0.0-really-unsafe-please-do-not-use.0" : "2018-09-27T23:34:09.725Z",
+    "0.8.5" : "2019-12-22T23:11:29.864Z",
+    "0.6.11" : "2018-07-14T04:09:22.666Z",
+    "0.6.12" : "2018-07-15T04:05:21.532Z",
+    "0.6.10" : "2018-06-21T20:26:35.121Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/emotion-js/emotion/tree/master/packages/stylis"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

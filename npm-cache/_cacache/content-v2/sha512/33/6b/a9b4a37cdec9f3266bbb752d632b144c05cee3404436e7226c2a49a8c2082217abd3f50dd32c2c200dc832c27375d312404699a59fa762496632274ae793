@@ -1,0 +1,703 @@
+{
+  "_id" : "@emotion/hash",
+  "_rev" : "15-c79819450804b33e4bc113799bbc47a2",
+  "name" : "@emotion/hash",
+  "description" : "A MurmurHash2 implementation",
+  "dist-tags" : {
+    "really-unsafe-please-do-not-use" : "10.0.0-really-unsafe-please-do-not-use.2",
+    "latest" : "0.8.0"
+  },
+  "versions" : {
+    "0.7.0" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.7.0.tgz",
+        "shasum" : "68d9cb2e75fabffbe5cae6c17a91dc287439a0a6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@0.7.0",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.7.0_1539416089058_0.8128501586987382"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.6.4" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.6.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.6.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.6.4.tgz",
+        "shasum" : "323e395e350fdf878ce05dd63f7c9c7bf0e979d4"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@0.6.4",
+      "module" : "dist/index.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.6.4_1531541349539_0.5094769700706772"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.7.3" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.7.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.7.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.7.3.tgz",
+        "shasum" : "a166882c81c0c6040975dd30df24fae8549bd96f"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mitchell+emotion-release-bot@hamil.town",
+        "name" : "emotion-release-bot"
+      }, {
+        "email" : "mitchell@mitchellhamilton.me",
+        "name" : "mitchellhamilton"
+      }, {
+        "email" : "kye.hohenberger@gmail.com",
+        "name" : "tkh44"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "emotion-release-bot",
+        "email" : "mitchell+emotion-release-bot@hamil.town"
+      },
+      "_id" : "@emotion/hash@0.7.3",
+      "types" : "types/index.d.ts",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.7.3_1568724678386_0.45237041700190317"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "0.6.5" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.6.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.6.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.6.5.tgz",
+        "shasum" : "097729b84a5164f71f9acd2570ecfd1354d7b360"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@0.6.5",
+      "module" : "dist/hash.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.6.5_1531627508781_0.6875877073328416"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.7.4" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.7.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.7.4.tgz",
+        "shasum" : "f14932887422c9056b15a8d222a9074a7dfa2831"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mitchell+emotion-release-bot@hamil.town",
+        "name" : "emotion-release-bot"
+      }, {
+        "email" : "mitchell@mitchellhamilton.me",
+        "name" : "mitchellhamilton"
+      }, {
+        "email" : "kye.hohenberger@gmail.com",
+        "name" : "tkh44"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "emotion-release-bot",
+        "email" : "mitchell+emotion-release-bot@hamil.town"
+      },
+      "_id" : "@emotion/hash@0.7.4",
+      "types" : "types/index.d.ts",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.7.4_1577056277872_0.7742169444584643"
+      },
+      "_nodeVersion" : "10.18.0"
+    },
+    "0.6.2" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/hash"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.6.2.tgz",
+        "shasum" : "4cfe6b57e251aa7f254750ddac7c449ff99c476f"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@0.6.2",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.6.2_1523699785521_0.23576355162942253"
+      }
+    },
+    "0.7.1" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.7.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.7.1.tgz",
+        "shasum" : "9833722341379fb7d67f06a4b00ab3c37913da53"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@0.7.1",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.7.1_1542717316147_0.5753025477369909"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.8.0" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.8.0.tgz",
+        "shasum" : "bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mitchell+emotion-release-bot@hamil.town",
+        "name" : "emotion-release-bot"
+      }, {
+        "email" : "mitchell@mitchellhamilton.me",
+        "name" : "mitchellhamilton"
+      }, {
+        "email" : "kye.hohenberger@gmail.com",
+        "name" : "tkh44"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "emotion-release-bot",
+        "email" : "mitchell+emotion-release-bot@hamil.town"
+      },
+      "_id" : "@emotion/hash@0.8.0",
+      "types" : "types/index.d.ts",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.8.0_1583144154273_0.3829260295933019"
+      },
+      "_nodeVersion" : "10.19.0"
+    },
+    "0.6.3" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.6.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/hash"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.6.3.tgz",
+        "shasum" : "0e7a5604626fc6c6d4ac4061a2f5ac80d50262a4"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@0.6.3",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.6.3_1524906152869_0.9143364951028949"
+      },
+      "umd:main" : "./dist/index.min.js"
+    },
+    "0.7.2" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.7.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.7.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.7.2.tgz",
+        "shasum" : "53211e564604beb9befa7a4400ebf8147473eeef"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@0.7.2",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.7.2_1561504114541_0.48982962439113287"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.1" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+        "shasum" : "d8d8018e053ec0164f0b75bbdb645fbf26d75b70"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-hash-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@10.0.0-really-unsafe-please-do-not-use.1",
+      "gitHead" : "2b1bf6ef43eaa9133ba7a9d7c8d96ebc1d3877e2",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_10.0.0-really-unsafe-please-do-not-use.1_1538108292043_0.9809327926385336"
+      },
+      "_resolved" : "",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.2" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+        "shasum" : "f6229d19de147d08d226e21f2d8ef180ef4af1f5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-hash-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@10.0.0-really-unsafe-please-do-not-use.2",
+      "gitHead" : "0da0de50f6f2c19e46bca7662d1a954d48db1264",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_10.0.0-really-unsafe-please-do-not-use.2_1538109421264_0.6562323405144324"
+      },
+      "_resolved" : "",
+      "readme" : "# @emotion/hash\n\n> A MurmurHash2 implementation\n\n```jsx\nimport hash from '@emotion/hash'\n\nhash('some-string') // 12fj1d\n```\n\nThe source of this is from https://github.com/garycourt/murmurhash-js/blob/master/murmurhash2_gc.js.\n",
+      "readmeFilename" : "README.md",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.6.6" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "0.6.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-0.6.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-0.6.6.tgz",
+        "shasum" : "62266c5f0eac6941fece302abad69f2ee7e25e44"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-hash-0.6.6.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@0.6.6",
+      "gitHead" : "94fed7652759a0f1962da66b922299398e39fe4d",
+      "module" : "dist/hash.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_0.6.6_1537477053825_0.7322914090646564"
+      },
+      "_resolved" : "",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.10.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.0" : {
+      "name" : "@emotion/hash",
+      "description" : "A MurmurHash2 implementation",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/hash"
+      },
+      "main" : "dist/hash.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/hash/-/hash-10.0.0-really-unsafe-please-do-not-use.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fhash%2F-%2Fhash-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+        "shasum" : "71f137bfe305d8c817454a405003ed9ee6a137a0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-hash-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/hash@10.0.0-really-unsafe-please-do-not-use.0",
+      "gitHead" : "a5f3825603dffd69fddb44bf5f29afd7c49eabd5",
+      "module" : "dist/hash.esm.js",
+      "browser" : {
+        "./dist/hash.cjs.js" : "./dist/hash.browser.cjs.js",
+        "./dist/hash.esm.js" : "./dist/hash.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hash_10.0.0-really-unsafe-please-do-not-use.0_1538091240274_0.976394266518837"
+      },
+      "_resolved" : "",
+      "readme" : "# @emotion/hash\n\n> A MurmurHash2 implementation\n\n```jsx\nimport hash from '@emotion/hash'\n\nhash('some-string') // 12fj1d\n```\n\nThe source of this is from https://github.com/garycourt/murmurhash-js/blob/master/murmurhash2_gc.js.\n",
+      "readmeFilename" : "README.md",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    }
+  },
+  "readme" : "# @emotion/hash\n\n> A MurmurHash2 implementation\n\n```jsx\nimport hash from '@emotion/hash'\n\nhash('some-string') // 12fj1d\n```\n\nThe source of this is from https://github.com/garycourt/murmurhash-js/blob/master/murmurhash2_gc.js.\n",
+  "maintainers" : [ {
+    "email" : "mitchell+emotion-release-bot@hamil.town",
+    "name" : "emotion-release-bot"
+  }, {
+    "email" : "mitchell@mitchellhamilton.me",
+    "name" : "mitchellhamilton"
+  }, {
+    "email" : "kye.hohenberger@gmail.com",
+    "name" : "tkh44"
+  } ],
+  "time" : {
+    "0.7.0" : "2018-10-13T07:34:49.204Z",
+    "0.6.4" : "2018-07-14T04:09:09.635Z",
+    "0.7.3" : "2019-09-17T12:51:18.507Z",
+    "0.6.5" : "2018-07-15T04:05:09.014Z",
+    "0.7.4" : "2019-12-22T23:11:17.995Z",
+    "created" : "2018-04-14T09:56:25.456Z",
+    "0.6.2" : "2018-04-14T09:56:25.611Z",
+    "0.7.1" : "2018-11-20T12:35:16.275Z",
+    "0.8.0" : "2020-03-02T10:15:54.385Z",
+    "0.6.3" : "2018-04-28T09:02:32.954Z",
+    "0.7.2" : "2019-06-25T23:08:34.671Z",
+    "10.0.0-really-unsafe-please-do-not-use.1" : "2018-09-28T04:18:12.247Z",
+    "modified" : "2020-03-02T10:15:56.886Z",
+    "10.0.0-really-unsafe-please-do-not-use.2" : "2018-09-28T04:37:02.181Z",
+    "0.6.6" : "2018-09-20T20:57:34.223Z",
+    "10.0.0-really-unsafe-please-do-not-use.0" : "2018-09-27T23:34:00.438Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/emotion-js/emotion/tree/master/packages/hash"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

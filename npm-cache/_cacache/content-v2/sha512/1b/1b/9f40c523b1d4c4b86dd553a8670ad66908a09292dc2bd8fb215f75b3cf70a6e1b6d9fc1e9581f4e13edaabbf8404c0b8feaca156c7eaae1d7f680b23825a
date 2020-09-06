@@ -1,0 +1,508 @@
+{
+  "_id" : "tiny-warning",
+  "_rev" : "7-9e016795b09fa476261cd40d59fb3ba5",
+  "name" : "tiny-warning",
+  "description" : "A tiny warning function",
+  "dist-tags" : {
+    "latest" : "1.0.3"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "tiny-warning",
+      "description" : "A tiny warning function",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/alexreardon/tiny-warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-warning/issues"
+      },
+      "main" : "dist/tiny-warning.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-warning/-/tiny-warning-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-warning%2F-%2Ftiny-warning-1.0.3.tgz",
+        "shasum" : "94a30db453df4c643d0fd566060d60a875d84754"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.5.0",
+        "@babel/preset-env" : "^7.5.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^24.8.0",
+        "flow-bin" : "0.102.0",
+        "jest" : "^24.8.0",
+        "prettier" : "1.18.2",
+        "regenerator-runtime" : "^0.13.2",
+        "rimraf" : "^2.6.3",
+        "rollup" : "^1.16.6",
+        "rollup-plugin-babel" : "^4.3.3",
+        "rollup-plugin-replace" : "^2.2.0",
+        "rollup-plugin-uglify" : "^6.0.2"
+      },
+      "keywords" : [ "warning", "warn" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-warning.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-warning@1.0.3",
+      "types" : "src/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2019 Alexander Reardon\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "dist/tiny-warning.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-warning_1.0.3_1562634846021_0.031843047290240456"
+      },
+      "sideEffects" : false
+    },
+    "0.0.2" : {
+      "name" : "tiny-warning",
+      "description" : "A tiny warning function",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-warning.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-warning/-/tiny-warning-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-warning%2F-%2Ftiny-warning-0.0.2.tgz",
+        "shasum" : "8563a3af1631a3fc5e29082ff8c6736ac12a9178"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.2",
+        "@babel/preset-env" : "^7.1.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "flow-bin" : "^0.82.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.14.3",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.66.2",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-replace" : "^2.0.0",
+        "rollup-plugin-uglify" : "^6.0.0"
+      },
+      "keywords" : [ "warning", "warn" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-warning.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-warning@0.0.2",
+      "gitHead" : "38d0b9b4592491f92ccacd7a183b05241f27d965",
+      "module" : "dist/tiny-warning.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-warning_0.0.2_1538465918366_0.8849171076086588"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "0.0.3" : {
+      "name" : "tiny-warning",
+      "description" : "A tiny warning function",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-warning.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-warning/-/tiny-warning-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-warning%2F-%2Ftiny-warning-0.0.3.tgz",
+        "shasum" : "1807eb4c5f81784a6354d58ea1d5024f18c6c81f"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.2",
+        "@babel/preset-env" : "^7.1.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "flow-bin" : "^0.82.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.14.3",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.66.2",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-replace" : "^2.0.0",
+        "rollup-plugin-uglify" : "^6.0.0"
+      },
+      "keywords" : [ "warning", "warn" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-warning.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-warning@0.0.3",
+      "gitHead" : "83303f89f8c41d5ed7e6a204904a5527a15c70e2",
+      "module" : "dist/tiny-warning.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-warning_0.0.3_1538481175606_0.43387464292125144"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.0.0" : {
+      "name" : "tiny-warning",
+      "description" : "A tiny warning function",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-warning.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-warning/-/tiny-warning-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-warning%2F-%2Ftiny-warning-1.0.0.tgz",
+        "shasum" : "70fba262ea3645e10506fe8673aeb133d959fc93"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.2",
+        "@babel/preset-env" : "^7.1.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "flow-bin" : "^0.82.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.14.3",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.66.2",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-replace" : "^2.0.0",
+        "rollup-plugin-uglify" : "^6.0.0"
+      },
+      "keywords" : [ "warning", "warn" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-warning.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-warning@1.0.0",
+      "gitHead" : "831a9db13493969d7e542887b4d5d074e8555975",
+      "module" : "dist/tiny-warning.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-warning_1.0.0_1540854949719_0.31767209949163355"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.0.1" : {
+      "name" : "tiny-warning",
+      "description" : "A tiny warning function",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "homepage" : "https://github.com/alexreardon/tiny-warning#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/alexreardon/tiny-warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-warning/issues"
+      },
+      "main" : "dist/tiny-warning.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-warning/-/tiny-warning-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-warning%2F-%2Ftiny-warning-1.0.1.tgz",
+        "shasum" : "5e4d3eb25eb1733252dcd676ff673c3335bff517"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.2",
+        "@babel/preset-env" : "^7.2.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "flow-bin" : "0.89.0",
+        "jest" : "^23.6.0",
+        "prettier" : "1.15.3",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.68.0",
+        "rollup-plugin-babel" : "^4.1.0",
+        "rollup-plugin-replace" : "^2.1.0",
+        "rollup-plugin-uglify" : "^6.0.0"
+      },
+      "keywords" : [ "warning", "warn" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-warning.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-warning@1.0.1",
+      "gitHead" : "229c545812da2b2caa240432b86552d61fd70779",
+      "module" : "dist/tiny-warning.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-warning_1.0.1_1545123817514_0.7342832092487652"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "0.0.1" : {
+      "name" : "tiny-warning",
+      "description" : "A tiny warning function",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-warning.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-warning/-/tiny-warning-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-warning%2F-%2Ftiny-warning-0.0.1.tgz",
+        "shasum" : "a0f5fce64a15c8d5c16e985136feaca5a3a8ae2c"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.3",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "babel-preset-env" : "^1.7.0",
+        "babel-preset-flow" : "^6.23.0",
+        "flow-bin" : "^0.78.0",
+        "jest" : "^23.5.0",
+        "prettier" : "^1.14.2",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-babel" : "^3.0.7",
+        "rollup-plugin-replace" : "^2.0.0",
+        "rollup-plugin-uglify" : "^4.0.0"
+      },
+      "keywords" : [ "warning", "warn" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-warning.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-warning@0.0.1",
+      "gitHead" : "a49955461bf2e8bdbbb2b1173273329611d339a1",
+      "module" : "dist/tiny-warning.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-warning_0.0.1_1538462077811_0.7287856968953319"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.0.2" : {
+      "name" : "tiny-warning",
+      "description" : "A tiny warning function",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "homepage" : "https://github.com/alexreardon/tiny-warning#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/alexreardon/tiny-warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-warning/issues"
+      },
+      "main" : "dist/tiny-warning.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-warning/-/tiny-warning-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-warning%2F-%2Ftiny-warning-1.0.2.tgz",
+        "shasum" : "1dfae771ee1a04396bdfde27a3adcebc6b648b28"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.2.2",
+        "@babel/preset-env" : "^7.2.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "flow-bin" : "0.89.0",
+        "jest" : "^23.6.0",
+        "prettier" : "1.15.3",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.68.0",
+        "rollup-plugin-babel" : "^4.1.0",
+        "rollup-plugin-replace" : "^2.1.0",
+        "rollup-plugin-uglify" : "^6.0.0"
+      },
+      "keywords" : [ "warning", "warn" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-warning.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-warning@1.0.2",
+      "gitHead" : "5ea3d9defbc38eb8b33dc42f8ec5255195301c8a",
+      "module" : "dist/tiny-warning.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-warning_1.0.2_1545160232833_0.27629341766386273"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    }
+  },
+  "readme" : "# tiny-warning \uD83D\uDD2C⚠️\n\n[![Build Status](https://travis-ci.org/alexreardon/tiny-warning.svg?branch=master)](https://travis-ci.org/alexreardon/tiny-warning)\n[![npm](https://img.shields.io/npm/v/tiny-warning.svg)](https://www.npmjs.com/package/tiny-warning) [![Downloads per month](https://img.shields.io/npm/dm/tiny-warning.svg)](https://www.npmjs.com/package/tiny-warning) [![dependencies](https://david-dm.org/alexreardon/tiny-warning.svg)](https://david-dm.org/alexreardon/tiny-warning)\n[![min](https://img.shields.io/bundlephobia/min/tiny-warning.svg)](https://www.npmjs.com/package/tiny-warning)\n[![minzip](https://img.shields.io/bundlephobia/minzip/tiny-warning.svg)](https://www.npmjs.com/package/tiny-warning)\n\nA tiny [`warning`](https://www.npmjs.com/package/warning) alternative.\n\n```js\nimport warning from 'tiny-warning';\n\nwarning(truthyValue, 'This should not log a warning');\n\nwarning(falsyValue, 'This should log a warning');\n// console.warn('Warning: This should log a warning');\n```\n\n## API: `(condition: mixed, message: string) => void`\n\n- `condition` is required and can be anything\n- `message` is an required string that will be passed onto `console.warn`\n\n## Why `tiny-warning`?\n\nThe [`library: warning`](https://www.npmjs.com/package/warning) supports passing in arguments to the `warning` function in a sprintf style `(condition, format, a, b, c, d, e, f)`. It has internal logic to execute the sprintf substitutions. `tiny-warning` has dropped all of the sprintf logic. `tiny-warning` allows you to pass a single string message. With [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) there is really no need for a custom message formatter to be built into the library. If you need a multi part message you can just do this: `warning(condition, 'Hello, ${name} - how are you today?')`\n\n## Dropping your `warning` for kb savings!\n\nWe recommend using [`babel-plugin-dev-expression`](https://www.npmjs.com/package/babel-plugin-dev-expression) to remove `warning` calls from your production build. This saves you kb's as well as avoids logging warnings to the console for production.\n\nWhat it does it turn your code that looks like this:\n\n```js\nwarning(condition, 'My cool message that takes up a lot of kbs');\n```\n\nInto this\n\n```js\nif ('production' !== process.env.NODE_ENV) {\n  warning(condition, 'My cool message that takes up a lot of kbs');\n}\n```\n\nYour bundler can then drop the code in the `\"production\" !== process.env.NODE_ENV` block for your production builds\n\nFinal result:\n\n```js\n// nothing to see here! \uD83D\uDC4D\n```\n\n> For `rollup` use [rollup-plugin-replace](https://github.com/rollup/rollup-plugin-replace) and set `NODE_ENV` to `production` and then `rollup` will treeshake out the unused code\n>\n> [`Webpack` instructions](https://webpack.js.org/guides/production/#specify-the-mode)\n\n## Builds\n\n- We have a `es` (EcmaScript module) build (because you _know_ you want to deduplicate this super heavy library)\n- We have a `cjs` (CommonJS) build\n- We have a `umd` (Universal module definition) build in case you needed it\n\nWe expect `process.env.NODE_ENV` to be available at module compilation. We cache this value\n\n## That's it!\n\n\uD83E\uDD18\n",
+  "maintainers" : [ {
+    "name" : "alexreardon",
+    "email" : "alexreardon@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Alex Reardon",
+    "email" : "alexreardon@gmail.com"
+  },
+  "time" : {
+    "1.0.3" : "2019-07-09T01:14:06.191Z",
+    "created" : "2018-10-02T06:34:37.810Z",
+    "modified" : "2019-07-09T01:14:08.982Z",
+    "0.0.2" : "2018-10-02T07:38:38.548Z",
+    "0.0.3" : "2018-10-02T11:52:55.704Z",
+    "1.0.0" : "2018-10-29T23:15:49.848Z",
+    "1.0.1" : "2018-12-18T09:03:37.653Z",
+    "0.0.1" : "2018-10-02T06:34:37.973Z",
+    "1.0.2" : "2018-12-18T19:10:33.082Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/alexreardon/tiny-warning.git"
+  },
+  "users" : {
+    "daizch" : true
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "warning", "warn" ],
+  "bugs" : {
+    "url" : "https://github.com/alexreardon/tiny-warning/issues"
+  },
+  "license" : "MIT"
+}

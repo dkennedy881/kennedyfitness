@@ -1,0 +1,608 @@
+{
+  "_id" : "@emotion/weak-memoize",
+  "_rev" : "13-52bfc26fbd9444e1a84d03d6a18fbcd2",
+  "name" : "@emotion/weak-memoize",
+  "description" : "A memoization function that uses a WeakMap",
+  "dist-tags" : {
+    "really-unsafe-please-do-not-use" : "10.0.0-really-unsafe-please-do-not-use.2",
+    "latest" : "0.2.5"
+  },
+  "versions" : {
+    "0.2.4" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.2.4.tgz",
+        "shasum" : "622a72bebd1e3f48d921563b4b60a762295a81fc"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mitchell+emotion-release-bot@hamil.town",
+        "name" : "emotion-release-bot"
+      }, {
+        "email" : "mitchell@mitchellhamilton.me",
+        "name" : "mitchellhamilton"
+      }, {
+        "email" : "kye.hohenberger@gmail.com",
+        "name" : "tkh44"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "emotion-release-bot",
+        "email" : "mitchell+emotion-release-bot@hamil.town"
+      },
+      "_id" : "@emotion/weak-memoize@0.2.4",
+      "types" : "types/index.d.ts",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js",
+        "./dist/weak-memoize.esm.js" : "./dist/weak-memoize.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.2.4_1568724678828_0.8168643590937887"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "0.2.5" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.2.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.2.5.tgz",
+        "shasum" : "8eed982e2ee6f7f4e44c253e12962980791efd46"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mitchell+emotion-release-bot@hamil.town",
+        "name" : "emotion-release-bot"
+      }, {
+        "email" : "mitchell@mitchellhamilton.me",
+        "name" : "mitchellhamilton"
+      }, {
+        "email" : "kye.hohenberger@gmail.com",
+        "name" : "tkh44"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "emotion-release-bot",
+        "email" : "mitchell+emotion-release-bot@hamil.town"
+      },
+      "_id" : "@emotion/weak-memoize@0.2.5",
+      "types" : "types/index.d.ts",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js",
+        "./dist/weak-memoize.esm.js" : "./dist/weak-memoize.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.2.5_1577056284856_0.9828983155218582"
+      },
+      "_nodeVersion" : "10.18.0"
+    },
+    "0.1.3" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.1.3.tgz",
+        "shasum" : "b700d97385fa91affed60c71dfd51c67e9dad762"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-weak-memoize-0.1.3.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@0.1.3",
+      "gitHead" : "94fed7652759a0f1962da66b922299398e39fe4d",
+      "module" : "dist/weak-memoize.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.1.3_1537477063975_0.04406601625492601"
+      },
+      "_resolved" : "",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.10.0"
+    },
+    "0.2.2" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.2.2.tgz",
+        "shasum" : "63985d3d8b02530e0869962f4da09142ee8e200e"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@0.2.2",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js",
+        "./dist/weak-memoize.esm.js" : "./dist/weak-memoize.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.2.2_1542717305165_0.4829496182285382"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.2.3" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.2.3.tgz",
+        "shasum" : "dfa0c92efe44a1d1a7974fb49ffeb40ef2da5a27"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@0.2.3",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js",
+        "./dist/weak-memoize.esm.js" : "./dist/weak-memoize.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.2.3_1561504131851_0.031710078172015654"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.1" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-10.0.0-really-unsafe-please-do-not-use.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+        "shasum" : "2eac1ae248566f925f2c504cbf61dcd7ab3777ef"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-weak-memoize-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@10.0.0-really-unsafe-please-do-not-use.1",
+      "gitHead" : "2b1bf6ef43eaa9133ba7a9d7c8d96ebc1d3877e2",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_10.0.0-really-unsafe-please-do-not-use.1_1538108305557_0.5433420052706437"
+      },
+      "_resolved" : "",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.2" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-10.0.0-really-unsafe-please-do-not-use.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+        "shasum" : "2534902de4680f65aebdaf3d54ce3a653aa20c39"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-weak-memoize-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@10.0.0-really-unsafe-please-do-not-use.2",
+      "gitHead" : "0da0de50f6f2c19e46bca7662d1a954d48db1264",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_10.0.0-really-unsafe-please-do-not-use.2_1538109433361_0.6612577044748347"
+      },
+      "_resolved" : "",
+      "readme" : "# @emotion/weak-memoize\n\n> A memoization function that uses a WeakMap\n\n## Install\n\n```bash\nyarn add @emotion/weak-memoize\n```\n\n## Usage\n\nBecause @emotion/weak-memoize uses a WeakMap the argument must be a non primitive type, e.g. objects, functions, arrays and etc. The function passed to `weakMemoize` must also only accept a single argument.\n\n```jsx\nimport weakMemoize from '@emotion/weak-memoize'\n\nlet doThing = weakMemoize(({ someProperty }) => {\n  return { newName: someProperty }\n})\n\nlet obj = { someProperty: true }\n\nlet firstResult = doThing(obj)\n\nlet secondResult = doThing(obj)\n\nfirstResult === secondResult // true\n\nlet newObj = { someProperty: true }\n\nlet thirdResult = doThing(newObj)\n\nthirdResult === firstResult // false\n```\n",
+      "readmeFilename" : "README.md",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.0" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-10.0.0-really-unsafe-please-do-not-use.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+        "shasum" : "ebb8b0ddb82654c7b7aaa4e60e36a493b4158466"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-weak-memoize-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@10.0.0-really-unsafe-please-do-not-use.0",
+      "gitHead" : "a5f3825603dffd69fddb44bf5f29afd7c49eabd5",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_10.0.0-really-unsafe-please-do-not-use.0_1538091259697_0.3385137481296874"
+      },
+      "_resolved" : "",
+      "readme" : "# @emotion/weak-memoize\n\n> A memoization function that uses a WeakMap\n\n## Install\n\n```bash\nyarn add @emotion/weak-memoize\n```\n\n## Usage\n\nBecause @emotion/weak-memoize uses a WeakMap the argument must be a non primitive type, e.g. objects, functions, arrays and etc. The function passed to `weakMemoize` must also only accept a single argument.\n\n```jsx\nimport weakMemoize from '@emotion/weak-memoize'\n\nlet doThing = weakMemoize(({ someProperty }) => {\n  return { newName: someProperty }\n})\n\nlet obj = { someProperty: true }\n\nlet firstResult = doThing(obj)\n\nlet secondResult = doThing(obj)\n\nfirstResult === secondResult // true\n\nlet newObj = { someProperty: true }\n\nlet thirdResult = doThing(newObj)\n\nthirdResult === firstResult // false\n```\n",
+      "readmeFilename" : "README.md",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.1.1" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.1.1.tgz",
+        "shasum" : "af1621e74f9357a3514776907c096c1a63ae9c26"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@0.1.1",
+      "module" : "dist/weak-memoize.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.1.1_1531627523783_0.7755800347580133"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.2.0" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.2.0.tgz",
+        "shasum" : "139d8e112acd52c9e27d6b112d46c8dd5826a360"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@0.2.0",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.2.0_1539416098901_0.7947568708724995"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.1.2" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.1.2.tgz",
+        "shasum" : "4e4afffc61fb82fd0e55a4ed3c3041fd0a765a5a"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@0.1.2",
+      "module" : "dist/weak-memoize.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.1.2_1532827907622_0.9072854827910217"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.2.1" : {
+      "name" : "@emotion/weak-memoize",
+      "description" : "A memoization function that uses a WeakMap",
+      "version" : "0.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/weak-memoize"
+      },
+      "main" : "dist/weak-memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/weak-memoize/-/weak-memoize-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fweak-memoize%2F-%2Fweak-memoize-0.2.1.tgz",
+        "shasum" : "d8f1e6d2f34fe9ee9917b7d307bb48f9dbcc4217"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/weak-memoize@0.2.1",
+      "module" : "dist/weak-memoize.esm.js",
+      "browser" : {
+        "./dist/weak-memoize.cjs.js" : "./dist/weak-memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/weak-memoize_0.2.1_1542085911687_0.2058513191588025"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "11.1.0"
+    }
+  },
+  "readme" : "# @emotion/weak-memoize\n\n> A memoization function that uses a WeakMap\n\n## Install\n\n```bash\nyarn add @emotion/weak-memoize\n```\n\n## Usage\n\nBecause @emotion/weak-memoize uses a WeakMap the argument must be a non primitive type, e.g. objects, functions, arrays and etc. The function passed to `weakMemoize` must also only accept a single argument.\n\n```jsx\nimport weakMemoize from '@emotion/weak-memoize'\n\nlet doThing = weakMemoize(({ someProperty }) => {\n  return { newName: someProperty }\n})\n\nlet obj = { someProperty: true }\n\nlet firstResult = doThing(obj)\n\nlet secondResult = doThing(obj)\n\nfirstResult === secondResult // true\n\nlet newObj = { someProperty: true }\n\nlet thirdResult = doThing(newObj)\n\nthirdResult === firstResult // false\n```\n",
+  "maintainers" : [ {
+    "email" : "mitchell+emotion-release-bot@hamil.town",
+    "name" : "emotion-release-bot"
+  }, {
+    "email" : "mitchell@mitchellhamilton.me",
+    "name" : "mitchellhamilton"
+  }, {
+    "email" : "kye.hohenberger@gmail.com",
+    "name" : "tkh44"
+  } ],
+  "time" : {
+    "0.2.4" : "2019-09-17T12:51:18.960Z",
+    "0.2.5" : "2019-12-22T23:11:25.008Z",
+    "0.1.3" : "2018-09-20T20:57:44.153Z",
+    "0.2.2" : "2018-11-20T12:35:05.280Z",
+    "0.2.3" : "2019-06-25T23:08:51.962Z",
+    "created" : "2018-07-15T04:05:23.749Z",
+    "0.1.1" : "2018-07-15T04:05:23.831Z",
+    "0.2.0" : "2018-10-13T07:34:59.020Z",
+    "0.1.2" : "2018-07-29T01:31:47.679Z",
+    "0.2.1" : "2018-11-13T05:11:51.954Z",
+    "10.0.0-really-unsafe-please-do-not-use.1" : "2018-09-28T04:18:25.709Z",
+    "modified" : "2019-12-22T23:11:38.508Z",
+    "10.0.0-really-unsafe-please-do-not-use.2" : "2018-09-28T04:37:13.483Z",
+    "10.0.0-really-unsafe-please-do-not-use.0" : "2018-09-27T23:34:19.836Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/emotion-js/emotion/tree/master/packages/weak-memoize"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

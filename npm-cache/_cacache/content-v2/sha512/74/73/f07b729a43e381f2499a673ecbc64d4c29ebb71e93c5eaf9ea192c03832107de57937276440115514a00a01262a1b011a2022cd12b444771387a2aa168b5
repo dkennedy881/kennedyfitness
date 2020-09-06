@@ -1,0 +1,723 @@
+{
+  "_id" : "@emotion/memoize",
+  "_rev" : "17-771a1f672c958799cba03346ccc9e03b",
+  "name" : "@emotion/memoize",
+  "description" : "emotion's memoize utility",
+  "dist-tags" : {
+    "really-unsafe-please-do-not-use" : "10.0.0-really-unsafe-please-do-not-use.2",
+    "latest" : "0.7.4"
+  },
+  "versions" : {
+    "0.6.0" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.6.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/memoize"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.6.0.tgz",
+        "shasum" : "6b719d2b9d1de54f2dc3d26d4cca24d8f559af40"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.6.0",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.6.0_1523137018075_0.4206809288624145"
+      }
+    },
+    "0.6.1" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.6.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/memoize"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.6.1.tgz",
+        "shasum" : "b2de5184e49f518b7115a5e6d0e727643ec531cf"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.6.1",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.6.1_1523141008193_0.5480695762414582"
+      }
+    },
+    "0.7.0" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.7.0.tgz",
+        "shasum" : "b4363577017f94a7ab9417f030516c7dad9995d7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.7.0",
+      "module" : "dist/memoize.esm.js",
+      "browser" : {
+        "./dist/memoize.cjs.js" : "./dist/memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.7.0_1539416088909_0.27986605331253944"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.6.4" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.6.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/memoize"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.6.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.6.4.tgz",
+        "shasum" : "484e326a6d8ebab371c8254eb090228169e0a9ab"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.6.4",
+      "module" : "dist/index.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.6.4_1531541349540_0.38908623826919175"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.7.3" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.7.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.7.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.7.3.tgz",
+        "shasum" : "5b6b1c11d6a6dddf1f2fc996f74cf3b219644d78"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mitchell+emotion-release-bot@hamil.town",
+        "name" : "emotion-release-bot"
+      }, {
+        "email" : "mitchell@mitchellhamilton.me",
+        "name" : "mitchellhamilton"
+      }, {
+        "email" : "kye.hohenberger@gmail.com",
+        "name" : "tkh44"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "emotion-release-bot",
+        "email" : "mitchell+emotion-release-bot@hamil.town"
+      },
+      "_id" : "@emotion/memoize@0.7.3",
+      "types" : "types/index.d.ts",
+      "module" : "dist/memoize.esm.js",
+      "browser" : {
+        "./dist/memoize.cjs.js" : "./dist/memoize.browser.cjs.js",
+        "./dist/memoize.esm.js" : "./dist/memoize.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.7.3_1568724679172_0.40242064594569804"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "0.6.5" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.6.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.6.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.6.5.tgz",
+        "shasum" : "f868c314b889e7c3d84868a1d1cc323fbb40ca86"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.6.5",
+      "module" : "dist/memoize.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.6.5_1531627508780_0.4438851560309549"
+      },
+      "umd:main" : "./dist/index.min.js",
+      "_nodeVersion" : "9.6.1"
+    },
+    "0.7.4" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.7.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.7.4.tgz",
+        "shasum" : "19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
+      },
+      "devDependencies" : {
+        "dtslint" : "^0.3.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mitchell+emotion-release-bot@hamil.town",
+        "name" : "emotion-release-bot"
+      }, {
+        "email" : "mitchell@mitchellhamilton.me",
+        "name" : "mitchellhamilton"
+      }, {
+        "email" : "kye.hohenberger@gmail.com",
+        "name" : "tkh44"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test:typescript" : "dtslint types"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "emotion-release-bot",
+        "email" : "mitchell+emotion-release-bot@hamil.town"
+      },
+      "_id" : "@emotion/memoize@0.7.4",
+      "types" : "types/index.d.ts",
+      "module" : "dist/memoize.esm.js",
+      "browser" : {
+        "./dist/memoize.cjs.js" : "./dist/memoize.browser.cjs.js",
+        "./dist/memoize.esm.js" : "./dist/memoize.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.7.4_1577056284852_0.3050858085391155"
+      },
+      "_nodeVersion" : "10.18.0"
+    },
+    "0.6.2" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/memoize"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.6.2.tgz",
+        "shasum" : "138e00b332d519b4e307bded6159e5ba48aba3ae"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.6.2",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.6.2_1524906151201_0.17167304064614353"
+      },
+      "umd:main" : "./dist/index.min.js"
+    },
+    "0.7.1" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.7.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.7.1.tgz",
+        "shasum" : "e93c13942592cf5ef01aa8297444dc192beee52f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.7.1",
+      "module" : "dist/memoize.esm.js",
+      "browser" : {
+        "./dist/memoize.cjs.js" : "./dist/memoize.browser.cjs.js",
+        "./dist/memoize.esm.js" : "./dist/memoize.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.7.1_1542717294741_0.4325137578492053"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.6.3" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.6.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/next/tree/master/packages/memoize"
+      },
+      "main" : "dist/index.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.6.3.tgz",
+        "shasum" : "64379a1d6af6f8d4fe8bd6efe9d9e824ea4b22d8"
+      },
+      "license" : "MIT",
+      "files" : [ "src", "dist" ],
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.6.3",
+      "module" : "dist/index.es.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.6.3_1530668269922_0.3386852591423324"
+      },
+      "umd:main" : "./dist/index.min.js"
+    },
+    "0.7.2" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.7.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.7.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.7.2.tgz",
+        "shasum" : "7f4c71b7654068dfcccad29553520f984cc66b30"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.7.2",
+      "module" : "dist/memoize.esm.js",
+      "browser" : {
+        "./dist/memoize.cjs.js" : "./dist/memoize.browser.cjs.js",
+        "./dist/memoize.esm.js" : "./dist/memoize.browser.esm.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.7.2_1561504115480_0.04055435234914695"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.1" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-10.0.0-really-unsafe-please-do-not-use.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+        "shasum" : "e8aedb308b9b965e6d4c120ff5fc11829e743e08"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-memoize-10.0.0-really-unsafe-please-do-not-use.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@10.0.0-really-unsafe-please-do-not-use.1",
+      "gitHead" : "2b1bf6ef43eaa9133ba7a9d7c8d96ebc1d3877e2",
+      "module" : "dist/memoize.esm.js",
+      "browser" : {
+        "./dist/memoize.cjs.js" : "./dist/memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_10.0.0-really-unsafe-please-do-not-use.1_1538108296359_0.7928649144463584"
+      },
+      "_resolved" : "",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.2" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-10.0.0-really-unsafe-please-do-not-use.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+        "shasum" : "fe196c8e45eb3d172e164422ecbdfe46ba06fe30"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-memoize-10.0.0-really-unsafe-please-do-not-use.2.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@10.0.0-really-unsafe-please-do-not-use.2",
+      "gitHead" : "0da0de50f6f2c19e46bca7662d1a954d48db1264",
+      "module" : "dist/memoize.esm.js",
+      "browser" : {
+        "./dist/memoize.cjs.js" : "./dist/memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_10.0.0-really-unsafe-please-do-not-use.2_1538109426286_0.9746173551416268"
+      },
+      "_resolved" : "",
+      "readme" : "ERROR: No README data found!",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.6.6" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "0.6.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-0.6.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-0.6.6.tgz",
+        "shasum" : "004b98298d04c7ca3b4f50ca2035d4f60d2eed1b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-memoize-0.6.6.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@0.6.6",
+      "gitHead" : "94fed7652759a0f1962da66b922299398e39fe4d",
+      "module" : "dist/memoize.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_0.6.6_1537477053764_0.6697409518673114"
+      },
+      "_resolved" : "",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.10.0"
+    },
+    "10.0.0-really-unsafe-please-do-not-use.0" : {
+      "name" : "@emotion/memoize",
+      "description" : "emotion's memoize utility",
+      "version" : "10.0.0-really-unsafe-please-do-not-use.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/emotion-js/emotion/tree/master/next-packages/memoize"
+      },
+      "main" : "dist/memoize.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@emotion/memoize/-/memoize-10.0.0-really-unsafe-please-do-not-use.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40emotion%2Fmemoize%2F-%2Fmemoize-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+        "shasum" : "20dad9e4968fdef45a2c3e939755508a42051032"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      }, {
+        "name" : "tkh44",
+        "email" : "kye.hohenberger@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:emotion-memoize-10.0.0-really-unsafe-please-do-not-use.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mitchellhamilton",
+        "email" : "mitchell@mitchellhamilton.me"
+      },
+      "_id" : "@emotion/memoize@10.0.0-really-unsafe-please-do-not-use.0",
+      "gitHead" : "a5f3825603dffd69fddb44bf5f29afd7c49eabd5",
+      "module" : "dist/memoize.esm.js",
+      "browser" : {
+        "./dist/memoize.cjs.js" : "./dist/memoize.browser.cjs.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/memoize_10.0.0-really-unsafe-please-do-not-use.0_1538091245475_0.900626669553457"
+      },
+      "_resolved" : "",
+      "readme" : "ERROR: No README data found!",
+      "umd:main" : "./dist/index.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    }
+  },
+  "readme" : "ERROR: No README data found!",
+  "maintainers" : [ {
+    "email" : "mitchell+emotion-release-bot@hamil.town",
+    "name" : "emotion-release-bot"
+  }, {
+    "email" : "mitchell@mitchellhamilton.me",
+    "name" : "mitchellhamilton"
+  }, {
+    "email" : "kye.hohenberger@gmail.com",
+    "name" : "tkh44"
+  } ],
+  "time" : {
+    "0.6.0" : "2018-04-07T21:36:58.152Z",
+    "0.6.1" : "2018-04-07T22:43:28.264Z",
+    "0.7.0" : "2018-10-13T07:34:49.132Z",
+    "0.6.4" : "2018-07-14T04:09:09.629Z",
+    "0.7.3" : "2019-09-17T12:51:19.359Z",
+    "0.6.5" : "2018-07-15T04:05:09.019Z",
+    "0.7.4" : "2019-12-22T23:11:24.978Z",
+    "created" : "2018-04-07T21:36:57.982Z",
+    "0.6.2" : "2018-04-28T09:02:31.270Z",
+    "0.7.1" : "2018-11-20T12:34:54.870Z",
+    "0.6.3" : "2018-07-04T01:37:49.992Z",
+    "0.7.2" : "2019-06-25T23:08:35.604Z",
+    "10.0.0-really-unsafe-please-do-not-use.1" : "2018-09-28T04:18:16.505Z",
+    "modified" : "2019-12-22T23:11:32.631Z",
+    "10.0.0-really-unsafe-please-do-not-use.2" : "2018-09-28T04:37:06.527Z",
+    "0.6.6" : "2018-09-20T20:57:33.861Z",
+    "10.0.0-really-unsafe-please-do-not-use.0" : "2018-09-27T23:34:05.637Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/emotion-js/emotion/tree/master/packages/memoize"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

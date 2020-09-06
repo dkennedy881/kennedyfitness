@@ -1,0 +1,913 @@
+{
+  "_id" : "tiny-invariant",
+  "_rev" : "12-e17cb21f779ebb2c3cfa45db4cdb290d",
+  "name" : "tiny-invariant",
+  "description" : "A tiny invariant function",
+  "dist-tags" : {
+    "beta" : "1.1.0-beta.2",
+    "latest" : "1.1.0"
+  },
+  "versions" : {
+    "0.0.2" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/react-beautiful-dnd.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-0.0.2.tgz",
+        "shasum" : "5f3ce2f0738ca2c4ecf61944acaccd9df70def11"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "babel-preset-flow" : "^6.23.0",
+        "flow-bin" : "^0.70.0",
+        "jest" : "^22.4.3",
+        "prettier" : "^1.12.1",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.58.0",
+        "rollup-plugin-babel" : "^3.0.3"
+      },
+      "license" : "MIT",
+      "files" : [ "/dist", "/src" ],
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/react-beautiful-dnd.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@0.0.2",
+      "gitHead" : "cbc515208dc91e10231fa333773290efe9fb97da",
+      "module" : "dist/react-beautiful-dnd.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_0.0.2_1523943420865_0.7523489273146273"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.4.0"
+    },
+    "0.0.3" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-0.0.3.tgz",
+        "shasum" : "4c7283c950e290889e9e94f64d3586ec9156cf44"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "babel-preset-flow" : "^6.23.0",
+        "flow-bin" : "^0.70.0",
+        "jest" : "^22.4.3",
+        "prettier" : "^1.12.1",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.58.0",
+        "rollup-plugin-babel" : "^3.0.3"
+      },
+      "license" : "MIT",
+      "files" : [ "/dist", "/src" ],
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-invariant.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@0.0.3",
+      "gitHead" : "52c3fa14ac0b218c7d948e1f1ffeb4908202a211",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_0.0.3_1523943510230_0.7885084493002119"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.1.0-beta.1" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.1.0-beta.1",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "homepage" : "https://github.com/alexreardon/tiny-invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/alexreardon/tiny-invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-invariant/issues"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.1.0-beta.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.1.0-beta.1.tgz",
+        "shasum" : "200e9bf36ca15f1e1433d1de5484a82a1689cddc"
+      },
+      "devDependencies" : {
+        "@rollup/plugin-replace" : "^2.3.0",
+        "@rollup/plugin-typescript" : "^3.0.0",
+        "@types/jest" : "^25.1.0",
+        "jest" : "^25.1.0",
+        "prettier" : "^1.19.1",
+        "rimraf" : "^3.0.1",
+        "rollup" : "^1.30.1",
+        "rollup-plugin-terser" : "^5.2.0",
+        "ts-expect" : "^1.1.0",
+        "ts-jest" : "^25.0.0",
+        "tslib" : "^1.10.0",
+        "typescript" : "^3.7.5"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier:check",
+        "prettier:write" : "yarn prettier --debug-check src/** test/**",
+        "prettier:check" : "yarn prettier --write src/** test/**",
+        "typecheck" : "yarn tsc --noEmit src/*.ts test/*.ts",
+        "validate" : "yarn lint && yarn typecheck",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "cp src/tiny-invariant.js.flow dist/tiny-invariant.cjs.js.flow",
+        "build:typescript" : "tsc ./src/tiny-invariant.ts --emitDeclarationOnly --declaration --outDir ./dist",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:typescript",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.1.0-beta.1",
+      "gitHead" : "c1b8c2d2f949fbee5c7a5eeccfc62ded414545c9",
+      "types" : "dist/tiny-invariant.d.ts",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.1.0-beta.1_1580277868974_0.01547768582132436"
+      },
+      "readme" : "# tiny-invariant \uD83D\uDD2C\uD83D\uDCA5\n\n[![Build Status](https://travis-ci.org/alexreardon/tiny-invariant.svg?branch=master)](https://travis-ci.org/alexreardon/tiny-invariant)\n[![npm](https://img.shields.io/npm/v/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant) [![dependencies](https://david-dm.org/alexreardon/tiny-invariant.svg)](https://david-dm.org/alexreardon/tiny-invariant)\n![types](https://img.shields.io/badge/types-typescript%20%7C%20flow-blueviolet)\n[![minzip](https://img.shields.io/bundlephobia/minzip/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant)\n[![Downloads per month](https://img.shields.io/npm/dm/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant)\n\nA tiny [`invariant`](https://www.npmjs.com/package/invariant) alternative.\n\n## What is `invariant`?\n\nAn `invariant` function takes a value, and if the value is [falsy](https://github.com/getify/You-Dont-Know-JS/blob/bdbe570600d4e1107d0b131787903ca1c9ec8140/up%20%26%20going/ch2.md#truthy--falsy) then the `invariant` function will throw. If the value is [truthy](https://github.com/getify/You-Dont-Know-JS/blob/bdbe570600d4e1107d0b131787903ca1c9ec8140/up%20%26%20going/ch2.md#truthy--falsy), then the function will not throw.\n\n```js\nimport invariant from 'tiny-invariant';\n\ninvariant(truthyValue, 'This should not throw!');\n\ninvariant(falsyValue, 'This will throw!');\n// Error('Invariant violation: This will throw!');\n```\n\n## Why `tiny-invariant`?\n\nThe [`library: invariant`](https://www.npmjs.com/package/invariant) supports passing in arguments to the `invariant` function in a sprintf style `(condition, format, a, b, c, d, e, f)`. It has internal logic to execute the sprintf substitutions. The sprintf logic is not removed in production builds. `tiny-invariant` has dropped all of the sprintf logic. `tiny-invariant` allows you to pass a single string message. With [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) there is really no need for a custom message formatter to be built into the library. If you need a multi part message you can just do this: `invariant(condition, 'Hello, ${name} - how are you today?')`\n\n## Type narrowing\n\n`tiny-invariant` is useful for correctly narrowing types for `flow` and `typescript`\n\n```ts\nconst value: Person | null = { name: 'Alex' }; // type of value == 'Person | null'\ninvariant(value, 'Expected value to be a person');\n// type of value has been narrowed to 'Person'\n```\n\n## API: `(condition: any, message?: string) => void`\n\n- `condition` is required and can be anything\n- `message` is an optional string\n\n## Installation\n\n```bash\n# yarn\nyarn add tiny-invariant\n\n# npm\nnpm add tiny-invariant --save\n```\n\n## Dropping your `message` for kb savings!\n\nBig idea: you will want your compiler to convert this code:\n\n```js\ninvariant(condition, 'My cool message that takes up a lot of kbs');\n```\n\nInto this:\n\n```js\nif (!condition) {\n  if ('production' !== process.env.NODE_ENV) {\n    invariant(false, 'My cool message that takes up a lot of kbs');\n  } else {\n    invariant(false);\n  }\n}\n```\n\n- **Babel**: recommend [`babel-plugin-dev-expression`](https://www.npmjs.com/package/babel-plugin-dev-expression)\n- **TypeScript**: recommend [`tsdx`](https://github.com/jaredpalmer/tsdx#invariant) (or you can run `babel-plugin-dev-expression` after TypeScript compiling)\n\nYour bundler can then drop the code in the `\"production\" !== process.env.NODE_ENV` block for your production builds to end up with this:\n\n```js\nif (!condition) {\n  invariant(false);\n}\n```\n\n- rollup: use [rollup-plugin-replace](https://github.com/rollup/rollup-plugin-replace) and set `NODE_ENV` to `production` and then `rollup` will treeshake out the unused code\n- Webpack: [instructions](https://webpack.js.org/guides/production/#specify-the-mode)\n\n## Builds\n\n- We have a `es` (EcmaScript module) build (because you _know_ you want to deduplicate this super heavy library)\n- We have a `cjs` (CommonJS) build\n- We have a `umd` (Universal module definition) build in case you needed it\n\nWe expect `process.env.NODE_ENV` to be available at module compilation. We cache this value\n\n## That's it!\n\n\uD83E\uDD18\n",
+      "readmeFilename" : "README.md",
+      "sideEffects" : false,
+      "_nodeVersion" : "12.2.0"
+    },
+    "0.0.1" : {
+      "name" : "tiny-invariant",
+      "description" : "A super tiny invariant function",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/react-beautiful-dnd.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-0.0.1.tgz",
+        "shasum" : "5740ea9edd01c62112e8a086e6d3243a291bc9c7"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-preset-flow" : "^6.23.0",
+        "flow-bin" : "^0.70.0",
+        "jest" : "^22.4.3",
+        "prettier" : "^1.12.1"
+      },
+      "license" : "MIT",
+      "files" : [ "/dist", "/src" ],
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow"
+      },
+      "_npmVersion" : "5.8.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@0.0.1",
+      "gitHead" : "19d9db7aeacc1a3067282673ab6172cbf1c31b10",
+      "module" : "dist/react-beautiful-dnd.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_0.0.1_1523939141062_0.01399979094952264"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.4.0"
+    },
+    "1.1.0-beta.2" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.1.0-beta.2",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "homepage" : "https://github.com/alexreardon/tiny-invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/alexreardon/tiny-invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-invariant/issues"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.1.0-beta.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.1.0-beta.2.tgz",
+        "shasum" : "b0918bf6140657ec6a20c6f6baae9950d858ca7d"
+      },
+      "devDependencies" : {
+        "@rollup/plugin-replace" : "^2.3.0",
+        "@rollup/plugin-typescript" : "^3.0.0",
+        "@types/jest" : "^25.1.0",
+        "jest" : "^25.1.0",
+        "prettier" : "^1.19.1",
+        "rimraf" : "^3.0.1",
+        "rollup" : "^1.30.1",
+        "rollup-plugin-terser" : "^5.2.0",
+        "ts-expect" : "^1.1.0",
+        "ts-jest" : "^25.0.0",
+        "tslib" : "^1.10.0",
+        "typescript" : "^3.7.5"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier:check",
+        "prettier:write" : "yarn prettier --debug-check src/** test/**",
+        "prettier:check" : "yarn prettier --write src/** test/**",
+        "typecheck" : "yarn tsc --noEmit src/*.ts test/*.ts",
+        "validate" : "yarn lint && yarn typecheck",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "cp src/tiny-invariant.js.flow dist/tiny-invariant.cjs.js.flow",
+        "build:typescript" : "tsc ./src/tiny-invariant.ts --emitDeclarationOnly --declaration --outDir ./dist",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:typescript",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.1.0-beta.2",
+      "gitHead" : "7ec955ff796638bb713a90018a554219cd02c061",
+      "types" : "dist/tiny-invariant.d.ts",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.1.0-beta.2_1580354743889_0.6478531950294271"
+      },
+      "readme" : "# tiny-invariant \uD83D\uDD2C\uD83D\uDCA5\n\n[![Build Status](https://travis-ci.org/alexreardon/tiny-invariant.svg?branch=master)](https://travis-ci.org/alexreardon/tiny-invariant)\n[![npm](https://img.shields.io/npm/v/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant) [![dependencies](https://david-dm.org/alexreardon/tiny-invariant.svg)](https://david-dm.org/alexreardon/tiny-invariant)\n![types](https://img.shields.io/badge/types-typescript%20%7C%20flow-blueviolet)\n[![minzip](https://img.shields.io/bundlephobia/minzip/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant)\n[![Downloads per month](https://img.shields.io/npm/dm/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant)\n\nA tiny [`invariant`](https://www.npmjs.com/package/invariant) alternative.\n\n## What is `invariant`?\n\nAn `invariant` function takes a value, and if the value is [falsy](https://github.com/getify/You-Dont-Know-JS/blob/bdbe570600d4e1107d0b131787903ca1c9ec8140/up%20%26%20going/ch2.md#truthy--falsy) then the `invariant` function will throw. If the value is [truthy](https://github.com/getify/You-Dont-Know-JS/blob/bdbe570600d4e1107d0b131787903ca1c9ec8140/up%20%26%20going/ch2.md#truthy--falsy), then the function will not throw.\n\n```js\nimport invariant from 'tiny-invariant';\n\ninvariant(truthyValue, 'This should not throw!');\n\ninvariant(falsyValue, 'This will throw!');\n// Error('Invariant violation: This will throw!');\n```\n\n## Why `tiny-invariant`?\n\nThe [`library: invariant`](https://www.npmjs.com/package/invariant) supports passing in arguments to the `invariant` function in a sprintf style `(condition, format, a, b, c, d, e, f)`. It has internal logic to execute the sprintf substitutions. The sprintf logic is not removed in production builds. `tiny-invariant` has dropped all of the sprintf logic. `tiny-invariant` allows you to pass a single string message. With [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) there is really no need for a custom message formatter to be built into the library. If you need a multi part message you can just do this: `invariant(condition, 'Hello, ${name} - how are you today?')`\n\n## Type narrowing\n\n`tiny-invariant` is useful for correctly narrowing types for `flow` and `typescript`\n\n```ts\nconst value: Person | null = { name: 'Alex' }; // type of value == 'Person | null'\ninvariant(value, 'Expected value to be a person');\n// type of value has been narrowed to 'Person'\n```\n\n## API: `(condition: any, message?: string) => void`\n\n- `condition` is required and can be anything\n- `message` is an optional string\n\n## Installation\n\n```bash\n# yarn\nyarn add tiny-invariant\n\n# npm\nnpm add tiny-invariant --save\n```\n\n## Dropping your `message` for kb savings!\n\nBig idea: you will want your compiler to convert this code:\n\n```js\ninvariant(condition, 'My cool message that takes up a lot of kbs');\n```\n\nInto this:\n\n```js\nif (!condition) {\n  if ('production' !== process.env.NODE_ENV) {\n    invariant(false, 'My cool message that takes up a lot of kbs');\n  } else {\n    invariant(false);\n  }\n}\n```\n\n- **Babel**: recommend [`babel-plugin-dev-expression`](https://www.npmjs.com/package/babel-plugin-dev-expression)\n- **TypeScript**: recommend [`tsdx`](https://github.com/jaredpalmer/tsdx#invariant) (or you can run `babel-plugin-dev-expression` after TypeScript compiling)\n\nYour bundler can then drop the code in the `\"production\" !== process.env.NODE_ENV` block for your production builds to end up with this:\n\n```js\nif (!condition) {\n  invariant(false);\n}\n```\n\n- rollup: use [rollup-plugin-replace](https://github.com/rollup/rollup-plugin-replace) and set `NODE_ENV` to `production` and then `rollup` will treeshake out the unused code\n- Webpack: [instructions](https://webpack.js.org/guides/production/#specify-the-mode)\n\n## Builds\n\n- We have a `es` (EcmaScript module) build (because you _know_ you want to deduplicate this super heavy library)\n- We have a `cjs` (CommonJS) build\n- We have a `umd` (Universal module definition) build in case you needed it\n\nWe expect `process.env.NODE_ENV` to be available at module compilation. We cache this value\n\n## That's it!\n\n\uD83E\uDD18\n",
+      "readmeFilename" : "README.md",
+      "sideEffects" : false,
+      "_nodeVersion" : "12.2.0"
+    },
+    "1.0.3" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.0.3.tgz",
+        "shasum" : "91efaaa0269ccb6271f0296aeedb05fc3e067b7a"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.5",
+        "@babel/preset-env" : "^7.1.5",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "flow-bin" : "^0.85.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.15.0",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.67.0",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-replace" : "^2.1.0",
+        "rollup-plugin-uglify" : "^6.0.0"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-invariant.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.0.3",
+      "gitHead" : "f91eabd725d728d045784b1e31b3dca09bd200a5",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.0.3_1541556308004_0.2298943068754471"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.0.4" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "homepage" : "https://github.com/alexreardon/tiny-invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/alexreardon/tiny-invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-invariant/issues"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.0.4.tgz",
+        "shasum" : "346b5415fd93cb696b0c4e8a96697ff590f92463"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.4.0",
+        "@babel/preset-env" : "^7.4.2",
+        "@babel/preset-flow" : "^7.0.0",
+        "@babel/runtime-corejs2" : "^7.4.2",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^24.5.0",
+        "flow-bin" : "^0.95.1",
+        "jest" : "^24.5.0",
+        "prettier" : "^1.16.4",
+        "rimraf" : "^2.6.3",
+        "rollup" : "^1.7.3",
+        "rollup-plugin-babel" : "^4.3.2",
+        "rollup-plugin-replace" : "^2.1.1",
+        "rollup-plugin-uglify" : "^6.0.2"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-invariant.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.0.4",
+      "gitHead" : "b12d6eb66c7e4726db50c141a12a9bdbd704a382",
+      "types" : "src/index.d.ts",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.0.4_1553646641421_0.23947182555739333"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.0.5" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.0.5",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/alexreardon/tiny-invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-invariant/issues"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.0.5.tgz",
+        "shasum" : "0d198cf4f50ba34b28a16d8b28dcc4b02b813c44"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.5.0",
+        "@babel/preset-env" : "^7.5.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "@babel/runtime-corejs2" : "^7.5.1",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^24.8.0",
+        "flow-bin" : "^0.102.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.18.2",
+        "rimraf" : "^2.6.3",
+        "rollup" : "^1.16.6",
+        "rollup-plugin-babel" : "^4.3.3",
+        "rollup-plugin-replace" : "^2.2.0",
+        "rollup-plugin-uglify" : "^6.0.2"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-invariant.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.0.5",
+      "types" : "src/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2019 Alexander Reardon\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.0.5_1562635297363_0.9508392288022964"
+      },
+      "sideEffects" : false
+    },
+    "1.0.6" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.0.6",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/alexreardon/tiny-invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-invariant/issues"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.0.6.tgz",
+        "shasum" : "b3f9b38835e36a41c843a3b0907a5a7b3755de73"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.5.0",
+        "@babel/preset-env" : "^7.5.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "@babel/runtime-corejs2" : "^7.5.1",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^24.8.0",
+        "flow-bin" : "^0.102.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.18.2",
+        "rimraf" : "^2.6.3",
+        "rollup" : "^1.16.6",
+        "rollup-plugin-babel" : "^4.3.3",
+        "rollup-plugin-replace" : "^2.2.0",
+        "rollup-plugin-uglify" : "^6.0.2"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-invariant.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.0.6",
+      "types" : "src/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2019 Alexander Reardon\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.0.6_1563149779502_0.31025589050633573"
+      },
+      "sideEffects" : false
+    },
+    "1.0.0" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.0.0.tgz",
+        "shasum" : "03f96fef4d3ba911f97ed467e1b88bca3d4d9d9f"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.3",
+        "babel-plugin-transform-es2015-modules-commonjs" : "^6.26.2",
+        "babel-preset-env" : "^1.7.0",
+        "babel-preset-flow" : "^6.23.0",
+        "flow-bin" : "^0.78.0",
+        "jest" : "^23.5.0",
+        "prettier" : "^1.14.2",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.64.1",
+        "rollup-plugin-babel" : "^3.0.7",
+        "rollup-plugin-replace" : "^2.0.0",
+        "rollup-plugin-uglify" : "^4.0.0"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "files" : [ "/dist", "/src" ],
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-invariant.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.0.0",
+      "gitHead" : "a1c6869ba4bdca2ca12b93fac72b392138fadf2c",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.0.0_1534122398320_0.475806915398129"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.0.1" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.0.1.tgz",
+        "shasum" : "54700d039a0384ef2e83afd0e81af84c6d67b140"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.2",
+        "@babel/preset-env" : "^7.1.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "flow-bin" : "^0.82.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.14.3",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.66.2",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-replace" : "^2.0.0",
+        "rollup-plugin-uglify" : "^6.0.0"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-invariant.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.0.1",
+      "gitHead" : "4fbcce36e6018075d9447de34be0624228db613c",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.0.1_1538480510970_0.4257051260580542"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    },
+    "1.1.0" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "homepage" : "https://github.com/alexreardon/tiny-invariant#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/alexreardon/tiny-invariant.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/alexreardon/tiny-invariant/issues"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.1.0.tgz",
+        "shasum" : "634c5f8efdc27714b7f386c35e6760991d230875"
+      },
+      "devDependencies" : {
+        "@rollup/plugin-replace" : "^2.3.0",
+        "@rollup/plugin-typescript" : "^3.0.0",
+        "@types/jest" : "^25.1.0",
+        "jest" : "^25.1.0",
+        "prettier" : "^1.19.1",
+        "rimraf" : "^3.0.1",
+        "rollup" : "^1.30.1",
+        "rollup-plugin-terser" : "^5.2.0",
+        "ts-expect" : "^1.1.0",
+        "ts-jest" : "^25.0.0",
+        "tslib" : "^1.10.0",
+        "typescript" : "^3.7.5"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier:check",
+        "prettier:write" : "yarn prettier --debug-check src/** test/**",
+        "prettier:check" : "yarn prettier --write src/** test/**",
+        "typecheck" : "yarn tsc --noEmit src/*.ts test/*.ts",
+        "validate" : "yarn lint && yarn typecheck",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "cp src/tiny-invariant.js.flow dist/tiny-invariant.cjs.js.flow",
+        "build:typescript" : "tsc ./src/tiny-invariant.ts --emitDeclarationOnly --declaration --outDir ./dist",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:typescript",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.1.0",
+      "gitHead" : "8ca9f5b0785ef80fdae4ed77f6b93cf6587c24d7",
+      "types" : "dist/tiny-invariant.d.ts",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.1.0_1580355809754_0.5473521597971389"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "12.2.0"
+    },
+    "1.0.2" : {
+      "name" : "tiny-invariant",
+      "description" : "A tiny invariant function",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Alex Reardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "main" : "dist/tiny-invariant.cjs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tiny-invariant/-/tiny-invariant-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.0.2.tgz",
+        "shasum" : "8d343bf86acce627a2e0857d48a46a297fda2cc3"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.2",
+        "@babel/preset-env" : "^7.1.0",
+        "@babel/preset-flow" : "^7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "^23.6.0",
+        "flow-bin" : "^0.82.0",
+        "jest" : "^23.6.0",
+        "prettier" : "^1.14.3",
+        "rimraf" : "^2.6.2",
+        "rollup" : "^0.66.2",
+        "rollup-plugin-babel" : "^4.0.3",
+        "rollup-plugin-replace" : "^2.0.0",
+        "rollup-plugin-uglify" : "^6.0.0"
+      },
+      "keywords" : [ "invariant", "error" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "yarn jest",
+        "lint" : "yarn prettier --debug-check src/** test/**",
+        "typecheck" : "yarn flow",
+        "validate" : "yarn lint && yarn flow",
+        "build:clean" : "rimraf dist",
+        "build:flow" : "echo \"// @flow\n\nexport * from '../src';\" > dist/tiny-invariant.cjs.js.flow",
+        "build:dist" : "yarn rollup --config rollup.config.js",
+        "build" : "yarn build:clean && yarn build:dist && yarn build:flow",
+        "prepublishOnly" : "yarn build"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "alexreardon",
+        "email" : "alexreardon@gmail.com"
+      },
+      "_id" : "tiny-invariant@1.0.2",
+      "gitHead" : "7aa88cfc2b3908147e3b83746b7cb02836fff835",
+      "module" : "dist/tiny-invariant.esm.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tiny-invariant_1.0.2_1540854866694_0.03035747527720223"
+      },
+      "sideEffects" : false,
+      "_nodeVersion" : "8.11.3"
+    }
+  },
+  "readme" : "# tiny-invariant \uD83D\uDD2C\uD83D\uDCA5\n\n[![Build Status](https://travis-ci.org/alexreardon/tiny-invariant.svg?branch=master)](https://travis-ci.org/alexreardon/tiny-invariant)\n[![npm](https://img.shields.io/npm/v/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant) [![dependencies](https://david-dm.org/alexreardon/tiny-invariant.svg)](https://david-dm.org/alexreardon/tiny-invariant)\n![types](https://img.shields.io/badge/types-typescript%20%7C%20flow-blueviolet)\n[![minzip](https://img.shields.io/bundlephobia/minzip/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant)\n[![Downloads per month](https://img.shields.io/npm/dm/tiny-invariant.svg)](https://www.npmjs.com/package/tiny-invariant)\n\nA tiny [`invariant`](https://www.npmjs.com/package/invariant) alternative.\n\n## What is `invariant`?\n\nAn `invariant` function takes a value, and if the value is [falsy](https://github.com/getify/You-Dont-Know-JS/blob/bdbe570600d4e1107d0b131787903ca1c9ec8140/up%20%26%20going/ch2.md#truthy--falsy) then the `invariant` function will throw. If the value is [truthy](https://github.com/getify/You-Dont-Know-JS/blob/bdbe570600d4e1107d0b131787903ca1c9ec8140/up%20%26%20going/ch2.md#truthy--falsy), then the function will not throw.\n\n```js\nimport invariant from 'tiny-invariant';\n\ninvariant(truthyValue, 'This should not throw!');\n\ninvariant(falsyValue, 'This will throw!');\n// Error('Invariant violation: This will throw!');\n```\n\n## Why `tiny-invariant`?\n\nThe [`library: invariant`](https://www.npmjs.com/package/invariant) supports passing in arguments to the `invariant` function in a sprintf style `(condition, format, a, b, c, d, e, f)`. It has internal logic to execute the sprintf substitutions. The sprintf logic is not removed in production builds. `tiny-invariant` has dropped all of the sprintf logic. `tiny-invariant` allows you to pass a single string message. With [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) there is really no need for a custom message formatter to be built into the library. If you need a multi part message you can just do this: `invariant(condition, 'Hello, ${name} - how are you today?')`\n\n## Type narrowing\n\n`tiny-invariant` is useful for correctly narrowing types for `flow` and `typescript`\n\n```ts\nconst value: Person | null = { name: 'Alex' }; // type of value == 'Person | null'\ninvariant(value, 'Expected value to be a person');\n// type of value has been narrowed to 'Person'\n```\n\n## API: `(condition: any, message?: string) => void`\n\n- `condition` is required and can be anything\n- `message` is an optional string\n\n## Installation\n\n```bash\n# yarn\nyarn add tiny-invariant\n\n# npm\nnpm add tiny-invariant --save\n```\n\n## Dropping your `message` for kb savings!\n\nBig idea: you will want your compiler to convert this code:\n\n```js\ninvariant(condition, 'My cool message that takes up a lot of kbs');\n```\n\nInto this:\n\n```js\nif (!condition) {\n  if ('production' !== process.env.NODE_ENV) {\n    invariant(false, 'My cool message that takes up a lot of kbs');\n  } else {\n    invariant(false);\n  }\n}\n```\n\n- **Babel**: recommend [`babel-plugin-dev-expression`](https://www.npmjs.com/package/babel-plugin-dev-expression)\n- **TypeScript**: recommend [`tsdx`](https://github.com/jaredpalmer/tsdx#invariant) (or you can run `babel-plugin-dev-expression` after TypeScript compiling)\n\nYour bundler can then drop the code in the `\"production\" !== process.env.NODE_ENV` block for your production builds to end up with this:\n\n```js\nif (!condition) {\n  invariant(false);\n}\n```\n\n- rollup: use [rollup-plugin-replace](https://github.com/rollup/rollup-plugin-replace) and set `NODE_ENV` to `production` and then `rollup` will treeshake out the unused code\n- Webpack: [instructions](https://webpack.js.org/guides/production/#specify-the-mode)\n\n## Builds\n\n- We have a `es` (EcmaScript module) build (because you _know_ you want to deduplicate this super heavy library)\n- We have a `cjs` (CommonJS) build\n- We have a `umd` (Universal module definition) build in case you needed it\n\nWe expect `process.env.NODE_ENV` to be available at module compilation. We cache this value\n\n## That's it!\n\n\uD83E\uDD18\n",
+  "maintainers" : [ {
+    "name" : "alexreardon",
+    "email" : "alexreardon@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Alex Reardon",
+    "email" : "alexreardon@gmail.com"
+  },
+  "time" : {
+    "created" : "2018-04-17T04:25:41.062Z",
+    "0.0.2" : "2018-04-17T05:37:00.971Z",
+    "0.0.3" : "2018-04-17T05:38:30.320Z",
+    "1.1.0-beta.1" : "2020-01-29T06:04:29.116Z",
+    "0.0.1" : "2018-04-17T04:25:41.199Z",
+    "1.1.0-beta.2" : "2020-01-30T03:25:44.063Z",
+    "1.0.3" : "2018-11-07T02:05:08.121Z",
+    "1.0.4" : "2019-03-27T00:30:42.789Z",
+    "1.0.5" : "2019-07-09T01:21:37.738Z",
+    "1.0.6" : "2019-07-15T00:16:19.641Z",
+    "modified" : "2020-01-30T03:43:32.304Z",
+    "1.0.0" : "2018-08-13T01:06:38.427Z",
+    "1.0.1" : "2018-10-02T11:41:51.134Z",
+    "1.1.0" : "2020-01-30T03:43:29.925Z",
+    "1.0.2" : "2018-10-29T23:14:26.856Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/alexreardon/tiny-invariant.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/alexreardon/tiny-invariant#readme",
+  "keywords" : [ "invariant", "error" ],
+  "bugs" : {
+    "url" : "https://github.com/alexreardon/tiny-invariant/issues"
+  },
+  "license" : "MIT"
+}
