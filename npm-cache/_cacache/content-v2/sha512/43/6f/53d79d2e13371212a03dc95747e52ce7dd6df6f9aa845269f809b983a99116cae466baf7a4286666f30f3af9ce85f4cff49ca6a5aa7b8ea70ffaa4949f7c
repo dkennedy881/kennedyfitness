@@ -1,0 +1,1089 @@
+{
+  "_id" : "camelcase",
+  "_rev" : "59-87ce61b5f7125ac8d025a8994b7246e5",
+  "name" : "camelcase",
+  "description" : "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar` → `fooBar`",
+  "dist-tags" : {
+    "latest" : "6.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-2.0.0.tgz",
+        "shasum" : "ce69bde576ae24cb4bec697eec93c81809ecbefa"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@2.0.0",
+      "gitHead" : "2911efeb93b84c10406391c1536edfe73c658588",
+      "_shasum" : "ce69bde576ae24cb4bec697eec93c81809ecbefa",
+      "_nodeVersion" : "4.2.1"
+    },
+    "2.0.1" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-2.0.1.tgz",
+        "shasum" : "57568d687b8da56c4c1d17b4c74a3cee26d73aeb"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@2.0.1",
+      "gitHead" : "fb178b39412e3b63ef86bf6933089282d74d85c4",
+      "_shasum" : "57568d687b8da56c4c1d17b4c74a3cee26d73aeb",
+      "_nodeVersion" : "4.2.1"
+    },
+    "2.1.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-2.1.0.tgz",
+        "shasum" : "533ad4cd7f8a1080ded31aba6c79b4bf437ff30c"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@2.1.0",
+      "gitHead" : "9b73ccb3f48ab86eccb136c155f0eb2e67f40dc3",
+      "_shasum" : "533ad4cd7f8a1080ded31aba6c79b4bf437ff30c",
+      "_nodeVersion" : "4.2.4"
+    },
+    "4.0.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-4.0.0.tgz",
+        "shasum" : "8b0f90d44be5e281b903b9887349b92595ef07f2"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@4.0.0",
+      "gitHead" : "b1f77b8185bc99f32ba6fcf7a9ffd87a802f1152",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/camelcase-4.0.0.tgz_1478620489451_0.9916922175325453"
+      },
+      "_shasum" : "8b0f90d44be5e281b903b9887349b92595ef07f2",
+      "_nodeVersion" : "4.6.1"
+    },
+    "4.1.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-4.1.0.tgz",
+        "shasum" : "d545635be1e33c542649c69173e5de6acfae34dd"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@4.1.0",
+      "gitHead" : "0e6e4a2752aa013b8e9477145c7b8132c95a82ef",
+      "xo" : {
+        "esnext" : true
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/camelcase-4.1.0.tgz_1490865362489_0.433825216954574"
+      },
+      "_shasum" : "d545635be1e33c542649c69173e5de6acfae34dd",
+      "_nodeVersion" : "7.8.0"
+    },
+    "2.1.1" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-2.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-2.1.1.tgz",
+        "shasum" : "7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@2.1.1",
+      "gitHead" : "35c9c8abce5b9cc9defe534ab25823dc6383180f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/camelcase-2.1.1.tgz_1457803836074_0.4515206723008305"
+      },
+      "_shasum" : "7c1d16d679a1bbe59ca02cacecfb011e201f5a1f",
+      "_nodeVersion" : "4.3.0"
+    },
+    "1.2.1" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-1.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-1.2.1.tgz",
+        "shasum" : "9bb5304d2e0b56698b2c758b08a3eaa9daa58a39"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@1.2.1",
+      "gitHead" : "185ba12da723be9c1ee986cc2956bdc4c517a141",
+      "_shasum" : "9bb5304d2e0b56698b2c758b08a3eaa9daa58a39",
+      "_nodeVersion" : "0.12.5"
+    },
+    "3.0.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-3.0.0.tgz",
+        "shasum" : "32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@3.0.0",
+      "gitHead" : "d4de0e37b625e38a880efc6517194917a5beda01",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/camelcase-3.0.0.tgz_1462383205197_0.03801905922591686"
+      },
+      "_shasum" : "32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a",
+      "_nodeVersion" : "4.4.2"
+    },
+    "6.0.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar`  `fooBar`",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "https://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-6.0.0.tgz",
+        "shasum" : "5259f7c30e35e278f1bdc2a4d91230b37cad981e"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.11.0",
+        "xo" : "^0.28.3"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert", "pascalcase", "pascal-case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@6.0.0",
+      "gitHead" : "5a0d0919eb2228578e1670f42675d1acb5e5c317",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camelcase_6.0.0_1586229780284_0.34572182948635266"
+      },
+      "_nodeVersion" : "10.19.0"
+    },
+    "5.0.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar`  `fooBar`",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-5.0.0.tgz",
+        "shasum" : "03295527d58bd3cd4aa75363f35b2e8d97be2f42"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert", "pascalcase", "pascal-case" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@5.0.0",
+      "gitHead" : "a526ef0399f9a1310eaacafa0ae4a69da4a2f1ad",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camelcase_5.0.0_1522235314616_0.509666479685914"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "5.1.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar`  `fooBar`",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-5.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-5.1.0.tgz",
+        "shasum" : "29e83b9cfaf7ad478f401a187ae089cf83c257ea"
+      },
+      "devDependencies" : {
+        "ava" : "^1.2.1",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert", "pascalcase", "pascal-case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@5.1.0",
+      "gitHead" : "134172c3ecd5a7d098cb905fcc503ad82614c5ae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camelcase_5.1.0_1551676890480_0.9018404055431712"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "5.2.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar`  `fooBar`",
+      "version" : "5.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-5.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-5.2.0.tgz",
+        "shasum" : "e7522abda5ed94cc0489e1b8466610e88404cf45"
+      },
+      "devDependencies" : {
+        "ava" : "^1.2.1",
+        "tsd-check" : "^0.3.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert", "pascalcase", "pascal-case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@5.2.0",
+      "gitHead" : "3eae33df5e286fcd550c52da971c675b73294cb3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camelcase_5.2.0_1551763989562_0.7397484159919618"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "5.3.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar`  `fooBar`",
+      "version" : "5.3.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-5.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-5.3.0.tgz",
+        "shasum" : "0a110882cbeba41f72f99fcf918f4a0a92a13ebf"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.1",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert", "pascalcase", "pascal-case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@5.3.0",
+      "gitHead" : "75014061a127d6e2c35503059605c4f655fe66db",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camelcase_5.3.0_1554106850085_0.4588034976342792"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "1.0.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-1.0.0.tgz",
+        "shasum" : "922e65c1ca86276972a94de002b4e06e215324a0"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@1.0.0",
+      "gitHead" : "f04fb9e9f67a015b74d3686a8f9fd39f98a0a501",
+      "_shasum" : "922e65c1ca86276972a94de002b4e06e215324a0",
+      "_nodeVersion" : "0.10.32"
+    },
+    "5.3.1" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar`  `fooBar`",
+      "version" : "5.3.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/camelcase.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-5.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-5.3.1.tgz",
+        "shasum" : "e3c9b31569e106811df242f715725a1f4c494320"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.1",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert", "pascalcase", "pascal-case" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@5.3.1",
+      "gitHead" : "cbe5a519ec6745adbb5283d5ee8c5c9889050d74",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/camelcase_5.3.1_1554298472491_0.4347901486248773"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "1.0.1" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-1.0.1.tgz",
+        "shasum" : "f4f09e56e00a7749a4579f7741a61a2180797220"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@1.0.1",
+      "gitHead" : "4cdcb6a37bc99bffbc5645f8b1be88f9f512f486",
+      "_shasum" : "f4f09e56e00a7749a4579f7741a61a2180797220",
+      "_nodeVersion" : "0.10.32"
+    },
+    "1.1.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-1.1.0.tgz",
+        "shasum" : "953b25c3bc98671ee59a44cb9d542672da7331b9"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@1.1.0",
+      "gitHead" : "552dafacf307f3dd97586b0f96b1d608a2d48b7d",
+      "_shasum" : "953b25c3bc98671ee59a44cb9d542672da7331b9",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.0.2" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-1.0.2.tgz",
+        "shasum" : "7912eac1d496836782c976c2d73e874dc54f2eaf"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.1.5",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@1.0.2",
+      "gitHead" : "9d492d45989e5c47a1b3a314e2c132837d3ef295",
+      "_shasum" : "7912eac1d496836782c976c2d73e874dc54f2eaf",
+      "_nodeVersion" : "0.10.32"
+    },
+    "1.2.0" : {
+      "name" : "camelcase",
+      "description" : "Convert a dash/dot/underscore/space separated string to camelCase: foo-bar  fooBar",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "http://sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/camelcase",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/camelcase"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/camelcase/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/camelcase/-/camelcase-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcamelcase%2F-%2Fcamelcase-1.2.0.tgz",
+        "shasum" : "44c851ab95bb936513844be4abd4529337838530"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "camelcase@1.2.0",
+      "gitHead" : "ca0d7611a290b9f4bfe9720fe36fa1700da13541",
+      "_shasum" : "44c851ab95bb936513844be4abd4529337838530",
+      "_nodeVersion" : "0.12.5"
+    }
+  },
+  "readme" : "# camelcase [![Build Status](https://travis-ci.org/sindresorhus/camelcase.svg?branch=master)](https://travis-ci.org/sindresorhus/camelcase)\n\n> Convert a dash/dot/underscore/space separated string to camelCase or PascalCase: `foo-bar` → `fooBar`\n\nCorrectly handles Unicode strings.\n\n## Install\n\n```\n$ npm install camelcase\n```\n\n## Usage\n\n```js\nconst camelCase = require('camelcase');\n\ncamelCase('foo-bar');\n//=> 'fooBar'\n\ncamelCase('foo_bar');\n//=> 'fooBar'\n\ncamelCase('Foo-Bar');\n//=> 'fooBar'\n\ncamelCase('розовый_пушистый_единороги');\n//=> 'розовыйПушистыйЕдинороги'\n\ncamelCase('Foo-Bar', {pascalCase: true});\n//=> 'FooBar'\n\ncamelCase('--foo.bar', {pascalCase: false});\n//=> 'fooBar'\n\ncamelCase('foo bar');\n//=> 'fooBar'\n\nconsole.log(process.argv[3]);\n//=> '--foo-bar'\ncamelCase(process.argv[3]);\n//=> 'fooBar'\n\ncamelCase(['foo', 'bar']);\n//=> 'fooBar'\n\ncamelCase(['__foo__', '--bar'], {pascalCase: true});\n//=> 'FooBar'\n```\n\n## API\n\n### camelCase(input, options?)\n\n#### input\n\nType: `string | string[]`\n\nString to convert to camel case.\n\n#### options\n\nType: `object`\n\n##### pascalCase\n\nType: `boolean`\\\nDefault: `false`\n\nUppercase the first character: `foo-bar` → `FooBar`\n\n## camelcase for enterprise\n\nAvailable as part of the Tidelift Subscription.\n\nThe maintainers of camelcase and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. [Learn more.](https://tidelift.com/subscription/pkg/npm-camelcase?utm_source=npm-camelcase&utm_medium=referral&utm_campaign=enterprise&utm_term=repo)\n\n## Related\n\n- [decamelize](https://github.com/sindresorhus/decamelize) - The inverse of this module\n- [uppercamelcase](https://github.com/SamVerschueren/uppercamelcase) - Like this module, but to PascalCase instead of camelCase\n- [titleize](https://github.com/sindresorhus/titleize) - Capitalize every word in string\n- [humanize-string](https://github.com/sindresorhus/humanize-string) - Convert a camelized/dasherized/underscored string into a humanized one\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "https://sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-11-15T12:49:16.601Z",
+    "2.0.1" : "2015-11-17T14:12:18.285Z",
+    "2.1.0" : "2016-01-24T18:40:18.240Z",
+    "created" : "2013-10-30T20:39:45.449Z",
+    "4.0.0" : "2016-11-08T15:54:49.686Z",
+    "4.1.0" : "2017-03-30T09:16:02.724Z",
+    "0.0.0" : "2013-10-30T20:39:50.719Z",
+    "2.1.1" : "2016-03-12T17:30:36.527Z",
+    "1.2.1" : "2015-08-01T10:38:13.833Z",
+    "3.0.0" : "2016-05-04T17:33:27.903Z",
+    "6.0.0" : "2020-04-07T03:23:00.391Z",
+    "modified" : "2020-04-07T03:23:02.852Z",
+    "5.0.0" : "2018-03-28T11:08:34.664Z",
+    "5.1.0" : "2019-03-04T05:21:30.689Z",
+    "5.2.0" : "2019-03-05T05:33:09.693Z",
+    "5.3.0" : "2019-04-01T08:20:50.223Z",
+    "1.0.0" : "2014-10-12T11:06:54.223Z",
+    "5.3.1" : "2019-04-03T13:34:32.701Z",
+    "1.0.1" : "2014-10-12T12:07:56.522Z",
+    "1.1.0" : "2015-05-15T23:13:02.556Z",
+    "1.0.2" : "2014-11-25T07:46:37.286Z",
+    "1.2.0" : "2015-07-30T15:11:19.077Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/camelcase.git"
+  },
+  "users" : {
+    "andrebassi" : true,
+    "vunb" : true,
+    "terrychan" : true,
+    "shuoshubao" : true,
+    "vzg03566" : true,
+    "bret" : true,
+    "jetthiago" : true,
+    "galenandrew" : true,
+    "dwqs" : true,
+    "vwal" : true,
+    "quafoo" : true,
+    "vonmauser" : true,
+    "ansonhorse" : true,
+    "akiva" : true,
+    "docksteaderluke" : true,
+    "esenor" : true,
+    "ridermansb" : true,
+    "gochomugo" : true,
+    "alanerzhao" : true,
+    "joaquin.briceno" : true,
+    "xhou" : true,
+    "rocket0191" : true,
+    "zhenguo.zhao" : true,
+    "justjavac" : true,
+    "xiechao06" : true,
+    "mehmetkose" : true,
+    "monolithed" : true,
+    "domjtalbot" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/camelcase#readme",
+  "keywords" : [ "camelcase", "camel-case", "camel", "case", "dash", "hyphen", "dot", "underscore", "separator", "string", "text", "convert", "pascalcase", "pascal-case" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/camelcase/issues"
+  },
+  "license" : "MIT"
+}

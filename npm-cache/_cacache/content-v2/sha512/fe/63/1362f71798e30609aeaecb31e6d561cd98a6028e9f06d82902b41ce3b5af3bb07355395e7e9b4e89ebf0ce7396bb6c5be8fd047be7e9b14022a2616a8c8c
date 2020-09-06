@@ -1,0 +1,1293 @@
+{
+  "_id" : "ms",
+  "_rev" : "181-cacd109b976f8b59b3094a90a4b05fc7",
+  "name" : "ms",
+  "description" : "Tiny millisecond conversion utility",
+  "dist-tags" : {
+    "latest" : "2.1.2"
+  },
+  "versions" : {
+    "0.5.1" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.5.1",
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.5.1.tgz",
+        "shasum" : "98058c8f9c64854d1703ab92bf3f1dcc8e713b4c"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.10",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.5.1",
+      "component" : {
+        "scripts" : {
+          "ms/index.js" : "index.js"
+        }
+      }
+    },
+    "0.6.0" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.6.0",
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.6.0.tgz",
+        "shasum" : "21dc16a7d1dc2d8ed244dc0e6a71a5c2612b623b"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.10",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.6.0",
+      "component" : {
+        "scripts" : {
+          "ms/index.js" : "index.js"
+        }
+      }
+    },
+    "2.0.0" : {
+      "name" : "ms",
+      "description" : "Tiny milisecond conversion utility",
+      "version" : "2.0.0",
+      "homepage" : "https://github.com/zeit/ms#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zeit/ms.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zeit/ms/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-2.0.0.tgz",
+        "shasum" : "5608aeadfc00be6c2901df5f9861788de0d597c8"
+      },
+      "devDependencies" : {
+        "eslint" : "3.19.0",
+        "expect.js" : "0.3.1",
+        "husky" : "0.13.3",
+        "lint-staged" : "3.4.1",
+        "mocha" : "3.4.1"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      }, {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "precommit" : "lint-staged",
+        "lint" : "eslint lib/* bin/*",
+        "test" : "mocha tests.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      },
+      "_id" : "ms@2.0.0",
+      "lint-staged" : {
+        "*.js" : [ "npm run lint", "prettier --single-quote --write", "git add" ]
+      },
+      "gitHead" : "9b88d1568a52ec9bb67ecc8d2aa224fa38fd41f4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/ms-2.0.0.tgz_1494937565215_0.34005374647676945"
+      },
+      "_shasum" : "5608aeadfc00be6c2901df5f9861788de0d597c8",
+      "eslintConfig" : {
+        "extends" : "eslint:recommended",
+        "env" : {
+          "node" : true,
+          "es6" : true
+        }
+      },
+      "_nodeVersion" : "7.8.0"
+    },
+    "0.6.1" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.6.1",
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.6.1.tgz",
+        "shasum" : "ed57e5f3fc736e09afc85017c5c912a47bc59ab9"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.18",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.6.1",
+      "component" : {
+        "scripts" : {
+          "ms/index.js" : "index.js"
+        }
+      }
+    },
+    "0.7.0" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.7.0",
+      "homepage" : "https://github.com/guille/ms.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/guille/ms.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/guille/ms.js/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.7.0.tgz",
+        "shasum" : "865be94c2e7397ad8a57da6a633a6e2f30798b83"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.7.0",
+      "gitHead" : "1e9cd9b05ef0dc26f765434d2bfee42394376e52",
+      "component" : {
+        "scripts" : {
+          "ms/index.js" : "index.js"
+        }
+      },
+      "_shasum" : "865be94c2e7397ad8a57da6a633a6e2f30798b83"
+    },
+    "2.1.0" : {
+      "name" : "ms",
+      "description" : "Tiny millisecond conversion utility",
+      "version" : "2.1.0",
+      "homepage" : "https://github.com/zeit/ms#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zeit/ms.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zeit/ms/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-2.1.0.tgz",
+        "shasum" : "9a345be8f6a4aadc6686d74d88a23c1b84720549"
+      },
+      "devDependencies" : {
+        "eslint" : "4.12.1",
+        "expect.js" : "0.3.1",
+        "husky" : "0.14.3",
+        "lint-staged" : "5.0.0",
+        "mocha" : "4.0.1"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      }, {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "precommit" : "lint-staged",
+        "lint" : "eslint lib/* bin/*",
+        "test" : "mocha tests.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      },
+      "_id" : "ms@2.1.0",
+      "lint-staged" : {
+        "*.js" : [ "npm run lint", "prettier --single-quote --write", "git add" ]
+      },
+      "gitHead" : "845c302f155d955141d623a0276bbff3529ed626",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ms-2.1.0.tgz_1512060855394_0.6358025514055043"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint:recommended",
+        "env" : {
+          "node" : true,
+          "es6" : true
+        }
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "0.4.0" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.4.0",
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.4.0.tgz",
+        "shasum" : "77ade5470b099bb2d83e232c25763c18cd6963f1"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.4.0"
+    },
+    "0.5.0" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.5.0",
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.5.0.tgz",
+        "shasum" : "8e52e7e1bf521f9cea30f726de958822eab0ee27"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.5.0"
+    },
+    "0.7.3" : {
+      "name" : "ms",
+      "description" : "Tiny milisecond conversion utility",
+      "version" : "0.7.3",
+      "homepage" : "https://github.com/zeit/ms#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zeit/ms.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zeit/ms/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.7.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.7.3.tgz",
+        "shasum" : "708155a5e44e33f5fd0fc53e81d0d40a91be1fff"
+      },
+      "devDependencies" : {
+        "expect.js" : "0.3.1",
+        "mocha" : "3.0.2",
+        "serve" : "5.0.1",
+        "xo" : "0.17.0"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      }, {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha test/index.js",
+        "test-browser" : "serve ./test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      },
+      "_id" : "ms@0.7.3",
+      "gitHead" : "2006a7706041443fcf1f899b5752677bd7ae01a8",
+      "component" : {
+        "scripts" : {
+          "ms/index.js" : "index.js"
+        }
+      },
+      "xo" : {
+        "space" : true,
+        "semicolon" : false,
+        "envs" : [ "mocha" ],
+        "rules" : {
+          "complexity" : 0
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/ms-0.7.3.tgz_1489010366101_0.14404030703008175"
+      },
+      "_shasum" : "708155a5e44e33f5fd0fc53e81d0d40a91be1fff",
+      "_nodeVersion" : "7.6.0"
+    },
+    "0.6.2" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/guille/ms.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/guille/ms.js/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.6.2.tgz",
+        "shasum" : "d89c2124c6fdc1353d65a8b77bf1aac4b193708c"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.30",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.6.2",
+      "component" : {
+        "scripts" : {
+          "ms/index.js" : "index.js"
+        }
+      }
+    },
+    "0.7.1" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.7.1",
+      "homepage" : "https://github.com/guille/ms.js",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/guille/ms.js.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/guille/ms.js/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.7.1.tgz",
+        "shasum" : "9cd13c03adbff25b65effde7ce864ee952017098"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.7.1",
+      "gitHead" : "713dcf26d9e6fd9dbc95affe7eff9783b7f1b909",
+      "component" : {
+        "scripts" : {
+          "ms/index.js" : "index.js"
+        }
+      },
+      "_shasum" : "9cd13c03adbff25b65effde7ce864ee952017098",
+      "_nodeVersion" : "0.12.2"
+    },
+    "0.7.2" : {
+      "name" : "ms",
+      "description" : "Tiny milisecond conversion utility",
+      "version" : "0.7.2",
+      "homepage" : "https://github.com/zeit/ms#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zeit/ms.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zeit/ms/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.7.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.7.2.tgz",
+        "shasum" : "ae25cf2512b3885a1d95d7f037868d8431124765"
+      },
+      "devDependencies" : {
+        "expect.js" : "^0.3.1",
+        "mocha" : "^3.0.2",
+        "serve" : "^1.4.0",
+        "xo" : "^0.17.0"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      }, {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && mocha test/index.js",
+        "test-browser" : "serve ./test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      },
+      "_id" : "ms@0.7.2",
+      "gitHead" : "ac92a7e0790ba2622a74d9d60690ca0d2c070a45",
+      "component" : {
+        "scripts" : {
+          "ms/index.js" : "index.js"
+        }
+      },
+      "xo" : {
+        "space" : true,
+        "semicolon" : false,
+        "envs" : [ "mocha" ],
+        "rules" : {
+          "complexity" : 0
+        }
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/ms-0.7.2.tgz_1477383407940_0.4743474116548896"
+      },
+      "_shasum" : "ae25cf2512b3885a1d95d7f037868d8431124765",
+      "_nodeVersion" : "6.8.0"
+    },
+    "0.2.0" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.2.0",
+      "main" : "./ms",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.2.0.tgz",
+        "shasum" : "6edfc5a063471f7bfd35a5831831c24275ce9dc5"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.2.0"
+    },
+    "0.3.0" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.3.0",
+      "main" : "./ms",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.3.0.tgz",
+        "shasum" : "03edc348d613e66a56486cfdac53bcbe899cbd61"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.3.0"
+    },
+    "2.1.1" : {
+      "name" : "ms",
+      "description" : "Tiny millisecond conversion utility",
+      "version" : "2.1.1",
+      "homepage" : "https://github.com/zeit/ms#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zeit/ms.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zeit/ms/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-2.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-2.1.1.tgz",
+        "shasum" : "30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
+      },
+      "devDependencies" : {
+        "eslint" : "4.12.1",
+        "expect.js" : "0.3.1",
+        "husky" : "0.14.3",
+        "lint-staged" : "5.0.0",
+        "mocha" : "4.0.1"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      }, {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "precommit" : "lint-staged",
+        "lint" : "eslint lib/* bin/*",
+        "test" : "mocha tests.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      },
+      "_id" : "ms@2.1.1",
+      "lint-staged" : {
+        "*.js" : [ "npm run lint", "prettier --single-quote --write", "git add" ]
+      },
+      "gitHead" : "fe0bae301a6c41f68a01595658a4f4f0dcba0e84",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ms-2.1.1.tgz_1512066615982_0.7117063472978771"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint:recommended",
+        "env" : {
+          "node" : true,
+          "es6" : true
+        }
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "0.1.0" : {
+      "name" : "ms",
+      "description" : "Tiny ms conversion utility",
+      "version" : "0.1.0",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./ms",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-0.1.0.tgz",
+        "shasum" : "f21fac490daf1d7667fd180fe9077389cc9442b2"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "expect.js" : "*",
+        "serve" : "*"
+      },
+      "maintainers" : [ {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.0.106",
+      "_npmUser" : {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      },
+      "_id" : "ms@0.1.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.12"
+    },
+    "2.1.2" : {
+      "name" : "ms",
+      "description" : "Tiny millisecond conversion utility",
+      "version" : "2.1.2",
+      "homepage" : "https://github.com/zeit/ms#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zeit/ms.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zeit/ms/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-2.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-2.1.2.tgz",
+        "shasum" : "d09d1f357b443f493382a8eb3ccd183872ae6009"
+      },
+      "devDependencies" : {
+        "eslint" : "4.12.1",
+        "expect.js" : "0.3.1",
+        "husky" : "0.14.3",
+        "lint-staged" : "5.0.0",
+        "mocha" : "4.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "alexandro@phi.nz",
+        "name" : "alexaltea"
+      }, {
+        "email" : "ana.trajkovska2015@gmail.com",
+        "name" : "anatrajkovska"
+      }, {
+        "email" : "artzbitz@gmail.com",
+        "name" : "andybitz"
+      }, {
+        "email" : "arunoda.susiripala@gmail.com",
+        "name" : "arunoda"
+      }, {
+        "email" : "franco@basement.studio",
+        "name" : "arzafran"
+      }, {
+        "email" : "atcastle@gmail.com",
+        "name" : "atcastle"
+      }, {
+        "email" : "ciao@sylin.me",
+        "name" : "b3nnyl"
+      }, {
+        "email" : "caarlos0@gmail.com",
+        "name" : "caarlos0"
+      }, {
+        "email" : "thecodetheory@gmail.com",
+        "name" : "codetheory"
+      }, {
+        "email" : "allenhai03@gmail.com",
+        "name" : "coetry"
+      }, {
+        "email" : "mail@connordav.is",
+        "name" : "dav-is"
+      }, {
+        "email" : "fivepointseven@icloud.com",
+        "name" : "fivepointseven"
+      }, {
+        "email" : "guybedford@gmail.com",
+        "name" : "guybedford"
+      }, {
+        "email" : "hharnisc@gmail.com",
+        "name" : "hharnisc"
+      }, {
+        "email" : "lukas@huvar.cz",
+        "name" : "huvik"
+      }, {
+        "email" : "hello@evilrabb.it",
+        "name" : "iamevilrabbit"
+      }, {
+        "email" : "igor@klopov.com",
+        "name" : "igorklopov"
+      }, {
+        "email" : "jj@jjsweb.site",
+        "name" : "ijjk"
+      }, {
+        "email" : "janicklasralph036@gmail.com",
+        "name" : "janicklas-ralph"
+      }, {
+        "email" : "javier.velasco86@gmail.com",
+        "name" : "javivelasco"
+      }, {
+        "email" : "joecohenr@gmail.com",
+        "name" : "joecohens"
+      }, {
+        "email" : "juancampa@gmail.com",
+        "name" : "juancampa"
+      }, {
+        "email" : "leo@zeit.co",
+        "name" : "leo"
+      }, {
+        "email" : "luisito453@gmail.com",
+        "name" : "lfades"
+      }, {
+        "email" : "luc.leray@gmail.com",
+        "name" : "lucleray"
+      }, {
+        "email" : "manovotny@gmail.com",
+        "name" : "manovotny"
+      }, {
+        "email" : "marcosnils@gmail.com",
+        "name" : "marcosnils"
+      }, {
+        "email" : "me@matheus.top",
+        "name" : "matheuss"
+      }, {
+        "email" : "mrfix84@gmail.com",
+        "name" : "mfix22"
+      }, {
+        "email" : "mark.glagola@gmail.com",
+        "name" : "mglagola"
+      }, {
+        "email" : "mail@msweeneydev.com",
+        "name" : "msweeneydev"
+      }, {
+        "email" : "naoyuki.kanezawa@gmail.com",
+        "name" : "nkzawa"
+      }, {
+        "email" : "olli@zeit.co",
+        "name" : "olliv"
+      }, {
+        "email" : "pvco.coursey@gmail.com",
+        "name" : "paco"
+      }, {
+        "email" : "paulogdemitri@gmail.com",
+        "name" : "paulogdm"
+      }, {
+        "email" : "ds303077135@gmail.com",
+        "name" : "quietshu"
+      }, {
+        "email" : "rabautse@gmail.com",
+        "name" : "rabaut"
+      }, {
+        "email" : "ragojosefrancisco@gmail.com",
+        "name" : "ragojose"
+      }, {
+        "email" : "rauchg@gmail.com",
+        "name" : "rauchg"
+      }, {
+        "email" : "sbanskota08@gmail.com",
+        "name" : "sarupbanskota"
+      }, {
+        "email" : "skllcrn@zeit.co",
+        "name" : "skllcrn"
+      }, {
+        "email" : "t.sophearak@gmail.com",
+        "name" : "sophearak"
+      }, {
+        "email" : "steven@ceriously.com",
+        "name" : "styfle"
+      }, {
+        "email" : "timer150@gmail.com",
+        "name" : "timer"
+      }, {
+        "email" : "tim@timneutkens.nl",
+        "name" : "timneutkens"
+      }, {
+        "email" : "nathan@tootallnate.net",
+        "name" : "tootallnate"
+      }, {
+        "email" : "iyatomi@gmail.com",
+        "name" : "umegaya"
+      }, {
+        "email" : "williamli@bbi.io",
+        "name" : "williamli"
+      }, {
+        "email" : "team@zeit.co",
+        "name" : "zeit-bot"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "precommit" : "lint-staged",
+        "lint" : "eslint lib/* bin/*",
+        "test" : "mocha tests.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "styfle",
+        "email" : "steven@ceriously.com"
+      },
+      "_id" : "ms@2.1.2",
+      "lint-staged" : {
+        "*.js" : [ "npm run lint", "prettier --single-quote --write", "git add" ]
+      },
+      "gitHead" : "7920885eb232fbe7a5efdab956d3e7c507c92ddf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ms_2.1.2_1559842315767_0.4700607530567853"
+      },
+      "eslintConfig" : {
+        "extends" : "eslint:recommended",
+        "env" : {
+          "node" : true,
+          "es6" : true
+        }
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.0.0" : {
+      "name" : "ms",
+      "description" : "Tiny milisecond conversion utility",
+      "version" : "1.0.0",
+      "homepage" : "https://github.com/zeit/ms#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/zeit/ms.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/zeit/ms/issues"
+      },
+      "main" : "./index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms/-/ms-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-1.0.0.tgz",
+        "shasum" : "59adcd22edc543f7b5381862d31387b1f4bc9473"
+      },
+      "devDependencies" : {
+        "eslint" : "3.18.0",
+        "expect.js" : "0.3.1",
+        "husky" : "0.13.2",
+        "lint-staged" : "3.4.0",
+        "mocha" : "3.0.2"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      }, {
+        "name" : "rauchg",
+        "email" : "rauchg@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "precommit" : "lint-staged",
+        "lint" : "eslint lib/* bin/*",
+        "test" : "mocha tests.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "leo",
+        "email" : "leo@zeit.co"
+      },
+      "_id" : "ms@1.0.0",
+      "lint-staged" : {
+        "*.js" : [ "npm run lint", "prettier --single-quote --write", "git add" ]
+      },
+      "gitHead" : "7daf984a9011e720cc3c165ed82c4506f3471b37",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/ms-1.0.0.tgz_1489959793252_0.42147551802918315"
+      },
+      "_shasum" : "59adcd22edc543f7b5381862d31387b1f4bc9473",
+      "eslintConfig" : {
+        "extends" : "eslint:recommended",
+        "env" : {
+          "node" : true,
+          "es6" : true
+        }
+      },
+      "_nodeVersion" : "7.7.3"
+    }
+  },
+  "readme" : "# ms\n\n[![Build Status](https://travis-ci.org/zeit/ms.svg?branch=master)](https://travis-ci.org/zeit/ms)\n[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/zeit)\n\nUse this package to easily convert various time formats to milliseconds.\n\n## Examples\n\n```js\nms('2 days')  // 172800000\nms('1d')      // 86400000\nms('10h')     // 36000000\nms('2.5 hrs') // 9000000\nms('2h')      // 7200000\nms('1m')      // 60000\nms('5s')      // 5000\nms('1y')      // 31557600000\nms('100')     // 100\nms('-3 days') // -259200000\nms('-1h')     // -3600000\nms('-200')    // -200\n```\n\n### Convert from Milliseconds\n\n```js\nms(60000)             // \"1m\"\nms(2 * 60000)         // \"2m\"\nms(-3 * 60000)        // \"-3m\"\nms(ms('10 hours'))    // \"10h\"\n```\n\n### Time Format Written-Out\n\n```js\nms(60000, { long: true })             // \"1 minute\"\nms(2 * 60000, { long: true })         // \"2 minutes\"\nms(-3 * 60000, { long: true })        // \"-3 minutes\"\nms(ms('10 hours'), { long: true })    // \"10 hours\"\n```\n\n## Features\n\n- Works both in [Node.js](https://nodejs.org) and in the browser\n- If a number is supplied to `ms`, a string with a unit is returned\n- If a string that contains the number is supplied, it returns it as a number (e.g.: it returns `100` for `'100'`)\n- If you pass a string with a number and a valid unit, the number of equivalent milliseconds is returned\n\n## Related Packages\n\n- [ms.macro](https://github.com/knpwrs/ms.macro) - Run `ms` as a macro at build-time.\n\n## Caught a Bug?\n\n1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device\n2. Link the package to the global module directory: `npm link`\n3. Within the module you want to test your local development instance of ms, just link it to the dependencies: `npm link ms`. Instead of the default one from npm, Node.js will now use your clone of ms!\n\nAs always, you can run the tests using: `npm test`\n",
+  "maintainers" : [ {
+    "email" : "hank@vercel.com",
+    "name" : "hankvercel"
+  }, {
+    "email" : "belen@vercel.com",
+    "name" : "okbel"
+  }, {
+    "email" : "samko9522@gmail.com",
+    "name" : "samsisle"
+  }, {
+    "email" : "chris@leishman.org",
+    "name" : "cleishm"
+  }, {
+    "email" : "nazareno@basement.studio",
+    "name" : "nazarenooviedo"
+  }, {
+    "email" : "maxwell.leiter@gmail.com",
+    "name" : "maxleiter"
+  }, {
+    "email" : "shu@chibicode.com",
+    "name" : "chibicode"
+  }, {
+    "email" : "g.cobben@gmail.com",
+    "name" : "gielcobben"
+  }, {
+    "email" : "jared@palmer.net",
+    "name" : "jaredpalmer"
+  }, {
+    "email" : "jan.krems@gmail.com",
+    "name" : "jkrems"
+  }, {
+    "email" : "prateek89born@gmail.com",
+    "name" : "prateekbh"
+  }, {
+    "email" : "josefrancisco.verdu@gmail.com",
+    "name" : "kikobeats"
+  }, {
+    "email" : "gbmonaco@google.com",
+    "name" : "gmonaco"
+  }, {
+    "email" : "houssein.djirdeh@gmail.com",
+    "name" : "housseindjirdeh"
+  }, {
+    "email" : "jason@developit.ca",
+    "name" : "developit"
+  }, {
+    "email" : "shubhie@gmail.com",
+    "name" : "spanicker"
+  }, {
+    "email" : "npm@keanulee.com",
+    "name" : "keanulee"
+  }, {
+    "email" : "atcastle@gmail.com",
+    "name" : "atcastle"
+  }, {
+    "email" : "janicklasralph036@gmail.com",
+    "name" : "janicklas-ralph"
+  }, {
+    "email" : "skllcrn@zeit.co",
+    "name" : "skllcrn"
+  }, {
+    "email" : "pvco.coursey@gmail.com",
+    "name" : "paco"
+  }, {
+    "email" : "guybedford@gmail.com",
+    "name" : "guybedford"
+  }, {
+    "email" : "ragojosefrancisco@gmail.com",
+    "name" : "ragojose"
+  }, {
+    "email" : "williamli@bbi.io",
+    "name" : "williamli"
+  }, {
+    "email" : "mail@msweeneydev.com",
+    "name" : "msweeneydev"
+  }, {
+    "email" : "allenhai03@gmail.com",
+    "name" : "coetry"
+  }, {
+    "email" : "rabautse@gmail.com",
+    "name" : "rabaut"
+  }, {
+    "email" : "luisito453@gmail.com",
+    "name" : "lfades"
+  }, {
+    "email" : "mrfix84@gmail.com",
+    "name" : "mfix22"
+  }, {
+    "email" : "jj@jjsweb.site",
+    "name" : "ijjk"
+  }, {
+    "email" : "franco@basement.studio",
+    "name" : "arzafran"
+  }, {
+    "email" : "iyatomi@gmail.com",
+    "name" : "umegaya"
+  }, {
+    "email" : "sbanskota08@gmail.com",
+    "name" : "sarupbanskota"
+  }, {
+    "email" : "timer150@gmail.com",
+    "name" : "timer"
+  }, {
+    "email" : "ana.trajkovska2015@gmail.com",
+    "name" : "anatrajkovska"
+  }, {
+    "email" : "paulogdemitri@gmail.com",
+    "name" : "paulogdm"
+  }, {
+    "email" : "artzbitz@gmail.com",
+    "name" : "andybitz"
+  }, {
+    "email" : "mark.glagola@gmail.com",
+    "name" : "mglagola"
+  }, {
+    "email" : "luc.leray@gmail.com",
+    "name" : "lucleray"
+  }, {
+    "email" : "team@zeit.co",
+    "name" : "zeit-bot"
+  }, {
+    "email" : "steven@ceriously.com",
+    "name" : "styfle"
+  }, {
+    "email" : "juancampa@gmail.com",
+    "name" : "juancampa"
+  }, {
+    "email" : "mail@connordav.is",
+    "name" : "dav-is"
+  }, {
+    "email" : "ds303077135@gmail.com",
+    "name" : "quietshu"
+  }, {
+    "email" : "fivepointseven@icloud.com",
+    "name" : "fivepointseven"
+  }, {
+    "email" : "joecohenr@gmail.com",
+    "name" : "joecohens"
+  }, {
+    "email" : "thecodetheory@gmail.com",
+    "name" : "codetheory"
+  }, {
+    "email" : "matheus.frndes@gmail.com",
+    "name" : "matheuss"
+  }, {
+    "email" : "igor@klopov.com",
+    "name" : "igorklopov"
+  }, {
+    "email" : "mindrun@icloud.com",
+    "name" : "leo"
+  }, {
+    "email" : "naoyuki.kanezawa@gmail.com",
+    "name" : "nkzawa"
+  }, {
+    "email" : "nathan@tootallnate.net",
+    "name" : "tootallnate"
+  }, {
+    "email" : "rauchg@gmail.com",
+    "name" : "rauchg"
+  }, {
+    "email" : "tim@timneutkens.nl",
+    "name" : "timneutkens"
+  }, {
+    "email" : "javier.velasco86@gmail.com",
+    "name" : "javivelasco"
+  }, {
+    "email" : "hello@evilrabb.it",
+    "name" : "iamevilrabbit"
+  } ],
+  "time" : {
+    "0.5.1" : "2013-02-24T20:27:27.010Z",
+    "0.6.0" : "2013-03-15T15:26:35.127Z",
+    "2.0.0" : "2017-05-16T12:26:06.610Z",
+    "0.6.1" : "2013-05-10T15:38:08.059Z",
+    "0.7.0" : "2014-11-24T07:59:08.195Z",
+    "2.1.0" : "2017-11-30T16:54:16.315Z",
+    "0.4.0" : "2012-10-22T17:01:26.046Z",
+    "0.5.0" : "2012-11-10T00:39:49.944Z",
+    "0.7.3" : "2017-03-08T21:59:28.048Z",
+    "created" : "2011-12-21T19:38:08.664Z",
+    "0.6.2" : "2013-12-05T15:57:45.292Z",
+    "0.7.1" : "2015-04-20T23:38:57.957Z",
+    "0.7.2" : "2016-10-25T08:16:49.773Z",
+    "0.2.0" : "2012-09-03T20:33:06.093Z",
+    "0.3.0" : "2012-09-07T20:36:45.931Z",
+    "2.1.1" : "2017-11-30T18:30:16.876Z",
+    "0.1.0" : "2011-12-21T19:38:26.538Z",
+    "2.1.2" : "2019-06-06T17:31:55.859Z",
+    "modified" : "2020-07-28T15:07:13.035Z",
+    "1.0.0" : "2017-03-19T21:43:15.128Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/zeit/ms.git"
+  },
+  "users" : {
+    "ssljivic" : true,
+    "awaterma" : true,
+    "cr8tiv" : true,
+    "shuoshubao" : true,
+    "silas" : true,
+    "lichangwei" : true,
+    "hugojosefson" : true,
+    "seangenabe" : true,
+    "brend" : true,
+    "ccastelli" : true,
+    "subso" : true,
+    "writeosahon" : true,
+    "h0ward" : true,
+    "yatsu" : true,
+    "xinwangwang" : true,
+    "shlomi" : true,
+    "chrisx" : true,
+    "parkerproject" : true,
+    "eknkc" : true,
+    "shanewholloway" : true,
+    "hitalos" : true,
+    "largepuma" : true,
+    "zoomyzoom" : true,
+    "lestad" : true,
+    "rdcl" : true,
+    "rocket0191" : true,
+    "zhenguo.zhao" : true,
+    "gerst20051" : true,
+    "sedge" : true,
+    "dac2205" : true,
+    "aaron" : true,
+    "xiechao06" : true,
+    "intuitivcloud" : true,
+    "princetoad" : true,
+    "danieljameskay" : true,
+    "tunnckocore" : true,
+    "kamikadze4game" : true,
+    "jesusgoku" : true,
+    "hearsid" : true,
+    "dpjayasekara" : true,
+    "hugovila" : true,
+    "manikantag" : true,
+    "jerrywu" : true,
+    "andreaspizsa" : true,
+    "cbetancourt" : true,
+    "forbeslindesay" : true,
+    "jondotsoy" : true,
+    "dimd13" : true,
+    "miguhruiz" : true,
+    "bapinney" : true,
+    "larrychen" : true,
+    "wangnan0610" : true,
+    "ganeshkbhat" : true,
+    "nisimjoseph" : true,
+    "ash" : true,
+    "dodo" : true,
+    "humantriangle" : true,
+    "snowdream" : true,
+    "fgribreau" : true,
+    "battlemidget" : true,
+    "pandao" : true,
+    "mojaray2k" : true,
+    "daizch" : true,
+    "gtopia" : true,
+    "isaacvitor" : true,
+    "xieranmaya" : true,
+    "raycharles" : true,
+    "pid" : true,
+    "l3au" : true,
+    "cshao" : true,
+    "stretchgz" : true,
+    "jondashkyle" : true,
+    "pensierinmusica" : true,
+    "nalindak" : true,
+    "dexfs" : true,
+    "285858315" : true,
+    "francisbrito" : true,
+    "tur-nr" : true,
+    "algonzo" : true,
+    "detj" : true,
+    "bhaskarmelkani" : true,
+    "losymear" : true,
+    "hughsk" : true,
+    "mjurincic" : true,
+    "yuler" : true,
+    "neo1" : true,
+    "anhulife" : true,
+    "crazyorr" : true,
+    "xgheaven" : true,
+    "panlw" : true,
+    "monkeyyy11" : true,
+    "ahmedelgabri" : true,
+    "spanser" : true,
+    "shushanfx" : true,
+    "robermac" : true,
+    "terrychan" : true,
+    "danielbankhead" : true,
+    "mcortesi" : true,
+    "huiyifyj" : true,
+    "roccomuso" : true,
+    "coderaiser" : true,
+    "machinabio" : true,
+    "zuojiang" : true,
+    "ahsanshafiq" : true,
+    "travis346" : true,
+    "michalskuza" : true,
+    "usex" : true,
+    "mikestaub" : true,
+    "edwardxyt" : true,
+    "abhisekp" : true,
+    "hayathuk" : true,
+    "yasinaydin" : true,
+    "rajiff" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/zeit/ms#readme",
+  "bugs" : {
+    "url" : "https://github.com/zeit/ms/issues"
+  },
+  "license" : "MIT"
+}

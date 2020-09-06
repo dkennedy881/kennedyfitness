@@ -1,0 +1,3185 @@
+{
+  "_id" : "ejs",
+  "_rev" : "487-390f82931ab45542e66dd96e7af6f38a",
+  "name" : "ejs",
+  "description" : "Embedded JavaScript templates",
+  "dist-tags" : {
+    "latest" : "3.1.5"
+  },
+  "versions" : {
+    "0.4.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.4.2",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.4.2.tgz",
+        "shasum" : "6f58faa54fd0fd097b74e31c4009ec16138572a1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmVersion" : "1.0.3",
+      "_id" : "ejs@0.4.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.7"
+    },
+    "0.6.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.6.0",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.6.0.tgz",
+        "shasum" : "c2a4626ed2102e87898db4c9fcda5bc608e17140"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.0.106",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.6.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.5"
+    },
+    "0.4.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.4.3",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.4.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.4.3.tgz",
+        "shasum" : "8143c3656955b8934db5d9da83e9be73176f1f4f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmVersion" : "1.0.3",
+      "_id" : "ejs@0.4.3",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.8"
+    },
+    "0.6.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.6.1",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.6.1.tgz",
+        "shasum" : "16ccc98eeeac166982927fa67eb3fca8865f6871"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.0.106",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.6.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.5"
+    },
+    "0.0.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.0.4",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.0.4.tgz",
+        "shasum" : "1582c30cca3b936c539516c9c7bfd59ad8d8a27b"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "ejs@0.0.4",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "0.4.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.4.0",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.4.0.tgz",
+        "shasum" : "a4a188aee997acd76bab120e5500221d6bfc513f"
+      },
+      "files" : [ "" ],
+      "directories" : {
+        "lib" : "./lib"
+      },
+      "_npmVersion" : "0.3.18",
+      "_id" : "ejs@0.4.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.6"
+    },
+    "0.4.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.4.1",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.4.1.tgz",
+        "shasum" : "d7ec956ca91649b508a1a74dafe990cfaf387409"
+      },
+      "files" : [ "" ],
+      "directories" : {
+        "lib" : "./lib"
+      },
+      "_npmVersion" : "0.3.18",
+      "_id" : "ejs@0.4.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.6"
+    },
+    "0.8.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.8.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.8.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.8.2.tgz",
+        "shasum" : "f41b938dc9d3974dc72edc5f9727d3624725858d"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "_id" : "ejs@0.8.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    },
+    "0.8.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.8.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.8.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.8.3.tgz",
+        "shasum" : "db8aac47ff80a7df82b4c82c126fe8970870626f"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.8.3",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    },
+    "0.8.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.8.0.tgz",
+        "shasum" : "b4f1398e21e9e911b8cdff30b60346e70fc79f6f"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "_id" : "ejs@0.8.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    },
+    "0.8.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.8.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.8.1.tgz",
+        "shasum" : "776b64ac4333aade6d3d3b4b4174ea541735de31"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "_id" : "ejs@0.8.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    },
+    "0.0.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.0.2",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.0.2.tgz",
+        "shasum" : "c42742c8b07f239adb5136957f6acedbc18f07cc"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "ejs@0.0.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "0.2.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.2.0",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.2.0.tgz",
+        "shasum" : "59123537a4bafbb0e60e6e8f090b0218de399eca"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "ejs@0.2.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "0.0.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.0.3",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.0.3.tgz",
+        "shasum" : "ecc6bf3664670eed18b4098cc94a22a4a8b6fbbc"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "ejs@0.0.3",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "0.2.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.2.1",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.2.1.tgz",
+        "shasum" : "10d9ac1859d98921d4e0a72439e72843cb4d9a17"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "ejs@0.2.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "0.0.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.0.1",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.0.1.tgz",
+        "shasum" : "f008cfdc5035e3d592f082c35eec08f4ddb99f83"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "ejs@0.0.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "3.1.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "3.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-3.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-3.1.4.tgz",
+        "shasum" : "afbba1e0bf10dfd75438864863a54980ef88bb15"
+      },
+      "dependencies" : {
+        "jake" : "^10.6.1"
+      },
+      "devDependencies" : {
+        "browserify" : "^16.5.1",
+        "eslint" : "^6.8.0",
+        "git-directory-deploy" : "^1.5.1",
+        "jsdoc" : "^3.6.4",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^7.1.1",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "bin" : {
+        "ejs" : "./bin/cli.js"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : "file:pkg/ejs-v3.1.4.tar.gz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@3.1.4",
+      "unpkg" : "ejs.min.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_3.1.4_1597679981185_0.9776663550728697"
+      },
+      "_resolved" : "",
+      "jsdelivr" : "ejs.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.1.5" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "3.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-3.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-3.1.5.tgz",
+        "shasum" : "aed723844dc20acb4b170cd9ab1017e476a0d93b"
+      },
+      "dependencies" : {
+        "jake" : "^10.6.1"
+      },
+      "devDependencies" : {
+        "browserify" : "^16.5.1",
+        "eslint" : "^6.8.0",
+        "git-directory-deploy" : "^1.5.1",
+        "jsdoc" : "^3.6.4",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^7.1.1",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "bin" : {
+        "ejs" : "./bin/cli.js"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha"
+      },
+      "_from" : "file:pkg/ejs-v3.1.5.tar.gz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@3.1.5",
+      "unpkg" : "ejs.min.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_3.1.5_1597680096046_0.640111186737206"
+      },
+      "_resolved" : "",
+      "jsdelivr" : "ejs.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.1.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "3.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-3.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-3.1.2.tgz",
+        "shasum" : "a9986e6920a60f2a3229e87d4f0f3c073209874c"
+      },
+      "dependencies" : {
+        "jake" : "^10.6.1"
+      },
+      "devDependencies" : {
+        "browserify" : "^16.5.1",
+        "eslint" : "^6.8.0",
+        "git-directory-deploy" : "^1.5.1",
+        "jsdoc" : "^3.6.4",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^7.1.1",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "bin" : {
+        "ejs" : "./bin/cli.js"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "postinstall" : "node --harmony ./postinstall.js"
+      },
+      "_from" : "file:pkg/ejs-v3.1.2.tar.gz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@3.1.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_3.1.2_1587702451741_0.06926971972554519"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.1.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "3.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-3.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-3.1.3.tgz",
+        "shasum" : "514d967a8894084d18d3d47bd169a1c0560f093d"
+      },
+      "dependencies" : {
+        "jake" : "^10.6.1"
+      },
+      "devDependencies" : {
+        "browserify" : "^16.5.1",
+        "eslint" : "^6.8.0",
+        "git-directory-deploy" : "^1.5.1",
+        "jsdoc" : "^3.6.4",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^7.1.1",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "bin" : {
+        "ejs" : "./bin/cli.js"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "postinstall" : "node --harmony ./postinstall.js"
+      },
+      "_from" : "file:pkg/ejs-v3.1.3.tar.gz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@3.1.3",
+      "unpkg" : "ejs.min.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_3.1.3_1589698834309_0.7807898341733344"
+      },
+      "_resolved" : "",
+      "jsdelivr" : "ejs.min.js",
+      "_integrity" : "",
+      "_nodeVersion" : "12.6.0"
+    },
+    "2.5.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.3.tgz",
+        "shasum" : "bfeae1e2f7fa51c4527769fcaa14c5ca73eb5e47"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.1",
+        "eslint" : "^3.0.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^3.0.2",
+        "uglify-js" : "^2.6.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_from" : "pkg/ejs-v2.5.3.tar.gz",
+      "_npmVersion" : "2.15.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.3",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/ejs-2.5.3.tgz_1480367907161_0.21362517587840557"
+      },
+      "_shasum" : "bfeae1e2f7fa51c4527769fcaa14c5ca73eb5e47",
+      "_resolved" : "file:pkg/ejs-v2.5.3.tar.gz",
+      "_nodeVersion" : "4.4.4"
+    },
+    "2.7.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.7.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.7.1.tgz",
+        "shasum" : "5b5ab57f718b79d4aca9254457afecd36fa80228"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.16",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jake test",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_from" : "file:pkg/ejs-v2.7.1.tar.gz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.7.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_2.7.1_1567452681370_0.12942888753288107"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "2.5.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.4.tgz",
+        "shasum" : "0ec3bd5682aaa6e6fe9a2b1ddc761e884172dabb"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.1",
+        "eslint" : "^3.0.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^3.0.2",
+        "uglify-js" : "^2.6.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_from" : "pkg/ejs-v2.5.4.tar.gz",
+      "_npmVersion" : "2.15.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.4",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/ejs-2.5.4.tgz_1480975750325_0.8895350911188871"
+      },
+      "_shasum" : "0ec3bd5682aaa6e6fe9a2b1ddc761e884172dabb",
+      "_resolved" : "file:pkg/ejs-v2.5.4.tar.gz",
+      "_nodeVersion" : "4.4.4"
+    },
+    "2.7.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.7.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.7.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.7.2.tgz",
+        "shasum" : "749037c4c09bd57626a6140afbe6b7e650661614"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^10.3.1",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "postinstall" : "node -e \"console.log('Thank you for installing \\u001b[35mEJS\\u001b[0m: built with the \\u001b[32mJake\\u001b[0m JavaScript build tool (\\u001b[32mhttps://jakejs.com/\\u001b[0m)\\n');\""
+      },
+      "_from" : "file:pkg/ejs-v2.7.2.tar.gz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.7.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_2.7.2_1573678352759_0.20803762217448174"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "12.6.0"
+    },
+    "2.3.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.3.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.3.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.3.3.tgz",
+        "shasum" : "a6babb67815d7190694af4ba82fe065e56d5f0e7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "istanbul" : "~0.3.5",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.3.0-beta1",
+        "lru-cache" : "^2.5.0",
+        "mocha" : "^2.1.0",
+        "rimraf" : "^2.2.8",
+        "uglify-js" : "^2.4.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*",
+        "devdoc" : "rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*"
+      },
+      "_from" : "pkg/ejs-v2.3.3.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.3.3",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "a6babb67815d7190694af4ba82fe065e56d5f0e7",
+      "_resolved" : "file:pkg/ejs-v2.3.3.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.5.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.1.tgz",
+        "shasum" : "dbc0ac40812d3b451dad063fcd369e4e47d80287"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.1",
+        "eslint" : "^3.0.0",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^2.1.0",
+        "rimraf" : "^2.2.8",
+        "uglify-js" : "^2.6.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "sample" : "npm install express && node sample/index.js",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*",
+        "devdoc" : "rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*"
+      },
+      "_from" : "pkg/ejs-v2.5.1.tar.gz",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/ejs-2.5.1.tgz_1469467300312_0.7665372854098678"
+      },
+      "_shasum" : "dbc0ac40812d3b451dad063fcd369e4e47d80287",
+      "_resolved" : "file:pkg/ejs-v2.5.1.tar.gz",
+      "_nodeVersion" : "4.2.2"
+    },
+    "2.3.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.3.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.3.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.3.4.tgz",
+        "shasum" : "3c76caa09664b3583b0037af9dc136e79ec68b98"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "istanbul" : "~0.3.5",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.3.0-beta1",
+        "lru-cache" : "^2.5.0",
+        "mocha" : "^2.1.0",
+        "rimraf" : "^2.2.8",
+        "uglify-js" : "^2.4.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*",
+        "devdoc" : "rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*"
+      },
+      "_from" : "pkg/ejs-v2.3.4.tar.gz",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.3.4",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "3c76caa09664b3583b0037af9dc136e79ec68b98",
+      "_resolved" : "file:pkg/ejs-v2.3.4.tar.gz",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.5.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.2.tgz",
+        "shasum" : "21444ba09386f0c65b6eafb96a3d51bcb3be80d1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.1",
+        "eslint" : "^3.0.0",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^3.0.2",
+        "rimraf" : "^2.2.8",
+        "uglify-js" : "^2.6.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*",
+        "devdoc" : "rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*"
+      },
+      "_from" : "pkg/ejs-v2.5.2.tar.gz",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/ejs-2.5.2.tgz_1473259584869_0.9678213631268591"
+      },
+      "_shasum" : "21444ba09386f0c65b6eafb96a3d51bcb3be80d1",
+      "_resolved" : "file:pkg/ejs-v2.5.2.tar.gz",
+      "_nodeVersion" : "4.2.2"
+    },
+    "2.1.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.1.3.tgz",
+        "shasum" : "94f2b4fbcd6a8bc9d59fe529330b1b920c6633f7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "uglify-js" : "^2.4.16",
+        "mocha" : "^2.1.0",
+        "jake" : "^8.0.0",
+        "istanbul" : "~0.3.5"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha"
+      },
+      "_from" : "pkg/ejs-v2.1.3.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.1.3",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "94f2b4fbcd6a8bc9d59fe529330b1b920c6633f7",
+      "_resolved" : "file:pkg/ejs-v2.1.3.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.3.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.3.1.tgz",
+        "shasum" : "a697d98ac401e32a99c3deed92c60c19b6199a7f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "istanbul" : "~0.3.5",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.3.0-beta1",
+        "lru-cache" : "^2.5.0",
+        "mocha" : "^2.1.0",
+        "rimraf" : "^2.2.8",
+        "uglify-js" : "^2.4.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*",
+        "devdoc" : "rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*"
+      },
+      "_from" : "pkg/ejs-v2.3.1.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.3.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "a697d98ac401e32a99c3deed92c60c19b6199a7f",
+      "_resolved" : "file:pkg/ejs-v2.3.1.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.1.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.1.4.tgz",
+        "shasum" : "bd005ff17b621a96ed296714b1a84fdae1b2932c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "uglify-js" : "^2.4.16",
+        "mocha" : "^2.1.0",
+        "jake" : "^8.0.0",
+        "istanbul" : "~0.3.5"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha"
+      },
+      "_from" : "pkg/ejs-v2.1.4.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.1.4",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "bd005ff17b621a96ed296714b1a84fdae1b2932c",
+      "_resolved" : "file:pkg/ejs-v2.1.4.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.3.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.3.2.tgz",
+        "shasum" : "0483b4f1c513d3fdac3d14647874621fb95a8df6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "istanbul" : "~0.3.5",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.3.0-beta1",
+        "lru-cache" : "^2.5.0",
+        "mocha" : "^2.1.0",
+        "rimraf" : "^2.2.8",
+        "uglify-js" : "^2.4.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*",
+        "devdoc" : "rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*"
+      },
+      "_from" : "pkg/ejs-v2.3.2.tar.gz",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.3.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "0483b4f1c513d3fdac3d14647874621fb95a8df6",
+      "_resolved" : "file:pkg/ejs-v2.3.2.tar.gz",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.1.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.1.1.tgz",
+        "shasum" : "3ba56f98812c645d4bff1c95503991821a9c1a0b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "uglify-js" : "^2.4.16",
+        "mocha" : "^2.1.0",
+        "jake" : "^8.0.0",
+        "istanbul" : "~0.3.5"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha"
+      },
+      "_from" : "pkg/ejs-v2.1.1.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.1.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "3ba56f98812c645d4bff1c95503991821a9c1a0b",
+      "_resolved" : "file:pkg/ejs-v2.1.1.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.1.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.1.2.tgz",
+        "shasum" : "49d71aec0e4f97835ae3ebb62e783f10ac8b9c26"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "uglify-js" : "^2.4.16",
+        "mocha" : "^2.1.0",
+        "jake" : "^8.0.0",
+        "istanbul" : "~0.3.5"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha"
+      },
+      "_from" : "pkg/ejs-v2.1.2.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.1.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "49d71aec0e4f97835ae3ebb62e783f10ac8b9c26",
+      "_resolved" : "file:pkg/ejs-v2.1.2.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "0.7.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.7.0",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.7.0.tgz",
+        "shasum" : "b91f5671666c4a3746db895855cdd01b5fea7897"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.9",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.7.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.12"
+    },
+    "0.3.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.3.1",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.3.1.tgz",
+        "shasum" : "14efd50a58d0aa24e3626ea674ae123f5d36f94a"
+      },
+      "files" : [ "" ],
+      "directories" : {
+        "lib" : "./lib"
+      },
+      "_npmVersion" : "0.2.18",
+      "_id" : "ejs@0.3.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.4.1"
+    },
+    "0.5.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.5.0",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.5.0.tgz",
+        "shasum" : "d6f8e7d3baad096383df59c3a2407bd942cf08e8"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "0.9.2"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.0.105",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.5.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.1"
+    },
+    "0.7.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.7.1",
+      "repository" : {
+        "url" : "git://github.com/visionmedia/ejs.git",
+        "type" : "git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.7.1.tgz",
+        "shasum" : "6dab41cbdee572986db328a2a8d22040f20fba7c"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.9",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.7.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.12"
+    },
+    "0.7.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.7.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.7.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.7.2.tgz",
+        "shasum" : "8032ee9f1fccdae8376582fee1c6d80b31aa1bd3"
+      },
+      "dependencies" : {
+      },
+      "optionalDependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.19",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.7.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.16"
+    },
+    "0.3.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.3.0",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.3.0.tgz",
+        "shasum" : "d7b8866751f730608b1afcc6f408c3d82483310c"
+      },
+      "files" : [ "" ],
+      "directories" : {
+        "lib" : "./lib"
+      },
+      "_npmVersion" : "0.2.16",
+      "_id" : "ejs@0.3.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "modules" : {
+        "ejs/filters.js" : "lib/ejs/filters.js",
+        "ejs/index.js" : "lib/ejs/index.js",
+        "ejs/utils.js" : "lib/ejs/utils.js"
+      },
+      "_nodeVersion" : "v0.2.6"
+    },
+    "0.1.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.1.0",
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.1.0.tgz",
+        "shasum" : "5552ac77e55daa86e9633aa0089f7c2363ced64a"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "0.2.7-2",
+      "_id" : "ejs@0.1.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_nodeSupported" : true,
+      "_nodeVersion" : "v0.3.1-pre"
+    },
+    "2.5.9" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.9.tgz",
+        "shasum" : "7ba254582a560d267437109a68354112475b0ce5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.16",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jake test",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_2.5.9_1524107621887_0.022501352172896505"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "2.5.7" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.7.tgz",
+        "shasum" : "cc872c168880ae3c7189762fd5ffc00896c9518a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.1",
+        "eslint" : "^3.0.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^3.0.2",
+        "uglify-js" : "^2.6.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jake test",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_from" : "pkg/ejs-v2.5.7.tar.gz",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs-2.5.7.tgz_1501385411193_0.3807816591579467"
+      },
+      "_shasum" : "cc872c168880ae3c7189762fd5ffc00896c9518a",
+      "_resolved" : "file:pkg/ejs-v2.5.7.tar.gz",
+      "_nodeVersion" : "6.9.1"
+    },
+    "2.5.8" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.8.tgz",
+        "shasum" : "2ab6954619f225e6193b7ac5f7c39c48fefe4380"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^3.0.2",
+        "uglify-js" : "^2.6.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jake test",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_2.5.8_1522023950511_0.8935124893356776"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "2.5.5" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.5.tgz",
+        "shasum" : "6ef4e954ea7dcf54f66aad2fe7aa421932d9ed77"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.1",
+        "eslint" : "^3.0.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^3.0.2",
+        "uglify-js" : "^2.6.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_from" : "pkg/ejs-v2.5.5.tar.gz",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/ejs-2.5.5.tgz_1481011535826_0.4493071837350726"
+      },
+      "_shasum" : "6ef4e954ea7dcf54f66aad2fe7aa421932d9ed77",
+      "_resolved" : "file:pkg/ejs-v2.5.5.tar.gz",
+      "_nodeVersion" : "6.9.1"
+    },
+    "2.7.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.7.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.7.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.7.3.tgz",
+        "shasum" : "4f437b3992ea0e0757f0ab8d7f29e42593498927"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^10.3.1",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "postinstall" : "node ./postinstall.js"
+      },
+      "_from" : "file:pkg/ejs-v2.7.3.tar.gz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.7.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_2.7.3_1574128813666_0.8180137162286145"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "12.6.0"
+    },
+    "2.5.6" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.5.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.5.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.5.6.tgz",
+        "shasum" : "479636bfa3fe3b1debd52087f0acb204b4f19c88"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.0.1",
+        "eslint" : "^3.0.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^3.0.2",
+        "uglify-js" : "^2.6.2"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_from" : "pkg/ejs-v2.5.6.tar.gz",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.5.6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/ejs-2.5.6.tgz_1487277787176_0.4875628533773124"
+      },
+      "_shasum" : "479636bfa3fe3b1debd52087f0acb204b4f19c88",
+      "_resolved" : "file:pkg/ejs-v2.5.6.tar.gz",
+      "_nodeVersion" : "6.9.1"
+    },
+    "2.7.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.7.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.7.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.7.4.tgz",
+        "shasum" : "48661287573dcc53e366c7a1ae52c3a120eec9ba"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "jake" : "^10.3.1",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "postinstall" : "node ./postinstall.js"
+      },
+      "_from" : "file:pkg/ejs-v2.7.4.tar.gz",
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.7.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_2.7.4_1574190991245_0.24433792486339567"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "12.6.0"
+    },
+    "3.0.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "3.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-3.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-3.0.1.tgz",
+        "shasum" : "30c8f6ee9948502cc32e85c37a3f8b39b5a614a5"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "jake" : "^10.3.1",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "postinstall" : "node ./postinstall.js"
+      },
+      "_from" : "file:pkg/ejs-v3.0.1.tar.gz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@3.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_3.0.1_1574559796681_0.46243095998800254"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.0.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "3.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-3.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-3.0.2.tgz",
+        "shasum" : "745b01cdcfe38c1c6a2da3bbb2d9957060a31226"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "jake" : "^10.3.1",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "postinstall" : "node --harmony ./postinstall.js"
+      },
+      "_from" : "file:pkg/ejs-v3.0.2.tar.gz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@3.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_3.0.2_1585507243258_0.29938170883594006"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "2.0.8" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.0.8.tgz",
+        "shasum" : "b9e67d2887bab7895af644ce1b0402ed7a5ca52a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "8.0.3",
+        "uglify-js" : "2.4.16",
+        "mocha" : "2.1.0",
+        "jake" : "8.0.x"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/mocha/bin/mocha --ui tdd --reporter spec"
+      },
+      "_from" : "pkg/ejs-v2.0.8.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.0.8",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "b9e67d2887bab7895af644ce1b0402ed7a5ca52a",
+      "_resolved" : "file:pkg/ejs-v2.0.8.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.6.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.6.2.tgz",
+        "shasum" : "3a32c63d1cd16d11266cd4703b14fec4e74ab4f6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.16",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jake test",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_from" : "file:pkg/ejs-v2.6.2.tar.gz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.6.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_2.6.2_1560612406996_0.5115330659886688"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.13.0"
+    },
+    "2.0.6" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.0.6.tgz",
+        "shasum" : "2c6a553ee602710b045a555cdcaefe7a3707f274"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "8.0.3",
+        "uglify-js" : "2.4.16",
+        "mocha" : "2.1.0",
+        "jake" : "8.0.x"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/mocha/bin/mocha --ui tdd --reporter spec"
+      },
+      "_from" : "pkg/ejs-v2.0.6.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.0.6",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "2c6a553ee602710b045a555cdcaefe7a3707f274",
+      "_resolved" : "file:pkg/ejs-v2.0.6.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.2.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.2.4.tgz",
+        "shasum" : "f0af7e366c13149dd7ae30106c0c0e1cad11903c"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "uglify-js" : "^2.4.16",
+        "mocha" : "^2.1.0",
+        "jake" : "^8.0.0",
+        "istanbul" : "~0.3.5"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha"
+      },
+      "_from" : "pkg/ejs-v2.2.4.tar.gz",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.2.4",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "f0af7e366c13149dd7ae30106c0c0e1cad11903c",
+      "_resolved" : "file:pkg/ejs-v2.2.4.tar.gz",
+      "_nodeVersion" : "0.10.35"
+    },
+    "2.4.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.4.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.4.2.tgz",
+        "shasum" : "7057eb4812958fb731841cd9ca353343efe597b1"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "istanbul" : "~0.3.5",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.3.0-beta1",
+        "lru-cache" : "^2.5.0",
+        "mocha" : "^2.1.0",
+        "rimraf" : "^2.2.8",
+        "uglify-js" : "^2.4.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "sample" : "npm install express && node sample/index.js",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*",
+        "devdoc" : "rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*"
+      },
+      "_from" : "pkg/ejs-v2.4.2.tar.gz",
+      "_npmVersion" : "2.15.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.4.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/ejs-2.4.2.tgz_1464117640663_0.8193834638223052"
+      },
+      "_shasum" : "7057eb4812958fb731841cd9ca353343efe597b1",
+      "_resolved" : "file:pkg/ejs-v2.4.2.tar.gz",
+      "_nodeVersion" : "4.4.4"
+    },
+    "2.0.7" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.0.7.tgz",
+        "shasum" : "db0ad257e0fba649029f8c823b8762609c2368f7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "8.0.3",
+        "uglify-js" : "2.4.16",
+        "mocha" : "2.1.0",
+        "jake" : "8.0.x"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/mocha/bin/mocha --ui tdd --reporter spec"
+      },
+      "_from" : "pkg/ejs-v2.0.7.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.0.7",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "db0ad257e0fba649029f8c823b8762609c2368f7",
+      "_resolved" : "file:pkg/ejs-v2.0.7.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.6.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.6.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.6.1.tgz",
+        "shasum" : "498ec0d495655abc6f23cd61868d926464071aa0"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^13.1.1",
+        "eslint" : "^4.14.0",
+        "git-directory-deploy" : "^1.5.1",
+        "istanbul" : "~0.4.3",
+        "jake" : "^8.0.16",
+        "jsdoc" : "^3.4.0",
+        "lru-cache" : "^4.0.1",
+        "mocha" : "^5.0.5",
+        "uglify-js" : "^3.3.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jake test",
+        "lint" : "eslint \"**/*.js\" Jakefile",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "jake doc",
+        "devdoc" : "jake doc[dev]"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.6.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ejs_2.6.1_1525546345882_0.354144762200554"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "2.0.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.0.4.tgz",
+        "shasum" : "fc42b961265803825d25d088a8e7bf1207b65791"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "8.0.3",
+        "uglify-js" : "2.4.16",
+        "mocha" : "2.1.0",
+        "jake" : "8.0.x"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/mocha/bin/mocha --ui tdd --reporter spec"
+      },
+      "_from" : "pkg/ejs-v2.0.4.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.0.4",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "fc42b961265803825d25d088a8e7bf1207b65791",
+      "_resolved" : "file:pkg/ejs-v2.0.4.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.2.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.2.2.tgz",
+        "shasum" : "e0a4cecb211bc432e260802a2cd45c7bfb8007aa"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "uglify-js" : "^2.4.16",
+        "mocha" : "^2.1.0",
+        "jake" : "^8.0.0",
+        "istanbul" : "~0.3.5"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha"
+      },
+      "_from" : "pkg/ejs-v2.2.2.tar.gz",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.2.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "e0a4cecb211bc432e260802a2cd45c7bfb8007aa",
+      "_resolved" : "file:pkg/ejs-v2.2.2.tar.gz",
+      "_nodeVersion" : "0.10.35"
+    },
+    "2.0.5" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.0.5.tgz",
+        "shasum" : "6e7283b1fd913e64195ea98b8653a1ef331b800d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "8.0.3",
+        "uglify-js" : "2.4.16",
+        "mocha" : "2.1.0",
+        "jake" : "8.0.x"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/mocha/bin/mocha --ui tdd --reporter spec"
+      },
+      "_from" : "pkg/ejs-v2.0.5.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.0.5",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "6e7283b1fd913e64195ea98b8653a1ef331b800d",
+      "_resolved" : "file:pkg/ejs-v2.0.5.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.2.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.2.3.tgz",
+        "shasum" : "8d78070eeb2689d94de660279bb9898de9df1ba0"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "uglify-js" : "^2.4.16",
+        "mocha" : "^2.1.0",
+        "jake" : "^8.0.0",
+        "istanbul" : "~0.3.5"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha"
+      },
+      "_from" : "pkg/ejs-v2.2.3.tar.gz",
+      "_npmVersion" : "2.1.18",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.2.3",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "8d78070eeb2689d94de660279bb9898de9df1ba0",
+      "_resolved" : "file:pkg/ejs-v2.2.3.tar.gz",
+      "_nodeVersion" : "0.10.35"
+    },
+    "2.4.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.4.1.tgz",
+        "shasum" : "82e15b1b2a1f948b18097476ba2bd7c66f4d1566"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "istanbul" : "~0.3.5",
+        "jake" : "^8.0.0",
+        "jsdoc" : "^3.3.0-beta1",
+        "lru-cache" : "^2.5.0",
+        "mocha" : "^2.1.0",
+        "rimraf" : "^2.2.8",
+        "uglify-js" : "^2.4.16"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha",
+        "doc" : "rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*",
+        "devdoc" : "rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*"
+      },
+      "_from" : "pkg/ejs-v2.4.1.tar.gz",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.4.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "82e15b1b2a1f948b18097476ba2bd7c66f4d1566",
+      "_resolved" : "file:pkg/ejs-v2.4.1.tar.gz",
+      "_nodeVersion" : "0.12.4"
+    },
+    "2.0.2" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.0.2.tgz",
+        "shasum" : "09d56a4327c99ace3232219c96b9ec27c53f5efc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "8.0.3",
+        "uglify-js" : "2.4.16",
+        "mocha" : "2.1.0",
+        "jake" : "8.0.x"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/mocha/bin/mocha --ui tdd --reporter spec"
+      },
+      "_from" : "pkg/ejs-v2.0.2.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.0.2",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "09d56a4327c99ace3232219c96b9ec27c53f5efc",
+      "_resolved" : "file:pkg/ejs-v2.0.2.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.0.3" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.0.3.tgz",
+        "shasum" : "540012f0e14cfb99a01f201837ebf7e83f5e4100"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "8.0.3",
+        "uglify-js" : "2.4.16",
+        "mocha" : "2.1.0",
+        "jake" : "8.0.x"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/mocha/bin/mocha --ui tdd --reporter spec"
+      },
+      "_from" : "pkg/ejs-v2.0.3.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.0.3",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "540012f0e14cfb99a01f201837ebf7e83f5e4100",
+      "_resolved" : "file:pkg/ejs-v2.0.3.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "2.2.1" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "2.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mde/ejs.git"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-2.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-2.2.1.tgz",
+        "shasum" : "1028dfc0b8fd7d7efe2b76bf25785fe8b302bfbe"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "browserify" : "^8.0.3",
+        "uglify-js" : "^2.4.16",
+        "mocha" : "^2.1.0",
+        "jake" : "^8.0.0",
+        "istanbul" : "~0.3.5"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha",
+        "coverage" : "istanbul cover node_modules/mocha/bin/_mocha"
+      },
+      "_from" : "pkg/ejs-v2.2.1.tar.gz",
+      "_npmVersion" : "2.1.11",
+      "_npmUser" : {
+        "name" : "mde",
+        "email" : "mde@fleegix.org"
+      },
+      "_id" : "ejs@2.2.1",
+      "deprecated" : "Critical security bugs fixed in 2.5.5",
+      "_shasum" : "1028dfc0b8fd7d7efe2b76bf25785fe8b302bfbe",
+      "_resolved" : "file:pkg/ejs-v2.2.1.tar.gz",
+      "_nodeVersion" : "0.10.33"
+    },
+    "0.8.6" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.8.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.8.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.8.6.tgz",
+        "shasum" : "b140399e0ad985545ba0bf23b5bb00ce34bd15e9"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require should --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.8.6",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    },
+    "0.8.4" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.8.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.8.4.tgz",
+        "shasum" : "52e61755e5e97fbc5aeeb07df49a4e062bff30d5"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require should --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.8.4",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    },
+    "0.8.5" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.8.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.8.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.8.5.tgz",
+        "shasum" : "57758f736d6c3025dbfb53f85bd5b93d136b3856"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require should --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.8.5",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    },
+    "1.0.0" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-1.0.0.tgz",
+        "shasum" : "c9c60a48a46ee452fb32a71c317b95e5aa1fcb3d"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require should --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.21",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@1.0.0",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    },
+    "0.8.8" : {
+      "name" : "ejs",
+      "description" : "Embedded JavaScript templates",
+      "version" : "0.8.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/visionmedia/ejs.git"
+      },
+      "main" : "./lib/ejs.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/ejs/-/ejs-0.8.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fejs%2F-%2Fejs-0.8.8.tgz",
+        "shasum" : "ffdc56dcc35d02926dd50ad13439bbc54061d598"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --require should --reporter spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.6",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "ejs@0.8.8",
+      "deprecated" : "Critical security bugs fixed in 2.5.5"
+    }
+  },
+  "readme" : "Embedded JavaScript templates<br/>\n[![Build Status](https://img.shields.io/travis/mde/ejs/master.svg?style=flat)](https://travis-ci.org/mde/ejs)\n[![Developing Dependencies](https://img.shields.io/david/dev/mde/ejs.svg?style=flat)](https://david-dm.org/mde/ejs?type=dev)\n[![Known Vulnerabilities](https://snyk.io/test/npm/ejs/badge.svg?style=flat)](https://snyk.io/test/npm/ejs)\n=============================\n\n## Installation\n\n```bash\n$ npm install ejs\n```\n\n## Features\n\n  * Control flow with `<% %>`\n  * Escaped output with `<%= %>` (escape function configurable)\n  * Unescaped raw output with `<%- %>`\n  * Newline-trim mode ('newline slurping') with `-%>` ending tag\n  * Whitespace-trim mode (slurp all whitespace) for control flow with `<%_ _%>`\n  * Custom delimiters (e.g. `[? ?]` instead of `<% %>`)\n  * Includes\n  * Client-side support\n  * Static caching of intermediate JavaScript\n  * Static caching of templates\n  * Complies with the [Express](http://expressjs.com) view system\n\n## Example\n\n```ejs\n<% if (user) { %>\n  <h2><%= user.name %></h2>\n<% } %>\n```\n\nTry EJS online at: https://ionicabizau.github.io/ejs-playground/.\n\n## Basic usage\n\n```javascript\nlet template = ejs.compile(str, options);\ntemplate(data);\n// => Rendered HTML string\n\nejs.render(str, data, options);\n// => Rendered HTML string\n\nejs.renderFile(filename, data, options, function(err, str){\n    // str => Rendered HTML string\n});\n```\n\nIt is also possible to use `ejs.render(dataAndOptions);` where you pass\neverything in a single object. In that case, you'll end up with local variables\nfor all the passed options. However, be aware that your code could break if we\nadd an option with the same name as one of your data object's properties.\nTherefore, we do not recommend using this shortcut.\n\n### Options\n\n  - `cache`                 Compiled functions are cached, requires `filename`\n  - `filename`              The name of the file being rendered. Not required if you\n    are using `renderFile()`. Used by `cache` to key caches, and for includes.\n  - `root`                  Set project root for includes with an absolute path (e.g, /file.ejs).\n    Can be array to try to resolve include from multiple directories.\n  - `views`                 An array of paths to use when resolving includes with relative paths.\n  - `context`               Function execution context\n  - `compileDebug`          When `false` no debug instrumentation is compiled\n  - `client`                When `true`, compiles a function that can be rendered\n    in the browser without needing to load the EJS Runtime\n    ([ejs.min.js](https://github.com/mde/ejs/releases/latest)).\n  - `delimiter`             Character to use for inner delimiter, by default '%'\n  - `openDelimiter`         Character to use for opening delimiter, by default '<'\n  - `closeDelimiter`        Character to use for closing delimiter, by default '>'\n  - `debug`                 Outputs generated function body\n  - `strict`                When set to `true`, generated function is in strict mode\n  - `_with`                 Whether or not to use `with() {}` constructs. If `false`\n    then the locals will be stored in the `locals` object. Set to `false` in strict mode.\n  - `destructuredLocals`    An array of local variables that are always destructured from\n    the locals object, available even in strict mode.\n  - `localsName`            Name to use for the object storing local variables when not using\n    `with` Defaults to `locals`\n  - `rmWhitespace`          Remove all safe-to-remove whitespace, including leading\n    and trailing whitespace. It also enables a safer version of `-%>` line\n    slurping for all scriptlet tags (it does not strip new lines of tags in\n    the middle of a line).\n  - `escape`                The escaping function used with `<%=` construct. It is\n    used in rendering and is `.toString()`ed in the generation of client functions.\n    (By default escapes XML).\n  - `outputFunctionName`    Set to a string (e.g., 'echo' or 'print') for a function to print\n    output inside scriptlet tags.\n  - `async`                 When `true`, EJS will use an async function for rendering. (Depends\n    on async/await support in the JS runtime.\n  - `includer`              Custom function to handle EJS includes, receives `(originalPath, parsedPath)`\n    parameters, where `originalPath` is the path in include as-is and `parsedPath` is the\n    previously resolved path. Should return an object `{ filename, template }`,\n    you may return only one of the properties, where `filename` is the final parsed path and `template`\n    is the included content.\n\nThis project uses [JSDoc](http://usejsdoc.org/). For the full public API\ndocumentation, clone the repository and run `npm run doc`. This will run JSDoc\nwith the proper options and output the documentation to `out/`. If you want\nthe both the public & private API docs, run `npm run devdoc` instead.\n\n### Tags\n\n  - `<%`              'Scriptlet' tag, for control-flow, no output\n  - `<%_`             'Whitespace Slurping' Scriptlet tag, strips all whitespace before it\n  - `<%=`             Outputs the value into the template (escaped)\n  - `<%-`             Outputs the unescaped value into the template\n  - `<%#`             Comment tag, no execution, no output\n  - `<%%`             Outputs a literal '<%'\n  - `%%>`             Outputs a literal '%>'\n  - `%>`              Plain ending tag\n  - `-%>`             Trim-mode ('newline slurp') tag, trims following newline\n  - `_%>`             'Whitespace Slurping' ending tag, removes all whitespace after it\n\nFor the full syntax documentation, please see [docs/syntax.md](https://github.com/mde/ejs/blob/master/docs/syntax.md).\n\n### Includes\n\nIncludes either have to be an absolute path, or, if not, are assumed as\nrelative to the template with the `include` call. For example if you are\nincluding `./views/user/show.ejs` from `./views/users.ejs` you would\nuse `<%- include('user/show') %>`.\n\nYou must specify the `filename` option for the template with the `include`\ncall unless you are using `renderFile()`.\n\nYou'll likely want to use the raw output tag (`<%-`) with your include to avoid\ndouble-escaping the HTML output.\n\n```ejs\n<ul>\n  <% users.forEach(function(user){ %>\n    <%- include('user/show', {user: user}) %>\n  <% }); %>\n</ul>\n```\n\nIncludes are inserted at runtime, so you can use variables for the path in the\n`include` call (for example `<%- include(somePath) %>`). Variables in your\ntop-level data object are available to all your includes, but local variables\nneed to be passed down.\n\nNOTE: Include preprocessor directives (`<% include user/show %>`) are\nnot supported in v3.0+.\n\n## Custom delimiters\n\nCustom delimiters can be applied on a per-template basis, or globally:\n\n```javascript\nlet ejs = require('ejs'),\n    users = ['geddy', 'neil', 'alex'];\n\n// Just one template\nejs.render('<p>[?= users.join(\" | \"); ?]</p>', {users: users}, {delimiter: '?', openDelimiter: '[', closeDelimiter: ']'});\n// => '<p>geddy | neil | alex</p>'\n\n// Or globally\nejs.delimiter = '?';\nejs.openDelimiter = '[';\nejs.closeDelimiter = ']';\nejs.render('<p>[?= users.join(\" | \"); ?]</p>', {users: users});\n// => '<p>geddy | neil | alex</p>'\n```\n\n### Caching\n\nEJS ships with a basic in-process cache for caching the intermediate JavaScript\nfunctions used to render templates. It's easy to plug in LRU caching using\nNode's `lru-cache` library:\n\n```javascript\nlet ejs = require('ejs'),\n    LRU = require('lru-cache');\nejs.cache = LRU(100); // LRU cache with 100-item limit\n```\n\nIf you want to clear the EJS cache, call `ejs.clearCache`. If you're using the\nLRU cache and need a different limit, simple reset `ejs.cache` to a new instance\nof the LRU.\n\n### Custom file loader\n\nThe default file loader is `fs.readFileSync`, if you want to customize it, you can set ejs.fileLoader.\n\n```javascript\nlet ejs = require('ejs');\nlet myFileLoad = function (filePath) {\n  return 'myFileLoad: ' + fs.readFileSync(filePath);\n};\n\nejs.fileLoader = myFileLoad;\n```\n\nWith this feature, you can preprocess the template before reading it.\n\n### Layouts\n\nEJS does not specifically support blocks, but layouts can be implemented by\nincluding headers and footers, like so:\n\n\n```ejs\n<%- include('header') -%>\n<h1>\n  Title\n</h1>\n<p>\n  My page\n</p>\n<%- include('footer') -%>\n```\n\n## Client-side support\n\nGo to the [Latest Release](https://github.com/mde/ejs/releases/latest), download\n`./ejs.js` or `./ejs.min.js`. Alternately, you can compile it yourself by cloning\nthe repository and running `jake build` (or `$(npm bin)/jake build` if jake is\nnot installed globally).\n\nInclude one of these files on your page, and `ejs` should be available globally.\n\n### Example\n\n```html\n<div id=\"output\"></div>\n<script src=\"ejs.min.js\"></script>\n<script>\n  let people = ['geddy', 'neil', 'alex'],\n      html = ejs.render('<%= people.join(\", \"); %>', {people: people});\n  // With jQuery:\n  $('#output').html(html);\n  // Vanilla JS:\n  document.getElementById('output').innerHTML = html;\n</script>\n```\n\n### Caveats\n\nMost of EJS will work as expected; however, there are a few things to note:\n\n1. Obviously, since you do not have access to the filesystem, `ejs.renderFile()` won't work.\n2. For the same reason, `include`s do not work unless you use an `include callback`. Here is an example:\n  ```javascript\n  let str = \"Hello <%= include('file', {person: 'John'}); %>\",\n      fn = ejs.compile(str, {client: true});\n\n  fn(data, null, function(path, d){ // include callback\n    // path -> 'file'\n    // d -> {person: 'John'}\n    // Put your code here\n    // Return the contents of file as a string\n  }); // returns rendered string\n  ```\n\nSee the [examples folder](https://github.com/mde/ejs/tree/master/examples) for more details.\n\n## CLI\n\nEJS ships with a full-featured CLI. Options are similar to those used in JavaScript code:\n\n  - `-o / --output-file FILE`            Write the rendered output to FILE rather than stdout.\n  - `-f / --data-file FILE`              Must be JSON-formatted. Use parsed input from FILE as data for rendering.\n  - `-i / --data-input STRING`           Must be JSON-formatted and URI-encoded. Use parsed input from STRING as data for rendering.\n  - `-m / --delimiter CHARACTER`         Use CHARACTER with angle brackets for open/close (defaults to %).\n  - `-p / --open-delimiter CHARACTER`    Use CHARACTER instead of left angle bracket to open.\n  - `-c / --close-delimiter CHARACTER`   Use CHARACTER instead of right angle bracket to close.\n  - `-s / --strict`                      When set to `true`, generated function is in strict mode\n  - `-n / --no-with`                     Use 'locals' object for vars rather than using `with` (implies --strict).\n  - `-l / --locals-name`                 Name to use for the object storing local variables when not using `with`.\n  - `-w / --rm-whitespace`               Remove all safe-to-remove whitespace, including leading and trailing whitespace.\n  - `-d / --debug`                       Outputs generated function body\n  - `-h / --help`                        Display this help message.\n  - `-V/v / --version`                   Display the EJS version.\n\nHere are some examples of usage:\n\n```shell\n$ ejs -p [ -c ] ./template_file.ejs -o ./output.html\n$ ejs ./test/fixtures/user.ejs name=Lerxst\n$ ejs -n -l _ ./some_template.ejs -f ./data_file.json\n```\n\n### Data input\n\nThere is a variety of ways to pass the CLI data for rendering.\n\nStdin:\n\n```shell\n$ ./test/fixtures/user_data.json | ejs ./test/fixtures/user.ejs\n$ ejs ./test/fixtures/user.ejs < test/fixtures/user_data.json\n```\n\nA data file:\n\n```shell\n$ ejs ./test/fixtures/user.ejs -f ./user_data.json\n```\n\nA command-line option (must be URI-encoded):\n\n```shell\n./bin/cli.js -i %7B%22name%22%3A%20%22foo%22%7D ./test/fixtures/user.ejs\n```\n\nOr, passing values directly at the end of the invocation:\n\n```shell\n./bin/cli.js -m $ ./test/fixtures/user.ejs name=foo\n```\n\n### Output\n\nThe CLI by default send output to stdout, but you can use the `-o` or `--output-file`\nflag to specify a target file to send the output to.\n\n## IDE Integration with Syntax Highlighting\n\nVSCode:Javascript EJS by *DigitalBrainstem*\n\n## Related projects\n\nThere are a number of implementations of EJS:\n\n * TJ's implementation, the v1 of this library: https://github.com/tj/ejs\n * EJS Embedded JavaScript Framework on Google Code: https://code.google.com/p/embeddedjavascript/\n * Sam Stephenson's Ruby implementation: https://rubygems.org/gems/ejs\n * Erubis, an ERB implementation which also runs JavaScript: http://www.kuwata-lab.com/erubis/users-guide.04.html#lang-javascript\n * DigitalBrainstem EJS Language support: https://github.com/Digitalbrainstem/ejs-grammar\n\n## License\n\nLicensed under the Apache License, Version 2.0\n(<http://www.apache.org/licenses/LICENSE-2.0>)\n\n- - -\nEJS Embedded JavaScript templates copyright 2112\nmde@fleegix.org.\n",
+  "time" : {
+    "0.4.2" : "2011-05-11T16:41:52.848Z",
+    "0.6.0" : "2011-12-09T23:53:35.286Z",
+    "0.4.3" : "2011-06-20T15:43:06.444Z",
+    "0.6.1" : "2011-12-10T00:03:58.433Z",
+    "0.0.4" : "2011-02-14T21:15:53.948Z",
+    "0.4.0" : "2011-04-21T15:38:18.315Z",
+    "0.4.1" : "2011-04-21T16:12:48.085Z",
+    "0.8.2" : "2012-08-16T16:10:20.977Z",
+    "0.8.3" : "2012-09-13T17:39:43.246Z",
+    "0.8.0" : "2012-07-25T15:47:38.691Z",
+    "0.8.1" : "2012-08-11T19:08:11.100Z",
+    "0.0.2" : "2011-02-14T21:15:53.948Z",
+    "0.2.0" : "2011-02-14T21:15:53.948Z",
+    "0.0.3" : "2011-02-14T21:15:53.948Z",
+    "0.2.1" : "2011-02-14T21:15:53.948Z",
+    "0.0.1" : "2011-02-14T21:15:53.948Z",
+    "3.1.4" : "2020-08-17T15:59:41.320Z",
+    "modified" : "2020-08-17T16:01:39.474Z",
+    "3.1.5" : "2020-08-17T16:01:36.232Z",
+    "3.1.2" : "2020-04-24T04:27:31.927Z",
+    "3.1.3" : "2020-05-17T07:00:34.455Z",
+    "created" : "2011-02-14T21:15:53.948Z",
+    "2.5.3" : "2016-11-28T21:18:29.311Z",
+    "2.7.1" : "2019-09-02T19:31:21.573Z",
+    "2.5.4" : "2016-12-05T22:09:12.592Z",
+    "2.7.2" : "2019-11-13T20:52:32.872Z",
+    "2.3.3" : "2015-07-11T20:10:37.137Z",
+    "2.5.1" : "2016-07-25T17:21:43.560Z",
+    "2.3.4" : "2015-09-07T04:06:19.301Z",
+    "2.5.2" : "2016-09-07T14:46:25.109Z",
+    "2.1.3" : "2015-01-12T03:10:51.503Z",
+    "2.3.1" : "2015-02-23T01:25:44.314Z",
+    "2.1.4" : "2015-01-12T19:08:53.495Z",
+    "2.3.2" : "2015-06-29T00:23:09.146Z",
+    "2.1.1" : "2015-01-11T17:55:40.917Z",
+    "2.1.2" : "2015-01-11T20:16:56.924Z",
+    "0.7.0" : "2012-03-25T03:22:09.159Z",
+    "0.3.1" : "2011-02-24T03:08:47.107Z",
+    "0.5.0" : "2011-11-20T19:57:26.230Z",
+    "0.7.1" : "2012-03-26T15:49:46.026Z",
+    "0.7.2" : "2012-06-22T15:23:23.051Z",
+    "0.3.0" : "2011-02-14T21:15:53.948Z",
+    "0.1.0" : "2011-02-14T21:15:53.948Z",
+    "2.5.9" : "2018-04-19T03:13:42.002Z",
+    "2.5.7" : "2017-07-30T03:30:11.422Z",
+    "2.5.8" : "2018-03-26T00:25:50.658Z",
+    "2.5.5" : "2016-12-06T08:05:37.961Z",
+    "2.7.3" : "2019-11-19T02:00:13.854Z",
+    "2.5.6" : "2017-02-16T20:43:07.414Z",
+    "2.7.4" : "2019-11-19T19:16:31.375Z",
+    "3.0.1" : "2019-11-24T01:43:16.825Z",
+    "3.0.2" : "2020-03-29T18:40:43.424Z",
+    "2.0.8" : "2015-01-06T21:03:47.953Z",
+    "2.6.2" : "2019-06-15T15:26:47.156Z",
+    "2.0.6" : "2015-01-05T00:45:02.692Z",
+    "2.2.4" : "2015-02-01T18:31:55.158Z",
+    "2.4.2" : "2016-05-24T19:20:41.091Z",
+    "2.0.7" : "2015-01-05T20:52:20.703Z",
+    "2.6.1" : "2018-05-05T18:52:25.946Z",
+    "2.0.4" : "2015-01-04T23:19:31.738Z",
+    "2.2.2" : "2015-01-21T22:30:55.679Z",
+    "2.0.5" : "2015-01-04T23:22:39.010Z",
+    "2.2.3" : "2015-01-23T23:52:13.108Z",
+    "2.4.1" : "2016-01-24T05:07:30.365Z",
+    "2.0.2" : "2015-01-04T07:05:30.354Z",
+    "2.0.3" : "2015-01-04T18:50:30.699Z",
+    "2.2.1" : "2015-01-20T06:11:05.831Z",
+    "0.8.6" : "2014-03-21T16:10:03.569Z",
+    "0.8.4" : "2013-05-08T16:40:57.686Z",
+    "0.8.5" : "2013-11-22T00:20:37.862Z",
+    "1.0.0" : "2014-03-24T16:32:29.202Z",
+    "0.8.8" : "2014-03-24T16:29:50.391Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/mde/ejs.git"
+  },
+  "users" : {
+    "ray0214" : true,
+    "semo100" : true,
+    "sibawite" : true,
+    "strydom" : true,
+    "j3kz" : true,
+    "hyde2able" : true,
+    "moueza" : true,
+    "456wyc" : true,
+    "saifee" : true,
+    "evanyeung" : true,
+    "avivharuzi" : true,
+    "blind__man" : true,
+    "reno184" : true,
+    "karthickt" : true,
+    "qqqppp9998" : true,
+    "chadyred" : true,
+    "jmkim9" : true,
+    "danday74" : true,
+    "jslite" : true,
+    "chrisx" : true,
+    "netdex" : true,
+    "niudi" : true,
+    "raisiqueira" : true,
+    "gui0704" : true,
+    "dittodhole" : true,
+    "sylvain261" : true,
+    "danielblair" : true,
+    "olonam" : true,
+    "coalesce" : true,
+    "ferrari" : true,
+    "knoja4" : true,
+    "naholyr" : true,
+    "gregvanbrug" : true,
+    "quidama" : true,
+    "nguyenxuantruong.dev" : true,
+    "mark24code" : true,
+    "rocket0191" : true,
+    "lmanukyan" : true,
+    "proxy" : true,
+    "ga1989" : true,
+    "dac2205" : true,
+    "danielye" : true,
+    "flaviomarcioti" : true,
+    "u19950930" : true,
+    "djx474068077" : true,
+    "aisin" : true,
+    "fahadjadoon" : true,
+    "damianof" : true,
+    "junyeong" : true,
+    "daniel-lewis-bsc-hons" : true,
+    "manxisuo" : true,
+    "fengmiaosen" : true,
+    "snarky" : true,
+    "zj1988" : true,
+    "jamesczekaj" : true,
+    "iisii" : true,
+    "maskedcoder" : true,
+    "karzanosman984" : true,
+    "fassetar" : true,
+    "tomchao" : true,
+    "cooboor" : true,
+    "asadm2706" : true,
+    "gamersdelight" : true,
+    "kewin" : true,
+    "stone-jin" : true,
+    "ecelis" : true,
+    "wallenberg12" : true,
+    "shekharreddy" : true,
+    "kontrax" : true,
+    "raskawa" : true,
+    "monjer" : true,
+    "marinear212" : true,
+    "soundtemple" : true,
+    "xiaoyiyu" : true,
+    "wzbg" : true,
+    "ahillier" : true,
+    "boustanihani" : true,
+    "freshlogic" : true,
+    "ghe1219" : true,
+    "mcwhittemore" : true,
+    "maxwelldu" : true,
+    "vboctor" : true,
+    "iceriver2" : true,
+    "oheard" : true,
+    "rabahtahraoui" : true,
+    "snowdream" : true,
+    "abuddington" : true,
+    "asfrom30" : true,
+    "makediff" : true,
+    "greganswer" : true,
+    "ernie55ernie" : true,
+    "matteospampani" : true,
+    "fmm" : true,
+    "deivbid" : true,
+    "evkline" : true,
+    "leakon" : true,
+    "trusktr" : true,
+    "stretchgz" : true,
+    "staatsanwalt" : true,
+    "undashes" : true,
+    "luffy84217" : true,
+    "maxmaximov" : true,
+    "yyll" : true,
+    "isenricho" : true,
+    "adamdreszer" : true,
+    "chadwatson" : true,
+    "manavsaxena" : true,
+    "dereklakin" : true,
+    "msjcaetano" : true,
+    "erikvold" : true,
+    "piotrposzytek" : true,
+    "parsea" : true,
+    "npmmurali" : true,
+    "waldrupm" : true,
+    "gochomugo" : true,
+    "xufz" : true,
+    "coton_chen" : true,
+    "xgheaven" : true,
+    "dofy" : true,
+    "joechow" : true,
+    "flozz" : true,
+    "theonlyartz" : true,
+    "smokinhuzi" : true,
+    "cj.nichols" : true,
+    "dmsanchez86" : true,
+    "tobiasnickel" : true,
+    "zhengyaing" : true,
+    "peunzhang" : true,
+    "nilz3ro" : true,
+    "bool" : true,
+    "huarse" : true,
+    "beytek" : true,
+    "zhenzhuquan" : true,
+    "lonespear" : true,
+    "lx70770" : true,
+    "dm7" : true,
+    "ldq-first" : true,
+    "beatwinthewave" : true,
+    "midascreed" : true,
+    "d3ck" : true,
+    "2dxgujun" : true,
+    "asj1992" : true,
+    "alaeddine17" : true,
+    "adamrenny" : true,
+    "destemidosistemas" : true,
+    "jamesllen" : true,
+    "sadmansamee" : true,
+    "vchouhan" : true,
+    "evdokimovm" : true,
+    "felipeferreirasilva" : true,
+    "ashco" : true,
+    "npmrud5g" : true,
+    "yanghcc" : true,
+    "sopov" : true,
+    "qmmr" : true,
+    "zllzixi" : true,
+    "dadoumda" : true,
+    "jeremy_yang" : true,
+    "fxkraus" : true,
+    "akamaozu" : true,
+    "x_soth" : true,
+    "moonnoire" : true,
+    "ryaned" : true,
+    "m42am" : true,
+    "writech" : true,
+    "valeriu-zdrobau" : true,
+    "pmasa" : true,
+    "apopek" : true,
+    "dskecse" : true,
+    "jk6" : true,
+    "writeosahon" : true,
+    "iolo" : true,
+    "yun814752288" : true,
+    "ryandu" : true,
+    "zerouikit" : true,
+    "kodekracker" : true,
+    "lamentchina" : true,
+    "nickeltobias" : true,
+    "atulmy" : true,
+    "largepuma" : true,
+    "ssh0702" : true,
+    "louxiaojian" : true,
+    "milan322" : true,
+    "ljharb" : true,
+    "asm2hex" : true,
+    "langri-sha" : true,
+    "hyteer" : true,
+    "incsw" : true,
+    "biggora" : true,
+    "dubban" : true,
+    "801s" : true,
+    "lpgray" : true,
+    "josep1992" : true,
+    "dbck" : true,
+    "damocles" : true,
+    "brandtabbott" : true,
+    "staraple" : true,
+    "yhui02" : true,
+    "wfcookie" : true,
+    "hugovila" : true,
+    "gpmetheny" : true,
+    "angrykoala" : true,
+    "techyone" : true,
+    "markthethomas" : true,
+    "chenyingxuan1996" : true,
+    "stany" : true,
+    "ww522413622" : true,
+    "juangotama" : true,
+    "wangnan0610" : true,
+    "pablo.tavarez" : true,
+    "danielpavelic" : true,
+    "thomashzhu" : true,
+    "cfleschhut" : true,
+    "zh770797477" : true,
+    "sharp" : true,
+    "leogoncha" : true,
+    "lhard" : true,
+    "einfallstoll" : true,
+    "adrian.arroyocalle" : true,
+    "cslater" : true,
+    "fgribreau" : true,
+    "jamesbedont" : true,
+    "he313572052" : true,
+    "chrisweb" : true,
+    "shanemileham" : true,
+    "marcobiedermann" : true,
+    "dh19911021" : true,
+    "jybleau" : true,
+    "jamesulph" : true,
+    "fonologico" : true,
+    "lqweb" : true,
+    "i.vispyanskiy" : true,
+    "zenfeder" : true,
+    "guogai" : true,
+    "kimkee" : true,
+    "theveil" : true,
+    "pensierinmusica" : true,
+    "rackyrose" : true,
+    "pedrozgz" : true,
+    "winfredzhu" : true,
+    "jtsky" : true,
+    "shakakira" : true,
+    "soulevans07" : true,
+    "ab.moon" : true,
+    "biiu" : true,
+    "losymear" : true,
+    "linfeng9008" : true,
+    "csbun" : true,
+    "luckyulin" : true,
+    "buzzalderaan" : true,
+    "blessdyb" : true,
+    "sm0ck1" : true,
+    "aitoralejandro" : true,
+    "alexandermac" : true,
+    "tudou" : true,
+    "a3.ivanenko" : true,
+    "sammok2003" : true,
+    "rapomon" : true,
+    "demiurgosoft" : true,
+    "yong_a" : true,
+    "junjiansyu" : true,
+    "tranceyos2419" : true,
+    "ericteng177" : true,
+    "maddas" : true,
+    "jianhua" : true,
+    "pftom" : true,
+    "monczek" : true,
+    "mackenziestarr" : true,
+    "sasquatch" : true,
+    "z4tech" : true,
+    "jimnox" : true,
+    "doombuddha" : true,
+    "ipasha" : true,
+    "madeo" : true,
+    "truonghuutien" : true,
+    "scalz" : true,
+    "timothygu" : true,
+    "cambro93" : true,
+    "duck102017" : true,
+    "owillo" : true,
+    "tedyhy" : true,
+    "gabriel_hansson" : true,
+    "voxpelli" : true,
+    "earthling0" : true,
+    "piotr23" : true,
+    "trenthm" : true,
+    "aabbcce" : true,
+    "adeelp" : true,
+    "nickleefly" : true,
+    "diogocapela" : true,
+    "pavelusov" : true,
+    "hodd" : true,
+    "gabrielmedina" : true,
+    "13lank.null" : true,
+    "isik" : true,
+    "husida" : true,
+    "ysk8" : true,
+    "_~" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "Apache-2.0"
+}

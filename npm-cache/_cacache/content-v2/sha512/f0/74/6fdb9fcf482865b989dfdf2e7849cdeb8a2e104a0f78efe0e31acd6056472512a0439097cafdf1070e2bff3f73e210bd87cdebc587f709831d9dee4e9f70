@@ -1,0 +1,413 @@
+{
+  "_id" : "jstransformer",
+  "_rev" : "23-ca2f213626985189e3b0904f1b1ce609",
+  "name" : "jstransformer",
+  "description" : "Normalize the API of any jstransformer",
+  "dist-tags" : {
+    "latest" : "1.0.0"
+  },
+  "versions" : {
+    "0.0.4" : {
+      "name" : "jstransformer",
+      "description" : "Normalize the API of any jstransformer",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/jstransformers/jstransformer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jstransformers/jstransformer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jstransformers/jstransformer/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/jstransformer/-/jstransformer-0.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fjstransformer%2F-%2Fjstransformer-0.0.4.tgz",
+        "shasum" : "8ec12cead9dfe0aae8c852c3aade653a8ccab1f9"
+      },
+      "dependencies" : {
+        "is-promise" : "^2.0.0",
+        "promise" : "^7.0.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.4.0",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "jstransformer" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "hemanth",
+        "email" : "hemanth.hm@gmail.com"
+      }, {
+        "name" : "robloach",
+        "email" : "robloach@gmail.com"
+      }, {
+        "name" : "stoeffel",
+        "email" : "schtoeffel@gmail.com"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test",
+        "coveralls" : "npm run coverage && cat ./coverage/lcov.info | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.6",
+      "_npmUser" : {
+        "name" : "robloach",
+        "email" : "robloach@gmail.com"
+      },
+      "_id" : "jstransformer@0.0.4",
+      "gitHead" : "67231174793c940ec18830ed92ffa0a2f3ef8950",
+      "_shasum" : "8ec12cead9dfe0aae8c852c3aade653a8ccab1f9",
+      "_nodeVersion" : "5.0.0"
+    },
+    "0.0.2" : {
+      "name" : "jstransformer",
+      "description" : "Normalize the API of any jstransformer",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/jstransformers/jstransformer",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jstransformers/jstransformer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jstransformers/jstransformer/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/jstransformer/-/jstransformer-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fjstransformer%2F-%2Fjstransformer-0.0.2.tgz",
+        "shasum" : "7aae29a903d196cfa0973d885d3e47947ecd76ab"
+      },
+      "dependencies" : {
+        "is-promise" : "^2.0.0",
+        "promise" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "testit" : "^1.2.0"
+      },
+      "keywords" : [ "jstransformer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test",
+        "coveralls" : "npm run coverage && cat ./coverage/lcov.info | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "jstransformer@0.0.2",
+      "gitHead" : "99b40c1aa9fa984585aa50f4618d97a0287495c1",
+      "_shasum" : "7aae29a903d196cfa0973d885d3e47947ecd76ab",
+      "_nodeVersion" : "1.6.2"
+    },
+    "0.0.3" : {
+      "name" : "jstransformer",
+      "description" : "Normalize the API of any jstransformer",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/jstransformers/jstransformer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jstransformers/jstransformer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jstransformers/jstransformer/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/jstransformer/-/jstransformer-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fjstransformer%2F-%2Fjstransformer-0.0.3.tgz",
+        "shasum" : "347495bd3fe1cfe8f03e2d71578acb9024826cf5"
+      },
+      "dependencies" : {
+        "is-promise" : "^2.0.0",
+        "promise" : "^7.0.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "jstransformer" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "tunnckocore",
+        "email" : "mameto_100@mail.bg"
+      }, {
+        "name" : "robloach",
+        "email" : "robloach@gmail.com"
+      }, {
+        "name" : "hemanth",
+        "email" : "hemanth.hm@gmail.com"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      }, {
+        "name" : "stoeffel",
+        "email" : "schtoeffel@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test",
+        "coveralls" : "npm run coverage && cat ./coverage/lcov.info | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.10.1",
+      "_npmUser" : {
+        "name" : "robloach",
+        "email" : "robloach@gmail.com"
+      },
+      "_id" : "jstransformer@0.0.3",
+      "gitHead" : "57198ce3483f51ee092895c243cb88162f843dcd",
+      "_shasum" : "347495bd3fe1cfe8f03e2d71578acb9024826cf5",
+      "_nodeVersion" : "0.12.4"
+    },
+    "1.0.0" : {
+      "name" : "jstransformer",
+      "description" : "Normalize the API of any jstransformer",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/jstransformers/jstransformer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jstransformers/jstransformer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jstransformers/jstransformer/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/jstransformer/-/jstransformer-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fjstransformer%2F-%2Fjstransformer-1.0.0.tgz",
+        "shasum" : "ed8bf0921e2f3f1ed4d5c1a44f68709ed24722c3"
+      },
+      "dependencies" : {
+        "is-promise" : "^2.0.0",
+        "promise" : "^7.0.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.4.0",
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "jstransformer" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "hemanth",
+        "email" : "hemanth.hm@gmail.com"
+      }, {
+        "name" : "robloach",
+        "email" : "robloach@gmail.com"
+      }, {
+        "name" : "stoeffel",
+        "email" : "schtoeffel@gmail.com"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test",
+        "coveralls" : "npm run coverage && cat ./coverage/lcov.info | coveralls"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.6",
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "jstransformer@1.0.0",
+      "gitHead" : "7cad069255989318fc5638228fd2fa54fe35992f",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/jstransformer-1.0.0.tgz_1465175586831_0.4917067172937095"
+      },
+      "_shasum" : "ed8bf0921e2f3f1ed4d5c1a44f68709ed24722c3",
+      "_nodeVersion" : "6.2.1"
+    },
+    "0.0.0" : {
+      "name" : "jstransformer",
+      "description" : "Normalize the API of any jstransformer",
+      "version" : "0.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/jstransformers/jstransformer",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jstransformers/jstransformer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jstransformers/jstransformer/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/jstransformer/-/jstransformer-0.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fjstransformer%2F-%2Fjstransformer-0.0.0.tgz",
+        "shasum" : "81bf714ce8478c934ba89c4d87d83384ff1e074e"
+      },
+      "dependencies" : {
+        "promise" : "^6.0.1"
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.5.0-alpha-4",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "jstransformer@0.0.0",
+      "gitHead" : "a6c22a5115c49c3fd85d828c9a73b53f0783f395",
+      "_shasum" : "81bf714ce8478c934ba89c4d87d83384ff1e074e"
+    },
+    "0.0.1" : {
+      "name" : "jstransformer",
+      "description" : "Normalize the API of any jstransformer",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/jstransformers/jstransformer",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jstransformers/jstransformer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jstransformers/jstransformer/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/jstransformer/-/jstransformer-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fjstransformer%2F-%2Fjstransformer-0.0.1.tgz",
+        "shasum" : "950c5878729a2624f3013fc252833300c4cd163a"
+      },
+      "dependencies" : {
+        "promise" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "istanbul" : "^0.3.5",
+        "testit" : "^1.2.0"
+      },
+      "keywords" : [ "jstransformer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test",
+        "coverage" : "istanbul cover test/index.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "jstransformer@0.0.1",
+      "gitHead" : "c9e437cba3e56def57887a7ca8adb73bbea7040c",
+      "_shasum" : "950c5878729a2624f3013fc252833300c4cd163a"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "<p align=\"center\"><img src=\"https://cdn.rawgit.com/jstransformers/jstransformer/2bb6dc6c410e8683a17a4af5f1b73bcbee95aada/logo.svg\" width=\"300px\" height=\"299px\" /></p>\n<h1 align=\"center\">JSTransformer</h1>\n<p align=\"center\">Normalize the API of any jstransformer</p>\n\n<p align=\"center\"><a href=\"https://travis-ci.org/jstransformers/jstransformer\"><img src=\"https://img.shields.io/travis/jstransformers/jstransformer/master.svg\" alt=\"Build Status\"></a>\n<a href=\"https://david-dm.org/jstransformers/jstransformer\"><img src=\"https://img.shields.io/david/jstransformers/jstransformer.svg\" alt=\"Dependency Status\"></a>\n<a href=\"https://david-dm.org/jstransformers/jstransformer#info=devDependencies\"><img src=\"https://img.shields.io/david/dev/jstransformers/jstransformer.svg\" alt=\"Developers' Dependency Status\"></a>\n<a href=\"https://coveralls.io/r/jstransformers/jstransformer?branch=master\"><img src=\"https://img.shields.io/coveralls/jstransformers/jstransformer/master.svg\" alt=\"Coverage Status\"></a>\n<a href=\"https://www.npmjs.org/package/jstransformer\"><img src=\"https://img.shields.io/npm/v/jstransformer.svg\" alt=\"NPM version\"></a></p>\n\n## Installation\n\n    npm install jstransformer\n\n## Usage\n\n```js\nvar transformer = require('jstransformer');\nvar marked = transformer(require('jstransformer-marked'));\n\nvar options = {};\nvar res = marked.render('Some **markdown**', options);\n// => {body: 'Some <strong>markdown</strong>', dependencies: []}\n```\n\nThis gives the same API regardless of the jstransformer passed in.\n\n## API\n\nA transformer, once normalised using this module, will implement the following methods.  Note that if the underlying transformer cannot be used to implement the functionality, it may ultimately just throw an error.\n\n### Returned object from `.render*`\n\n```js\n{body: String, dependencies: Array.<String>}\n```\n\n - `body` represents the result as a string\n - `dependencies` is an array of files that were read in as part of the render process (or an empty array if there were no dependencies)\n\n### `.render`\n\n```js\ntransformer.render(str, options, locals);\n=> {body: String, dependencies: Array.<String>}\n```\n\n_requires the underlying transform to implement `.render` or `.compile`_\n\nTransform a string and return an object.\n\n### `.renderAsync`\n\n```js\ntransformer.renderAsync(str[, options], locals, callback);\n```\n\n```js\ntransformer.renderAsync(str[, options], locals);\n=> Promise({body: String, dependencies: Array.<String>})\n```\n\n_requires the underlying transform to implement `.renderAsync` or `.render`_\n\nTransform a string asynchronously. If a callback is provided, it is called as `callback(err, data)`, otherwise a Promise is returned.\n\n### `.renderFile`\n\n```js\ntransformer.renderFile(filename, options, locals)\n=> {body: String, dependencies: Array.<String>}\n```\n\n_requires the underlying transform to implement `.renderFile`, `.render`, `.compileFile`, or `.compile`_\n\nTransform a file and return an object.\n\n### `.renderFileAsync`\n\n```js\ntransformer.renderFileAsync(filename[, options], locals, callback);\n```\n\n```js\ntransformer.renderFileAsync(filename[, options], locals);\n=> Promise({body: String, dependencies: Array.<String>})\n```\n\n_requires the underlying transform to implement `.renderFileAsync`, `.renderFile`, `.renderAsync`, `.render`, `.compileFileAsync`, `.compileFile`, `.compileAsync`, or `.compileFile`_\n\nTransform a file asynchronously. If a callback is provided, it is called as `callback(err, data)`, otherwise a Promise is returned.\n\n### `.inputFormats`\n\n```js\nvar formats = transformer.inputFormats;\n=> ['md', 'markdown']\n```\n\nReturns an array of strings representing potential input formats for the transform. If not provided directly by the transform, results in an array containing the name of the transform.\n\n### `.outputFormat`\n\n```js\nvar md = require('jstransformer')(require('jstransformer-markdown'))\nvar outputFormat = md.outputFormat\n=> 'html'\n```\n\nReturns a string representing the default output format the transform would be expected to return when calling `.render()`.\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "calebeby",
+    "email" : "caleb.eby01@gmail.com"
+  }, {
+    "name" : "forbeslindesay",
+    "email" : "forbes@lindesay.co.uk"
+  }, {
+    "name" : "hemanth",
+    "email" : "hemanth.hm@gmail.com"
+  }, {
+    "name" : "robloach",
+    "email" : "robloach@gmail.com"
+  }, {
+    "name" : "stoeffel",
+    "email" : "schtoeffel@gmail.com"
+  }, {
+    "name" : "timothygu",
+    "email" : "timothygu99@gmail.com"
+  } ],
+  "author" : {
+    "name" : "ForbesLindesay"
+  },
+  "time" : {
+    "0.0.4" : "2015-11-23T10:35:17.137Z",
+    "created" : "2014-11-18T17:19:18.314Z",
+    "modified" : "2017-10-28T01:20:04.303Z",
+    "0.0.2" : "2015-04-12T02:57:12.696Z",
+    "0.0.3" : "2015-07-13T10:20:49.591Z",
+    "1.0.0" : "2016-06-06T01:13:09.732Z",
+    "0.0.0" : "2014-11-18T17:19:18.314Z",
+    "0.0.1" : "2015-02-09T22:32:01.028Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jstransformers/jstransformer.git"
+  },
+  "users" : {
+    "eshinn" : true,
+    "seangenabe" : true,
+    "robloach" : true,
+    "dduran1967" : true,
+    "nelix" : true,
+    "zuojiang" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jstransformers/jstransformer#readme",
+  "keywords" : [ "jstransformer" ],
+  "bugs" : {
+    "url" : "https://github.com/jstransformers/jstransformer/issues"
+  },
+  "license" : "MIT"
+}

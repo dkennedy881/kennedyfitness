@@ -1,0 +1,142 @@
+{
+  "_id" : "sorted-object",
+  "_rev" : "5-c8ecc980de1b115f743965292ca77d18",
+  "name" : "sorted-object",
+  "description" : "Returns a copy of an object with its keys sorted",
+  "dist-tags" : {
+    "latest" : "2.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "sorted-object",
+      "description" : "Returns a copy of an object with its keys sorted",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/domenic/sorted-object.git"
+      },
+      "main" : "lib/sorted-object.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/sorted-object/-/sorted-object-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsorted-object%2F-%2Fsorted-object-2.0.0.tgz",
+        "shasum" : "1cfea981609047d8043807a490a9d99b317faf7f"
+      },
+      "devDependencies" : {
+        "eslint" : "^2.4.0",
+        "tape" : "^4.5.1"
+      },
+      "license" : "WTFPL",
+      "files" : [ "lib/" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/tests.js",
+        "lint" : "eslint ."
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "domenic",
+        "email" : "d@domenic.me"
+      },
+      "_id" : "sorted-object@2.0.0",
+      "gitHead" : "3cbdde212c8ceef219fbb8fa7805bfc38b94aa90",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/sorted-object-2.0.0.tgz_1457910693572_0.6718082851730287"
+      },
+      "_shasum" : "1cfea981609047d8043807a490a9d99b317faf7f",
+      "_nodeVersion" : "5.7.1"
+    },
+    "2.0.1" : {
+      "name" : "sorted-object",
+      "description" : "Returns a copy of an object with its keys sorted",
+      "version" : "2.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/domenic/sorted-object.git"
+      },
+      "main" : "lib/sorted-object.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/sorted-object/-/sorted-object-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsorted-object%2F-%2Fsorted-object-2.0.1.tgz",
+        "shasum" : "7d631f4bd3a798a24af1dffcfbfe83337a5df5fc"
+      },
+      "devDependencies" : {
+        "eslint" : "^2.4.0",
+        "tape" : "^4.5.1"
+      },
+      "license" : "(WTFPL OR MIT)",
+      "files" : [ "lib/" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/tests.js",
+        "lint" : "eslint ."
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.9.5",
+      "_npmUser" : {
+        "name" : "domenic",
+        "email" : "d@domenic.me"
+      },
+      "_id" : "sorted-object@2.0.1",
+      "gitHead" : "87105deb13d4f4151b2abd1a78d27a5216e3e79d",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/sorted-object-2.0.1.tgz_1473550768215_0.1242613298818469"
+      },
+      "_shasum" : "7d631f4bd3a798a24af1dffcfbfe83337a5df5fc",
+      "_nodeVersion" : "6.2.2"
+    },
+    "1.0.0" : {
+      "name" : "sorted-object",
+      "description" : "Returns a copy of an object with its keys sorted",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/domenic/sorted-object.git"
+      },
+      "main" : "lib/sorted-object.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/sorted-object/-/sorted-object-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsorted-object%2F-%2Fsorted-object-1.0.0.tgz",
+        "shasum" : "5d1f4f9c1fb2cd48965967304e212eb44cfb6d05"
+      },
+      "devDependencies" : {
+        "jshint" : "~2.4.3",
+        "tape" : "~2.4.2"
+      },
+      "license" : "WTFPL",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/tests.js",
+        "lint" : "jshint lib && jshint test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.25",
+      "_npmUser" : {
+        "name" : "domenic",
+        "email" : "domenic@domenicdenicola.com"
+      },
+      "_id" : "sorted-object@1.0.0"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# Get a Version of an Object with Sorted Keys\n\nAlthough objects in JavaScript are theoretically unsorted, in practice most engines use insertion order—at least, ignoring numeric keys. This manifests itself most prominently when dealing with an object's JSON serialization.\n\nSo, for example, you might be trying to serialize some object to a JSON file. But every time you write it, it ends up being output in a different order, depending on how you created it in the first place! This makes for some ugly diffs.\n\n**sorted-object** gives you the answer. Just use this package to create a version of your object with its keys sorted before serializing, and you'll get a consistent order every time.\n\n```js\nvar sortedObject = require(\"sorted-object\");\n\nvar objectToSerialize = generateStuffNondeterministically();\n\n// Before:\nfs.writeFileSync(\"dest.json\", JSON.stringify(objectToSerialize));\n\n// After:\nvar sortedVersion = sortedObject(objectToSerialize);\nfs.writeFileSync(\"dest.json\", JSON.stringify(sortedVersion));\n```\n",
+  "time" : {
+    "2.0.0" : "2016-03-13T23:11:36.093Z",
+    "2.0.1" : "2016-09-10T23:39:29.652Z",
+    "created" : "2014-02-17T20:11:34.745Z",
+    "modified" : "2016-09-10T23:39:29.652Z",
+    "1.0.0" : "2014-02-17T20:11:34.745Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/domenic/sorted-object.git"
+  },
+  "users" : {
+    "mattmcfarland" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "(WTFPL OR MIT)"
+}

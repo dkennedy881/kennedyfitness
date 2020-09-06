@@ -1,0 +1,1230 @@
+{
+  "_id" : "acorn-globals",
+  "_rev" : "27-e4efbc3699fc4b73de817f68752282cc",
+  "name" : "acorn-globals",
+  "description" : "Detect global variables in JavaScript using acorn",
+  "dist-tags" : {
+    "latest" : "6.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-2.0.0.tgz",
+        "shasum" : "12d6705f6f0ea924ce744e1bf9624f62e9c81f7b"
+      },
+      "dependencies" : {
+        "acorn" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@2.0.0",
+      "gitHead" : "abcd15bab1ee268f9b36f94bca97ea60874250bc",
+      "_shasum" : "12d6705f6f0ea924ce744e1bf9624f62e9c81f7b",
+      "_nodeVersion" : "1.6.2"
+    },
+    "4.2.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-4.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-4.2.0.tgz",
+        "shasum" : "502d5503cbbc772adb31d38a39336f670b2327be"
+      },
+      "dependencies" : {
+        "acorn" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "testit" : "^3.0.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@4.2.0",
+      "gitHead" : "aefa66f617c5b4d076b8399f71c9edf4e99be5d7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals_4.2.0_1537006426831_0.3137548476866072"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "4.3.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-4.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-4.3.0.tgz",
+        "shasum" : "e3b6f8da3c1552a95ae627571f7dd6923bb54103"
+      },
+      "dependencies" : {
+        "acorn" : "^6.0.1",
+        "acorn-walk" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "testit" : "^3.0.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@4.3.0",
+      "gitHead" : "616ac9a312940c8bd8aff49543105ef7e329bc78",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals_4.3.0_1537006460943_0.882580479753529"
+      },
+      "_nodeVersion" : "10.9.0"
+    },
+    "4.0.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-4.0.0.tgz",
+        "shasum" : "0d771eb8c5b8e244124af193d006e21bd7d309c6"
+      },
+      "dependencies" : {
+        "acorn" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "5.0.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@4.0.0",
+      "gitHead" : "c78d741d547b9c9245426cc6c5cd618345bb118a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals-4.0.0.tgz_1498216793125_0.24124875431880355"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "4.1.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-4.1.0.tgz",
+        "shasum" : "ab716025dbe17c54d3ef81d32ece2b2d99fe2538"
+      },
+      "dependencies" : {
+        "acorn" : "^5.0.0"
+      },
+      "devDependencies" : {
+        "testit" : "^3.0.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@4.1.0",
+      "gitHead" : "9e2139d5a43be44523f06424bf67a2d1fdf85882",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals-4.1.0.tgz_1508886325881_0.2606661815661937"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "4.3.3" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "4.3.3",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-4.3.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-4.3.3.tgz",
+        "shasum" : "a86f75b69680b8780d30edd21eee4e0ea170c05e"
+      },
+      "dependencies" : {
+        "acorn" : "^6.0.1",
+        "acorn-walk" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "testit" : "^3.0.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@4.3.3",
+      "gitHead" : "5833c929dddb267b4fc918ce1e2b9e7aba5fb3dd",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals_4.3.3_1564791353406_0.40102051875783684"
+      },
+      "_nodeVersion" : "12.6.0"
+    },
+    "4.3.4" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "4.3.4",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-4.3.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-4.3.4.tgz",
+        "shasum" : "9fa1926addc11c97308c4e66d7add0d40c3272e7"
+      },
+      "dependencies" : {
+        "acorn" : "^6.0.1",
+        "acorn-walk" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "testit" : "^3.0.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@4.3.4",
+      "gitHead" : "2f959b04c5f887eeda2f0341585979bc0722a1a3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals_4.3.4_1568130413087_0.8540497032448573"
+      },
+      "_nodeVersion" : "10.16.2"
+    },
+    "4.3.1" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-4.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-4.3.1.tgz",
+        "shasum" : "deb149c59276657ebd40ba2ba849ddd529763ccf"
+      },
+      "dependencies" : {
+        "acorn" : "^6.0.1",
+        "acorn-walk" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "testit" : "^3.0.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@4.3.1",
+      "gitHead" : "300c3652094f5cd2c4d53c50f045ed23f0951ce6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals_4.3.1_1555070646533_0.4875622794436336"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "4.3.2" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "4.3.2",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-4.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-4.3.2.tgz",
+        "shasum" : "4e2c2313a597fd589720395f6354b41cd5ec8006"
+      },
+      "dependencies" : {
+        "acorn" : "^6.0.1",
+        "acorn-walk" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "testit" : "^3.0.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@4.3.2",
+      "gitHead" : "b6521b3ea3ea6adfde5c58a3ce03403e5fee43a4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals_4.3.2_1555876081863_0.3827506610070919"
+      },
+      "_nodeVersion" : "11.12.0"
+    },
+    "1.0.3" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.3.tgz",
+        "shasum" : "819f58202cd767a90f2798b24fc4caa8d5ce45db"
+      },
+      "dependencies" : {
+        "acorn" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "testit" : "^1.2.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.5.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@1.0.3",
+      "gitHead" : "166b011c06ffbf94b30806a917948244a5c6be5d",
+      "_shasum" : "819f58202cd767a90f2798b24fc4caa8d5ce45db",
+      "_nodeVersion" : "0.12.0"
+    },
+    "1.0.4" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.4.tgz",
+        "shasum" : "4e8528e724b4fa24ba553ad479c4c78589afbfcf"
+      },
+      "dependencies" : {
+        "acorn" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "testit" : "^1.2.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@1.0.4",
+      "gitHead" : "4ad8a64daa0e4028ce0d1596dbceec26b433235c",
+      "_shasum" : "4e8528e724b4fa24ba553ad479c4c78589afbfcf",
+      "_nodeVersion" : "1.6.2"
+    },
+    "1.0.5" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.5",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.5.tgz",
+        "shasum" : "69dd5f77d6ed218006946a50fa73ce74194d7cf5"
+      },
+      "dependencies" : {
+        "acorn" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@1.0.5",
+      "gitHead" : "46a3a9ffd93b8e53c741c2b9fae83ba8a041ecda",
+      "_shasum" : "69dd5f77d6ed218006946a50fa73ce74194d7cf5",
+      "_nodeVersion" : "1.6.2"
+    },
+    "1.0.6" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.6",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.6.tgz",
+        "shasum" : "df2b32097504bb4da3b48d01fd8dac44b346b26d"
+      },
+      "dependencies" : {
+        "acorn" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@1.0.6",
+      "gitHead" : "30c33145858d0ea0c9e5ae8371d1399e53464039",
+      "_shasum" : "df2b32097504bb4da3b48d01fd8dac44b346b26d",
+      "_nodeVersion" : "1.6.2"
+    },
+    "3.0.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-3.0.0.tgz",
+        "shasum" : "1a64dd8fa761288594620649526e2625917a56c6"
+      },
+      "dependencies" : {
+        "acorn" : "^3.1.0"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@3.0.0",
+      "gitHead" : "15fbb44221f34e718ba48e5b183b41d15ca54356",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/acorn-globals-3.0.0.tgz_1464969407290_0.16545027447864413"
+      },
+      "_shasum" : "1a64dd8fa761288594620649526e2625917a56c6",
+      "_nodeVersion" : "6.2.0"
+    },
+    "1.0.7" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.7",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.7.tgz",
+        "shasum" : "6b9262606718894a43eaeddfe03255a15a29b0dd"
+      },
+      "dependencies" : {
+        "acorn" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "acorn-globals@1.0.7",
+      "gitHead" : "ec9964ba519ebbe483d8ff289af1f5db75d6cc5d",
+      "_shasum" : "6b9262606718894a43eaeddfe03255a15a29b0dd",
+      "_nodeVersion" : "4.2.1"
+    },
+    "6.0.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-6.0.0.tgz",
+        "shasum" : "46cdd39f0f8ff08a876619b55f5ac8a6dc770b45"
+      },
+      "dependencies" : {
+        "acorn" : "^7.1.1",
+        "acorn-walk" : "^7.1.1"
+      },
+      "devDependencies" : {
+        "testit" : "^3.1.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "acorn-globals@6.0.0",
+      "licenseText" : "Copyright (c) 2014 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals_6.0.0_1583642550799_0.04107310781659401"
+      }
+    },
+    "1.0.8" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.8",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.8.tgz",
+        "shasum" : "3d84f91c49bd9120412d04ecdb09366565ec64a4"
+      },
+      "dependencies" : {
+        "acorn" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "acorn-globals@1.0.8",
+      "gitHead" : "ab75936522e006fcea93ab30b6df9ed77ee0d90f",
+      "_shasum" : "3d84f91c49bd9120412d04ecdb09366565ec64a4",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.0.9" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.9",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.9.tgz",
+        "shasum" : "55bb5e98691507b74579d0513413217c380c54cf"
+      },
+      "dependencies" : {
+        "acorn" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@1.0.9",
+      "gitHead" : "808cab09764b63679138b012602ca1bb51657f97",
+      "_shasum" : "55bb5e98691507b74579d0513413217c380c54cf",
+      "_nodeVersion" : "1.6.2"
+    },
+    "5.0.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-5.0.0.tgz",
+        "shasum" : "321f3dcb9786a9a8968b741d199b57cdcbd7ae12"
+      },
+      "dependencies" : {
+        "acorn" : "^6.0.1",
+        "acorn-walk" : "^6.0.1"
+      },
+      "devDependencies" : {
+        "testit" : "^3.0.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_npmUser" : {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      },
+      "_id" : "acorn-globals@5.0.0",
+      "licenseText" : "Copyright (c) 2014 Forbes Lindesay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/acorn-globals_5.0.0_1583642302189_0.6155909032247044"
+      }
+    },
+    "3.1.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-3.1.0.tgz",
+        "shasum" : "fd8270f71fbb4996b004fa880ee5d46573a731bf"
+      },
+      "dependencies" : {
+        "acorn" : "^4.0.4"
+      },
+      "devDependencies" : {
+        "testit" : "^2.0.2"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.8",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "acorn-globals@3.1.0",
+      "gitHead" : "c42fb028ba9da9ac7301b7925ed72f02c76bbbec",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/acorn-globals-3.1.0.tgz_1485797503325_0.67978948331438"
+      },
+      "_shasum" : "fd8270f71fbb4996b004fa880ee5d46573a731bf",
+      "_nodeVersion" : "6.9.1"
+    },
+    "1.0.0" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.0.tgz",
+        "shasum" : "affa938bdc8d7877a96c3e8b13f36ccac572f70d"
+      },
+      "dependencies" : {
+        "acorn" : "^0.8.0"
+      },
+      "devDependencies" : {
+        "testit" : "^1.2.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      },
+      "_id" : "acorn-globals@1.0.0",
+      "gitHead" : "248351714f0ac83da37a24357ed10ca90038b33b",
+      "_shasum" : "affa938bdc8d7877a96c3e8b13f36ccac572f70d"
+    },
+    "1.0.1" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.1.tgz",
+        "shasum" : "00013368c24311f9fc2c2d420df6c311b9df64d9"
+      },
+      "dependencies" : {
+        "acorn" : "^0.8.0"
+      },
+      "devDependencies" : {
+        "testit" : "^1.2.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      },
+      "_id" : "acorn-globals@1.0.1",
+      "gitHead" : "fdcea5c0e7903b1d630a4cd032f3347406bf6665",
+      "_shasum" : "00013368c24311f9fc2c2d420df6c311b9df64d9"
+    },
+    "1.0.2" : {
+      "name" : "acorn-globals",
+      "description" : "Detect global variables in JavaScript using acorn",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/acorn-globals",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/acorn-globals/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/acorn-globals/-/acorn-globals-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Facorn-globals%2F-%2Facorn-globals-1.0.2.tgz",
+        "shasum" : "f90bf21844405e649d00add61a688fc6a3462158"
+      },
+      "dependencies" : {
+        "acorn" : "^0.11.0"
+      },
+      "devDependencies" : {
+        "testit" : "^1.2.0"
+      },
+      "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+      "license" : "MIT",
+      "files" : [ "index.js", "LICENSE" ],
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      },
+      "_id" : "acorn-globals@1.0.2",
+      "gitHead" : "416dab9dee14bdb2b8fcd6c52e4b3ace33e54281",
+      "_shasum" : "f90bf21844405e649d00add61a688fc6a3462158"
+    }
+  },
+  "readme" : "# acorn-globals\n\nDetect global variables in JavaScript using acorn\n\n[Get supported acorn-globals with the Tidelift Subscription](https://tidelift.com/subscription/pkg/npm-acorn_globals?utm_source=npm-acorn-globals&utm_medium=referral&utm_campaign=readme)\n\n[![Build Status](https://img.shields.io/travis/ForbesLindesay/acorn-globals/master.svg)](https://travis-ci.org/ForbesLindesay/acorn-globals)\n[![Dependency Status](https://img.shields.io/david/ForbesLindesay/acorn-globals.svg)](https://david-dm.org/ForbesLindesay/acorn-globals)\n[![NPM version](https://img.shields.io/npm/v/acorn-globals.svg)](https://www.npmjs.org/package/acorn-globals)\n\n## Installation\n\n    npm install acorn-globals\n\n## Usage\n\ndetect.js\n\n```js\nvar fs = require('fs');\nvar detect = require('acorn-globals');\n\nvar src = fs.readFileSync(__dirname + '/input.js', 'utf8');\n\nvar scope = detect(src);\nconsole.dir(scope);\n```\n\ninput.js\n\n```js\nvar x = 5;\nvar y = 3, z = 2;\n\nw.foo();\nw = 2;\n\nRAWR=444;\nRAWR.foo();\n\nBLARG=3;\n\nfoo(function () {\n    var BAR = 3;\n    process.nextTick(function (ZZZZZZZZZZZZ) {\n        console.log('beep boop');\n        var xyz = 4;\n        x += 10;\n        x.zzzzzz;\n        ZZZ=6;\n    });\n    function doom () {\n    }\n    ZZZ.foo();\n\n});\n\nconsole.log(xyz);\n```\n\noutput:\n\n```\n$ node example/detect.js\n[ { name: 'BLARG', nodes: [ [Object] ] },\n  { name: 'RAWR', nodes: [ [Object], [Object] ] },\n  { name: 'ZZZ', nodes: [ [Object], [Object] ] },\n  { name: 'console', nodes: [ [Object], [Object] ] },\n  { name: 'foo', nodes: [ [Object] ] },\n  { name: 'process', nodes: [ [Object] ] },\n  { name: 'w', nodes: [ [Object], [Object] ] },\n  { name: 'xyz', nodes: [ [Object] ] } ]\n```\n\n## Security contact information\n\nTo report a security vulnerability, please use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.\n\n## License\n\n  MIT\n",
+  "maintainers" : [ {
+    "name" : "forbeslindesay",
+    "email" : "forbes@lindesay.co.uk"
+  }, {
+    "name" : "timothygu",
+    "email" : "timothygu99@gmail.com"
+  } ],
+  "author" : {
+    "name" : "ForbesLindesay"
+  },
+  "time" : {
+    "4.2.0" : "2018-09-15T10:13:46.996Z",
+    "4.3.0" : "2018-09-15T10:14:21.132Z",
+    "4.0.0" : "2017-06-23T11:19:54.110Z",
+    "4.1.0" : "2017-10-24T23:05:26.732Z",
+    "4.3.3" : "2019-08-03T00:15:53.511Z",
+    "4.3.4" : "2019-09-10T15:46:53.270Z",
+    "4.3.1" : "2019-04-12T12:04:06.674Z",
+    "4.3.2" : "2019-04-21T19:48:02.063Z",
+    "3.0.0" : "2016-06-03T15:56:49.518Z",
+    "modified" : "2020-03-08T04:42:36.492Z",
+    "3.1.0" : "2017-01-30T17:31:45.178Z",
+    "2.0.0" : "2015-11-02T15:37:58.207Z",
+    "created" : "2014-09-22T15:19:11.866Z",
+    "1.0.3" : "2015-03-29T00:08:03.189Z",
+    "1.0.4" : "2015-04-06T19:53:44.130Z",
+    "1.0.5" : "2015-07-21T16:33:30.972Z",
+    "1.0.6" : "2015-09-06T18:02:58.665Z",
+    "1.0.7" : "2015-10-31T16:21:44.598Z",
+    "6.0.0" : "2020-03-08T04:42:30.909Z",
+    "1.0.8" : "2015-10-31T19:43:47.042Z",
+    "1.0.9" : "2015-11-02T13:23:33.643Z",
+    "5.0.0" : "2020-03-08T04:38:22.302Z",
+    "1.0.0" : "2014-09-22T15:19:11.866Z",
+    "1.0.1" : "2014-09-22T16:19:24.327Z",
+    "1.0.2" : "2015-01-13T11:26:48.784Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ForbesLindesay/acorn-globals.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "keywords" : [ "ast", "variable", "name", "lexical", "scope", "local", "global", "implicit" ],
+  "license" : "MIT"
+}

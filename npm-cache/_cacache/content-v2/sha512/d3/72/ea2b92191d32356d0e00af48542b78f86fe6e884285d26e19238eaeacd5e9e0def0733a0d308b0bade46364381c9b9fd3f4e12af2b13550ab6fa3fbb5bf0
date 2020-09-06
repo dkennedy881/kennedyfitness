@@ -1,0 +1,375 @@
+{
+  "_id" : "inherits",
+  "_rev" : "92-d47e66caed3ecf0c853583be3f674b64",
+  "name" : "inherits",
+  "description" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+  "dist-tags" : {
+    "latest" : "2.0.4"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "inherits",
+      "description" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/isaacs/inherits"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/inherits/issues"
+      },
+      "main" : "./inherits.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/inherits/-/inherits-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-2.0.0.tgz",
+        "shasum" : "76c81b3b1c10ddee3a60bf2c247162bc369f8ba8"
+      },
+      "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented", "inherits", "browser", "browserify" ],
+      "license" : {
+        "type" : "WTFPL2"
+      },
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.21",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "inherits@2.0.0",
+      "browser" : "./inherits_browser.js"
+    },
+    "2.0.1" : {
+      "name" : "inherits",
+      "description" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "version" : "2.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/inherits"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/inherits/issues"
+      },
+      "main" : "./inherits.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/inherits/-/inherits-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-2.0.1.tgz",
+        "shasum" : "b17d08d326b4423e568eff719f91b0b1cbdf69f1"
+      },
+      "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented", "inherits", "browser", "browserify" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "inherits@2.0.1",
+      "browser" : "./inherits_browser.js"
+    },
+    "2.0.4" : {
+      "name" : "inherits",
+      "description" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "version" : "2.0.4",
+      "homepage" : "https://github.com/isaacs/inherits#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/inherits.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/inherits/issues"
+      },
+      "main" : "./inherits.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/inherits/-/inherits-2.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-2.0.4.tgz",
+        "shasum" : "0fa2c64f932917c3433a0ded55363aae37416b7c"
+      },
+      "devDependencies" : {
+        "tap" : "^14.2.4"
+      },
+      "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented", "inherits", "browser", "browserify" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tap"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "inherits@2.0.4",
+      "gitHead" : "9a2c29400c6d491e0b7beefe0c32efa3b462545d",
+      "browser" : "./inherits_browser.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/inherits_2.0.4_1560975532337_0.07791065184845936"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "1.0.0" : {
+      "name" : "inherits",
+      "description" : "A tiny simple way to do classic inheritance in js",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/inherits.git"
+      },
+      "engines" : {
+        "node" : "*"
+      },
+      "main" : "./inherits.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/inherits/-/inherits-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-1.0.0.tgz",
+        "shasum" : "38e1975285bf1f7ba9c84da102bb12771322ac48"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented" ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.0.1rc6",
+      "_id" : "inherits@1.0.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    },
+    "1.0.1" : {
+      "name" : "inherits",
+      "description" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "version" : "1.0.1",
+      "homepage" : "https://github.com/isaacs/inherits#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/inherits.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/inherits/issues"
+      },
+      "main" : "./inherits.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/inherits/-/inherits-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-1.0.1.tgz",
+        "shasum" : "1bdf16c6ff8266cb858c6da2baf3637a99fb3d87"
+      },
+      "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented", "inherits", "browser", "browserify" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.2.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "isaacs@npmjs.com"
+      },
+      "_id" : "inherits@1.0.1",
+      "gitHead" : "8cc604cb8bd24a427eb92e96bca4d25a87ce4ea1",
+      "browser" : "./inherits_browser.js",
+      "_shasum" : "1bdf16c6ff8266cb858c6da2baf3637a99fb3d87",
+      "_nodeVersion" : "2.2.1"
+    },
+    "1.0.2" : {
+      "name" : "inherits",
+      "description" : "A tiny simple way to do classic inheritance in js",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Isaac Z. Schlueter",
+        "email" : "i@izs.me",
+        "url" : "http://blog.izs.me/"
+      },
+      "homepage" : "https://github.com/isaacs/inherits#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/isaacs/inherits.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/inherits/issues"
+      },
+      "main" : "./inherits.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/inherits/-/inherits-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-1.0.2.tgz",
+        "shasum" : "ca4309dadee6b54cc0b8d247e8d7c7a0975bdc9b"
+      },
+      "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.2.2",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "isaacs@npmjs.com"
+      },
+      "_id" : "inherits@1.0.2",
+      "_shasum" : "ca4309dadee6b54cc0b8d247e8d7c7a0975bdc9b",
+      "_nodeVersion" : "2.2.1"
+    },
+    "2.0.3" : {
+      "name" : "inherits",
+      "description" : "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+      "version" : "2.0.3",
+      "homepage" : "https://github.com/isaacs/inherits#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/isaacs/inherits.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/isaacs/inherits/issues"
+      },
+      "main" : "./inherits.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/inherits/-/inherits-2.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-2.0.3.tgz",
+        "shasum" : "633c2c83e3da42a502f52466022480f4208261de"
+      },
+      "devDependencies" : {
+        "tap" : "^7.1.0"
+      },
+      "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented", "inherits", "browser", "browserify" ],
+      "license" : "ISC",
+      "files" : [ "inherits.js", "inherits_browser.js" ],
+      "maintainers" : [ {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "isaacs",
+        "email" : "i@izs.me"
+      },
+      "_id" : "inherits@2.0.3",
+      "gitHead" : "e05d0fb27c61a3ec687214f0476386b765364d5f",
+      "browser" : "./inherits_browser.js",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/inherits-2.0.3.tgz_1473295776489_0.08142363070510328"
+      },
+      "_shasum" : "633c2c83e3da42a502f52466022480f4208261de",
+      "_nodeVersion" : "6.5.0"
+    }
+  },
+  "readme" : "Browser-friendly inheritance fully compatible with standard node.js\n[inherits](http://nodejs.org/api/util.html#util_util_inherits_constructor_superconstructor).\n\nThis package exports standard `inherits` from node.js `util` module in\nnode environment, but also provides alternative browser-friendly\nimplementation through [browser\nfield](https://gist.github.com/shtylman/4339901). Alternative\nimplementation is a literal copy of standard one located in standalone\nmodule to avoid requiring of `util`. It also has a shim for old\nbrowsers with no `Object.create` support.\n\nWhile keeping you sure you are using standard `inherits`\nimplementation in node.js environment, it allows bundlers such as\n[browserify](https://github.com/substack/node-browserify) to not\ninclude full `util` package to your client code if all you need is\njust `inherits` function. It worth, because browser shim for `util`\npackage is large and `inherits` is often the single function you need\nfrom it.\n\nIt's recommended to use this package instead of\n`require('util').inherits` for any code that has chances to be used\nnot only in node.js but in browser too.\n\n## usage\n\n```js\nvar inherits = require('inherits');\n// then use exactly as the standard one\n```\n\n## note on version ~1.0\n\nVersion ~1.0 had completely different motivation and is not compatible\nneither with 2.0 nor with standard node.js `inherits`.\n\nIf you are using version ~1.0 and planning to switch to ~2.0, be\ncareful:\n\n* new version uses `super_` instead of `super` for referencing\n  superclass\n* new version overwrites current prototype while old one preserves any\n  existing fields on it\n",
+  "maintainers" : [ {
+    "name" : "isaacs",
+    "email" : "i@izs.me"
+  } ],
+  "time" : {
+    "2.0.0" : "2013-05-16T14:44:54.523Z",
+    "2.0.1" : "2013-08-19T22:10:20.463Z",
+    "created" : "2011-04-07T00:35:14.848Z",
+    "modified" : "2019-06-19T20:18:56.232Z",
+    "2.0.4" : "2019-06-19T20:18:52.465Z",
+    "1.0.0" : "2011-04-07T00:35:15.718Z",
+    "1.0.1" : "2015-08-26T22:12:12.252Z",
+    "2.0.2" : "2016-09-07T20:33:59.118Z",
+    "1.0.2" : "2015-08-27T19:36:46.817Z",
+    "2.0.3" : "2016-09-08T00:49:38.520Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/isaacs/inherits.git"
+  },
+  "users" : {
+    "koulmomo" : true,
+    "shen-weizhong" : true,
+    "mrmartineau" : true,
+    "sammyteahan" : true,
+    "j3rrywan9" : true,
+    "iamveen" : true,
+    "abdihaikal" : true,
+    "hyokosdeveloper" : true,
+    "pid" : true,
+    "oceanswave" : true,
+    "minwe" : true,
+    "antixrist" : true,
+    "bret" : true,
+    "semir2" : true,
+    "simplyianm" : true,
+    "roccomuso" : true,
+    "dbrockman" : true,
+    "roman-io" : true,
+    "kontrax" : true,
+    "gdibble" : true,
+    "monjer" : true,
+    "chrisdickinson" : true,
+    "kxbrand" : true,
+    "magemagic" : true,
+    "docksteaderluke" : true,
+    "rethinkflash" : true,
+    "nickeltobias" : true,
+    "soenkekluth" : true,
+    "alexkval" : true,
+    "christopher.urquidi" : true,
+    "slurm" : true,
+    "zhenguo.zhao" : true,
+    "stringparser" : true,
+    "spywhere" : true,
+    "sprying" : true,
+    "leix3041" : true,
+    "sadr0b0t" : true,
+    "mikemimik" : true,
+    "fgribreau" : true,
+    "markoni" : true,
+    "chinaqstar" : true,
+    "princetoad" : true,
+    "mojaray2k" : true,
+    "fibo" : true,
+    "joakin" : true,
+    "tobiasnickel" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/isaacs/inherits#readme",
+  "keywords" : [ "inheritance", "class", "klass", "oop", "object-oriented", "inherits", "browser", "browserify" ],
+  "bugs" : {
+    "url" : "https://github.com/isaacs/inherits/issues"
+  },
+  "license" : "ISC"
+}

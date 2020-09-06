@@ -1,0 +1,654 @@
+{
+  "_id" : "decamelize",
+  "_rev" : "22-13929a793b0bb134414fcc21f77c7361",
+  "name" : "decamelize",
+  "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow",
+  "dist-tags" : {
+    "latest" : "4.0.0"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/decamelize"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-1.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-1.1.2.tgz",
+        "shasum" : "dcc93727be209632e98b02718ef4cb79602322f2"
+      },
+      "dependencies" : {
+        "escape-string-regexp" : "^1.0.4"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@1.1.2",
+      "gitHead" : "82c87d3382126375ab0c3b7f5438bfd5eccb18c3",
+      "_shasum" : "dcc93727be209632e98b02718ef4cb79602322f2",
+      "_nodeVersion" : "4.2.1"
+    },
+    "2.0.0" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/decamelize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-2.0.0.tgz",
+        "shasum" : "656d7bbc8094c4c788ea53c5840908c9c7d063c7"
+      },
+      "dependencies" : {
+        "xregexp" : "4.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@2.0.0",
+      "gitHead" : "7e6b97deee705b5658b4efa576b0df84608f1000",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decamelize-2.0.0.tgz_1515438584763_0.33889249875210226"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "3.0.0" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/decamelize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-3.0.0.tgz",
+        "shasum" : "5efdacb0ff1b6e4031ccd0da71257340c1b846b7"
+      },
+      "dependencies" : {
+        "xregexp" : "^4.2.4"
+      },
+      "devDependencies" : {
+        "ava" : "^1.2.1",
+        "tsd-check" : "^0.3.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd-check"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@3.0.0",
+      "gitHead" : "3e9b40a699ce0beb2a183bf1a98fd866595a52ab",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decamelize_3.0.0_1551888487626_0.8557039066298511"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "4.0.0" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/decamelize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-4.0.0.tgz",
+        "shasum" : "aa472d7bf660eb15f3494efd531cab7f2a709837"
+      },
+      "devDependencies" : {
+        "ava" : "^2.4.0",
+        "tsd" : "^0.11.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "text", "convert" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@4.0.0",
+      "gitHead" : "b445ed47a5548e2ba8fe41889807d17879faa7c5",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decamelize_4.0.0_1580007823424_0.08047740567087791"
+      },
+      "_nodeVersion" : "10.17.0"
+    },
+    "3.1.0" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/decamelize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-3.1.0.tgz",
+        "shasum" : "81cd3f2e9911b8874e290d249da2c366453641d4"
+      },
+      "dependencies" : {
+        "xregexp" : "^4.2.4"
+      },
+      "devDependencies" : {
+        "ava" : "^1.2.1",
+        "tsd" : "^0.7.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@3.1.0",
+      "gitHead" : "18fe3cf56bcac7babc0cb0fa0486c4131057e262",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decamelize_3.1.0_1553183298266_0.32791109364419646"
+      },
+      "_nodeVersion" : "11.11.0"
+    },
+    "1.0.0" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/decamelize"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-1.0.0.tgz",
+        "shasum" : "5287122f71691d4505b18ff2258dc400a5b23847"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@1.0.0",
+      "gitHead" : "ab6c92c9a5fc00c270d8a3763e73c52972a7457e",
+      "_shasum" : "5287122f71691d4505b18ff2258dc400a5b23847"
+    },
+    "3.1.1" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/decamelize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-3.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-3.1.1.tgz",
+        "shasum" : "ebf473c6f8607bd70fd9ed6d892da27c5eb8539e"
+      },
+      "dependencies" : {
+        "xregexp" : "^4.2.4"
+      },
+      "devDependencies" : {
+        "ava" : "^1.2.1",
+        "tsd" : "^0.7.0",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@3.1.1",
+      "gitHead" : "d646fe28c78c1c4962b2250e28ba8a373c7e7c68",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decamelize_3.1.1_1553251591355_0.20082242635326608"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "3.2.0" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/decamelize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-3.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-3.2.0.tgz",
+        "shasum" : "84b8e8f4f8c579f938e35e2cc7024907e0090851"
+      },
+      "dependencies" : {
+        "xregexp" : "^4.2.4"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@3.2.0",
+      "gitHead" : "8e6c4d82ebae2c60323b34c59e11f5d6ec35268e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/decamelize_3.2.0_1554499803380_0.8141879282948965"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "1.1.0" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/decamelize"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-1.1.0.tgz",
+        "shasum" : "fe90c002a0acec1435120ce83a6945641018d0c8"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@1.1.0",
+      "gitHead" : "6591b158d318dcf013126acab6c21c50a42376c0",
+      "_shasum" : "fe90c002a0acec1435120ce83a6945641018d0c8",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.1.1" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sindresorhus/decamelize"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-1.1.1.tgz",
+        "shasum" : "8871479a6c0487f5653d48a992f1d0381ca6f031"
+      },
+      "devDependencies" : {
+        "ava" : "0.0.4"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@1.1.1",
+      "gitHead" : "5d3135f6bb949215500b63bbc5e344566bd269f1",
+      "_shasum" : "8871479a6c0487f5653d48a992f1d0381ca6f031",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.2.0" : {
+      "name" : "decamelize",
+      "description" : "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow  unicorn_rainbow",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Sindre Sorhus",
+        "email" : "sindresorhus@gmail.com",
+        "url" : "sindresorhus.com"
+      },
+      "homepage" : "https://github.com/sindresorhus/decamelize#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/decamelize.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/sindresorhus/decamelize/issues"
+      },
+      "engines" : {
+        "node" : ">=0.10.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/decamelize/-/decamelize-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecamelize%2F-%2Fdecamelize-1.2.0.tgz",
+        "shasum" : "f6534d15148269b20352e7bee26f501f9a191290"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "str", "text", "convert" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "decamelize@1.2.0",
+      "gitHead" : "95980ab6fb44c40eaca7792bdf93aff7c210c805",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/decamelize-1.2.0.tgz_1457167749082_0.9810893186368048"
+      },
+      "_shasum" : "f6534d15148269b20352e7bee26f501f9a191290",
+      "_nodeVersion" : "4.3.0"
+    }
+  },
+  "readme" : "# decamelize [![Build Status](https://travis-ci.org/sindresorhus/decamelize.svg?branch=master)](https://travis-ci.org/sindresorhus/decamelize)\n\n> Convert a camelized string into a lowercased one with a custom separator<br>\n> Example: `unicornRainbow` → `unicorn_rainbow`\n\n## Install\n\n```\n$ npm install decamelize\n```\n\n## Usage\n\n```js\nconst decamelize = require('decamelize');\n\ndecamelize('unicornRainbow');\n//=> 'unicorn_rainbow'\n\ndecamelize('unicornRainbow', '-');\n//=> 'unicorn-rainbow'\n```\n\n## API\n\n### decamelize(input, separator?)\n\n#### input\n\nType: `string`\n\n#### separator\n\nType: `string`\\\nDefault: `'_'`\n\n## Related\n\nSee [`camelcase`](https://github.com/sindresorhus/camelcase) for the inverse.\n\n---\n\n<div align=\"center\">\n\t<b>\n\t\t<a href=\"https://tidelift.com/subscription/pkg/npm-decamelize?utm_source=npm-decamelize&utm_medium=referral&utm_campaign=readme\">Get professional support for this package with a Tidelift subscription</a>\n\t</b>\n\t<br>\n\t<sub>\n\t\tTidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.\n\t</sub>\n</div>\n",
+  "maintainers" : [ {
+    "name" : "sindresorhus",
+    "email" : "sindresorhus@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Sindre Sorhus",
+    "email" : "sindresorhus@gmail.com",
+    "url" : "sindresorhus.com"
+  },
+  "time" : {
+    "2.0.0" : "2018-01-08T19:09:45.730Z",
+    "created" : "2015-01-24T11:12:51.863Z",
+    "4.0.0" : "2020-01-26T03:03:43.570Z",
+    "1.1.2" : "2015-12-23T01:05:36.047Z",
+    "3.0.0" : "2019-03-06T16:08:07.750Z",
+    "modified" : "2020-01-26T03:03:45.980Z",
+    "3.1.0" : "2019-03-21T15:48:18.366Z",
+    "1.0.0" : "2015-01-24T11:12:51.863Z",
+    "3.1.1" : "2019-03-22T10:46:31.564Z",
+    "3.2.0" : "2019-04-05T21:30:03.548Z",
+    "1.1.0" : "2015-10-25T19:24:49.953Z",
+    "1.1.1" : "2015-10-29T16:21:25.393Z",
+    "1.2.0" : "2016-03-05T08:49:10.462Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/decamelize.git"
+  },
+  "users" : {
+    "bret" : true,
+    "mrzmmr" : true,
+    "galenandrew" : true,
+    "xiechao06" : true,
+    "arefm" : true,
+    "esenor" : true,
+    "mojaray2k" : true,
+    "xhou" : true
+  },
+  "readmeFilename" : "readme.md",
+  "homepage" : "https://github.com/sindresorhus/decamelize#readme",
+  "keywords" : [ "decamelize", "decamelcase", "camelcase", "lowercase", "case", "dash", "hyphen", "string", "text", "convert" ],
+  "bugs" : {
+    "url" : "https://github.com/sindresorhus/decamelize/issues"
+  },
+  "license" : "MIT"
+}

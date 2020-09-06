@@ -1,0 +1,255 @@
+{
+  "_id" : "escape-html",
+  "_rev" : "55-1320c916a9bd1156ea683e6361b46dd9",
+  "name" : "escape-html",
+  "description" : "Escape string for use in HTML",
+  "dist-tags" : {
+    "latest" : "1.0.3"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "escape-html",
+      "description" : "Escape string for use in HTML",
+      "version" : "1.0.3",
+      "homepage" : "https://github.com/component/escape-html",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/component/escape-html"
+      },
+      "bugs" : {
+        "url" : "https://github.com/component/escape-html/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escape-html/-/escape-html-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescape-html%2F-%2Fescape-html-1.0.3.tgz",
+        "shasum" : "0258eae4d3d0c0974de1c169188ef0051d1d1988"
+      },
+      "devDependencies" : {
+        "benchmark" : "1.0.0",
+        "beautify-benchmark" : "0.2.4"
+      },
+      "keywords" : [ "escape", "html", "utility" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "Readme.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "node benchmark/index.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "escape-html@1.0.3",
+      "gitHead" : "7ac2ea3977fcac3d4c5be8d2a037812820c65f28",
+      "_shasum" : "0258eae4d3d0c0974de1c169188ef0051d1d1988"
+    },
+    "1.0.0" : {
+      "name" : "escape-html",
+      "description" : "Escape HTML entities",
+      "version" : "1.0.0",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escape-html/-/escape-html-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescape-html%2F-%2Fescape-html-1.0.0.tgz",
+        "shasum" : "fedcd79564444ddaf2bd85b22c9961b3a3a38bf5"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "escape", "html", "utility" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "escape-html@1.0.0",
+      "component" : {
+        "scripts" : {
+          "escape-html/index.js" : "index.js"
+        }
+      }
+    },
+    "1.0.1" : {
+      "name" : "escape-html",
+      "description" : "Escape HTML entities",
+      "version" : "1.0.1",
+      "homepage" : "https://github.com/component/escape-html",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/component/escape-html.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/component/escape-html/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escape-html/-/escape-html-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescape-html%2F-%2Fescape-html-1.0.1.tgz",
+        "shasum" : "181a286ead397a39a92857cfb1d43052e356bff0"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "escape", "html", "utility" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.15",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "escape-html@1.0.1",
+      "component" : {
+        "scripts" : {
+          "escape-html/index.js" : "index.js"
+        }
+      }
+    },
+    "0.0.1" : {
+      "name" : "escape-html",
+      "description" : "Escape HTML entities",
+      "version" : "0.0.1",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escape-html/-/escape-html-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescape-html%2F-%2Fescape-html-0.0.1.tgz",
+        "shasum" : "160c25d8af49f4a7c140700697a92d1c218b901e"
+      },
+      "dependencies" : {
+      },
+      "keywords" : [ "escape", "html", "utility" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_id" : "escape-html@0.0.1"
+    },
+    "1.0.2" : {
+      "name" : "escape-html",
+      "description" : "Escape HTML entities",
+      "version" : "1.0.2",
+      "homepage" : "https://github.com/component/escape-html",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/component/escape-html"
+      },
+      "bugs" : {
+        "url" : "https://github.com/component/escape-html/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/escape-html/-/escape-html-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fescape-html%2F-%2Fescape-html-1.0.2.tgz",
+        "shasum" : "d77d32fa98e38c2f41ae85e9278e0e0e6ba1022c"
+      },
+      "keywords" : [ "escape", "html", "utility" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "Readme.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "escape-html@1.0.2",
+      "gitHead" : "2477a23ae56f75e0a5622a20b5b55da00de3a23b",
+      "_shasum" : "d77d32fa98e38c2f41ae85e9278e0e0e6ba1022c"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "\n# escape-html\n\n  Escape string for use in HTML\n\n## Example\n\n```js\nvar escape = require('escape-html');\nvar html = escape('foo & bar');\n// -> foo &amp; bar\n```\n\n## Benchmark\n\n```\n$ npm run-script bench\n\n> escape-html@1.0.3 bench nodejs-escape-html\n> node benchmark/index.js\n\n\n  http_parser@1.0\n  node@0.10.33\n  v8@3.14.5.9\n  ares@1.9.0-DEV\n  uv@0.10.29\n  zlib@1.2.3\n  modules@11\n  openssl@1.0.1j\n\n  1 test completed.\n  2 tests completed.\n  3 tests completed.\n\n  no special characters    x 19,435,271 ops/sec ±0.85% (187 runs sampled)\n  single special character x  6,132,421 ops/sec ±0.67% (194 runs sampled)\n  many special characters  x  3,175,826 ops/sec ±0.65% (193 runs sampled)\n```\n\n## License\n\n  MIT",
+  "maintainers" : [ {
+    "name" : "dougwilson",
+    "email" : "doug@somethingdoug.com"
+  }, {
+    "name" : "tjholowaychuk",
+    "email" : "tj@vision-media.ca"
+  } ],
+  "time" : {
+    "1.0.3" : "2015-09-01T04:47:22.713Z",
+    "created" : "2012-08-20T22:54:26.303Z",
+    "modified" : "2018-03-07T07:20:00.737Z",
+    "1.0.0" : "2013-05-30T15:28:48.920Z",
+    "1.0.1" : "2013-12-20T22:58:20.934Z",
+    "0.0.1" : "2012-08-20T22:54:27.744Z",
+    "1.0.2" : "2015-06-06T20:25:02.222Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/component/escape-html"
+  },
+  "users" : {
+    "kankungyip" : true,
+    "stretchgz" : true,
+    "jhx4mp" : true,
+    "onufrienko" : true,
+    "antixrist" : true,
+    "ahmed-dinar" : true,
+    "shivayl" : true,
+    "simplyianm" : true,
+    "btd" : true,
+    "jcottam" : true,
+    "omgbbqhax" : true,
+    "isayme" : true,
+    "bobjohnson23" : true,
+    "santihbc" : true,
+    "bplok20010" : true,
+    "joris-van-der-wel" : true,
+    "monjer" : true,
+    "zuojiang" : true,
+    "kodekracker" : true,
+    "shiruken" : true,
+    "vicjohnson1213" : true,
+    "wangnan0610" : true,
+    "jmsherry" : true,
+    "nickeltobias" : true,
+    "radicek" : true,
+    "rochejul" : true,
+    "rocket0191" : true,
+    "sunkeyhub" : true,
+    "martinandersen3d" : true,
+    "goodseller" : true,
+    "itonyyo" : true,
+    "ungurys" : true,
+    "drewigg" : true,
+    "abuelwafa" : true,
+    "mojaray2k" : true,
+    "erikj" : true,
+    "tobiasnickel" : true
+  },
+  "readmeFilename" : "Readme.md",
+  "homepage" : "https://github.com/component/escape-html",
+  "keywords" : [ "escape", "html", "utility" ],
+  "bugs" : {
+    "url" : "https://github.com/component/escape-html/issues"
+  },
+  "license" : "MIT"
+}

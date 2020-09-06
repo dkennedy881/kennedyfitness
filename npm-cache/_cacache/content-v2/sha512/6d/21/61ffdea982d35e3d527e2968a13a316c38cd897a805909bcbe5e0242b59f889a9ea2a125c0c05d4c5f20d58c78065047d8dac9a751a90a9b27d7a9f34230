@@ -1,0 +1,954 @@
+{
+  "_id" : "is-buffer",
+  "_rev" : "24-fcd2fc2c0151099ae9eedbf4fa7da3cb",
+  "name" : "is-buffer",
+  "description" : "Determine if an object is a Buffer",
+  "dist-tags" : {
+    "latest" : "2.0.4"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is a Buffer",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "https://feross.org"
+      },
+      "homepage" : "https://github.com/feross/is-buffer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-2.0.0.tgz",
+        "shasum" : "224d784b0ca3dcc2ec42c5e75a4150fb7d8fdede"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "standard" : "*",
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "arraybuffer", "browser", "browser buffer", "browserify", "buffer", "buffers", "core buffer", "dataview", "float32array", "float64array", "int16array", "int32array", "type", "typed array", "uint32array" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@2.0.0",
+      "gitHead" : "1a8ab13257c3bb000b51ee1892c194a1be9f2759",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-buffer-2.0.0.tgz_1517211799580_0.7924200457055122"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "2.0.1" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is a Buffer",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "https://feross.org"
+      },
+      "homepage" : "https://github.com/feross/is-buffer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-2.0.1.tgz",
+        "shasum" : "e14769efa70ba71162bda9852dc32362e01cca07"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "airtap" : "0.0.4",
+        "standard" : "*",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "arraybuffer", "browser", "browser buffer", "browserify", "buffer", "buffers", "core buffer", "dataview", "float32array", "float64array", "int16array", "int32array", "type", "typed array", "uint32array" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "airtap -- test/*.js",
+        "test-browser-local" : "airtap --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@2.0.1",
+      "gitHead" : "f5b7d4018818037cc3bd88e6e5d85b15e0012552",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-buffer_2.0.1_1521286431970_0.9562908337278884"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "2.0.4" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is a Buffer",
+      "version" : "2.0.4",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "https://feross.org"
+      },
+      "homepage" : "https://github.com/feross/is-buffer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-2.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-2.0.4.tgz",
+        "shasum" : "3e572f23c8411a5cfd9557c849e3665e0b290623"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "airtap" : "^2.0.3",
+        "standard" : "*",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "arraybuffer", "browser", "browser buffer", "browserify", "buffer", "buffers", "core buffer", "dataview", "float32array", "float64array", "int16array", "int32array", "type", "typed array", "uint32array" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "airtap -- test/*.js",
+        "test-browser-local" : "airtap --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_npmVersion" : "6.10.3",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@2.0.4",
+      "gitHead" : "65d2f6ba6c4e336be90c3cb6a656a69ce8f24210",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-buffer_2.0.4_1569905330837_0.24488814934632286"
+      },
+      "_nodeVersion" : "12.10.0"
+    },
+    "2.0.2" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is a Buffer",
+      "version" : "2.0.2",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "https://feross.org"
+      },
+      "homepage" : "https://github.com/feross/is-buffer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-2.0.2.tgz",
+        "shasum" : "f83a0c5bc453f6431bf83cc2ceff6cbc9d50a83b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "airtap" : "0.0.4",
+        "standard" : "*",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "arraybuffer", "browser", "browser buffer", "browserify", "buffer", "buffers", "core buffer", "dataview", "float32array", "float64array", "int16array", "int32array", "type", "typed array", "uint32array" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "airtap -- test/*.js",
+        "test-browser-local" : "airtap --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@2.0.2",
+      "gitHead" : "f9ef52cfcf235a84ce8167120b539b540a3a60e4",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-buffer_2.0.2_1521286476893_0.01566582587333687"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "2.0.3" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is a Buffer",
+      "version" : "2.0.3",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "https://feross.org"
+      },
+      "homepage" : "https://github.com/feross/is-buffer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-2.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-2.0.3.tgz",
+        "shasum" : "4ecf3fcf749cbd1e472689e109ac66261a25e725"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "airtap" : "0.0.7",
+        "standard" : "*",
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "arraybuffer", "browser", "browser buffer", "browserify", "buffer", "buffers", "core buffer", "dataview", "float32array", "float64array", "int16array", "int32array", "type", "typed array", "uint32array" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "airtap -- test/*.js",
+        "test-browser-local" : "airtap --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@2.0.3",
+      "gitHead" : "e05c7852e1a978b81c7eb6d677c861a7dc935ead",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-buffer_2.0.3_1528586118955_0.08977150560838787"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "1.1.2" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is Buffer",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "http://feross.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.1.2.tgz",
+        "shasum" : "fa1226588fa0048b005c47e4fb1bb1555d5edeaa"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "standard" : "^5.4.1",
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.1.2",
+      "gitHead" : "ba9a9f359e4412c90c583e14492072c9f4f2d45c",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_shasum" : "fa1226588fa0048b005c47e4fb1bb1555d5edeaa",
+      "_nodeVersion" : "4.2.6"
+    },
+    "1.1.3" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is Buffer",
+      "version" : "1.1.3",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "https://github.com/feross/is-buffer",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "engines" : {
+        "node" : ">=0.12"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.1.3.tgz",
+        "shasum" : "db897fc3f7aca2d50de94b6c8c2896a4771627af"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "standard" : "^6.0.5",
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.1.3",
+      "gitHead" : "dfd658d887e6b63254b89d22af1a755a39313455",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/is-buffer-1.1.3.tgz_1457390977775_0.6384289276320487"
+      },
+      "_shasum" : "db897fc3f7aca2d50de94b6c8c2896a4771627af",
+      "_nodeVersion" : "4.3.2"
+    },
+    "1.1.4" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is a Buffer",
+      "version" : "1.1.4",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "https://github.com/feross/is-buffer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.1.4.tgz",
+        "shasum" : "cfc86ccd5dc5a52fa80489111c6920c457e2d98b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "standard" : "^7.0.0",
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.1",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.1.4",
+      "gitHead" : "fd1a429f6ab8092f2e39cb5cc7175b5d9a986c31",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/is-buffer-1.1.4.tgz_1470267365943_0.6724087686743587"
+      },
+      "_shasum" : "cfc86ccd5dc5a52fa80489111c6920c457e2d98b",
+      "_nodeVersion" : "0.10.46"
+    },
+    "1.1.5" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is a Buffer",
+      "version" : "1.1.5",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "https://github.com/feross/is-buffer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.1.5.tgz",
+        "shasum" : "1f3b26ef613b214b88cbca23cc6c01d87961eecc"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "standard" : "*",
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.1.5",
+      "gitHead" : "56dc50e7b271c7d2968269430cbd4f717bbcf6c0",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/is-buffer-1.1.5.tgz_1489193465717_0.9356542676687241"
+      },
+      "_shasum" : "1f3b26ef613b214b88cbca23cc6c01d87961eecc",
+      "_nodeVersion" : "6.9.5"
+    },
+    "1.1.6" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is a Buffer",
+      "version" : "1.1.6",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "https://github.com/feross/is-buffer#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.1.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.1.6.tgz",
+        "shasum" : "efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "standard" : "*",
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "standard && npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.1.6",
+      "gitHead" : "1e84e7ee31cf6b660b12500f3111a05501da387f",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-buffer-1.1.6.tgz_1508967388794_0.03916449216194451"
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "1.0.0" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is Buffer",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "http://feross.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.0.0.tgz",
+        "shasum" : "680b48b0cb42ee3d38f0955bcb9855ee945e96fd"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.0.1"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.0.0",
+      "gitHead" : "fdb526a9a5abd518bfc007f9f919bbd478744311",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [ "ie/6..latest", "chrome/4..latest", "firefox/3..latest", "safari/5.1..latest", "opera/11.0..latest", "iphone/6", "ipad/6" ]
+      },
+      "_shasum" : "680b48b0cb42ee3d38f0955bcb9855ee945e96fd"
+    },
+    "1.0.1" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is Buffer",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "http://feross.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.0.1.tgz",
+        "shasum" : "d4050649838354e87ec59c964c1fa1f4bb7de00d"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.0.1",
+        "zuul" : "^1.13.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.0.0",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.0.1",
+      "gitHead" : "66496a59f1e0ed0d57bf4834113aa62ed874c9b7",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_shasum" : "d4050649838354e87ec59c964c1fa1f4bb7de00d"
+    },
+    "1.1.0" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is Buffer",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "http://feross.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.1.0.tgz",
+        "shasum" : "36f7850c0d077a71b041f3565664155f07035bd0"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.2",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.1.0",
+      "gitHead" : "6ca106240e155ea4cfe13e2e1c83aadab91d2ec1",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_shasum" : "36f7850c0d077a71b041f3565664155f07035bd0",
+      "_nodeVersion" : "4.0.0"
+    },
+    "1.0.2" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is Buffer",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "http://feross.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.0.2.tgz",
+        "shasum" : "f5c6c051d73f86f11b4ee14267cc1029fce261d0"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.0.2",
+      "gitHead" : "cad65fd0f6844c296c743c4ec521c130224de90e",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_shasum" : "f5c6c051d73f86f11b4ee14267cc1029fce261d0",
+      "_nodeVersion" : "0.12.2"
+    },
+    "1.1.1" : {
+      "name" : "is-buffer",
+      "description" : "Determine if an object is Buffer",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Feross Aboukhadijeh",
+        "email" : "feross@feross.org",
+        "url" : "http://feross.org/"
+      },
+      "homepage" : "http://feross.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/feross/is-buffer.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/feross/is-buffer/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/is-buffer/-/is-buffer-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-buffer%2F-%2Fis-buffer-1.1.1.tgz",
+        "shasum" : "3058de9ca454564e8bbe5b8dd2719a8d7089e7d7"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^4.0.0",
+        "zuul" : "^3.0.0"
+      },
+      "keywords" : [ "buffer", "buffers", "type", "core buffer", "browser buffer", "browserify", "typed array", "uint32array", "int16array", "int32array", "float32array", "float64array", "browser", "arraybuffer", "dataview" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run test-node && npm run test-browser",
+        "test-browser" : "zuul -- test/*.js",
+        "test-browser-local" : "zuul --local -- test/*.js",
+        "test-node" : "tape test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.7",
+      "_npmUser" : {
+        "name" : "feross",
+        "email" : "feross@feross.org"
+      },
+      "_id" : "is-buffer@1.1.1",
+      "gitHead" : "9ccd67d6ca6476d1cb7b38fd9fc7d9d71d212f5c",
+      "deprecated" : "This version of 'is-buffer' is out-of-date. You must update to v1.1.6 or newer",
+      "testling" : {
+        "files" : "test/*.js"
+      },
+      "_shasum" : "3058de9ca454564e8bbe5b8dd2719a8d7089e7d7",
+      "_nodeVersion" : "4.2.3"
+    }
+  },
+  "readme" : "# is-buffer [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]\n\n[travis-image]: https://img.shields.io/travis/feross/is-buffer/master.svg\n[travis-url]: https://travis-ci.org/feross/is-buffer\n[npm-image]: https://img.shields.io/npm/v/is-buffer.svg\n[npm-url]: https://npmjs.org/package/is-buffer\n[downloads-image]: https://img.shields.io/npm/dm/is-buffer.svg\n[downloads-url]: https://npmjs.org/package/is-buffer\n[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg\n[standard-url]: https://standardjs.com\n\n#### Determine if an object is a [`Buffer`](http://nodejs.org/api/buffer.html) (including the [browserify Buffer](https://github.com/feross/buffer))\n\n[![saucelabs][saucelabs-image]][saucelabs-url]\n\n[saucelabs-image]: https://saucelabs.com/browser-matrix/is-buffer.svg\n[saucelabs-url]: https://saucelabs.com/u/is-buffer\n\n## Why not use `Buffer.isBuffer`?\n\nThis module lets you check if an object is a `Buffer` without using `Buffer.isBuffer` (which includes the whole [buffer](https://github.com/feross/buffer) module in [browserify](http://browserify.org/)).\n\nIt's future-proof and works in node too!\n\n## install\n\n```bash\nnpm install is-buffer\n```\n\n[Get supported is-buffer with the Tidelift Subscription](https://tidelift.com/subscription/pkg/npm-is-buffer?utm_source=npm-is-buffer&utm_medium=referral&utm_campaign=readme)\n\n## usage\n\n```js\nvar isBuffer = require('is-buffer')\n\nisBuffer(new Buffer(4)) // true\nisBuffer(Buffer.alloc(4)) //true\n\nisBuffer(undefined) // false\nisBuffer(null) // false\nisBuffer('') // false\nisBuffer(true) // false\nisBuffer(false) // false\nisBuffer(0) // false\nisBuffer(1) // false\nisBuffer(1.0) // false\nisBuffer('string') // false\nisBuffer({}) // false\nisBuffer(function foo () {}) // false\n```\n\n## license\n\nMIT. Copyright (C) [Feross Aboukhadijeh](http://feross.org).\n",
+  "maintainers" : [ {
+    "name" : "feross",
+    "email" : "feross@feross.org"
+  } ],
+  "author" : {
+    "name" : "Feross Aboukhadijeh",
+    "email" : "feross@feross.org",
+    "url" : "https://feross.org"
+  },
+  "time" : {
+    "2.0.0" : "2018-01-29T07:43:20.568Z",
+    "2.0.1" : "2018-03-17T11:33:52.032Z",
+    "created" : "2014-10-31T01:58:42.247Z",
+    "2.0.4" : "2019-10-01T04:48:50.958Z",
+    "2.0.2" : "2018-03-17T11:34:36.945Z",
+    "2.0.3" : "2018-06-09T23:15:19.035Z",
+    "1.1.2" : "2016-01-29T12:52:12.824Z",
+    "1.1.3" : "2016-03-07T22:49:39.950Z",
+    "1.1.4" : "2016-08-03T23:36:07.367Z",
+    "1.1.5" : "2017-03-11T00:51:05.973Z",
+    "1.1.6" : "2017-10-25T21:36:28.871Z",
+    "modified" : "2020-05-05T19:31:33.907Z",
+    "1.0.0" : "2014-10-31T01:58:42.247Z",
+    "1.0.1" : "2014-10-31T03:37:00.562Z",
+    "1.1.0" : "2015-09-17T05:02:36.041Z",
+    "1.0.2" : "2015-05-05T01:52:11.559Z",
+    "1.1.1" : "2016-01-03T21:09:34.798Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/feross/is-buffer.git"
+  },
+  "users" : {
+    "monjer" : true,
+    "mojaray2k" : true,
+    "edwardxyt" : true,
+    "rocket0191" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/feross/is-buffer#readme",
+  "keywords" : [ "arraybuffer", "browser", "browser buffer", "browserify", "buffer", "buffers", "core buffer", "dataview", "float32array", "float64array", "int16array", "int32array", "type", "typed array", "uint32array" ],
+  "bugs" : {
+    "url" : "https://github.com/feross/is-buffer/issues"
+  },
+  "license" : "MIT"
+}

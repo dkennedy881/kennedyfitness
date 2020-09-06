@@ -1,0 +1,669 @@
+{
+  "_id" : "css-parse",
+  "_rev" : "55-f806c31aa057bb18d8352c745cf43757",
+  "name" : "css-parse",
+  "description" : "CSS parser",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "homepage" : "https://github.com/reworkcss/css-parse",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/reworkcss/css-parse.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/reworkcss/css-parse/issues"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-2.0.0.tgz",
+        "shasum" : "a468ee667c16d81ccf05c58c38d2a97c780dbfd4"
+      },
+      "dependencies" : {
+        "css" : "^2.0.0"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "jonathanong",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "jongleberry",
+        "email" : "jonathanrichardong@gmail.com"
+      }, {
+        "name" : "conradz",
+        "email" : "me@conradz.com"
+      }, {
+        "name" : "necolas",
+        "email" : "nicolasgallagher@gmail.com"
+      }, {
+        "name" : "anthonyshort",
+        "email" : "antshort@gmail.com"
+      }, {
+        "name" : "ianstormtaylor",
+        "email" : "ian@ianstormtaylor.com"
+      }, {
+        "name" : "moox",
+        "email" : "m@moox.io"
+      }, {
+        "name" : "clintwood",
+        "email" : "clint@anotherway.co.za"
+      }, {
+        "name" : "lydell",
+        "email" : "simon.lydell@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "necolas",
+        "email" : "nicolasgallagher@gmail.com"
+      },
+      "_id" : "css-parse@2.0.0"
+    },
+    "1.0.3" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.0.3.tgz",
+        "shasum" : "cc57cbbf355a01dec8dbaac39e44a29c377f1ec5"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_id" : "css-parse@1.0.3"
+    },
+    "1.3.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.3.0.tgz",
+        "shasum" : "e4814beaf88e4eec51fbda825a80515d8f34132d"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.3.0"
+    },
+    "1.0.4" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.0.4.tgz",
+        "shasum" : "38b0503fbf9da9f54e9c1dbda60e145c77117bdd"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.0.4"
+    },
+    "1.4.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.4.0.tgz",
+        "shasum" : "79a9bf501142e0870fddb13c0560d85aab569691"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.4.0"
+    },
+    "1.5.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.5.0.tgz",
+        "shasum" : "1aec7aed05a6b8158a1677570a4b5bcea53186a8"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.5.0"
+    },
+    "1.5.1" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.5.1.tgz",
+        "shasum" : "62d932ca6c61a90687c80a76fc12c49afff51daa"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.30",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.5.1"
+    },
+    "1.6.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/visionmedia/css-parse.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/visionmedia/css-parse/issues"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.6.0.tgz",
+        "shasum" : "b8fc2416f8ed859c5fbf791c86b9ebc0225898ce"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*",
+        "matcha" : "~0.4.0",
+        "bytes" : "~0.2.1"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.30",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.6.0"
+    },
+    "1.5.2" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.5.2",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.5.2.tgz",
+        "shasum" : "dbdc25c7dec96e49212c4bf3efc9963d90143908"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.30",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.5.2"
+    },
+    "1.7.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "homepage" : "https://github.com/visionmedia/css-parse",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/visionmedia/css-parse.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/visionmedia/css-parse/issues"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.7.0.tgz",
+        "shasum" : "321f6cf73782a6ff751111390fc05e2c657d8c9b"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*",
+        "matcha" : "~0.4.0",
+        "bytes" : "~0.2.1"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      }, {
+        "name" : "jonathanong",
+        "email" : "jonathanrichardong@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "make test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.18",
+      "_npmUser" : {
+        "name" : "jonathanong",
+        "email" : "jonathanrichardong@gmail.com"
+      },
+      "_id" : "css-parse@1.7.0"
+    },
+    "1.5.3" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.5.3",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/visionmedia/css-parse.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/visionmedia/css-parse/issues"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.5.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.5.3.tgz",
+        "shasum" : "fbf69500a5429bc9dfd36364f31f51de8a97d13c"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.30",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.5.3"
+    },
+    "1.0.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.0.0.tgz",
+        "shasum" : "f72794a03df07a6372bef733bbdaa2b79fc25c25"
+      },
+      "dependencies" : {
+        "debug" : "*"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_id" : "css-parse@1.0.0"
+    },
+    "1.0.1" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.0.1.tgz",
+        "shasum" : "5b8032a1f2617beb026e0db2d14cd1dece296371"
+      },
+      "dependencies" : {
+        "debug" : "*"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_id" : "css-parse@1.0.1"
+    },
+    "1.1.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.1.0.tgz",
+        "shasum" : "d8781fd916a812134dd0f57f68db5e1d9a1f9853"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.1.0"
+    },
+    "1.0.2" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.0.2.tgz",
+        "shasum" : "e352af6f244f6dc9cc930f29b74a526adffd52a4"
+      },
+      "dependencies" : {
+        "debug" : "*"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_id" : "css-parse@1.0.2"
+    },
+    "1.2.0" : {
+      "name" : "css-parse",
+      "description" : "CSS parser",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "main" : "index",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/css-parse/-/css-parse-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcss-parse%2F-%2Fcss-parse-1.2.0.tgz",
+        "shasum" : "f975e8416b012c04258e41e3b270e7361f1a9569"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "keywords" : [ "css", "parser", "stylesheet" ],
+      "maintainers" : [ {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      } ],
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.14",
+      "_npmUser" : {
+        "name" : "tjholowaychuk",
+        "email" : "tj@vision-media.ca"
+      },
+      "_id" : "css-parse@1.2.0"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# css-parse\n\n  JavaScript CSS parser for Node.js (exports the `parse` method of [css](https://github.com/reworkcss/css))\n\n## Installation\n\n  $ npm install css-parse\n\n## Usage\n\n  Please see the [css](https://github.com/reworkcss/css) module documentation.\n\n## License\n\n  MIT\n",
+  "maintainers" : [ {
+    "name" : "tjholowaychuk",
+    "email" : "tj@vision-media.ca"
+  }, {
+    "name" : "jonathanong",
+    "email" : "jonathanrichardong@gmail.com"
+  }, {
+    "name" : "jongleberry",
+    "email" : "jonathanrichardong@gmail.com"
+  }, {
+    "name" : "conradz",
+    "email" : "me@conradz.com"
+  }, {
+    "name" : "necolas",
+    "email" : "nicolasgallagher@gmail.com"
+  }, {
+    "name" : "anthonyshort",
+    "email" : "antshort@gmail.com"
+  }, {
+    "name" : "ianstormtaylor",
+    "email" : "ian@ianstormtaylor.com"
+  }, {
+    "name" : "moox",
+    "email" : "m@moox.io"
+  }, {
+    "name" : "clintwood",
+    "email" : "clint@anotherway.co.za"
+  }, {
+    "name" : "lydell",
+    "email" : "simon.lydell@gmail.com"
+  }, {
+    "name" : "slexaxton",
+    "email" : "alexsexton@gmail.com"
+  } ],
+  "author" : {
+    "name" : "TJ Holowaychuk",
+    "email" : "tj@vision-media.ca"
+  },
+  "time" : {
+    "2.0.0" : "2014-06-18T17:41:37.078Z",
+    "created" : "2012-07-19T05:13:53.291Z",
+    "1.0.3" : "2012-09-01T20:52:57.704Z",
+    "1.3.0" : "2013-05-21T16:51:57.169Z",
+    "1.0.4" : "2012-09-17T18:44:10.126Z",
+    "1.4.0" : "2013-05-23T02:56:56.910Z",
+    "1.5.0" : "2013-06-19T01:34:28.791Z",
+    "1.5.1" : "2013-07-23T23:56:31.957Z",
+    "1.6.0" : "2013-10-16T22:44:32.390Z",
+    "1.5.2" : "2013-07-28T23:25:19.529Z",
+    "1.7.0" : "2013-12-23T05:45:32.785Z",
+    "1.5.3" : "2013-09-10T20:59:04.892Z",
+    "modified" : "2018-02-17T12:06:31.512Z",
+    "1.0.0" : "2012-07-19T05:13:54.942Z",
+    "1.0.1" : "2012-07-26T12:57:29.459Z",
+    "1.1.0" : "2013-03-18T16:08:09.146Z",
+    "1.0.2" : "2012-09-01T17:26:02.226Z",
+    "1.2.0" : "2013-04-04T19:47:46.730Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/reworkcss/css-parse.git"
+  },
+  "users" : {
+    "m412c0" : true,
+    "aoki" : true,
+    "itonyyo" : true,
+    "rubiadias" : true,
+    "neraliu" : true,
+    "joaocunha" : true,
+    "fgribreau" : true,
+    "fassetar" : true,
+    "daizch" : true,
+    "jmatthews" : true
+  },
+  "readmeFilename" : "Readme.md",
+  "homepage" : "https://github.com/reworkcss/css-parse",
+  "keywords" : [ "css", "parser", "stylesheet" ],
+  "bugs" : {
+    "url" : "https://github.com/reworkcss/css-parse/issues"
+  },
+  "license" : "MIT"
+}

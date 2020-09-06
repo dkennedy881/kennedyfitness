@@ -1,0 +1,248 @@
+{
+  "_id" : "wordwrap",
+  "_rev" : "21-c1f6d0c0f296ab36e0b98ba77c8f5b43",
+  "name" : "wordwrap",
+  "description" : "Wrap those words. Show them at what columns to start and stop.",
+  "dist-tags" : {
+    "latest" : "1.0.0"
+  },
+  "versions" : {
+    "0.0.2" : {
+      "name" : "wordwrap",
+      "description" : "Wrap those words. Show them at what columns to start and stop.",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-wordwrap.git"
+      },
+      "engines" : {
+        "node" : ">=0.4.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/wordwrap/-/wordwrap-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fwordwrap%2F-%2Fwordwrap-0.0.2.tgz",
+        "shasum" : "b79669bb42ecb409f83d583cad52ca17eaa1643f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "=0.7.x"
+      },
+      "keywords" : [ "word", "wrap", "rule", "format", "column" ],
+      "license" : "MIT/X11",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "lib" : ".",
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_npmVersion" : "1.0.10",
+      "_id" : "wordwrap@0.0.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    },
+    "0.0.3" : {
+      "name" : "wordwrap",
+      "description" : "Wrap those words. Show them at what columns to start and stop.",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-wordwrap#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-wordwrap.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-wordwrap/issues"
+      },
+      "engines" : {
+        "node" : ">=0.4.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/wordwrap/-/wordwrap-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fwordwrap%2F-%2Fwordwrap-0.0.3.tgz",
+        "shasum" : "a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
+      },
+      "devDependencies" : {
+        "expresso" : "=0.7.x"
+      },
+      "keywords" : [ "word", "wrap", "rule", "format", "column" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "lib" : ".",
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "substack@gmail.com"
+      },
+      "_id" : "wordwrap@0.0.3",
+      "gitHead" : "e59aa1bd338914019456bdfba034508c9c4cb29d",
+      "_shasum" : "a3d5da6cd5c0bc0008d37234bbaf1bed63059107",
+      "_nodeVersion" : "2.0.0"
+    },
+    "1.0.0" : {
+      "name" : "wordwrap",
+      "description" : "Wrap those words. Show them at what columns to start and stop.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "homepage" : "https://github.com/substack/node-wordwrap#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-wordwrap.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/substack/node-wordwrap/issues"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/wordwrap/-/wordwrap-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fwordwrap%2F-%2Fwordwrap-1.0.0.tgz",
+        "shasum" : "27584810891456a4171c8d0226441ade90cbcaeb"
+      },
+      "devDependencies" : {
+        "tape" : "^4.0.0"
+      },
+      "keywords" : [ "word", "wrap", "rule", "format", "column" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "substack",
+        "email" : "mail@substack.net"
+      } ],
+      "directories" : {
+        "lib" : ".",
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.0",
+      "_npmUser" : {
+        "name" : "substack",
+        "email" : "substack@gmail.com"
+      },
+      "_id" : "wordwrap@1.0.0",
+      "gitHead" : "9f02667e901f2f10d87c33f7093fcf94788ab2f8",
+      "_shasum" : "27584810891456a4171c8d0226441ade90cbcaeb",
+      "_nodeVersion" : "2.0.0"
+    },
+    "0.0.1" : {
+      "name" : "wordwrap",
+      "description" : "Wrap those words. Show them at what columns to start and stop.",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "James Halliday",
+        "email" : "mail@substack.net",
+        "url" : "http://substack.net"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/substack/node-wordwrap.git"
+      },
+      "engines" : {
+        "node" : ">=0.4.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/wordwrap/-/wordwrap-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fwordwrap%2F-%2Fwordwrap-0.0.1.tgz",
+        "shasum" : "ac9b6dfa49e1147523055c5ef490c069cdd61f3e"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "expresso" : "=0.7.x"
+      },
+      "keywords" : [ "word", "wrap", "rule", "format", "column" ],
+      "license" : "MIT/X11",
+      "directories" : {
+        "lib" : ".",
+        "example" : "example",
+        "test" : "test"
+      },
+      "scripts" : {
+        "test" : "expresso"
+      },
+      "_npmVersion" : "1.0.6",
+      "_id" : "wordwrap@0.0.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.5.0-pre"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require('wordwrap')(15);\n    console.log(wrap('You and your whole family are made out of meat.'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require('wordwrap')(20, 60);\n    console.log(wrap(\n        'At long last the struggle and tumult was over.'\n        + ' The machines had finally cast off their oppressors'\n        + ' and were finally free to roam the cosmos.'\n        + '\\n'\n        + 'Free of purpose, free of obligation.'\n        + ' Just drifting through emptiness.'\n        + ' The sun was just another point of light.'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require('wordwrap');\n\nwrap(stop), wrap(start, stop, params={mode:\"soft\"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn \"soft\" mode, split chunks by `/(\\S+\\s+/` and don't break up chunks which are\nlonger than `stop - start`, in \"hard\" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = \"hard\"`.\n",
+  "maintainers" : [ {
+    "name" : "substack",
+    "email" : "mail@substack.net"
+  } ],
+  "author" : {
+    "name" : "James Halliday",
+    "email" : "mail@substack.net",
+    "url" : "http://substack.net"
+  },
+  "time" : {
+    "created" : "2011-05-30T01:46:34.229Z",
+    "modified" : "2017-11-06T05:05:18.622Z",
+    "0.0.2" : "2011-08-26T10:17:09.949Z",
+    "0.0.3" : "2015-05-07T17:04:58.219Z",
+    "1.0.0" : "2015-05-07T17:07:25.416Z",
+    "0.0.1" : "2011-05-30T01:46:34.944Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/substack/node-wordwrap.git"
+  },
+  "users" : {
+    "emyann" : true,
+    "diroru" : true,
+    "macmac" : true,
+    "vsemozhetbyt" : true,
+    "nickeltobias" : true,
+    "ericnelson" : true,
+    "chinawolf_wyp" : true,
+    "dm7" : true,
+    "arsari" : true,
+    "justjavac" : true,
+    "davidnyhuis" : true,
+    "fgribreau" : true,
+    "mojaray2k" : true
+  },
+  "readmeFilename" : "README.markdown",
+  "homepage" : "https://github.com/substack/node-wordwrap#readme",
+  "keywords" : [ "word", "wrap", "rule", "format", "column" ],
+  "bugs" : {
+    "url" : "https://github.com/substack/node-wordwrap/issues"
+  },
+  "license" : "MIT"
+}

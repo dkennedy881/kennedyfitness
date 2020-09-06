@@ -1,0 +1,225 @@
+{
+  "_id" : "forwarded",
+  "_rev" : "12-36dd9543e195d9d55d3e1f82f3cc0fdf",
+  "name" : "forwarded",
+  "description" : "Parse HTTP X-Forwarded-For header",
+  "dist-tags" : {
+    "latest" : "0.1.2"
+  },
+  "versions" : {
+    "0.1.1" : {
+      "name" : "forwarded",
+      "description" : "Parse HTTP X-Forwarded-For header",
+      "version" : "0.1.1",
+      "homepage" : "https://github.com/jshttp/forwarded#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/forwarded.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/forwarded/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/forwarded/-/forwarded-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fforwarded%2F-%2Fforwarded-0.1.1.tgz",
+        "shasum" : "8a4e30c640b05395399a3549c730257728048961"
+      },
+      "devDependencies" : {
+        "eslint" : "3.19.0",
+        "eslint-config-standard" : "10.2.1",
+        "eslint-plugin-import" : "2.7.0",
+        "eslint-plugin-node" : "5.1.0",
+        "eslint-plugin-promise" : "3.5.0",
+        "eslint-plugin-standard" : "3.0.1",
+        "istanbul" : "0.4.5",
+        "mocha" : "1.21.5"
+      },
+      "keywords" : [ "x-forwarded-for", "http", "req" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "HISTORY.md", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "forwarded@0.1.1",
+      "gitHead" : "45e46e2a56348b62ebe679e263550624e6a02d70",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/forwarded-0.1.1.tgz_1505085347950_0.7802835658658296"
+      },
+      "_shasum" : "8a4e30c640b05395399a3549c730257728048961",
+      "_nodeVersion" : "6.11.1"
+    },
+    "0.1.2" : {
+      "name" : "forwarded",
+      "description" : "Parse HTTP X-Forwarded-For header",
+      "version" : "0.1.2",
+      "homepage" : "https://github.com/jshttp/forwarded#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jshttp/forwarded.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/forwarded/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/forwarded/-/forwarded-0.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fforwarded%2F-%2Fforwarded-0.1.2.tgz",
+        "shasum" : "98c23dab1175657b8c0573e8ceccd91b0ff18c84"
+      },
+      "devDependencies" : {
+        "beautify-benchmark" : "0.2.4",
+        "benchmark" : "2.1.4",
+        "eslint" : "3.19.0",
+        "eslint-config-standard" : "10.2.1",
+        "eslint-plugin-import" : "2.7.0",
+        "eslint-plugin-node" : "5.1.1",
+        "eslint-plugin-promise" : "3.5.0",
+        "eslint-plugin-standard" : "3.0.1",
+        "istanbul" : "0.4.5",
+        "mocha" : "1.21.5"
+      },
+      "keywords" : [ "x-forwarded-for", "http", "req" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "HISTORY.md", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "bench" : "node benchmark/index.js",
+        "lint" : "eslint .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "forwarded@0.1.2",
+      "gitHead" : "2fc094b49781b62acb0e2b00f83abd641d604a7c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/forwarded-0.1.2.tgz_1505441873168_0.0936233215034008"
+      },
+      "_shasum" : "98c23dab1175657b8c0573e8ceccd91b0ff18c84",
+      "_nodeVersion" : "6.11.1"
+    },
+    "0.1.0" : {
+      "name" : "forwarded",
+      "description" : "Parse HTTP X-Forwarded-For header",
+      "version" : "0.1.0",
+      "homepage" : "https://github.com/jshttp/forwarded",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/jshttp/forwarded"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/jshttp/forwarded/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.6"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/forwarded/-/forwarded-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fforwarded%2F-%2Fforwarded-0.1.0.tgz",
+        "shasum" : "19ef9874c4ae1c297bcf078fde63a09b66a84363"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.2",
+        "mocha" : "~1.21.4"
+      },
+      "keywords" : [ "x-forwarded-for", "http", "req" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "HISTORY.md", "README.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "forwarded@0.1.0",
+      "gitHead" : "e9a9faeb3cfaadf40eb57d144fff26bca9b818e8",
+      "_shasum" : "19ef9874c4ae1c297bcf078fde63a09b66a84363"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# forwarded\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Node.js Version][node-version-image]][node-version-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nParse HTTP X-Forwarded-For header\n\n## Installation\n\nThis is a [Node.js](https://nodejs.org/en/) module available through the\n[npm registry](https://www.npmjs.com/). Installation is done using the\n[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):\n\n```sh\n$ npm install forwarded\n```\n\n## API\n\n```js\nvar forwarded = require('forwarded')\n```\n\n### forwarded(req)\n\n```js\nvar addresses = forwarded(req)\n```\n\nParse the `X-Forwarded-For` header from the request. Returns an array\nof the addresses, including the socket address for the `req`, in reverse\norder (i.e. index `0` is the socket address and the last index is the\nfurthest address, typically the end-user).\n\n## Testing\n\n```sh\n$ npm test\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/forwarded.svg\n[npm-url]: https://npmjs.org/package/forwarded\n[node-version-image]: https://img.shields.io/node/v/forwarded.svg\n[node-version-url]: https://nodejs.org/en/download/\n[travis-image]: https://img.shields.io/travis/jshttp/forwarded/master.svg\n[travis-url]: https://travis-ci.org/jshttp/forwarded\n[coveralls-image]: https://img.shields.io/coveralls/jshttp/forwarded/master.svg\n[coveralls-url]: https://coveralls.io/r/jshttp/forwarded?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/forwarded.svg\n[downloads-url]: https://npmjs.org/package/forwarded\n",
+  "maintainers" : [ {
+    "name" : "dougwilson",
+    "email" : "doug@somethingdoug.com"
+  } ],
+  "time" : {
+    "created" : "2014-08-19T08:43:29.230Z",
+    "modified" : "2017-09-15T02:17:54.232Z",
+    "0.1.1" : "2017-09-10T23:15:48.834Z",
+    "0.1.2" : "2017-09-15T02:17:54.232Z",
+    "0.0.0" : "2014-08-19T08:43:29.230Z",
+    "0.1.0" : "2014-09-21T19:23:28.870Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jshttp/forwarded.git"
+  },
+  "users" : {
+    "mojaray2k" : true,
+    "rocket0191" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/jshttp/forwarded#readme",
+  "keywords" : [ "x-forwarded-for", "http", "req" ],
+  "contributors" : [ {
+    "name" : "Douglas Christopher Wilson",
+    "email" : "doug@somethingdoug.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/jshttp/forwarded/issues"
+  },
+  "license" : "MIT"
+}

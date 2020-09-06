@@ -1,0 +1,715 @@
+{
+  "_id" : "constantinople",
+  "_rev" : "26-1988d13d20e7e39e71f177c7486fa32f",
+  "name" : "constantinople",
+  "description" : "Determine whether a JavaScript expression evaluates to a constant",
+  "dist-tags" : {
+    "latest" : "4.0.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-2.0.0.tgz",
+        "shasum" : "0558c3f340095a43acf2386149e5537074330e49"
+      },
+      "dependencies" : {
+        "uglify-js" : "~2.4.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.14",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      },
+      "_id" : "constantinople@2.0.0",
+      "deprecated" : "Please update to at least constantinople 3.1.1"
+    },
+    "2.0.1" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-2.0.1.tgz",
+        "shasum" : "5829f856f301a9bdb107d935f77d8eb8ccec4c79"
+      },
+      "dependencies" : {
+        "uglify-js" : "~2.4.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      },
+      "_id" : "constantinople@2.0.1",
+      "deprecated" : "Please update to at least constantinople 3.1.1"
+    },
+    "4.0.0" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-4.0.0.tgz",
+        "shasum" : "38eb7bf0ecbb46b7e080402445b1abe8f9e16df2"
+      },
+      "dependencies" : {
+        "@babel/types" : "^7.6.1",
+        "@babel/parser" : "^7.6.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "^9.4.4",
+        "mocha" : "*",
+        "typescript" : "^2.7.1"
+      },
+      "keywords" : [ "constant", "ast", "tooling" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "npm run build",
+        "build" : "tsc",
+        "pretest" : "npm run build",
+        "test" : "mocha -R spec"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@4.0.0",
+      "gitHead" : "9902a79893380b59a63a5a33f3855cc0f70e931f",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/constantinople_4.0.0_1568720272605_0.8513705623475625"
+      },
+      "_nodeVersion" : "10.16.2"
+    },
+    "4.0.1" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-4.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-4.0.1.tgz",
+        "shasum" : "0def113fa0e4dc8de83331a5cf79c8b325213151"
+      },
+      "dependencies" : {
+        "@babel/parser" : "^7.6.0",
+        "@babel/types" : "^7.6.1"
+      },
+      "devDependencies" : {
+        "@types/node" : "^9.4.4",
+        "mocha" : "*",
+        "prettier" : "^1.18.2",
+        "typescript" : "^2.7.1"
+      },
+      "keywords" : [ "constant", "ast", "tooling" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "npm run build",
+        "build" : "tsc",
+        "pretest" : "npm run build && npm run prettier:check",
+        "test" : "mocha -R spec",
+        "prettier:write" : "prettier --ignore-path .gitignore --write './**/*.{md,json,yaml,js,jsx,ts,tsx}'",
+        "prettier:check" : "echo \"If prettier fails you can fix it by running npm run prettier:write\" && prettier --ignore-path .gitignore --list-different './**/*.{md,json,yaml,js,jsx,ts,tsx}'"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@4.0.1",
+      "gitHead" : "7f81bd7f6f00db69f27a7e4b05eee27367e98620",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/constantinople_4.0.1_1568720369521_0.7712279961436586"
+      },
+      "_nodeVersion" : "10.16.2"
+    },
+    "3.0.0" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-3.0.0.tgz",
+        "shasum" : "2567a7c4602311b375fd252b3e50affa25d0a0de"
+      },
+      "dependencies" : {
+        "acorn-globals" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      },
+      "_id" : "constantinople@3.0.0",
+      "gitHead" : "1201642d68ba9817a6b1c1d8aadcde17af753eba",
+      "deprecated" : "Please update to at least constantinople 3.1.1",
+      "_shasum" : "2567a7c4602311b375fd252b3e50affa25d0a0de"
+    },
+    "3.0.1" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-3.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-3.0.1.tgz",
+        "shasum" : "1ddf9deac0d14c4367c1d5b3f16fb2763f123108"
+      },
+      "dependencies" : {
+        "acorn-globals" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindeay.co.uk"
+      },
+      "_id" : "constantinople@3.0.1",
+      "gitHead" : "ed3597688b01f666ec716108bf7c348338ef14af",
+      "deprecated" : "Please update to at least constantinople 3.1.1",
+      "_shasum" : "1ddf9deac0d14c4367c1d5b3f16fb2763f123108"
+    },
+    "3.1.0" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using acorn)",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-3.1.0.tgz",
+        "shasum" : "7569caa8aa3f8d5935d62e1fa96f9f702cd81c79"
+      },
+      "dependencies" : {
+        "acorn" : "^3.1.0",
+        "is-expression" : "^2.0.1"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ "acorn", "ast", "tooling" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@3.1.0",
+      "gitHead" : "d130e2ead6ef68861f31d4446f074458de8daf89",
+      "deprecated" : "Please update to at least constantinople 3.1.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/constantinople-3.1.0.tgz_1465482989204_0.43931016116403043"
+      },
+      "_shasum" : "7569caa8aa3f8d5935d62e1fa96f9f702cd81c79",
+      "_nodeVersion" : "6.2.0"
+    },
+    "1.0.0" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-1.0.0.tgz",
+        "shasum" : "550a82e33ad2f591d2b58fa5bba40380994d90ce"
+      },
+      "dependencies" : {
+        "uglify-js" : "~2.3.6"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.10",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@1.0.0",
+      "deprecated" : "Please update to at least constantinople 3.1.1"
+    },
+    "3.0.2" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",
+      "version" : "3.0.2",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-3.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-3.0.2.tgz",
+        "shasum" : "4b945d9937907bcd98ee575122c3817516544141"
+      },
+      "dependencies" : {
+        "acorn" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.1",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@3.0.2",
+      "gitHead" : "8947fdfb41428b1c8f5df1645f38bc0af34d7f21",
+      "deprecated" : "Please update to at least constantinople 3.1.1",
+      "_shasum" : "4b945d9937907bcd98ee575122c3817516544141",
+      "_nodeVersion" : "1.6.2"
+    },
+    "3.1.1" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using acorn)",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-3.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-3.1.1.tgz",
+        "shasum" : "eaaa48b48aadc5b5c7ad060cc7b59ab862067fa9"
+      },
+      "dependencies" : {
+        "@types/babylon" : "^6.16.2",
+        "babel-types" : "^6.16.0",
+        "babylon" : "^6.18.0",
+        "babylon-walk" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "@types/node" : "^9.4.4",
+        "mocha" : "*",
+        "typescript" : "^2.7.1"
+      },
+      "keywords" : [ "acorn", "ast", "tooling" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "npm run build",
+        "build" : "tsc",
+        "pretest" : "npm run build",
+        "test" : "mocha -R spec"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@3.1.1",
+      "gitHead" : "01d409c0d081dfd65223e6b7767c244156d35f7f",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/constantinople_3.1.1_1518219606604_0.6792148811026057"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.1" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-1.0.1.tgz",
+        "shasum" : "038727385eb70567ffb5a825abc44870b56f4de9"
+      },
+      "dependencies" : {
+        "uglify-js" : "~2.3.6"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.10",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@1.0.1",
+      "deprecated" : "Please update to at least constantinople 3.1.1"
+    },
+    "3.1.2" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using acorn)",
+      "version" : "3.1.2",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "homepage" : "https://github.com/ForbesLindesay/constantinople#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-3.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-3.1.2.tgz",
+        "shasum" : "d45ed724f57d3d10500017a7d3a889c1381ae647"
+      },
+      "dependencies" : {
+        "@types/babel-types" : "^7.0.0",
+        "@types/babylon" : "^6.16.2",
+        "babel-types" : "^6.26.0",
+        "babylon" : "^6.18.0"
+      },
+      "devDependencies" : {
+        "@types/node" : "^9.4.4",
+        "mocha" : "*",
+        "typescript" : "^2.7.1"
+      },
+      "keywords" : [ "acorn", "ast", "tooling" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      }, {
+        "name" : "timothygu",
+        "email" : "timothygu99@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepublish" : "npm run build",
+        "build" : "tsc",
+        "pretest" : "npm run build",
+        "test" : "mocha -R spec"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@3.1.2",
+      "gitHead" : "8c1e731bd862da48df1158980e3171f689f5b9af",
+      "types" : "lib/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/constantinople_3.1.2_1518220013631_0.12338593752898475"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "1.0.2" : {
+      "name" : "constantinople",
+      "description" : "Determine whether a JavaScript expression evaluates to a constant (using UglifyJS)",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "ForbesLindesay"
+      },
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/ForbesLindesay/constantinople.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/constantinople/-/constantinople-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconstantinople%2F-%2Fconstantinople-1.0.2.tgz",
+        "shasum" : "0e64747dc836644d3f659247efd95231b48c3e71"
+      },
+      "dependencies" : {
+        "uglify-js" : "~2.4.0"
+      },
+      "devDependencies" : {
+        "mocha" : "*"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha -R spec"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.32",
+      "_npmUser" : {
+        "name" : "forbeslindesay",
+        "email" : "forbes@lindesay.co.uk"
+      },
+      "_id" : "constantinople@1.0.2",
+      "deprecated" : "Please update to at least constantinople 3.1.1"
+    }
+  },
+  "readme" : "# constantinople\n\nDetermine whether a JavaScript expression evaluates to a constant (using Babylon). Here it is assumed to be safe to underestimate how constant something is.\n\n[![Build Status](https://img.shields.io/travis/pugjs/constantinople/master.svg)](https://travis-ci.org/pugjs/constantinople)\n[![Dependency Status](https://img.shields.io/david/pugjs/constantinople.svg)](https://david-dm.org/pugjs/constantinople)\n[![NPM version](https://img.shields.io/npm/v/constantinople.svg)](https://www.npmjs.org/package/constantinople)\n\n## Installation\n\n    npm install constantinople\n\n## Usage\n\n```js\nvar isConstant = require('constantinople');\n\nif (isConstant('\"foo\" + 5')) {\n  console.dir(isConstant.toConstant('\"foo\" + 5'));\n}\nif (isConstant('Math.floor(10.5)', {Math: Math})) {\n  console.dir(isConstant.toConstant('Math.floor(10.5)', {Math: Math}));\n}\n```\n\n## API\n\n### isConstant(src, [constants, [options]])\n\nReturns `true` if `src` evaluates to a constant, `false` otherwise. It will also return `false` if there is a syntax error, which makes it safe to use on potentially ES6 code.\n\nConstants is an object mapping strings to values, where those values should be treated as constants. Note that this makes it a pretty bad idea to have `Math` in there if the user might make use of `Math.random` and a pretty bad idea to have `Date` in there.\n\nOptions are directly passed-through to [Babylon](https://github.com/babel/babylon#options).\n\n### toConstant(src, [constants, [options]])\n\nReturns the value resulting from evaluating `src`. This method throws an error if the expression is not constant. e.g. `toConstant(\"Math.random()\")` would throw an error.\n\nConstants is an object mapping strings to values, where those values should be treated as constants. Note that this makes it a pretty bad idea to have `Math` in there if the user might make use of `Math.random` and a pretty bad idea to have `Date` in there.\n\nOptions are directly passed-through to [Babylon](https://github.com/babel/babylon#options).\n\n## License\n\nMIT\n",
+  "maintainers" : [ {
+    "name" : "forbeslindesay",
+    "email" : "forbes@lindesay.co.uk"
+  }, {
+    "name" : "timothygu",
+    "email" : "timothygu99@gmail.com"
+  } ],
+  "author" : {
+    "name" : "ForbesLindesay"
+  },
+  "time" : {
+    "2.0.0" : "2014-02-21T15:13:32.766Z",
+    "2.0.1" : "2014-07-09T10:21:25.848Z",
+    "created" : "2013-06-26T03:43:25.055Z",
+    "4.0.0" : "2019-09-17T11:37:52.732Z",
+    "4.0.1" : "2019-09-17T11:39:29.656Z",
+    "3.0.0" : "2014-09-22T15:28:14.371Z",
+    "modified" : "2019-09-17T11:39:32.141Z",
+    "3.0.1" : "2014-09-22T16:42:45.974Z",
+    "3.1.0" : "2016-06-09T14:36:31.573Z",
+    "1.0.0" : "2013-06-26T03:43:27.269Z",
+    "3.0.2" : "2015-07-21T17:13:27.422Z",
+    "3.1.1" : "2018-02-09T23:40:07.327Z",
+    "1.0.1" : "2013-06-26T03:55:01.692Z",
+    "3.1.2" : "2018-02-09T23:46:54.306Z",
+    "1.0.2" : "2013-08-25T01:44:29.030Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/ForbesLindesay/constantinople.git"
+  },
+  "users" : {
+    "nyakto" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/ForbesLindesay/constantinople#readme",
+  "keywords" : [ "constant", "ast", "tooling" ],
+  "bugs" : {
+    "url" : "https://github.com/ForbesLindesay/constantinople/issues"
+  },
+  "license" : "MIT"
+}

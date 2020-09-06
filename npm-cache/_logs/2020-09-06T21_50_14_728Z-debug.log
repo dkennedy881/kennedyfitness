@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/demarcus/.nvm/versions/node/v12.14.0/bin/node',
+1 verbose cli   '/Users/demarcus/.nvm/versions/node/v12.14.0/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.14.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle kennedyfitness@0.0.0~prestart: kennedyfitness@0.0.0
+6 info lifecycle kennedyfitness@0.0.0~start: kennedyfitness@0.0.0
+7 verbose lifecycle kennedyfitness@0.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle kennedyfitness@0.0.0~start: PATH: /Users/demarcus/.nvm/versions/node/v12.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/demarcus/playground/projects/kennedyfitness/node_modules/.bin:/Users/demarcus/.nvm/versions/node/v12.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+9 verbose lifecycle kennedyfitness@0.0.0~start: CWD: /Users/demarcus/playground/projects/kennedyfitness
+10 silly lifecycle kennedyfitness@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
+11 silly lifecycle kennedyfitness@0.0.0~start: Returned: code: 1  signal: null
+12 info lifecycle kennedyfitness@0.0.0~start: Failed to exec start script
+13 verbose stack Error: kennedyfitness@0.0.0 start: `node ./bin/www`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/Users/demarcus/.nvm/versions/node/v12.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:210:5)
+13 verbose stack     at ChildProcess.<anonymous> (/Users/demarcus/.nvm/versions/node/v12.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:210:5)
+13 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+14 verbose pkgid kennedyfitness@0.0.0
+15 verbose cwd /Users/demarcus/playground/projects/kennedyfitness
+16 verbose Darwin 19.6.0
+17 verbose argv "/Users/demarcus/.nvm/versions/node/v12.14.0/bin/node" "/Users/demarcus/.nvm/versions/node/v12.14.0/bin/npm" "start"
+18 verbose node v12.14.0
+19 verbose npm  v6.14.6
+20 error code ELIFECYCLE
+21 error errno 1
+22 error kennedyfitness@0.0.0 start: `node ./bin/www`
+22 error Exit status 1
+23 error Failed at the kennedyfitness@0.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

@@ -1,0 +1,1282 @@
+{
+  "_id" : "cookie-parser",
+  "_rev" : "292-de1aa5a96de7dd6e6aab1b92ffb57206",
+  "name" : "cookie-parser",
+  "description" : "Parse HTTP request cookies",
+  "dist-tags" : {
+    "latest" : "1.4.5"
+  },
+  "versions" : {
+    "1.3.0" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/expressjs/cookie-parser"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.3.0.tgz",
+        "shasum" : "57273407a1f1e958825e5c58c828f35a70ff7074"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.2",
+        "cookie-signature" : "1.0.3"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.2.10",
+        "mocha" : "~1.20.1",
+        "supertest" : "~0.13.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter dot test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.3.0"
+    },
+    "1.3.1" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/expressjs/cookie-parser"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.3.1.tgz",
+        "shasum" : "30bfc2906a04489d59bcb9e32f90db08e04bb51e"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.2",
+        "cookie-signature" : "1.0.3"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.2.10",
+        "mocha" : "~1.20.1",
+        "supertest" : "~0.13.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter dot test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.3.1"
+    },
+    "1.4.0" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/cookie-parser"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.4.0.tgz",
+        "shasum" : "73323d5a7de341078c446109c622d2f7008164ee"
+      },
+      "dependencies" : {
+        "cookie" : "0.2.2",
+        "cookie-signature" : "1.0.6"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.20",
+        "mocha" : "2.2.5",
+        "supertest" : "1.1.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "HISTORY.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.4.0",
+      "gitHead" : "7defc09815f04dc7b665fd220b8705fba8d9573d",
+      "_shasum" : "73323d5a7de341078c446109c622d2f7008164ee"
+    },
+    "1.3.2" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/expressjs/cookie-parser"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.3.2.tgz",
+        "shasum" : "52211cc82c955d79ff0c088954407724e19cf562"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.2",
+        "cookie-signature" : "1.0.4"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.2.12",
+        "mocha" : "~1.20.1",
+        "supertest" : "~0.13.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter dot test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.3.2"
+    },
+    "1.4.1" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/cookie-parser"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.4.1.tgz",
+        "shasum" : "6b0ee6a8dec27a063af42d188a592cc1d72ba4f4"
+      },
+      "dependencies" : {
+        "cookie" : "0.2.3",
+        "cookie-signature" : "1.0.6"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.4.2",
+        "mocha" : "2.3.4",
+        "supertest" : "1.1.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "HISTORY.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.4.1",
+      "gitHead" : "74d3caa4d89006db4c6fc0e1b41d70ee03e5d398",
+      "_shasum" : "6b0ee6a8dec27a063af42d188a592cc1d72ba4f4"
+    },
+    "1.3.3" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.3.3",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/cookie-parser"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.3.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.3.3.tgz",
+        "shasum" : "7e3a2c745f4b460d5a340e578a0baa5d7725fe37"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.2",
+        "cookie-signature" : "1.0.5"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.2",
+        "mocha" : "~1.21.4",
+        "supertest" : "~0.13.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "files" : [ "lib/", "LICENSE", "HISTORY.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.3.3",
+      "gitHead" : "893bf91a8a4e49c63b6e32065991b13a7d27ed4c",
+      "_shasum" : "7e3a2c745f4b460d5a340e578a0baa5d7725fe37"
+    },
+    "1.4.2" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/cookie-parser"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.4.2.tgz",
+        "shasum" : "a2e8f79e7b38bbbbafeec8f028d7828dd46da546"
+      },
+      "dependencies" : {
+        "cookie" : "0.2.4",
+        "cookie-signature" : "1.0.6"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.4.3",
+        "mocha" : "2.4.5",
+        "supertest" : "1.1.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "HISTORY.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.4.2",
+      "gitHead" : "5280f7f8a69cae983c18ee3f724a7ef312e49962",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/cookie-parser-1.4.2.tgz_1463791497410_0.9901552675291896"
+      },
+      "_shasum" : "a2e8f79e7b38bbbbafeec8f028d7828dd46da546"
+    },
+    "1.3.4" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.3.4",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/cookie-parser"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.3.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.3.4.tgz",
+        "shasum" : "193035a5be97117a21709b3aa737f6132717bda6"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.2",
+        "cookie-signature" : "1.0.6"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.5",
+        "mocha" : "~2.1.0",
+        "supertest" : "0.15.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "files" : [ "lib/", "LICENSE", "HISTORY.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.3.4",
+      "gitHead" : "94764a584c70f26049b14c6ad845c8b0ed0e478b",
+      "_shasum" : "193035a5be97117a21709b3aa737f6132717bda6"
+    },
+    "1.4.3" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.4.3",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/cookie-parser"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.4.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.4.3.tgz",
+        "shasum" : "0fe31fa19d000b95f4aadf1f53fdc2b8a203baa5"
+      },
+      "dependencies" : {
+        "cookie" : "0.3.1",
+        "cookie-signature" : "1.0.6"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.4.3",
+        "mocha" : "2.5.3",
+        "supertest" : "1.1.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "license" : "MIT",
+      "files" : [ "LICENSE", "HISTORY.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.4.3",
+      "gitHead" : "ad0b2cb834affe3929f0a690cd0494cd0b96d6be",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/cookie-parser-1.4.3.tgz_1464325360032_0.20419598533771932"
+      },
+      "_shasum" : "0fe31fa19d000b95f4aadf1f53fdc2b8a203baa5"
+    },
+    "1.3.5" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.3.5",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expressjs/cookie-parser"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.3.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.3.5.tgz",
+        "shasum" : "9d755570fb5d17890771227a02314d9be7cf8356"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.3",
+        "cookie-signature" : "1.0.6"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.3.9",
+        "mocha" : "2.2.5",
+        "supertest" : "1.0.1"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "license" : "MIT",
+      "files" : [ "lib/", "LICENSE", "HISTORY.md", "index.js" ],
+      "maintainers" : [ {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      }, {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.3.5",
+      "gitHead" : "8133968c429c3f48eb8e3ed54932c52743ac9034",
+      "_shasum" : "9d755570fb5d17890771227a02314d9be7cf8356"
+    },
+    "1.4.4" : {
+      "name" : "cookie-parser",
+      "description" : "Parse HTTP request cookies",
+      "version" : "1.4.4",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expressjs/cookie-parser.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.4.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.4.4.tgz",
+        "shasum" : "e6363de4ea98c3def9697b93421c09f30cf5d188"
+      },
+      "dependencies" : {
+        "cookie" : "0.3.1",
+        "cookie-signature" : "1.0.6"
+      },
+      "devDependencies" : {
+        "deep-equal" : "1.0.1",
+        "eslint" : "5.13.0",
+        "eslint-config-standard" : "12.0.0",
+        "eslint-plugin-import" : "2.16.0",
+        "eslint-plugin-markdown" : "1.0.0",
+        "eslint-plugin-node" : "7.0.1",
+        "eslint-plugin-promise" : "4.0.1",
+        "eslint-plugin-standard" : "4.0.0",
+        "istanbul" : "0.4.5",
+        "mocha" : "5.2.0",
+        "supertest" : "3.4.2"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.4.4",
+      "gitHead" : "1dc306b0ebe86ab98521811cc090740b4bef48e7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cookie-parser_1.4.4_1550018613583_0.3382367471226304"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "1.4.5" : {
+      "name" : "cookie-parser",
+      "description" : "Parse HTTP request cookies",
+      "version" : "1.4.5",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expressjs/cookie-parser.git"
+      },
+      "contributors" : [ {
+        "name" : "Douglas Christopher Wilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.4.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.4.5.tgz",
+        "shasum" : "3e572d4b7c0c80f9c61daf604e4336831b5d1d49"
+      },
+      "dependencies" : {
+        "cookie" : "0.4.0",
+        "cookie-signature" : "1.0.6"
+      },
+      "devDependencies" : {
+        "eslint" : "6.8.0",
+        "eslint-config-standard" : "14.1.0",
+        "eslint-plugin-import" : "2.20.1",
+        "eslint-plugin-markdown" : "1.0.2",
+        "eslint-plugin-node" : "11.0.0",
+        "eslint-plugin-promise" : "4.2.1",
+        "eslint-plugin-standard" : "4.0.1",
+        "istanbul" : "0.4.5",
+        "mocha" : "7.1.0",
+        "supertest" : "4.0.2"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "defunctzombie",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint --plugin markdown --ext js,md .",
+        "test" : "mocha --reporter spec --bail --check-leaks test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.4.5",
+      "gitHead" : "2fea3f123a416ca0b666bc34b4b0899df26289b7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cookie-parser_1.4.5_1584245235765_0.23342003180248128"
+      },
+      "_nodeVersion" : "13.10.1"
+    },
+    "1.0.0" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/expressjs/cookie-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.0.0.tgz",
+        "shasum" : "a1fafa99da2a28dc3f28eefd8c61db6b98ecd2f9"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "mocha" : ">= 1.17.0",
+        "connect" : "2.13.0",
+        "supertest" : "0.9.0",
+        "cookie-signature" : "1.0.3"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --ui bdd --reporter list -- test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      },
+      "_id" : "cookie-parser@1.0.0"
+    },
+    "1.0.1" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/expressjs/cookie-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.0.1.tgz",
+        "shasum" : "17bd622c9717cd0858a912a9fef4c0362360a7b0"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.0",
+        "cookie-signature" : "1.0.3"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.17.0",
+        "connect" : "2.13.0",
+        "supertest" : "0.9.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --ui bdd --reporter list -- test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      },
+      "_id" : "cookie-parser@1.0.1"
+    },
+    "1.1.0" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/expressjs/cookie-parser.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.1.0.tgz",
+        "shasum" : "2f8265aa3b55733a85eef207f0e2530c3e8cf705"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.2",
+        "cookie-signature" : "1.0.3"
+      },
+      "devDependencies" : {
+        "mocha" : "~1.18.2",
+        "supertest" : "~0.12.1"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --ui bdd --reporter list -- test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.1.0"
+    },
+    "1.2.0" : {
+      "name" : "cookie-parser",
+      "description" : "cookie parsing with signatures",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "TJ Holowaychuk",
+        "email" : "tj@vision-media.ca",
+        "url" : "http://tjholowaychuk.com"
+      },
+      "homepage" : "https://github.com/expressjs/cookie-parser",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/expressjs/cookie-parser"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expressjs/cookie-parser/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.8.0"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cookie-parser/-/cookie-parser-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcookie-parser%2F-%2Fcookie-parser-1.2.0.tgz",
+        "shasum" : "1d8eedf6e67e16cecd863e3fb62c9799fa20ec7f"
+      },
+      "dependencies" : {
+        "cookie" : "0.1.2",
+        "cookie-signature" : "1.0.3"
+      },
+      "devDependencies" : {
+        "istanbul" : "0.2.10",
+        "mocha" : "~1.20.1",
+        "supertest" : "~0.13.0"
+      },
+      "keywords" : [ "cookie", "middleware" ],
+      "licenses" : "MIT",
+      "maintainers" : [ {
+        "name" : "shtylman",
+        "email" : "shtylman@gmail.com"
+      }, {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha --reporter dot test/",
+        "test-cov" : "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/",
+        "test-travis" : "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec test/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "dougwilson",
+        "email" : "doug@somethingdoug.com"
+      },
+      "_id" : "cookie-parser@1.2.0"
+    }
+  },
+  "readme" : "# cookie-parser\n\n[![NPM Version][npm-version-image]][npm-url]\n[![NPM Downloads][npm-downloads-image]][npm-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nParse `Cookie` header and populate `req.cookies` with an object keyed by the\ncookie names. Optionally you may enable signed cookie support by passing a\n`secret` string, which assigns `req.secret` so it may be used by other\nmiddleware.\n\n## Installation\n\n```sh\n$ npm install cookie-parser\n```\n\n## API\n\n```js\nvar express = require('express')\nvar cookieParser = require('cookie-parser')\n\nvar app = express()\napp.use(cookieParser())\n```\n\n### cookieParser(secret, options)\n\n- `secret` a string or array used for signing cookies. This is optional and if\n  not specified, will not parse signed cookies. If a string is provided, this\n  is used as the secret. If an array is provided, an attempt will be made to\n  unsign the cookie with each secret in order.\n- `options` an object that is passed to `cookie.parse` as the second option. Se\n  [cookie](https://www.npmjs.org/package/cookie) for more information.\n  - `decode` a function to decode the value of the cookie\n\n### cookieParser.JSONCookie(str)\n\nParse a cookie value as a JSON cookie. This will return the parsed JSON value\nif it was a JSON cookie, otherwise, it will return the passed value.\n\n### cookieParser.JSONCookies(cookies)\n\nGiven an object, this will iterate over the keys and call `JSONCookie` on each\nvalue, replacing the original value with the parsed value. This returns the\nsame object that was passed in.\n\n### cookieParser.signedCookie(str, secret)\n\nParse a cookie value as a signed cookie. This will return the parsed unsigned\nvalue if it was a signed cookie and the signature was valid. If the value was\nnot signed, the original value is returned. If the value was signed but the\nsignature could not be validated, `false` is returned.\n\nThe `secret` argument can be an array or string. If a string is provided, this\nis used as the secret. If an array is provided, an attempt will be made to\nunsign the cookie with each secret in order.\n\n### cookieParser.signedCookies(cookies, secret)\n\nGiven an object, this will iterate over the keys and check if any value is a\nsigned cookie. If it is a signed cookie and the signature is valid, the key\nwill be deleted from the object and added to the new object that is returned.\n\nThe `secret` argument can be an array or string. If a string is provided, this\nis used as the secret. If an array is provided, an attempt will be made to\nunsign the cookie with each secret in order.\n\n## Example\n\n```js\nvar express = require('express')\nvar cookieParser = require('cookie-parser')\n\nvar app = express()\napp.use(cookieParser())\n\napp.get('/', function (req, res) {\n  // Cookies that have not been signed\n  console.log('Cookies: ', req.cookies)\n\n  // Cookies that have been signed\n  console.log('Signed Cookies: ', req.signedCookies)\n})\n\napp.listen(8080)\n\n// curl command that sends an HTTP request with two cookies\n// curl http://127.0.0.1:8080 --cookie \"Cho=Kim;Greet=Hello\"\n```\n\n### [MIT Licensed](LICENSE)\n\n[coveralls-image]: https://badgen.net/coveralls/c/github/expressjs/cookie-parser/master\n[coveralls-url]: https://coveralls.io/r/expressjs/cookie-parser?branch=master\n[npm-downloads-image]: https://badgen.net/npm/dm/cookie-parser\n[npm-url]: https://npmjs.org/package/cookie-parser\n[npm-version-image]: https://badgen.net/npm/v/cookie-parser\n[travis-image]: https://badgen.net/travis/expressjs/cookie-parser/master\n[travis-url]: https://travis-ci.org/expressjs/cookie-parser\n",
+  "maintainers" : [ {
+    "name" : "defunctzombie",
+    "email" : "shtylman@gmail.com"
+  }, {
+    "name" : "dougwilson",
+    "email" : "doug@somethingdoug.com"
+  } ],
+  "author" : {
+    "name" : "TJ Holowaychuk",
+    "email" : "tj@vision-media.ca",
+    "url" : "http://tjholowaychuk.com"
+  },
+  "time" : {
+    "created" : "2014-02-15T16:25:08.464Z",
+    "1.3.0" : "2014-06-18T04:12:20.674Z",
+    "1.3.1" : "2014-06-18T04:15:41.681Z",
+    "1.4.0" : "2015-09-18T19:15:21.387Z",
+    "1.3.2" : "2014-06-26T17:40:20.078Z",
+    "1.4.1" : "2016-01-11T15:13:12.401Z",
+    "1.3.3" : "2014-09-06T04:45:10.315Z",
+    "1.4.2" : "2016-05-21T00:44:58.438Z",
+    "1.3.4" : "2015-02-15T19:11:21.934Z",
+    "1.4.3" : "2016-05-27T05:02:41.857Z",
+    "1.3.5" : "2015-05-20T01:42:40.288Z",
+    "1.4.4" : "2019-02-13T00:43:33.732Z",
+    "1.4.5" : "2020-03-15T04:07:15.938Z",
+    "modified" : "2020-03-15T04:07:19.565Z",
+    "1.0.0" : "2014-02-15T16:25:08.464Z",
+    "1.0.1" : "2014-02-21T05:06:16.709Z",
+    "1.1.0" : "2014-05-12T23:50:32.243Z",
+    "1.2.0" : "2014-06-18T03:48:48.231Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/expressjs/cookie-parser.git"
+  },
+  "users" : {
+    "lvpeng101" : true,
+    "ray0214" : true,
+    "joey.dossche" : true,
+    "anygivensolutions" : true,
+    "crismvp3200" : true,
+    "o7s_will" : true,
+    "tevins" : true,
+    "flyslow" : true,
+    "avivharuzi" : true,
+    "igorissen" : true,
+    "coolhector" : true,
+    "khurshedyu" : true,
+    "elviopita" : true,
+    "shanewholloway" : true,
+    "javimaravillas" : true,
+    "duskalbatross" : true,
+    "roboterhund87" : true,
+    "knoja4" : true,
+    "bruinebeer" : true,
+    "psychollama" : true,
+    "rocket0191" : true,
+    "isa424" : true,
+    "sgvinci" : true,
+    "antanst" : true,
+    "damianof" : true,
+    "manxisuo" : true,
+    "gruebes" : true,
+    "danieljameskay" : true,
+    "qbylucky" : true,
+    "landy2014" : true,
+    "karzanosman984" : true,
+    "tomchao" : true,
+    "shaneli" : true,
+    "phoenixsoul" : true,
+    "bumsuk" : true,
+    "bian17888" : true,
+    "wallenberg12" : true,
+    "clunt" : true,
+    "kepler" : true,
+    "crisperdue" : true,
+    "wendaobai" : true,
+    "mobeicaoyuan" : true,
+    "ahillier" : true,
+    "geekwen" : true,
+    "asaupup" : true,
+    "xu_q90" : true,
+    "augiethornton" : true,
+    "enhezzz" : true,
+    "paragi" : true,
+    "wangt" : true,
+    "freshlogic" : true,
+    "adamlu" : true,
+    "chhetrisushil" : true,
+    "qinyifeng" : true,
+    "vboctor" : true,
+    "f124275809" : true,
+    "iceriver2" : true,
+    "nagra" : true,
+    "kungkk" : true,
+    "abuelwafa" : true,
+    "asfrom30" : true,
+    "jonyweb" : true,
+    "chenphoenix" : true,
+    "vishwasc" : true,
+    "matteospampani" : true,
+    "satoru" : true,
+    "andreaspag" : true,
+    "obouchari" : true,
+    "kistoryg" : true,
+    "chunxchun" : true,
+    "luffy84217" : true,
+    "bracken" : true,
+    "gztomas" : true,
+    "kulyk404" : true,
+    "vwal" : true,
+    "adamdreszer" : true,
+    "evan2x" : true,
+    "johnny.young" : true,
+    "npmmurali" : true,
+    "shadowlong" : true,
+    "imzhi" : true,
+    "xgheaven" : true,
+    "reecegoddard" : true,
+    "panlw" : true,
+    "dofy" : true,
+    "justjavac" : true,
+    "luuhoangnam" : true,
+    "justincann" : true,
+    "novalu" : true,
+    "boyw165" : true,
+    "zhenzhuquan" : true,
+    "psmorrow" : true,
+    "wkaifang" : true,
+    "kuzmicheff" : true,
+    "ansuman" : true,
+    "joris-van-der-wel" : true,
+    "sadmansamee" : true,
+    "ackhub" : true,
+    "itcorp" : true,
+    "evdokimovm" : true,
+    "dlpowless" : true,
+    "honpery" : true,
+    "zaks" : true,
+    "bpatel" : true,
+    "rparris" : true,
+    "x_soth" : true,
+    "m412c0" : true,
+    "vjudge" : true,
+    "zeusbaba" : true,
+    "jasonwang1888" : true,
+    "serge-nikitin" : true,
+    "ryaned" : true,
+    "chinawolf_wyp" : true,
+    "pmasa" : true,
+    "endsoul" : true,
+    "apopek" : true,
+    "wozhizui" : true,
+    "toby_reynold" : true,
+    "program247365" : true,
+    "imd92" : true,
+    "kodekracker" : true,
+    "alexxnica" : true,
+    "nickeltobias" : true,
+    "atulmy" : true,
+    "runningtalus" : true,
+    "largepuma" : true,
+    "mfessenden" : true,
+    "83057396" : true,
+    "milan322" : true,
+    "nickeljew" : true,
+    "asm2hex" : true,
+    "langri-sha" : true,
+    "hyteer" : true,
+    "masanorinyo" : true,
+    "imaginegenesis" : true,
+    "zhuhanxiong" : true,
+    "animaldna" : true,
+    "nerdybeast" : true,
+    "princetoad" : true,
+    "alexcoady" : true,
+    "figroc" : true,
+    "jack546" : true,
+    "dbck" : true,
+    "damocles" : true,
+    "vbv" : true,
+    "volving" : true,
+    "staraple" : true,
+    "rubenjose75" : true,
+    "wfcookie" : true,
+    "hugovila" : true,
+    "robinblomberg" : true,
+    "ahvonenj" : true,
+    "wut" : true,
+    "slmcassio" : true,
+    "gpmetheny" : true,
+    "kenkao" : true,
+    "ezeikel" : true,
+    "markthethomas" : true,
+    "ramzesucr" : true,
+    "davidbraun" : true,
+    "hema" : true,
+    "hecto932" : true,
+    "ivan.marquez" : true,
+    "stand__sure" : true,
+    "wangnan0610" : true,
+    "sansgumen" : true,
+    "stephn_r" : true,
+    "justinliao" : true,
+    "bourne" : true,
+    "rbartoli" : true,
+    "dongxu" : true,
+    "andrew.medvedev" : true,
+    "52u" : true,
+    "ristostevcev" : true,
+    "thomas.li" : true,
+    "tin-lek" : true,
+    "he313572052" : true,
+    "marcobiedermann" : true,
+    "zhiquan.yu" : true,
+    "raycharles" : true,
+    "decoda" : true,
+    "frankl83" : true,
+    "mswanson1524" : true,
+    "giussa_dan" : true,
+    "kparkov" : true,
+    "qafir" : true,
+    "shakakira" : true,
+    "quafoo" : true,
+    "ab.moon" : true,
+    "losymear" : true,
+    "nex" : true,
+    "buzzalderaan" : true,
+    "dwayneford" : true,
+    "djamseed" : true,
+    "geooogle" : true,
+    "alexandermac" : true,
+    "steve3d3d" : true,
+    "christopher.urquidi" : true,
+    "lionft" : true,
+    "kevinhassan" : true,
+    "kaperstone" : true,
+    "pddivine" : true,
+    "vcordero07" : true,
+    "hanhq" : true,
+    "crazyjingling" : true,
+    "yong_a" : true,
+    "nikitka_m" : true,
+    "iamwiz" : true,
+    "danielbankhead" : true,
+    "scotchulous" : true,
+    "vteixeira" : true,
+    "mr-smiley" : true,
+    "josejaguirre" : true,
+    "sasquatch" : true,
+    "n1kkou" : true,
+    "maxblock" : true,
+    "ymk" : true,
+    "geduardcatalin" : true,
+    "xieping" : true,
+    "edmondnow" : true,
+    "mauriciolauffer" : true,
+    "xiaoqiang.yang" : true,
+    "gpuente" : true,
+    "tedyhy" : true,
+    "davidjsalazarmoreno" : true,
+    "nuwaio" : true,
+    "elevenlui" : true,
+    "lucasmciruzzi" : true,
+    "diogocapela" : true,
+    "sermir" : true,
+    "philiiiiiipp" : true,
+    "13lank.null" : true,
+    "isik" : true,
+    "tsm91" : true,
+    "grantcarthew" : true,
+    "ma-ha" : true,
+    "nate-river" : true,
+    "_~" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/expressjs/cookie-parser#readme",
+  "keywords" : [ "cookie", "middleware" ],
+  "contributors" : [ {
+    "name" : "Douglas Christopher Wilson",
+    "email" : "doug@somethingdoug.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/expressjs/cookie-parser/issues"
+  },
+  "license" : "MIT"
+}
