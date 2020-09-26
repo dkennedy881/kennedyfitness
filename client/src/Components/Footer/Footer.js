@@ -8,7 +8,7 @@ export function Footer() {
         <Form id="formContainer">
           <Form.Group as={Row}>
             <Col sm="12" id="footerFormMessageContainer">
-              <p>Questions? Contact me at demarcuskennedy@gmail.com</p>
+              <p>Questions? Contact me at kierra.kennedyfitness@gmail.com</p>
             </Col>
             <Col sm="12" id="iconRow">
               <a
