@@ -5,6 +5,9 @@
     font-weight: 400;
     margin: 50px 0px;
   }
+  #schedulingFormContainer {
+    padding-bottom: 300px;
+  }
 }
 
 /* iPads */
@@ -14,6 +17,9 @@
     font-weight: 400;
     margin: 20px 0px;
   }
+  #schedulingFormContainer {
+    padding-bottom: 200px;
+  }
 }
 
 /* phone */
@@ -22,6 +28,7 @@
     text-align: left;
   }
   #schedulingFormContainer {
+    padding-bottom: 200px;
   }
   .formSectionTitleContainer {
     margin-bottom: 1rem;

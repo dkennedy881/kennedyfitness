@@ -383,7 +383,7 @@ function SessionTypeSwitch({ sessionType, isGroup, setIsGroup }) {
         >
           <option value={null}>Select....</option>
           <option value={"Individual"}>Individual</option>
-          <option value={"Group"}>Group</option>
+          {/* <option value={"Group"}>Group</option> */}
         </Form.Control>
       </Form.Group>
     </div>
@@ -460,14 +460,17 @@ function SessionsPerMonth({ sessionPerWeek, setSessionPerWeek }) {
           }}
         >
           <option value={null}>Select....</option>
-          <option value={"4 Sessions (1x/wk) = $160"}>
-            4 Sessions (1x/wk) = $160
+          <option value={"1 TIME A WEEK $260 A MONTH"}>
+            1 TIME A WEEK $260 A MONTH
           </option>
-          <option value={"8 Sessions (2x/wk) = $320"}>
-            8 Sessions (2x/wk) = $320
+          <option value={"2 TIMES A WEEK $520 A MONTH"}>
+            2 TIMES A WEEK $520 A MONTH
           </option>
-          <option value={"4 Sessions (3x/wk) = $480"}>
-            12 Sessions (3x/wk) = $480
+          <option value={"3 TIMES A WEEK $780 A MONTH"}>
+            3 TIMES A WEEK $780 A MONTH
+          </option>
+          <option value={"4 TIMES A WEEK $1040 A MONTH"}>
+            4 TIMES A WEEK $1040 A MONTH
           </option>
         </Form.Control>
       </Form.Group>
@@ -488,10 +491,11 @@ function PayInFull({ setPayInFull, payInFull }) {
           }}
         >
           <option value={null}>Select....</option>
-          <option value={"5 Sessions = $200"}>5 Sessions = $200</option>
-          <option value={"10 Sessions = $400"}>10 Sessions = $400</option>
-          <option value={"15 Sessions = $600"}>15 Sessions = $600</option>
-          <option value={"20 Sessions = $800"}>20 Sessions = $800</option>
+          <option value={"5 WORKOUTS $325"}>5 WORKOUTS $325</option>
+          <option value={"1O WORKOUTS $650"}>1O WORKOUTS $650</option>
+          <option value={"12 WORKOUTS $780"}>12 WORKOUTS $780</option>
+          <option value={"15 WORKOUTS $975"}>15 WORKOUTS $975</option>
+          <option value={"20 WORKOUTS $1300"}>20 WORKOUTS $1300</option>
         </Form.Control>
       </Form.Group>
     </div>

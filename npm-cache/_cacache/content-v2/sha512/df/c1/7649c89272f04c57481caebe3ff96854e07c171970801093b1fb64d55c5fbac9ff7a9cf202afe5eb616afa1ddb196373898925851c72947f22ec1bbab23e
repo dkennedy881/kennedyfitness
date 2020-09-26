@@ -1,0 +1,4645 @@
+{
+  "_id" : "cross-env",
+  "_rev" : "398-250528f31131f9625ea5b15e9acd14f7",
+  "name" : "cross-env",
+  "description" : "Run scripts that set and use environment variables across platforms",
+  "dist-tags" : {
+    "beta" : "5.0.0-beta.0",
+    "latest" : "7.0.2"
+  },
+  "versions" : {
+    "5.1.6" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.1.6",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.1.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.1.6.tgz",
+        "shasum" : "0dc05caf945b24e4b9e3b12871fe0e858d08b38d"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.1.6",
+      "gitHead" : "b88977c17d70b001607f611b6e1fa292520dd92c",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_5.1.6_1527026308113_0.9653130316477729"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "4.0.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-4.0.0.tgz",
+        "shasum" : "16083862d08275a4628b0b243b121bedaa55dd80"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@4.0.0",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "e8a1614683fad01b2927ac8a4be308a21aa7df98",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-4.0.0.tgz_1490926067268_0.595629817340523"
+      },
+      "_shasum" : "16083862d08275a4628b0b243b121bedaa55dd80",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.10.1"
+    },
+    "3.0.0" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.0.0.tgz",
+        "shasum" : "22502a6bb9c80545ed14b745c3de484b595e3846"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.0.0",
+      "gitHead" : "f2275d53ff09b9a73f88fed3f79793f4e3e1f637",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.0.0.tgz_1474732667973_0.8063043183647096"
+      },
+      "_shasum" : "22502a6bb9c80545ed14b745c3de484b595e3846",
+      "_nodeVersion" : "6.6.0"
+    },
+    "4.0.0-beta.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "4.0.0-beta.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-4.0.0-beta.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-4.0.0-beta.0.tgz",
+        "shasum" : "08ad6a24be72966a27587bf41b2d143c6b842b17"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.3.0",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@4.0.0-beta.0",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "63352c2f954d255ba834d2395850602836669b4e",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-4.0.0-beta.0.tgz_1490579462559_0.4901835566852242"
+      },
+      "_shasum" : "08ad6a24be72966a27587bf41b2d143c6b842b17",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.9.5"
+    },
+    "3.1.4" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "3.1.4",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.1.4.tgz",
+        "shasum" : "56e8bca96f17908a6eb1bc2012ca126f92842130"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "babel --copy-files --out-dir dist --ignore *.test.js src",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/*.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.1.4",
+      "gitHead" : "b4a00630504bb21a5ad7bcf7fdb2ef1b4208a176",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.1.4.tgz_1483416901934_0.5976849617436528"
+      },
+      "_shasum" : "56e8bca96f17908a6eb1bc2012ca126f92842130",
+      "_nodeVersion" : "6.9.2"
+    },
+    "3.2.3" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "3.2.3",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.2.3.tgz",
+        "shasum" : "a43a0799b8ec422d0279b829ce8d7cf2da6b17ac"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.2.3",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "967f47286412d729c34db6e5eab8f0afc7c3a160",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.2.3.tgz_1488645865092_0.699036092730239"
+      },
+      "_shasum" : "a43a0799b8ec422d0279b829ce8d7cf2da6b17ac",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.10.0"
+    },
+    "3.2.4" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "3.2.4",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.2.4.tgz",
+        "shasum" : "9e0585f277864ed421ce756f81a980ff0d698aba"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.2.4",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "c1a9ed0764fe1e88f2ba370b43c4ade21d536f60",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.2.4.tgz_1489508640872_0.23967337561771274"
+      },
+      "_shasum" : "9e0585f277864ed421ce756f81a980ff0d698aba",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.10.0"
+    },
+    "3.1.0" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.1.0.tgz",
+        "shasum" : "cf7ea303c0e00083630e0324b98c26602f140712"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/*.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.1.0",
+      "gitHead" : "8da54d0d5a15fb36863d9105a610b64932c4e667",
+      "deprecated" : "bad build, please use >= 3.1.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.1.0.tgz_1475601157116_0.9495274033397436"
+      },
+      "_shasum" : "cf7ea303c0e00083630e0324b98c26602f140712",
+      "_nodeVersion" : "6.7.0"
+    },
+    "3.1.1" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "3.1.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.1.1.tgz",
+        "shasum" : "dd1b9964ae1737f35a3b0f5c0809f94b02c93b65"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "babel --copy-files --out-dir dist --ignore *.test.js src",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/*.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.1.1",
+      "gitHead" : "e847b1859fabccc89e97622966d6d72cb386fbfd",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.1.1.tgz_1475604097314_0.22411695774644613"
+      },
+      "_shasum" : "dd1b9964ae1737f35a3b0f5c0809f94b02c93b65",
+      "_nodeVersion" : "6.7.0"
+    },
+    "3.2.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.2.0.tgz",
+        "shasum" : "2ecc698cc21848218a7c6f3e9fa958c0f97307c3"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.2.0",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "dad00c469ad27d58946581c289ab6c7610a71bfd",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.2.0.tgz_1488641093570_0.9611874436959624"
+      },
+      "_shasum" : "2ecc698cc21848218a7c6f3e9fa958c0f97307c3",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.10.0"
+    },
+    "3.1.2" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "3.1.2",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.1.2.tgz",
+        "shasum" : "a81b470273134f29e7edb4068214b9f044d39d8d"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "babel --copy-files --out-dir dist --ignore *.test.js src",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/*.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.1.2",
+      "gitHead" : "5d932c930df1b7ec90f98a3e2e91562a765ee224",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.1.2.tgz_1475936388023_0.9474780019372702"
+      },
+      "_shasum" : "a81b470273134f29e7edb4068214b9f044d39d8d",
+      "_nodeVersion" : "6.7.0"
+    },
+    "3.2.1" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "3.2.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.2.1.tgz",
+        "shasum" : "904f160f607cb3db693648222f5b2ab9f1e7962d"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.2.1",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "aae44dff49494912a76423a7e45d3d1afd630e4a",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.2.1.tgz_1488643138025_0.9918442654889077"
+      },
+      "_shasum" : "904f160f607cb3db693648222f5b2ab9f1e7962d",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.10.0"
+    },
+    "3.1.3" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "3.1.3",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.1.3.tgz",
+        "shasum" : "58cd8231808f50089708b091f7dd37275a8e8154"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "babel --copy-files --out-dir dist --ignore *.test.js src",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/*.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.1.3",
+      "gitHead" : "01df20862ec0dce118baf97ea6de2625ad64066c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.1.3.tgz_1476516573602_0.8373507612850517"
+      },
+      "_shasum" : "58cd8231808f50089708b091f7dd37275a8e8154",
+      "_nodeVersion" : "6.8.1"
+    },
+    "3.2.2" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "3.2.2",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-3.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-3.2.2.tgz",
+        "shasum" : "1f0bfec907f4eca8541bd7165c0e2f2f9fc4372f"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@3.2.2",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "b303b9f5be510c7ebd371fb86aae8d9488a0ce82",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-3.2.2.tgz_1488644033249_0.08879243396222591"
+      },
+      "_shasum" : "1f0bfec907f4eca8541bd7165c0e2f2f9fc4372f",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.10.0"
+    },
+    "2.0.0" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-2.0.0.tgz",
+        "shasum" : "ca700331bc325374854ba71dc8ad1694f02526ed"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1",
+        "lodash.assign" : "^3.2.0"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.9",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@2.0.0",
+      "gitHead" : "8ff5555b0f566cbab4e56ddb5de2416be2959a22",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-2.0.0.tgz_1468415608165_0.2175458308774978"
+      },
+      "_shasum" : "ca700331bc325374854ba71dc8ad1694f02526ed",
+      "_nodeVersion" : "3.3.1"
+    },
+    "7.0.1" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "7.0.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "me@kentcdodds.com",
+        "url" : "https://kentcdodds.com"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=10.14",
+        "npm" : ">=6",
+        "yarn" : ">=1"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-7.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-7.0.1.tgz",
+        "shasum" : "c8e03412ea0e1370fe3f0066929a70b8e1e90c39"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^7.0.1"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^5.2.0"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "src/bin/cross-env.js",
+        "cross-env-shell" : "src/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "kcd-scripts lint",
+        "setup" : "npm install && npm run validate -s",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "me@kentcdodds.com"
+      },
+      "_id" : "cross-env@7.0.1",
+      "gitHead" : "8a9cf0e4de5dba2c990ff9bee77bf65cb3fc2c8d",
+      "// babel 3" : "because this module is published as-is. It is not compiled.",
+      "// babel 2" : "that way we ensure that the tests run without compilation",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "kcd-scripts pre-commit"
+        }
+      },
+      "// babel 1" : "this disables all built-in plugins from kcd-scripts for tests",
+      "babel" : {
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_7.0.1_1583260685809_0.32406895611958997"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "2.0.1" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-2.0.1.tgz",
+        "shasum" : "f283b4039ea759ada9ab7e987ad3bddb241b79a6"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1",
+        "lodash.assign" : "^3.2.0"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@2.0.1",
+      "gitHead" : "9976b5ecdca29ff59573f3b98a829e3663197816",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-2.0.1.tgz_1472486000996_0.6766182011924684"
+      },
+      "_shasum" : "f283b4039ea759ada9ab7e987ad3bddb241b79a6",
+      "_nodeVersion" : "6.5.0"
+    },
+    "7.0.2" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "7.0.2",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "me@kentcdodds.com",
+        "url" : "https://kentcdodds.com"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=10.14",
+        "npm" : ">=6",
+        "yarn" : ">=1"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-7.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-7.0.2.tgz",
+        "shasum" : "bd5ed31339a93a3418ac4f3ca9ca3403082ae5f9"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^7.0.1"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^5.2.0"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "src/bin/cross-env.js",
+        "cross-env-shell" : "src/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "kcd-scripts lint",
+        "setup" : "npm install && npm run validate -s",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "me@kentcdodds.com"
+      },
+      "_id" : "cross-env@7.0.2",
+      "gitHead" : "2a1f44c9053702fdc3fffca38afc041cbf634a05",
+      "// babel 3" : "because this module is published as-is. It is not compiled.",
+      "// babel 2" : "that way we ensure that the tests run without compilation",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "kcd-scripts pre-commit"
+        }
+      },
+      "// babel 1" : "this disables all built-in plugins from kcd-scripts for tests",
+      "babel" : {
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_7.0.2_1583440329232_0.6419689826555934"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "5.0.0-beta.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.0.0-beta.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.0.0-beta.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.0.0-beta.0.tgz",
+        "shasum" : "9ab98526d6b9a466e6016afd6cc59a9ff6eed9e6"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.3.0",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.0.0-beta.0",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "a52151c90c921f81e85faff0ba9f23a33f26d3ab",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-5.0.0-beta.0.tgz_1492554222331_0.3243228388018906"
+      },
+      "_shasum" : "9ab98526d6b9a466e6016afd6cc59a9ff6eed9e6",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.9.5"
+    },
+    "7.0.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=10.14",
+        "npm" : ">=6",
+        "yarn" : ">=1"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-7.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-7.0.0.tgz",
+        "shasum" : "5a3b2ddce51ec713ea58f2fb79ce22e65b4f5479"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^7.0.1"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^4.1.0"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "src/bin/cross-env.js",
+        "cross-env-shell" : "src/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "kcd-scripts lint",
+        "setup" : "npm install && npm run validate -s",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "me@kentcdodds.com"
+      },
+      "_id" : "cross-env@7.0.0",
+      "gitHead" : "4ec6f4009d05c571d1737306cb787499d511048b",
+      "// babel 3" : "because this module is published as-is. It is not compiled.",
+      "// babel 2" : "that way we ensure that the tests run without compilation",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "kcd-scripts pre-commit"
+        }
+      },
+      "// babel 1" : "this disables all built-in plugins from kcd-scripts for tests",
+      "babel" : {
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_7.0.0_1579977606155_0.9056898684731638"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "1.0.3" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.3.tgz",
+        "shasum" : "db4c98bee6d33578fce51f05f0b676f3ae65857a"
+      },
+      "dependencies" : {
+        "cross-spawn" : "2.0.0",
+        "manage-path" : "2.0.0"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "publish-latest" : "1.1.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "trash" : "2.0.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "trash dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "postpublish" : "publish-latest",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.3",
+      "gitHead" : "452ea5acebd474ed28039fdc346395ae15612edd",
+      "_shasum" : "db4c98bee6d33578fce51f05f0b676f3ae65857a",
+      "_nodeVersion" : "3.3.1"
+    },
+    "1.0.4" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.4",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.4.tgz",
+        "shasum" : "aae43f5127362f3aec5347976dfbffb01aefac07"
+      },
+      "dependencies" : {
+        "cross-spawn-async" : "2.0.0",
+        "manage-path" : "2.0.0"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "publish-latest" : "1.1.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "trash" : "2.0.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "trash dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "postpublish" : "publish-latest",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.4",
+      "gitHead" : "847e80f1ac592ecf1444a70e661fe7427156d2d4",
+      "_shasum" : "aae43f5127362f3aec5347976dfbffb01aefac07",
+      "_nodeVersion" : "3.3.1"
+    },
+    "1.0.5" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.5",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.5.tgz",
+        "shasum" : "e6e958440f9c24d70ed556047ebb6e8378856a9a"
+      },
+      "dependencies" : {
+        "cross-spawn-async" : "2.0.0",
+        "lodash.assign" : "^3.2.0"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "manage-path" : "2.0.0",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "publish-latest" : "1.1.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "trash" : "2.0.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "trash dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "postpublish" : "publish-latest",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.13",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.5",
+      "gitHead" : "187c068f9bb12e010eb22f30ba0b8778e9edd6ca",
+      "_shasum" : "e6e958440f9c24d70ed556047ebb6e8378856a9a",
+      "_nodeVersion" : "3.3.1"
+    },
+    "6.0.2" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "6.0.2",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=8.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-6.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-6.0.2.tgz",
+        "shasum" : "2ec3c4b9b90cc074fed375415fc229cb7d6ce612"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.6.2",
+        "cross-spawn" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^1.8.0"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "validate" : "kcd-scripts validate"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@6.0.2",
+      "gitHead" : "a825e9ce3f9a93c42b9449f4c73e4b884266fbb4",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "kcd-scripts pre-commit"
+        }
+      },
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_6.0.2_1569948972442_0.5900952925387286"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.16.1"
+    },
+    "1.0.6" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.6",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.6.tgz",
+        "shasum" : "e5b42b5fe1eff363f40ee6ec51f241b769b098d6"
+      },
+      "dependencies" : {
+        "cross-spawn-async" : "2.0.0",
+        "lodash.assign" : "^3.2.0"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "manage-path" : "2.0.0",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "publish-latest" : "1.1.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "trash" : "2.0.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "trash dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "postpublish" : "publish-latest",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.15",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.6",
+      "gitHead" : "616c5cbce08f0f53ca5c6e1f0709ee6d0a5d2ea3",
+      "_shasum" : "e5b42b5fe1eff363f40ee6ec51f241b769b098d6",
+      "_nodeVersion" : "3.3.1"
+    },
+    "6.0.3" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "6.0.3",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=8.0"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-6.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-6.0.3.tgz",
+        "shasum" : "4256b71e49b3a40637a0ce70768a6ef5c72ae941"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^1.8.0"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "src/bin/cross-env.js",
+        "cross-env-shell" : "src/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "validate" : "kcd-scripts validate"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@6.0.3",
+      "gitHead" : "67f21c32543af0ecdbaf2508d620d81d3307a433",
+      "// babel 3" : "because this module is published as-is. It is not compiled.",
+      "// babel 2" : "that way we ensure that the tests run without compilation",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "kcd-scripts pre-commit"
+        }
+      },
+      "// babel 1" : "this disables all built-in plugins from kcd-scripts for tests",
+      "babel" : {
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_6.0.3_1570033194525_0.2793512770297897"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.16.1"
+    },
+    "1.0.7" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.7",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.7.tgz",
+        "shasum" : "dd6cea13b31df4ffab4591343e605e370182647e"
+      },
+      "dependencies" : {
+        "cross-spawn-async" : "2.0.0",
+        "lodash.assign" : "^3.2.0"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "manage-path" : "2.0.0",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "trash" : "2.0.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "trash dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.15",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.7",
+      "gitHead" : "20d35cd6c16961c7205273b7214c3c6de0ed5497",
+      "_shasum" : "dd6cea13b31df4ffab4591343e605e370182647e",
+      "_nodeVersion" : "3.3.1"
+    },
+    "6.0.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=8.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-6.0.0.tgz",
+        "shasum" : "3c8e71440ea20aa6faaf5aec541235efc565dac6"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@6.0.0",
+      "gitHead" : "61ebf5970e88e915a09e80d0858ca6344efaa3ae",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_6.0.0_1568740733676_0.8641538839177287"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.16.1"
+    },
+    "1.0.8" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.8",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.8.tgz",
+        "shasum" : "2bde748efc780f56ddf07ea69fcad875357774ce"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^3.0.1",
+        "lodash.assign" : "^3.2.0"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "2.4.4",
+        "cz-conventional-changelog" : "1.1.4",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "1.0.0",
+        "istanbul" : "0.3.21",
+        "manage-path" : "2.0.0",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "rimraf" : "^2.5.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "rimraf dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog/"
+        },
+        "ghooks" : {
+          "commit-msg" : "validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.9",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.8",
+      "gitHead" : "22bf76db754be5f68ddb4f7e25838c2f2a814ea7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-1.0.8.tgz_1464062628365_0.9189400379545987"
+      },
+      "_shasum" : "2bde748efc780f56ddf07ea69fcad875357774ce",
+      "_nodeVersion" : "6.2.0"
+    },
+    "6.0.1" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "6.0.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=8.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-6.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-6.0.1.tgz",
+        "shasum" : "2cf45100b17341ebba09b9f708afb835f3d95974"
+      },
+      "dependencies" : {
+        "@babel/runtime" : "^7.6.2",
+        "cross-spawn" : "^7.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^1.8.0"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "validate" : "kcd-scripts validate"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@6.0.1",
+      "gitHead" : "36bb6c3b9ebde528a83bf49e0735e4b8ff9071cb",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "kcd-scripts pre-commit"
+        }
+      },
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_6.0.1_1569948818730_0.07221399523643823"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.16.1"
+    },
+    "5.0.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.0.0.tgz",
+        "shasum" : "565ccae4d09676441a5087f406fe7661a29c931b"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.0.0",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "9c4f3462a302e222ad40a3b65086164927da01c3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/cross-env-5.0.0.tgz_1494522715536_0.7865796182304621"
+      },
+      "_shasum" : "565ccae4d09676441a5087f406fe7661a29c931b",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.10.3"
+    },
+    "5.0.1" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.0.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.0.1.tgz",
+        "shasum" : "ff4e72ea43b47da2486b43a7f2043b2609e44913"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.23.0",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.0.1",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "b10de512868e6b591f9d735fbe83c7fe2821e7b8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.0.1.tgz_1496888744813_0.596174944890663"
+      },
+      "_shasum" : "ff4e72ea43b47da2486b43a7f2043b2609e44913",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.11.0"
+    },
+    "5.1.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.1.0.tgz",
+        "shasum" : "1f12d6b3777d5847dcf9cf39fbee3c6a76dd5058"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.1.0",
+      "gitHead" : "36b009e25ab5143fbe5d7e8ec92983dc700c60ac",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.1.0.tgz_1508172796223_0.8707587881945074"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.7.0"
+    },
+    "5.0.2" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.0.2",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.0.2.tgz",
+        "shasum" : "d39fd2fa28c1b5cfb91e7058d1efe8b4fcb01334"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.24.1",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.0.2",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "487241db78eb6343726fe09643b2402a4e920e4e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.0.2.tgz_1501602939211_0.32774517545476556"
+      },
+      "_shasum" : "d39fd2fa28c1b5cfb91e7058d1efe8b4fcb01334",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "5.1.1" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.1.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.1.1.tgz",
+        "shasum" : "b6d8ab97f304c0f71dae7277b75fe424c08dfa74"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.1.1",
+      "gitHead" : "50299d98b34fe21db9d9ebb16a75cca3e3d8dc74",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.1.1.tgz_1509118882451_0.15234006196260452"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.8.1"
+    },
+    "5.2.0" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.2.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.2.0.tgz",
+        "shasum" : "6ecd4c015d5773e614039ee529076669b9d126f2"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^6.0.5",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.2.0",
+      "gitHead" : "739fd622e85f4ed66553596385e7869061896a46",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_5.2.0_1528897092935_0.8705866328159608"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "5.0.3" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.0.3",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.0.3.tgz",
+        "shasum" : "8f55acef7469fed364f4039a9f7ece90191e3981"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.24.1",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.0.3",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "277cf075d65ce2470316b46f2ae962a8bb174ec9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.0.3.tgz_1501768989069_0.7702085783239454"
+      },
+      "_shasum" : "8f55acef7469fed364f4039a9f7ece90191e3981",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "5.1.2" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.1.2",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.1.2.tgz",
+        "shasum" : "f35755034822a4798a2678656ab9692e2c20c8df"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.1.2",
+      "gitHead" : "7fa5c089fcdf22690b9d05cdb8c6c37ade4e5837",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.1.2.tgz_1513881574305_0.7935433769598603"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.9.3"
+    },
+    "5.2.1" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.2.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.2.1.tgz",
+        "shasum" : "b2c76c1ca7add66dc874d11798466094f551b34d"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^6.0.5"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.2.1",
+      "gitHead" : "a75fd0ef17b94f002166f894c357a1dee02cc97e",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_5.2.1_1567276167900_0.2664920510490685"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.16.1"
+    },
+    "1.0.0" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.0.tgz",
+        "shasum" : "98ad62c239831e85c0ae7db6d1457e0dfbf8f363"
+      },
+      "dependencies" : {
+        "add-to-path" : "1.1.2"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "1.0.5",
+        "cz-conventional-changelog" : "1.1.2",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "0.3.2",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "trash" : "2.0.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "trash dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "postpublish" : "publish-latest",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "ghooks" : {
+          "commit-msg" : "./node_modules/.bin/validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.0",
+      "gitHead" : "afaae5518a03ac098fa773f7c613851b75d98b91",
+      "czConfig" : {
+        "path" : "node_modules/cz-conventional-changelog/"
+      },
+      "_shasum" : "98ad62c239831e85c0ae7db6d1457e0dfbf8f363",
+      "_nodeVersion" : "3.3.1"
+    },
+    "5.0.4" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.0.4",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.0.4.tgz",
+        "shasum" : "af93f5ce541ca9de49250b988104112e31c22563"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.24.1",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.0.4",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "c03ec7a2b6c53e17c6e51e742570122d4af68505",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.0.4.tgz_1502013224440_0.6318027095403522"
+      },
+      "_shasum" : "af93f5ce541ca9de49250b988104112e31c22563",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "5.1.3" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.1.3",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.1.3.tgz",
+        "shasum" : "f8ae18faac87692b0a8b4d2f7000d4ec3a85dfd7"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.1.3",
+      "gitHead" : "3cf4170d6d1fe9626f7141106b8147d3b1b25798",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.1.3.tgz_1513897295546_0.01781970146112144"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.9.3"
+    },
+    "1.0.1" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.1.tgz",
+        "shasum" : "355511ff3c0b947b0b4a984ff27475223ab90f78"
+      },
+      "dependencies" : {
+        "add-to-path" : "1.1.2"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "1.0.5",
+        "cz-conventional-changelog" : "1.1.2",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "0.3.2",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "publish-latest" : "1.1.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "trash" : "2.0.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "trash dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "postpublish" : "publish-latest",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "ghooks" : {
+          "commit-msg" : "./node_modules/.bin/validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.1",
+      "gitHead" : "b03e7e3dedeaf1f758d2609ea1dc63f2083df74c",
+      "czConfig" : {
+        "path" : "node_modules/cz-conventional-changelog/"
+      },
+      "_shasum" : "355511ff3c0b947b0b4a984ff27475223ab90f78",
+      "_nodeVersion" : "3.3.1"
+    },
+    "5.0.5" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.0.5",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.0.5.tgz",
+        "shasum" : "4383d364d9660873dd185b398af3bfef5efffef3"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "all-contributors-cli" : "^4.0.1",
+        "babel-cli" : "^6.24.1",
+        "babel-core" : "^6.23.1",
+        "babel-jest" : "^19.0.0",
+        "babel-preset-env" : "^1.2.0",
+        "babel-preset-stage-2" : "^6.22.0",
+        "babel-register" : "^6.23.0",
+        "codecov" : "^1.0.1",
+        "commitizen" : "^2.9.6",
+        "cz-conventional-changelog" : "^2.0.0",
+        "eslint" : "^3.17.0",
+        "eslint-config-kentcdodds" : "^12.0.0",
+        "husky" : "^0.13.2",
+        "jest-cli" : "^19.0.2",
+        "lint-staged" : "^3.3.1",
+        "nps" : "^5.0.3",
+        "nps-utils" : "^1.1.2",
+        "opt-cli" : "^1.5.1",
+        "prettier-eslint-cli" : "^3.1.2",
+        "semantic-release" : "^6.3.6",
+        "validate-commit-msg" : "^2.11.1"
+      },
+      "keywords" : [ ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "nps",
+        "test" : "nps test",
+        "commitmsg" : "opt --in commit-msg --exec \"validate-commit-msg\"",
+        "precommit" : "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "node_modules/cz-conventional-changelog"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.0.5",
+      "lint-staged" : {
+        "*.js" : [ "prettier-eslint --write", "git add" ]
+      },
+      "gitHead" : "44b37dd1ae28f81b10c4411d693c43a4c431f4e4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env-5.0.5.tgz_1502221591573_0.38387310691177845"
+      },
+      "_shasum" : "4383d364d9660873dd185b398af3bfef5efffef3",
+      "eslintConfig" : {
+        "extends" : [ "kentcdodds", "kentcdodds/jest" ],
+        "rules" : {
+          "max-len" : [ "error", 80 ]
+        }
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "coverageThreshold" : {
+          "global" : {
+            "branches" : 100,
+            "functions" : 100,
+            "lines" : 100,
+            "statements" : 100
+          }
+        }
+      },
+      "_nodeVersion" : "6.11.2"
+    },
+    "5.1.4" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.1.4",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.1.4.tgz",
+        "shasum" : "f61c14291f7cc653bb86457002ea80a04699d022"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.1.4",
+      "gitHead" : "450dae9c93803344e45db9ec54ef23f33401c7f1",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_5.1.4_1520617107310_0.3529880028667154"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "1.0.2" : {
+      "name" : "cross-env",
+      "description" : "Run commands that set environment variables across platforms",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "main" : "src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-1.0.2.tgz",
+        "shasum" : "ccb6b56b08d5c1ba7c16657930ea0f491760a548"
+      },
+      "dependencies" : {
+        "add-to-path" : "1.1.2"
+      },
+      "devDependencies" : {
+        "babel" : "5.8.23",
+        "chai" : "3.3.0",
+        "codecov.io" : "0.1.6",
+        "commitizen" : "1.0.5",
+        "cross-spawn" : "2.0.0",
+        "cz-conventional-changelog" : "1.1.2",
+        "eslint" : "1.5.1",
+        "eslint-config-kentcdodds" : "4.0.1",
+        "eslint-plugin-mocha" : "1.0.0",
+        "ghooks" : "0.3.2",
+        "istanbul" : "0.3.21",
+        "mocha" : "2.3.3",
+        "proxyquire" : "1.7.2",
+        "publish-latest" : "1.1.2",
+        "semantic-release" : "4.3.5",
+        "sinon" : "1.17.1",
+        "sinon-chai" : "2.8.0",
+        "trash" : "2.0.0",
+        "validate-commit-msg" : "1.0.0"
+      },
+      "keywords" : [ "environment variables", "cross platform" ],
+      "license" : "MIT",
+      "bin" : {
+        "cross-env" : "bin/cross-env.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "npm run test:watch",
+        "prebuild" : "trash dist && mkdir dist",
+        "build" : "cd src && babel index.js -d ../dist && cd ..",
+        "commit" : "git-cz",
+        "eslint" : "eslint src/ -c other/src.eslintrc --ignore-path other/src.eslintignore && eslint src/*.test.js",
+        "check-coverage" : "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+        "report-coverage" : "cat ./coverage/lcov.info | codecov",
+        "test:watch" : "mocha src/*.test.js -w --compilers js:babel/register",
+        "test" : "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js --compilers js:babel/register",
+        "prepublish" : "npm run build",
+        "postpublish" : "publish-latest",
+        "semantic-release" : "semantic-release pre && npm publish && semantic-release post"
+      },
+      "config" : {
+        "ghooks" : {
+          "commit-msg" : "./node_modules/.bin/validate-commit-msg && npm run eslint && npm t && npm run check-coverage && echo 'pre-commit checks good \uD83D\uDC4D'"
+        }
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.10",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@1.0.2",
+      "gitHead" : "3c21e496d7d3455a56eae49ca430f45e70577a0b",
+      "czConfig" : {
+        "path" : "node_modules/cz-conventional-changelog/"
+      },
+      "_shasum" : "ccb6b56b08d5c1ba7c16657930ea0f491760a548",
+      "_nodeVersion" : "3.3.1"
+    },
+    "5.1.5" : {
+      "name" : "cross-env",
+      "description" : "Run scripts that set and use environment variables across platforms",
+      "version" : "5.1.5",
+      "author" : {
+        "name" : "Kent C. Dodds",
+        "email" : "kent@doddsfamily.us",
+        "url" : "http://kentcdodds.com/"
+      },
+      "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/kentcdodds/cross-env.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/kentcdodds/cross-env/issues"
+      },
+      "engines" : {
+        "node" : ">=4.0"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/cross-env/-/cross-env-5.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcross-env%2F-%2Fcross-env-5.1.5.tgz",
+        "shasum" : "31daf7f3a52ef337c8ddda585f08175cce5d1fa5"
+      },
+      "dependencies" : {
+        "cross-spawn" : "^5.1.0",
+        "is-windows" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "kcd-scripts" : "^0.3.4"
+      },
+      "keywords" : [ "cross-environment", "environment variable", "windows" ],
+      "license" : "MIT",
+      "files" : [ "dist" ],
+      "bin" : {
+        "cross-env" : "dist/bin/cross-env.js",
+        "cross-env-shell" : "dist/bin/cross-env-shell.js"
+      },
+      "maintainers" : [ {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "add-contributor" : "kcd-scripts contributors add",
+        "build" : "kcd-scripts build",
+        "lint" : "kcd-scripts lint",
+        "test" : "kcd-scripts test",
+        "test:update" : "npm test -- --updateSnapshot --coverage",
+        "validate" : "kcd-scripts validate",
+        "precommit" : "kcd-scripts precommit"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "kentcdodds",
+        "email" : "kent@doddsfamily.us"
+      },
+      "_id" : "cross-env@5.1.5",
+      "gitHead" : "d5170bfc55577a593d1210eb952a609255ea9989",
+      "eslintIgnore" : [ "node_modules", "coverage", "dist" ],
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/cross-env_5.1.5_1525888734787_0.7864509563477466"
+      },
+      "eslintConfig" : {
+        "extends" : "./node_modules/kcd-scripts/eslint.js"
+      },
+      "_nodeVersion" : "8.11.1"
+    }
+  },
+  "readme" : "<div align=\"center\">\n<h1>cross-env \uD83D\uDD00</h1>\n\nRun scripts that set and use environment variables across platforms\n\n</div>\n\n<hr />\n\n[![Travis Build Status][build-badge]][build]\n[![AppVeyor Build Status][win-build-badge]][win-build]\n[![Code Coverage][coverage-badge]][coverage]\n[![version][version-badge]][package] [![MIT License][license-badge]][license]\n\n[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors)\n[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]\n[![downloads][downloads-badge]][npmtrends]\n\n## The problem\n\nMost Windows command prompts will choke when you set environment variables with\n`NODE_ENV=production` like that. (The exception is [Bash on Windows][win-bash],\nwhich uses native Bash.) Similarly, there's a difference in how windows and\nPOSIX commands utilize environment variables. With POSIX, you use: `$ENV_VAR`\nand on windows you use `%ENV_VAR%`.\n\n## This solution\n\n`cross-env` makes it so you can have a single command without worrying about\nsetting or using the environment variable properly for the platform. Just set it\nlike you would if it's running on a POSIX system, and `cross-env` will take care\nof setting it properly.\n\n<!-- START doctoc generated TOC please keep comment here to allow auto update -->\n<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [`cross-env` vs `cross-env-shell`](#cross-env-vs-cross-env-shell)\n- [Windows Issues](#windows-issues)\n- [Inspiration](#inspiration)\n- [Other Solutions](#other-solutions)\n- [Contributors](#contributors)\n- [LICENSE](#license)\n\n<!-- END doctoc generated TOC please keep comment here to allow auto update -->\n\n## Installation\n\nThis module is distributed via [npm][npm] which is bundled with [node][node] and\nshould be installed as one of your project's `devDependencies`:\n\n```\nnpm install --save-dev cross-env\n```\n\n> WARNING! Make sure that when you're installing packages that you spell things\n> correctly to avoid [mistakenly installing malware][malware]\n\n> NOTE : Version 7 of cross-env only supports Node.js 10 and higher, to use it on\n> Node.js 8 or lower install version 6 `npm install --save-dev cross-env@6`\n\n## Usage\n\nI use this in my npm scripts:\n\n```json\n{\n  \"scripts\": {\n    \"build\": \"cross-env NODE_ENV=production webpack --config build/webpack.config.js\"\n  }\n}\n```\n\nUltimately, the command that is executed (using [`cross-spawn`][cross-spawn])\nis:\n\n```\nwebpack --config build/webpack.config.js\n```\n\nThe `NODE_ENV` environment variable will be set by `cross-env`\n\nYou can also split a command into several ones, or separate the environment\nvariables declaration from the actual command execution. You can do it this way:\n\n```json\n{\n  \"scripts\": {\n    \"parentScript\": \"cross-env GREET=\\\"Joe\\\" npm run childScript\",\n    \"childScript\": \"cross-env-shell \\\"echo Hello $GREET\\\"\"\n  }\n}\n```\n\nWhere `childScript` holds the actual command to execute and `parentScript` sets\nthe environment variables to use. Then instead of run the childScript you run\nthe parent. This is quite useful for launching the same command with different\nenv variables or when the environment variables are too long to have everything\nin one line. It also means that you can use `$GREET` env var syntax even on\nWindows which would usually require it to be `%GREET%`.\n\nIf you precede a dollar sign with an odd number of backslashes the expression\nstatement will not be replaced. Note that this means backslashes after the JSON\nstring escaping took place. `\"FOO=\\\\$BAR\"` will not be replaced.\n`\"FOO=\\\\\\\\$BAR\"` will be replaced though.\n\nLastly, if you want to pass a JSON string (e.g., when using [ts-loader]), you\ncan do as follows:\n\n```json\n{\n  \"scripts\": {\n    \"test\": \"cross-env TS_NODE_COMPILER_OPTIONS={\\\\\\\"module\\\\\\\":\\\\\\\"commonjs\\\\\\\"} node some_file.test.ts\"\n  }\n}\n```\n\nPay special attention to the **triple backslash** `(\\\\\\)` **before** the\n**double quotes** `(\")` and the **absence** of **single quotes** `(')`. Both of\nthese conditions have to be met in order to work both on Windows and UNIX.\n\n## `cross-env` vs `cross-env-shell`\n\nThe `cross-env` module exposes two bins: `cross-env` and `cross-env-shell`. The\nfirst one executes commands using [`cross-spawn`][cross-spawn], while the second\none uses the `shell` option from Node's `spawn`.\n\nThe main use case for `cross-env-shell` is when you need an environment variable\nto be set across an entire inline shell script, rather than just one command.\n\nFor example, if you want to have the environment variable apply to several\ncommands in series then you will need to wrap those in quotes and use\n`cross-env-shell` instead of `cross-env`.\n\n```json\n{\n  \"scripts\": {\n    \"greet\": \"cross-env-shell GREETING=Hi NAME=Joe \\\"echo $GREETING && echo $NAME\\\"\"\n  }\n}\n```\n\nThe rule of thumb is: if you want to pass to `cross-env` a command that contains\nspecial shell characters _that you want interpreted_, then use\n`cross-env-shell`. Otherwise stick to `cross-env`.\n\nOn Windows you need to use `cross-env-shell`, if you want to handle\n[signal events](https://nodejs.org/api/process.html#process_signal_events)\ninside of your program. A common case for that is when you want to capture a\n`SIGINT` event invoked by pressing `Ctrl + C` on the command-line interface.\n\n## Windows Issues\n\nPlease note that `npm` uses `cmd` by default and that doesn't support command\nsubstitution, so if you want to leverage that, then you need to update your\n`.npmrc` to set the `script-shell` to powershell.\n[Learn more here](https://github.com/kentcdodds/cross-env/issues/192#issuecomment-513341729).\n\n## Inspiration\n\nI originally created this to solve a problem I was having with my npm scripts in\n[angular-formly][angular-formly]. This made contributing to the project much\neasier for Windows users.\n\n## Other Solutions\n\n- [`env-cmd`](https://github.com/toddbluhm/env-cmd) - Reads environment\n  variables from a file instead\n- [`@naholyr/cross-env`](https://www.npmjs.com/package/@naholyr/cross-env) -\n  `cross-env` with support for setting default values\n\n## Contributors\n\nThanks goes to these people ([emoji key][emojis]):\n\n<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tr>\n    <td align=\"center\"><a href=\"https://kentcdodds.com\"><img src=\"https://avatars.githubusercontent.com/u/1500684?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=kentcdodds\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=kentcdodds\" title=\"Documentation\">\uD83D\uDCD6</a> <a href=\"#infra-kentcdodds\" title=\"Infrastructure (Hosting, Build-Tools, etc)\">\uD83D\uDE87</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=kentcdodds\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"https://zhuangya.me\"><img src=\"https://avatars1.githubusercontent.com/u/499038?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Ya Zhuang </b></sub></a><br /><a href=\"#plugin-zhuangya\" title=\"Plugin/utility libraries\">\uD83D\uDD0C</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=zhuangya\" title=\"Documentation\">\uD83D\uDCD6</a></td>\n    <td align=\"center\"><a href=\"https://wopian.me\"><img src=\"https://avatars3.githubusercontent.com/u/3440094?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>James Harris</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=wopian\" title=\"Documentation\">\uD83D\uDCD6</a></td>\n    <td align=\"center\"><a href=\"https://github.com/compumike08\"><img src=\"https://avatars1.githubusercontent.com/u/8941730?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>compumike08</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/issues?q=author%3Acompumike08\" title=\"Bug reports\">\uD83D\uDC1B</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=compumike08\" title=\"Documentation\">\uD83D\uDCD6</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=compumike08\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"https://github.com/danielo515\"><img src=\"https://avatars1.githubusercontent.com/u/2270425?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Daniel Rodríguez Rivero</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/issues?q=author%3Adanielo515\" title=\"Bug reports\">\uD83D\uDC1B</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=danielo515\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=danielo515\" title=\"Documentation\">\uD83D\uDCD6</a></td>\n    <td align=\"center\"><a href=\"https://github.com/inyono\"><img src=\"https://avatars2.githubusercontent.com/u/1508477?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Jonas Keinholz</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/issues?q=author%3Ainyono\" title=\"Bug reports\">\uD83D\uDC1B</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=inyono\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=inyono\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"https://github.com/hgwood\"><img src=\"https://avatars3.githubusercontent.com/u/1656170?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Hugo Wood</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/issues?q=author%3Ahgwood\" title=\"Bug reports\">\uD83D\uDC1B</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=hgwood\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=hgwood\" title=\"Tests\">⚠️</a></td>\n  </tr>\n  <tr>\n    <td align=\"center\"><a href=\"https://github.com/thomasthiebaud\"><img src=\"https://avatars0.githubusercontent.com/u/3715715?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Thiebaud Thomas</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/issues?q=author%3Athomasthiebaud\" title=\"Bug reports\">\uD83D\uDC1B</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=thomasthiebaud\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=thomasthiebaud\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"https://daniel.blog\"><img src=\"https://avatars1.githubusercontent.com/u/1715800?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Daniel Rey López</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=DanReyLop\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=DanReyLop\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"http://amilajack.com\"><img src=\"https://avatars2.githubusercontent.com/u/6374832?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Amila Welihinda</b></sub></a><br /><a href=\"#infra-amilajack\" title=\"Infrastructure (Hosting, Build-Tools, etc)\">\uD83D\uDE87</a></td>\n    <td align=\"center\"><a href=\"https://twitter.com/paulcbetts\"><img src=\"https://avatars1.githubusercontent.com/u/1396?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Paul Betts</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/issues?q=author%3Apaulcbetts\" title=\"Bug reports\">\uD83D\uDC1B</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=paulcbetts\" title=\"Code\">\uD83D\uDCBB</a></td>\n    <td align=\"center\"><a href=\"https://github.com/turnerhayes\"><img src=\"https://avatars1.githubusercontent.com/u/6371670?v=3\" width=\"100px;\" alt=\"\"/><br /><sub><b>Turner Hayes</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/issues?q=author%3Aturnerhayes\" title=\"Bug reports\">\uD83D\uDC1B</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=turnerhayes\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=turnerhayes\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"https://github.com/sudo-suhas\"><img src=\"https://avatars2.githubusercontent.com/u/22251956?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Suhas Karanth</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=sudo-suhas\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=sudo-suhas\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"https://github.com/sventschui\"><img src=\"https://avatars3.githubusercontent.com/u/512692?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Sven</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=sventschui\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=sventschui\" title=\"Documentation\">\uD83D\uDCD6</a> <a href=\"#example-sventschui\" title=\"Examples\">\uD83D\uDCA1</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=sventschui\" title=\"Tests\">⚠️</a></td>\n  </tr>\n  <tr>\n    <td align=\"center\"><a href=\"https://github.com/NicoZelaya\"><img src=\"https://avatars0.githubusercontent.com/u/5522668?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>D. Nicolás Lopez Zelaya</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=NicoZelaya\" title=\"Code\">\uD83D\uDCBB</a></td>\n    <td align=\"center\"><a href=\"http://bithavoc.io\"><img src=\"https://avatars3.githubusercontent.com/u/219289?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Johan Hernandez</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=bithavoc\" title=\"Code\">\uD83D\uDCBB</a></td>\n    <td align=\"center\"><a href=\"https://github.com/jnielson94\"><img src=\"https://avatars3.githubusercontent.com/u/13559161?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Jordan Nielson</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/issues?q=author%3Ajnielson94\" title=\"Bug reports\">\uD83D\uDC1B</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=jnielson94\" title=\"Code\">\uD83D\uDCBB</a> <a href=\"https://github.com/kentcdodds/cross-env/commits?author=jnielson94\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"https://nz.linkedin.com/in/jsonc11\"><img src=\"https://avatars0.githubusercontent.com/u/5185660?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Jason Cooke</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=Jason-Cooke\" title=\"Documentation\">\uD83D\uDCD6</a></td>\n    <td align=\"center\"><a href=\"https://github.com/bibo5088\"><img src=\"https://avatars0.githubusercontent.com/u/17709887?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>bibo5088</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=bibo5088\" title=\"Code\">\uD83D\uDCBB</a></td>\n    <td align=\"center\"><a href=\"https://codefund.io\"><img src=\"https://avatars2.githubusercontent.com/u/12481?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Eric Berry</b></sub></a><br /><a href=\"#fundingFinding-coderberry\" title=\"Funding Finding\">\uD83D\uDD0D</a></td>\n    <td align=\"center\"><a href=\"https://michaeldeboey.be\"><img src=\"https://avatars3.githubusercontent.com/u/6643991?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=MichaelDeBoey\" title=\"Code\">\uD83D\uDCBB</a></td>\n  </tr>\n  <tr>\n    <td align=\"center\"><a href=\"https://github.com/lauriii\"><img src=\"https://avatars0.githubusercontent.com/u/1845495?v=4\" width=\"100px;\" alt=\"\"/><br /><sub><b>Lauri Eskola</b></sub></a><br /><a href=\"https://github.com/kentcdodds/cross-env/commits?author=lauriii\" title=\"Documentation\">\uD83D\uDCD6</a></td>\n  </tr>\n</table>\n\n<!-- markdownlint-enable -->\n<!-- prettier-ignore-end -->\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n\nThis project follows the [all-contributors][all-contributors] specification.\nContributions of any kind welcome!\n\n> Note: this was added late into the project. If you've contributed to this\n> project in any way, please make a pull request to add yourself to the list by\n> following the instructions in the `CONTRIBUTING.md`\n\n## LICENSE\n\nMIT\n\n[npm]: https://www.npmjs.com/\n[node]: https://nodejs.org\n[build-badge]:\n  https://img.shields.io/travis/kentcdodds/cross-env.svg?style=flat-square\n[build]: https://travis-ci.org/kentcdodds/cross-env\n[win-build-badge]:\n  https://img.shields.io/appveyor/ci/kentcdodds/cross-env.svg?style=flat-square\n[win-build]: https://ci.appveyor.com/project/kentcdodds/cross-env\n[coverage-badge]:\n  https://img.shields.io/codecov/c/github/kentcdodds/cross-env.svg?style=flat-square\n[coverage]: https://codecov.io/github/kentcdodds/cross-env\n[version-badge]: https://img.shields.io/npm/v/cross-env.svg?style=flat-square\n[package]: https://www.npmjs.com/package/cross-env\n[downloads-badge]: https://img.shields.io/npm/dm/cross-env.svg?style=flat-square\n[npmtrends]: https://www.npmtrends.com/cross-env\n[license-badge]: https://img.shields.io/npm/l/cross-env.svg?style=flat-square\n[license]: https://github.com/kentcdodds/cross-env/blob/master/other/LICENSE\n[prs-badge]:\n  https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square\n[prs]: http://makeapullrequest.com\n[coc-badge]:\n  https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square\n[coc]:\n  https://github.com/kentcdodds/cross-env/blob/master/other/CODE_OF_CONDUCT.md\n[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key\n[all-contributors]: https://github.com/kentcdodds/all-contributors\n[win-bash]: https://msdn.microsoft.com/en-us/commandline/wsl/about\n[angular-formly]: https://github.com/formly-js/angular-formly\n[cross-spawn]: https://www.npmjs.com/package/cross-spawn\n[ts-loader]: https://www.npmjs.com/package/ts-loader\n[malware]:\n  http://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry\n",
+  "maintainers" : [ {
+    "name" : "kentcdodds",
+    "email" : "kent@doddsfamily.us"
+  } ],
+  "author" : {
+    "name" : "Kent C. Dodds",
+    "email" : "me@kentcdodds.com",
+    "url" : "https://kentcdodds.com"
+  },
+  "time" : {
+    "5.1.6" : "2018-05-22T21:58:28.220Z",
+    "4.0.0-beta.0" : "2017-03-27T01:51:04.557Z",
+    "3.1.4" : "2017-01-03T04:15:04.127Z",
+    "modified" : "2020-03-05T20:32:11.805Z",
+    "3.1.0" : "2016-10-04T17:12:38.918Z",
+    "3.1.1" : "2016-10-04T18:01:38.972Z",
+    "3.1.2" : "2016-10-08T14:19:48.594Z",
+    "3.1.3" : "2016-10-15T07:29:35.216Z",
+    "7.0.1" : "2020-03-03T18:38:05.937Z",
+    "7.0.2" : "2020-03-05T20:32:09.373Z",
+    "created" : "2015-10-01T23:19:27.453Z",
+    "7.0.0" : "2020-01-25T18:40:06.324Z",
+    "6.0.2" : "2019-10-01T16:56:12.566Z",
+    "6.0.3" : "2019-10-02T16:19:54.704Z",
+    "6.0.0" : "2019-09-17T17:18:53.960Z",
+    "6.0.1" : "2019-10-01T16:53:38.909Z",
+    "5.0.0" : "2017-05-11T17:11:57.532Z",
+    "5.0.1" : "2017-06-08T02:25:45.854Z",
+    "5.0.2" : "2017-08-01T15:55:40.312Z",
+    "5.2.0" : "2018-06-13T13:38:13.018Z",
+    "5.0.3" : "2017-08-03T14:03:10.102Z",
+    "5.2.1" : "2019-08-31T18:29:28.046Z",
+    "5.0.4" : "2017-08-06T09:53:45.362Z",
+    "5.0.5" : "2017-08-08T19:46:32.639Z",
+    "4.0.0" : "2017-03-31T02:07:49.386Z",
+    "3.0.0" : "2016-09-24T15:57:49.893Z",
+    "3.2.3" : "2017-03-04T16:44:27.226Z",
+    "3.2.4" : "2017-03-14T16:24:01.735Z",
+    "3.2.0" : "2017-03-04T15:24:55.509Z",
+    "3.2.1" : "2017-03-04T15:59:00.089Z",
+    "3.2.2" : "2017-03-04T16:13:55.420Z",
+    "2.0.0" : "2016-07-13T13:13:29.016Z",
+    "2.0.1" : "2016-08-29T15:53:22.671Z",
+    "5.0.0-beta.0" : "2017-04-18T22:23:44.244Z",
+    "1.0.3" : "2015-11-11T18:06:27.921Z",
+    "1.0.4" : "2015-11-12T04:43:44.960Z",
+    "1.0.5" : "2015-11-28T00:08:43.483Z",
+    "1.0.6" : "2015-12-25T14:24:39.795Z",
+    "1.0.7" : "2016-01-03T15:08:15.687Z",
+    "1.0.8" : "2016-05-24T04:03:50.508Z",
+    "5.1.0" : "2017-10-16T16:53:17.200Z",
+    "5.1.1" : "2017-10-27T15:41:23.519Z",
+    "5.1.2" : "2017-12-21T18:39:35.395Z",
+    "1.0.0" : "2015-10-01T23:19:27.453Z",
+    "5.1.3" : "2017-12-21T23:01:37.789Z",
+    "1.0.1" : "2015-10-01T23:21:22.614Z",
+    "5.1.4" : "2018-03-09T17:38:27.383Z",
+    "1.0.2" : "2015-11-11T17:59:13.769Z",
+    "5.1.5" : "2018-05-09T17:58:54.922Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/kentcdodds/cross-env.git"
+  },
+  "users" : {
+    "varbrad" : true,
+    "sbruchmann" : true,
+    "eliias" : true,
+    "black-black-cat" : true,
+    "tonyljl526" : true,
+    "sappharx" : true,
+    "nmccready" : true,
+    "stephencorwin" : true,
+    "stone_breaker" : true,
+    "meshaneian" : true,
+    "alefteris" : true,
+    "isnardi" : true,
+    "samdd" : true,
+    "brentonhouse" : true,
+    "jslite" : true,
+    "restuta" : true,
+    "randallagordon" : true,
+    "knoja4" : true,
+    "den-dp" : true,
+    "alexdevero" : true,
+    "icflorescu" : true,
+    "thevikingcoder" : true,
+    "ga1989" : true,
+    "sedge" : true,
+    "hal9zillion" : true,
+    "jmiziolek" : true,
+    "cygik" : true,
+    "tiggem1993" : true,
+    "illuminator" : true,
+    "fanyegong" : true,
+    "xupea" : true,
+    "yson" : true,
+    "bdhmiloo" : true,
+    "fengmiaosen" : true,
+    "fakefarm" : true,
+    "heartnett" : true,
+    "zillding" : true,
+    "geekflyer" : true,
+    "attl8d" : true,
+    "bjornlarus" : true,
+    "ritsu" : true,
+    "wukaidong" : true,
+    "maxime1992" : true,
+    "landy2014" : true,
+    "tomchao" : true,
+    "rsp" : true,
+    "halo74u" : true,
+    "gamersdelight" : true,
+    "iori20091101" : true,
+    "floriannagel" : true,
+    "xiaobing" : true,
+    "j.su" : true,
+    "kontrax" : true,
+    "djviolin" : true,
+    "xlaoyu" : true,
+    "monjer" : true,
+    "hehehai" : true,
+    "thejondar" : true,
+    "eli_yao" : true,
+    "kurre" : true,
+    "johniexu" : true,
+    "vasz" : true,
+    "enhezzz" : true,
+    "vutran" : true,
+    "joaquin.briceno" : true,
+    "adeguk" : true,
+    "zhen" : true,
+    "scottfreecode" : true,
+    "abraham" : true,
+    "maxwelldu" : true,
+    "chhetrisushil" : true,
+    "vboctor" : true,
+    "lucifier129" : true,
+    "tongjieme" : true,
+    "dyakovk" : true,
+    "duartemendes" : true,
+    "santhoshbabu" : true,
+    "abuelwafa" : true,
+    "cslasher" : true,
+    "modao" : true,
+    "davidbwaters" : true,
+    "sternelee" : true,
+    "animabear" : true,
+    "arkanciscan" : true,
+    "hexagon6" : true,
+    "jerkovicl" : true,
+    "mauricedb" : true,
+    "kwesi" : true,
+    "285858315" : true,
+    "adammacias" : true,
+    "redstrike" : true,
+    "atomgao" : true,
+    "isenricho" : true,
+    "ghostcode521" : true,
+    "vparaskevas" : true,
+    "matmancini" : true,
+    "mjurincic" : true,
+    "fantasy" : true,
+    "appsparkler" : true,
+    "josokinas" : true,
+    "flftfqwxf" : true,
+    "programmer.severson" : true,
+    "taseenb" : true,
+    "npmmurali" : true,
+    "ridermansb" : true,
+    "lgatica" : true,
+    "eywalker" : true,
+    "anhulife" : true,
+    "rochejul" : true,
+    "max_devjs" : true,
+    "byoigres" : true,
+    "marcelohmdias" : true,
+    "yash3492" : true,
+    "benoror" : true,
+    "panlw" : true,
+    "d-band" : true,
+    "arcticicestudio" : true,
+    "ungurys" : true,
+    "ckchan" : true,
+    "diegohb" : true,
+    "ceejbot" : true,
+    "equimper" : true,
+    "dmitr" : true,
+    "bret" : true,
+    "ldq-first" : true,
+    "samar" : true,
+    "hexcola" : true,
+    "kiinlam" : true,
+    "jakedalus" : true,
+    "hyanghai" : true,
+    "saadbinsaeed" : true,
+    "arturparkhisenko" : true,
+    "linjianhang" : true,
+    "laomu" : true,
+    "ajduke" : true,
+    "eserozvataf" : true,
+    "ackhub" : true,
+    "soenkekluth" : true,
+    "kitoss" : true,
+    "eshinn" : true,
+    "bhv" : true,
+    "abhisekp" : true,
+    "imagos" : true,
+    "koobitor" : true,
+    "rickyrattlesnake" : true,
+    "ayoungh" : true,
+    "alexreg" : true,
+    "brunoscopelliti" : true,
+    "jream" : true,
+    "razr9" : true,
+    "mendoz_mm" : true,
+    "jasonwang1888" : true,
+    "manten" : true,
+    "serge-nikitin" : true,
+    "mhaidarh" : true,
+    "fr-esco" : true,
+    "ghettovoice" : true,
+    "timwzou" : true,
+    "yatsu" : true,
+    "ryandu" : true,
+    "wmhilton" : true,
+    "waitstone" : true,
+    "tmurngon" : true,
+    "joe223" : true,
+    "kodekracker" : true,
+    "iseif" : true,
+    "alexxnica" : true,
+    "jherax" : true,
+    "magicboy" : true,
+    "npmlincq" : true,
+    "ordinary" : true,
+    "nickgogan" : true,
+    "cheapsteak" : true,
+    "octo-utils" : true,
+    "grevzi" : true,
+    "mbaer" : true,
+    "robertpenner" : true,
+    "hyteer" : true,
+    "piecioshka" : true,
+    "a1ip" : true,
+    "sgnh" : true,
+    "petershev" : true,
+    "princetoad" : true,
+    "whathejoe" : true,
+    "yonigoldberg" : true,
+    "jason-chang" : true,
+    "leonardorb" : true,
+    "blade254353074" : true,
+    "fearnbuster" : true,
+    "pwn" : true,
+    "kenmcewan" : true,
+    "rhbecker" : true,
+    "debashish" : true,
+    "lulalachen" : true,
+    "cooclsee" : true,
+    "larslawoko" : true,
+    "manikantag" : true,
+    "bobxuyang" : true,
+    "qqcome110" : true,
+    "ezeikel" : true,
+    "yeming" : true,
+    "zvit" : true,
+    "mrxf" : true,
+    "forresst17" : true,
+    "funnywheel" : true,
+    "nguyenvanhoang26041994" : true,
+    "ivan.marquez" : true,
+    "iandstanley" : true,
+    "leizongmin" : true,
+    "brainmurder" : true,
+    "cmp-cc" : true,
+    "larrychen" : true,
+    "wangnan0610" : true,
+    "pablopap" : true,
+    "stephn_r" : true,
+    "gurunate" : true,
+    "cfleschhut" : true,
+    "bourne" : true,
+    "easimonenko" : true,
+    "cacivy" : true,
+    "weerd" : true,
+    "season19840122" : true,
+    "cathay" : true,
+    "pixel67" : true,
+    "zalithka" : true,
+    "pandao" : true,
+    "daizch" : true,
+    "holly" : true,
+    "lijsh" : true,
+    "colonaut" : true,
+    "akabeko" : true,
+    "frontmoment" : true,
+    "shawnsandy" : true,
+    "ziflex" : true,
+    "mysticatea" : true,
+    "scottkay" : true,
+    "arefm" : true,
+    "gmotos" : true,
+    "javafun" : true,
+    "quafoo" : true,
+    "xueboren" : true,
+    "losymear" : true,
+    "sdgcwoods" : true,
+    "nex" : true,
+    "cef62" : true,
+    "rbecheras" : true,
+    "peteb" : true,
+    "alshamiri2" : true,
+    "uptonking" : true,
+    "ycjcl868" : true,
+    "alexreg90" : true,
+    "nathantreid" : true,
+    "dracochou" : true,
+    "iotale" : true,
+    "jiesiren" : true,
+    "dkannan" : true,
+    "kiknag" : true,
+    "hanhq" : true,
+    "yangzw" : true,
+    "tztz" : true,
+    "yong_a" : true,
+    "denji" : true,
+    "junjiansyu" : true,
+    "wuwenbin" : true,
+    "n0f3" : true,
+    "yingwuhahahaha" : true,
+    "wouter_vdb" : true,
+    "vmleon" : true,
+    "houzhanfeng" : true,
+    "shoonia" : true,
+    "hyokosdeveloper" : true,
+    "jaredwilli" : true,
+    "preco21" : true,
+    "garthk" : true,
+    "leomdg" : true,
+    "decoded" : true,
+    "dwqs" : true,
+    "zhuziyi" : true,
+    "clementoh" : true,
+    "astraloverflow" : true,
+    "zuojiang" : true,
+    "coolhanddev" : true,
+    "jmsherry" : true,
+    "benmosher" : true,
+    "tedyhy" : true,
+    "usex" : true,
+    "good318" : true,
+    "bepotts" : true,
+    "yikuo" : true,
+    "mrdain" : true,
+    "jacky3399" : true,
+    "aidenzou" : true,
+    "lmammino" : true,
+    "tomgao365" : true,
+    "bcoe" : true,
+    "lore-w" : true,
+    "tdmalone" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/kentcdodds/cross-env#readme",
+  "keywords" : [ "cross-environment", "environment variable", "windows" ],
+  "bugs" : {
+    "url" : "https://github.com/kentcdodds/cross-env/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Style.css";
+import Axios from "axios";
 
 import SchedulingForm from "./SchedulingForm";
 
@@ -10,14 +11,15 @@ class Scheduling extends Component {
   }
 
   sendEmail = async ([email, subject, messageBody]) => {
-    let request = await new Promise((res, rej) => {
-      setTimeout(() => {
-        console.log(email);
-        console.log(messageBody);
-        res();
-      }, 3000);
-    });
-    return request;
+    let { data } = await Axios.post(
+      "https://webhooks.mongodb-realm.com/api/client/v2.0/app/nextup-ssnrm/service/emailkierra/incoming_webhook/webhook0",
+      {
+        email,
+        subject,
+        messageBody,
+      }
+    );
+    return data;
   };
 
   render() {

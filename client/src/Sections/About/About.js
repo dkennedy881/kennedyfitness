@@ -2,7 +2,7 @@ import React from "react";
 import "./Style.css";
 
 //images
-import runningLady from "../../Images/runninglady.png";
+import runningLady from "../../Images/keke.png";
 
 export function AboutMe() {
   return (
@@ -12,6 +12,13 @@ export function AboutMe() {
           <span id="mainMessage1">Train With Me</span>
           <span id="mainMessage2">Kennedy FITNESS</span>
         </div>
+        <span id="siteseal">
+          <script
+            async
+            type="text/javascript"
+            src="https://seal.godaddy.com/getSeal?sealID=HmQqyAxzwbIjebBBSPkpJdHxGOFzFFW2neIiuGDhu2TKPxEFIVX6u9ljyIh5"
+          ></script>
+        </span>
       </div>
       <div className="row" id="reverse">
         <div className="col-md-7">
@@ -22,11 +29,15 @@ export function AboutMe() {
 
             <div id="abouMessageParagraphContainer">
               <p id="abouMessageParagraph">
-                Physical fitness is a state of health and well-being and, more
-                specifically, the ability to perform aspects of sports,
-                occupations and daily activities. Physical fitness is generally
-                achieved through proper nutrition, moderate-vigorous physical
-                exercise, and sufficient rest.
+                I love fitness....It's what makes me feel good inside and out.
+                There's ALWAYS something I can work on or get better at. Pushing
+                myself physically is what I chase because it reminds me that
+                pain is temporary, and my hard work will pay off. Fitness
+                improves and trains my mental strength.
+                <br />
+                <br /> When I want to quit, I find my inner strength to keep
+                going because LIFE, is much harder then workouts. Let's get
+                Training!
               </p>
             </div>
           </div>

@@ -84,4 +84,8 @@
   .listDetailItem {
     text-align: center;
   }
+  .list-group-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

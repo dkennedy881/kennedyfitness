@@ -39,18 +39,21 @@ export default function Pricing() {
                 <Card.Body>
                   <Card.Title className="text-center">Monthly</Card.Title>
                   <Card.Text className="text-center">
-                    This is the description of the fun and active month to month
-                    pricing
+                    Your monthly option, meaning we workout on set days and
+                    times of the week each month.
                   </Card.Text>
                   <ListGroup variant="flush">
                     <ListGroup.Item className="text-center">
-                      4 Sessions (1x/wk) = $160
+                      1 TIME A WEEK $260 A MONTH
                     </ListGroup.Item>
                     <ListGroup.Item className="text-center">
-                      8 Sessions (2x/wk) = $320
+                      2 TIMES A WEEK $520 A MONTH
                     </ListGroup.Item>
                     <ListGroup.Item className="text-center">
-                      12 Sessions (3x/wk) = $480
+                      3 TIMES A WEEK $780 A MONTH
+                    </ListGroup.Item>
+                    <ListGroup.Item className="text-center">
+                      4 TIMES A WEEK $1040 A MONTH
                     </ListGroup.Item>
                   </ListGroup>
                   {/* <Button variant="primary">Go somewhere</Button> */}
@@ -70,25 +73,31 @@ export default function Pricing() {
             <div className="priceCard">
               <Card className="shadow">
                 <Card.Body>
-                  <Card.Title className="text-center">
-                    Book sessions in full
-                  </Card.Title>
+                  <Card.Title className="text-center">Pay in full</Card.Title>
                   <Card.Text className="text-center">
-                    With this you will have to pay in full but you'll get alot
-                    of perks.
+                    This is your one time buy option, use your training sessions
+                    however you'd like.
+                  </Card.Text>
+                  <Card.Text style={{ color: "#555" }} className="text-center">
+                    For example, you purchase "10 workouts," we workout 2 days a
+                    week for 5 weeks. (2 x 5 = 10) Or 1 time a week for 10 weeks
+                    ext.
                   </Card.Text>
                   <ListGroup variant="flush">
                     <ListGroup.Item className="text-center">
-                      5 Sessions $200
+                      5 WORKOUTS $325
                     </ListGroup.Item>
                     <ListGroup.Item className="text-center">
-                      10 Sessions $400
+                      1O WORKOUTS $650
                     </ListGroup.Item>
                     <ListGroup.Item className="text-center">
-                      15 Sessions $600
+                      12 WORKOUTS $780
                     </ListGroup.Item>
                     <ListGroup.Item className="text-center">
-                      20 Sessions $800
+                      15 WORKOUTS $975
+                    </ListGroup.Item>
+                    <ListGroup.Item className="text-center">
+                      20 WORKOUTS $1300
                     </ListGroup.Item>
                   </ListGroup>
                   {/* <Button variant="primary">Go somewhere</Button> */}
@@ -104,7 +113,7 @@ export default function Pricing() {
               </Card>
             </div>
           </div>
-          <div className="col-sm-6 col-md-12">
+          {/* <div className="col-sm-6 col-md-12">
             <div className="priceCard">
               <Card className="shadow">
                 <Card.Body>
@@ -117,7 +126,7 @@ export default function Pricing() {
                     <ListGroup.Item>$10 per person.</ListGroup.Item>
                     <ListGroup.Item>Up to 10 people per session</ListGroup.Item>
                   </ListGroup>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
+                  <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
                 <Button
                   variant="warning cardFooterBtn"
@@ -129,7 +138,7 @@ export default function Pricing() {
                 </Button>
               </Card>
             </div>
-          </div>
+          </div> */}
           <div className="col-sm-6 col-md-12 leftSide"></div>
         </div>
 
