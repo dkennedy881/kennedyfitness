@@ -12,7 +12,7 @@ export function Footer() {
             </Col>
             <Col sm="12" id="iconRow">
               <a
-                href="https://www.youtube.com/channel/UCul0qRQW1O3sQ-63Hb1_4xA/videos"
+                href="https://www.instagram.com/kennedyfitness/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "inherit" }}
@@ -20,7 +20,7 @@ export function Footer() {
                 <i className="footerIcon footerIconBg fab fa-instagram"></i>
               </a>
               <a
-                href="https://www.instagram.com/kennedyfitness/"
+                href="https://www.youtube.com/channel/UCul0qRQW1O3sQ-63Hb1_4xA/videos"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "inherit" }}
