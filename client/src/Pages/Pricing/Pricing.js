@@ -14,10 +14,7 @@ export default function Pricing() {
             <p className="pageTitle">Pricing</p>
           </div>
           <div className="col-md-7 d-flex flex-column justify-content-center text-center">
-            <p className="pageMessage">
-              This is what the pricing is about yadata yada yada. There is
-              something for everyone.
-            </p>
+            <p className="pageMessage">There is something for everyone.</p>
           </div>
         </div>
       </div>

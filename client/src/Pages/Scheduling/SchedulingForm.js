@@ -15,8 +15,8 @@ export default function SchedulingForm({ sendEmail }) {
   const [firstName, setFirstName] = useState("");
   const [lastName, setlastName] = useState("");
   const [email, setEmail] = useState("");
-  const [sessionType, setSessionType] = useState(null);
-  const [isGroup, setIsGroup] = useState(null);
+  const [sessionType, setSessionType] = useState("In Person");
+  const [isGroup, setIsGroup] = useState("Individual");
   const [groupCount, setGroupCount] = useState(2);
   const [monthly, setIsMonthly] = useState(null);
   const [sessionPerWeek, setSessionPerWeek] = useState(
@@ -260,28 +260,29 @@ export default function SchedulingForm({ sendEmail }) {
       </div>
 
       <div className="formSection">
-        <div className="col-md-12">
+        {/* <div className="col-md-12">
           <Form.Group controlId="formInPerson" className="formFieldGroupCenter">
             <Form.Label>In person or virtual online training</Form.Label>
             <Form.Control
               as="select"
-              defaultValue={sessionType}
+              defaultValue={"In Person"}
               onChange={(e) => {
                 setSessionType(e.target.value);
               }}
+              disabled={true}
             >
               <option value={null}>Select....</option>
               <option value={"In Person"}>In Person</option>
-              {/* <option value={"Online"}>Online</option> */}
             </Form.Control>
           </Form.Group>
-        </div>
+        </div> */}
         {sessionType ? (
-          <SessionTypeSwitch
-            sessionType={sessionType}
-            setIsGroup={setIsGroup}
-            isGroup={isGroup}
-          />
+          // <SessionTypeSwitch
+          //   sessionType={sessionType}
+          //   setIsGroup={setIsGroup}
+          //   isGroup={isGroup}
+          // />
+          <></>
         ) : (
           <></>
         )}
@@ -376,10 +377,11 @@ function SessionTypeSwitch({ sessionType, isGroup, setIsGroup }) {
         <Form.Label>Individual or Group Session ?</Form.Label>
         <Form.Control
           as="select"
-          defaultValue={isGroup}
+          defaultValue={"Individual"}
           onChange={(e) => {
             setIsGroup(e.target.value);
           }}
+          disabled={true}
         >
           <option value={null}>Select....</option>
           <option value={"Individual"}>Individual</option>

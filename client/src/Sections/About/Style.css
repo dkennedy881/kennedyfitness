@@ -48,7 +48,7 @@
   #aboutImage {
     width: 300px;
     position: relative;
-    left: -75px;
+    left: -40px;
     top: 100px;
   }
   #abouMessageContainer {
@@ -78,10 +78,10 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1200px) {
   #aboutImage {
-    width: 450px;
+    width: 400px;
     position: relative;
-    left: -125px;
-    top: 50px;
+    left: -25px;
+    top: 150px;
   }
   #abouMessageContainer {
     margin: 200px 20px 0px 50px;
@@ -112,6 +112,8 @@
     width: 80%;
     position: relative;
     left: -100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 
   #abouMessageContainer {
