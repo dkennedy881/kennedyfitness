@@ -26,12 +26,12 @@ class Scheduling extends Component {
     return (
       <div className="container flex-fill" id="mainContainer">
         <div className="row headerContainer">
-          <div className="col-md-6">
+          <div className="col-md-12">
             <p className="pageTitle">Schedule your Personal Training</p>
           </div>
-          <div className="col-md-6 d-flex flex-column justify-content-center text-center">
-            <p className="pageMessage">Personalize your Personal Training.</p>
-          </div>
+          {/* <div className="col-md-6 d-flex flex-column justify-content-center text-center">
+            <p className="pageMessage"> </p>
+          </div> */}
         </div>
         <div className="col-md-12">
           <hr />

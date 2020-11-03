@@ -10,12 +10,12 @@ export default function Pricing() {
     <div className="flex-fill" id="mainContainer">
       <div className="container headerContainer">
         <div className="row">
-          <div className="col-md-5 d-flex flex-column justify-content-center">
+          <div className="col-md-12 d-flex flex-column justify-content-center">
             <p className="pageTitle">Pricing</p>
           </div>
-          <div className="col-md-7 d-flex flex-column justify-content-center text-center">
-            <p className="pageMessage">There is something for everyone.</p>
-          </div>
+          {/* <div className="col-md-7 d-flex flex-column justify-content-center text-center">
+            <p className="pageMessage"> </p>
+          </div> */}
         </div>
       </div>
       <div className="container">
@@ -28,7 +28,7 @@ export default function Pricing() {
       <div className="container-fluid">
         <div className="row priceSection">
           <div className="col-md-12 ">
-            <p className="priceSectionTitle pageSubTitle">In Person</p>
+            <p className="priceSectionTitle pageSubTitle"> </p>
           </div>
           <div className="col-sm-6 col-md-12">
             <div className="priceCard">

@@ -205,8 +205,8 @@ export default function SchedulingForm({ sendEmail }) {
       <div className="formSection">
         <div className="col-md-12 formSectionTitleContainer">
           <p className="formSectionSubTitle">
-            Fill out the form to schedule your personal training. I will respond
-            via email ASAP.
+            Fill out your form to schedule your personal training. you will have
+            a response by me within 24-48 hours.
           </p>
         </div>
         <div className="col-md-12 formSectionTitleContainer">

@@ -2,7 +2,7 @@ import React from "react";
 import "./Style.css";
 
 //images
-import runningLady from "../../Images/keke.png";
+import runningLady from "../../Images/keke.jpeg";
 
 export function AboutMe() {
   return (
@@ -24,7 +24,7 @@ export function AboutMe() {
         <div className="col-md-7">
           <div id="abouMessageContainer">
             <div id="abouMessageHeaderContainer">
-              <p id="abouMessageHeader">About Your Trainer</p>
+              <p id="abouMessageHeader"> </p>
             </div>
 
             <div id="abouMessageParagraphContainer">

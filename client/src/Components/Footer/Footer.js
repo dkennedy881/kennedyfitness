@@ -8,7 +8,16 @@ export function Footer() {
         <Form id="formContainer">
           <Form.Group as={Row}>
             <Col sm="12" id="footerFormMessageContainer">
-              <p>Questions? Contact me at kierra.kennedyfitness@gmail.com</p>
+              <p>
+                Questions? Contact me at{" "}
+                <a
+                  style={{ color: "black", textDecoration: "underline" }}
+                  href="mailto:kierra.kennedyfitness@gmail.com"
+                  target="_blank"
+                >
+                  kierra.kennedyfitness@gmail.com
+                </a>
+              </p>
             </Col>
             <Col sm="12" id="iconRow">
               <a

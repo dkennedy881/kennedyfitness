@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/demarcus/.nvm/versions/node/v12.14.0/bin/node',
+1 verbose cli   '/Users/demarcus/.nvm/versions/node/v12.14.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.14.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle kennedyfitness@0.1.0~prestart: kennedyfitness@0.1.0
+6 info lifecycle kennedyfitness@0.1.0~start: kennedyfitness@0.1.0
+7 verbose lifecycle kennedyfitness@0.1.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle kennedyfitness@0.1.0~start: PATH: /Users/demarcus/.nvm/versions/node/v12.14.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/demarcus/projects/playground/kennedyfitness/client/node_modules/.bin:/Users/demarcus/.nvm/versions/node/v12.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+9 verbose lifecycle kennedyfitness@0.1.0~start: CWD: /Users/demarcus/projects/playground/kennedyfitness/client
+10 silly lifecycle kennedyfitness@0.1.0~start: Args: [ '-c', 'react-scripts start' ]
+11 timing npm Completed in 1093617ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>
