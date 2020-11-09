@@ -15,21 +15,55 @@ export function AboutMe() {
 
   return (
     <div className="container-fluid flex-fill" id="mainContainer">
-      <div className="row" style={{ display: loadingImg ? "none" : "" }}>
+      {loadingImg ? (
+        <div
+          className="sweet-loading container-fluid flex-fill"
+          id="mainContainer"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <ClipLoader css={override} size={50} color={"#ffc107"} />
+          <div
+            className="col-md-12"
+            style={{
+              marginTop: "70px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <p className="formSectionTitle"></p>
+          </div>
+        </div>
+      ) : (
+        <></>
+      )}
+      <div
+        className="row fadeIt"
+        style={
+          loadingImg
+            ? { visibility: "hidden", opacity: 0 }
+            : { visibility: "visible", opacity: 1 }
+        }
+      >
         <div className="col-md-12" id="mainMessageContainer">
           <span id="mainMessage1">Train With Me</span>
           <span id="mainMessage2">Kennedy FITNESS</span>
         </div>
-        <span id="siteseal">
-          <script
-            async
-            type="text/javascript"
-            src="https://seal.godaddy.com/getSeal?sealID=HmQqyAxzwbIjebBBSPkpJdHxGOFzFFW2neIiuGDhu2TKPxEFIVX6u9ljyIh5"
-          ></script>
-        </span>
       </div>
-      <div className="row" id="reverse">
-        <div className="col-md-7" style={{ display: loadingImg ? "none" : "" }}>
+      <div
+        className="row fadeIt"
+        id="reverse"
+        style={
+          loadingImg
+            ? { visibility: "hidden", opacity: 0 }
+            : { visibility: "visible", opacity: 1 }
+        }
+      >
+        <div className="col-md-7">
           <div id="abouMessageContainer">
             <div id="abouMessageHeaderContainer">
               <p id="abouMessageHeader"> </p>
@@ -61,32 +95,6 @@ export function AboutMe() {
                 setLoadingImage(false);
               }}
             />
-            {loadingImg ? (
-              <div
-                className="sweet-loading mt-5 container-fluid flex-fill"
-                id="mainContainer"
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <ClipLoader css={override} size={50} color={"#ffc107"} />
-                {/* <div
-                className="col-md-12"
-                style={{
-                  marginTop: "70px",
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              >
-                <p className="formSectionTitle">Sending Email</p>
-              </div> */}
-              </div>
-            ) : (
-              <></>
-            )}
           </div>
         </div>
       </div>

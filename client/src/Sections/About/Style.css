@@ -1,3 +1,6 @@
+.fadeIt {
+  transition: all 1s; /*Change the opacity to all*/
+}
 /* phone */
 @media (max-width: 759px) {
   #mainContainer {
