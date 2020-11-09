@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Style.css";
+import { css } from "@emotion/core";
+import ClipLoader from "react-spinners/ClipLoader";
 
 //images
 import runningLady from "../../Images/keke.jpeg";
 
+const override = css`
+  display: block;
+  margin-left: 10px;
+`;
 export function AboutMe() {
+  const [loadingImg, setLoadingImage] = useState(true);
+
   return (
     <div className="container-fluid flex-fill" id="mainContainer">
-      <div className="row">
+      <div className="row" style={{ display: loadingImg ? "none" : "" }}>
         <div className="col-md-12" id="mainMessageContainer">
           <span id="mainMessage1">Train With Me</span>
           <span id="mainMessage2">Kennedy FITNESS</span>
@@ -21,7 +29,7 @@ export function AboutMe() {
         </span>
       </div>
       <div className="row" id="reverse">
-        <div className="col-md-7">
+        <div className="col-md-7" style={{ display: loadingImg ? "none" : "" }}>
           <div id="abouMessageContainer">
             <div id="abouMessageHeaderContainer">
               <p id="abouMessageHeader"> </p>
@@ -44,7 +52,41 @@ export function AboutMe() {
         </div>
         <div className="col-md-5">
           <div id="aboutImageContainer">
-            <img alt="headerImage" src={runningLady} id="aboutImage" />
+            <img
+              alt="headerImage"
+              src={runningLady}
+              id="aboutImage"
+              style={{ display: loadingImg ? "none" : "" }}
+              onLoad={() => {
+                setLoadingImage(false);
+              }}
+            />
+            {loadingImg ? (
+              <div
+                className="sweet-loading mt-5 container-fluid flex-fill"
+                id="mainContainer"
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <ClipLoader css={override} size={50} color={"#ffc107"} />
+                {/* <div
+                className="col-md-12"
+                style={{
+                  marginTop: "70px",
+                  display: "flex",
+                  justifyContent: "center",
+                }}
+              >
+                <p className="formSectionTitle">Sending Email</p>
+              </div> */}
+              </div>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </div>
