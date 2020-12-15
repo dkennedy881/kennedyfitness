@@ -1,3 +1,23 @@
+.defautFont {
+  font-family: Haettenschweiler;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+}
+label {
+  font-family: Haettenschweiler;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+}
+p {
+  font-family: Haettenschweiler;
+  font-size: 1.2em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  /* line-height: 26.4px; */
+}
 .App {
   overflow-x: hidden;
   /* height: 100vh; */

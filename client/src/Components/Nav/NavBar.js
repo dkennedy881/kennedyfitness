@@ -6,7 +6,10 @@ import "./Style.css";
 const NavBar = ({ location }) => {
   return (
     <Navbar bg="dark" variant="dark" fixed="top">
-      <Nav className="justify-content-center" style={{ width: "100%" }}>
+      <Nav
+        className="justify-content-center defautFont"
+        style={{ width: "100%" }}
+      >
         <Link
           to={""}
           className={location.pathname === "" ? "nav-link active" : "nav-link"}

@@ -4,7 +4,7 @@ import { css } from "@emotion/core";
 import ClipLoader from "react-spinners/ClipLoader";
 
 //images
-import runningLady from "../../Images/keke.jpeg";
+import runningLady from "../../Images/keke_small.jpeg";
 
 const override = css`
   display: block;

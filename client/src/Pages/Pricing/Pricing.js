@@ -32,30 +32,40 @@ export default function Pricing() {
           </div>
           <div className="col-sm-6 col-md-12">
             <div className="priceCard">
-              <Card className="shadow">
+              <div
+                className="shadow"
+                style={{
+                  borderRadius: "0px",
+                  border: ".5px rgba(0,0,0,.15) solid",
+                }}
+              >
                 <Card.Body>
-                  <Card.Title className="text-center">Monthly</Card.Title>
+                  <Card.Title className="text-center defautFont">
+                    Monthly
+                  </Card.Title>
                   <Card.Text className="text-center">
                     Your monthly option, meaning we workout on set days and
                     times of the week each month.
                   </Card.Text>
                   <ListGroup variant="flush">
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       1 TIME A WEEK $260 A MONTH
                     </ListGroup.Item>
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       2 TIMES A WEEK $520 A MONTH
                     </ListGroup.Item>
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       3 TIMES A WEEK $780 A MONTH
                     </ListGroup.Item>
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       4 TIMES A WEEK $1040 A MONTH
                     </ListGroup.Item>
                   </ListGroup>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
                 <Button
+                  className="defautFont"
+                  style={{ width: "100%", borderRadius: "0px" }}
                   variant="warning cardFooterBtn"
                   onClick={() => {
                     history.push("/scheduling");
@@ -63,43 +73,56 @@ export default function Pricing() {
                 >
                   Book Now
                 </Button>
-              </Card>
+              </div>
             </div>
           </div>
           <div className="col-sm-6 col-md-12 leftSide">
             <div className="priceCard">
-              <Card className="shadow">
+              <div
+                className="shadow"
+                style={{
+                  borderRadius: "0px",
+                  border: ".5px rgba(0,0,0,.15) solid",
+                }}
+              >
                 <Card.Body>
-                  <Card.Title className="text-center">Pay in full</Card.Title>
+                  <Card.Title className="text-center defautFont">
+                    Pay in full
+                  </Card.Title>
                   <Card.Text className="text-center">
                     This is your one time buy option, use your training sessions
                     however you'd like.
                   </Card.Text>
-                  <Card.Text style={{ color: "#555" }} className="text-center">
+                  <Card.Text
+                    style={{ color: "#555" }}
+                    className="text-center defautFont"
+                  >
                     For example, you purchase "10 workouts," we workout 2 days a
                     week for 5 weeks. (2 x 5 = 10) Or 1 time a week for 10 weeks
                     ext.
                   </Card.Text>
                   <ListGroup variant="flush">
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       5 WORKOUTS $325
                     </ListGroup.Item>
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       1O WORKOUTS $650
                     </ListGroup.Item>
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       12 WORKOUTS $780
                     </ListGroup.Item>
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       15 WORKOUTS $975
                     </ListGroup.Item>
-                    <ListGroup.Item className="text-center">
+                    <ListGroup.Item className="text-center defautFont">
                       20 WORKOUTS $1300
                     </ListGroup.Item>
                   </ListGroup>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
                 <Button
+                  style={{ width: "100%", borderRadius: "0px" }}
+                  className="defautFont"
                   variant="warning cardFooterBtn"
                   onClick={() => {
                     history.push("/scheduling");
@@ -107,7 +130,7 @@ export default function Pricing() {
                 >
                   Book Now
                 </Button>
-              </Card>
+              </div>
             </div>
           </div>
           {/* <div className="col-sm-6 col-md-12">
@@ -141,7 +164,9 @@ export default function Pricing() {
 
         <div className="row priceSection" style={{ display: "none" }}>
           <div className="col-md-12">
-            <p className="priceSectionTitle pageSubTitle">Virtural</p>
+            <p className="priceSectionTitle pageSubTitle defautFont">
+              Virtural
+            </p>
           </div>
           <div className="col-sm-6 col-md-12">
             <div className="priceCard">
