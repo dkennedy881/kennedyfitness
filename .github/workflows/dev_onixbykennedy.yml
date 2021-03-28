@@ -26,6 +26,11 @@ jobs:
         npm install
         npm run build --if-present
         npm run test --if-present
+        cd client 
+        npm install 
+        CI=false
+        npm run build
+        cd ..
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
