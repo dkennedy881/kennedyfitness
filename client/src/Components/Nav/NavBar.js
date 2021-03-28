@@ -12,9 +12,9 @@ const NavBar = ({ location }) => {
       >
         <Link
           to={""}
-          className={location.pathname === "" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
-          About
+          Abouts
         </Link>
         <Link
           to={"/pricing"}
