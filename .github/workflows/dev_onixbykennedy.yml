@@ -31,7 +31,7 @@ jobs:
         CI=false
         npm run build
 
-      - name: "Deploy to Azure Web App"
+      - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         with:
           app-name: "onixbykennedy"
