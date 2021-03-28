@@ -14,7 +14,7 @@ const NavBar = ({ location }) => {
           to={""}
           className={location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
-          Abouts
+          About
         </Link>
         <Link
           to={"/pricing"}
