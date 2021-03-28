@@ -1,48 +1,47 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - onixbykennedy
-
-on:
-  push:
-    branches:
-      - dev
-  workflow_dispatch:
-
-jobs:
-  build:
+--- 
+jobs: 
+  build: 
     runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Set up Node.js version
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-
-    - name: npm install, build, and test
-      run: |
-        npm install
-        npm run build --if-present
-        npm run test --if-present
-        cd client 
-        npm install 
-        CI=false
-        npm run build
-
-  deploy:
-    runs-on: ubuntu-latest
+    steps: 
+      - 
+        uses: actions/checkout@v2
+      - 
+        name: "Set up Node.js version"
+        uses: actions/setup-node@v1
+        with: 
+          node-version: 12.x
+      - 
+        name: "npm install, build, and test"
+        run: |
+            npm install
+            npm run build --if-present
+            npm run test --if-present
+            cd client 
+            npm install 
+            CI=false
+            npm run build
+  deploy: 
+    environment: 
+      name: production
+      url: "${{ steps.deploy-to-webapp.outputs.webapp-url }}"
     needs: build
-    environment:
-      name: 'production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
-    - name: 'Deploy to Azure Web App'
-      id: deploy-to-webapp
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: 'onixbykennedy'
-        slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_11e70bd3785c4e5eb67bf68df185c379 }}
-        package: .
+    runs-on: ubuntu-latest
+    steps: 
+      - 
+        id: deploy-to-webapp
+        name: "Deploy to Azure Web App"
+        uses: azure/webapps-deploy@v2
+        with: 
+          app-name: onixbykennedy
+          package: "."
+          publish-profile: "${{ secrets.AzureAppService_PublishProfile_11e70bd3785c4e5eb67bf68df185c379 }}"
+          slot-name: production
+name: "Build and deploy Node.js app to Azure Web App - onixbykennedy"
+true: 
+  push: 
+    branches: 
+      - dev
+  workflow_dispatch: ~
