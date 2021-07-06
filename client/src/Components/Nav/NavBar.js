@@ -16,14 +16,14 @@ const NavBar = ({ location }) => {
         >
           About
         </Link>
-        <Link
+        {/* <Link
           to={"/pricing"}
           className={
             location.pathname === "/pricing" ? "nav-link active" : "nav-link"
           }
         >
           Pricing
-        </Link>
+        </Link> */}
         <Link
           to={"/scheduling"}
           className={

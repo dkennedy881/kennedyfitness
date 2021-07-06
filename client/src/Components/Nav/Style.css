@@ -1,9 +1,16 @@
 .no-active {
   color: rgba(255, 255, 255, 0.5);
 }
+.navbar.navbar-expand.navbar-dark.bg-dark.fixed-top {
+  background-color: #090909 !important;
+}
 
 @media (min-width: 760px) and (max-width: 1366px) {
   .nav-link {
     font-size: 1.4em;
+    margin: 0px 10px;
   }
+}
+.nav-link {
+  margin: 0px 20px;
 }
