@@ -35,6 +35,12 @@ p {
   border-top-left-radius: 0px !important;
   padding: 10px !important;
 }
+#mainContainer {
+  background-color: #090909;
+}
+.pageTitle {
+  color: white;
+}
 /* dkestop */
 @media (min-width: 1026px) {
   .pageTitle {
@@ -56,7 +62,7 @@ p {
   }
   #mainContainer {
     position: relative;
-    top: 100px;
+    padding-top: 100px;
     min-height: 85vh;
   }
   .headerContainer {
@@ -107,7 +113,7 @@ p {
     font-size: 1.6em;
   }
   #mainContainer {
-    margin-top: 65px;
+    padding-top: 65px;
   }
   #mainMessageContainer {
     text-align: center;

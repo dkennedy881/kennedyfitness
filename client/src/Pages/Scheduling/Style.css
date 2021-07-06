@@ -1,3 +1,9 @@
+.formSectionTitle {
+  color: white;
+}
+label {
+  color: white;
+}
 /* desktop */
 @media (min-width: 1026px) {
   .formSectionSubTitle {

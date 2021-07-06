@@ -1,15 +1,17 @@
+#logoContainer {
+  display: flex;
+  justify-content: center;
+}
 .fadeIt {
   transition: all 1s; /*Change the opacity to all*/
+}
+#abouMessageParagraph {
+  color: white;
 }
 /* phone */
 @media (max-width: 759px) {
   #mainContainer {
-    margin-top: 65px;
-  }
-  #mainMessageContainer {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    padding-top: 65px;
   }
   #mainMessage1 {
     font-size: 3em;
@@ -73,11 +75,6 @@
     line-height: 28.4px;
     /* line-height: 55.4px; */
   }
-  #mainMessageContainer {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  }
   #mainMessage1 {
     font-size: 5em;
   }
@@ -108,11 +105,6 @@
     font-weight: 100;
     line-height: 26.4px;
     line-height: 55.4px;
-  }
-  #mainMessageContainer {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
   }
   #mainMessage1 {
     font-size: 7em;
@@ -162,12 +154,6 @@
     font-weight: 100;
     line-height: 26.4px;
     line-height: 55.4px;
-  }
-  #mainMessageContainer {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
   }
   #mainMessage1 {
     font-size: 7em;

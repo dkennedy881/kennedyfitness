@@ -4,7 +4,6 @@ import { css } from "@emotion/core";
 import ClipLoader from "react-spinners/ClipLoader";
 
 //images
-import runningLady from "../../Images/keke_small.jpeg";
 
 const override = css`
   display: block;
@@ -15,6 +14,37 @@ export function AboutMe() {
 
   return (
     <div className="container-fluid flex-fill" id="mainContainer">
+      {/* <form
+        target="paypal"
+        action="https://www.paypal.com/cgi-bin/webscr"
+        method="post"
+      >
+        <input type="hidden" name="business" value="kin@kinskards.com" />
+
+        <input type="hidden" name="cmd" value="_cart" />
+        <input type="hidden" name="add" value="1" />
+
+        <input
+          type="hidden"
+          name="item_name"
+          value="Birthday - Cake and Candle"
+        />
+        <input type="hidden" name="amount" value="3.95" />
+        <input type="hidden" name="currency_code" value="USD" />
+
+        <input
+          type="image"
+          name="submit"
+          src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+          alt="Add to Cart"
+        />
+        <img
+          alt=""
+          width="1"
+          height="1"
+          src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+        />
+      </form> */}
       {loadingImg ? (
         <div
           className="sweet-loading container-fluid flex-fill"
@@ -49,9 +79,15 @@ export function AboutMe() {
             : { visibility: "visible", opacity: 1 }
         }
       >
-        <div className="col-md-12" id="mainMessageContainer">
-          <span id="mainMessage1">Train With Me</span>
-          <span id="mainMessage2">Kennedy FITNESS</span>
+        <div className="col-md-12" id="logoContainer">
+          <img
+            alt="headerImage"
+            src={process.env.PUBLIC_URL + "/images/logo_large.jpg"}
+            style={{ display: loadingImg ? "none" : "" }}
+            onLoad={() => {
+              setLoadingImage(false);
+            }}
+          />
         </div>
       </div>
       <div
@@ -88,7 +124,7 @@ export function AboutMe() {
           <div id="aboutImageContainer">
             <img
               alt="headerImage"
-              src={runningLady}
+              src={process.env.PUBLIC_URL + "/images/keke.jpeg"}
               id="aboutImage"
               style={{ display: loadingImg ? "none" : "" }}
               onLoad={() => {
