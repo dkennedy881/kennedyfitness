@@ -3,6 +3,7 @@ import "./Style.css";
 import Axios from "axios";
 
 import SchedulingForm from "./SchedulingForm";
+import { Questionnaire } from "../../Components/Questionnaire";
 
 class Scheduling extends Component {
   constructor(props) {
@@ -11,20 +12,25 @@ class Scheduling extends Component {
   }
 
   sendEmail = async ([email, subject, messageBody]) => {
-    let { data } = await Axios.post(
-      "https://webhooks.mongodb-realm.com/api/client/v2.0/app/nextup-ssnrm/service/emailkierra/incoming_webhook/webhook0",
-      {
-        email,
-        subject,
-        messageBody,
-      }
-    );
-    return data;
+    try {
+      let { data } = await Axios.post(
+        "https://webhooks.mongodb-realm.com/api/client/v2.0/app/nextup-ssnrm/service/emailkierra/incoming_webhook/webhook0",
+        {
+          email,
+          subject,
+          messageBody,
+        }
+      );
+      return data;
+    } catch (e) {
+      alert("An Error has occured");
+      console.log(`Error - ${e}`);
+    }
   };
 
   render() {
     return (
-      <div className="container flex-fill" id="mainContainer">
+      <div className="container flex-fill alt" id="mainContainer">
         <div className="row headerContainer">
           <div className="col-md-12">
             <p className="pageTitle">Schedule your Personal Training</p>
@@ -37,17 +43,8 @@ class Scheduling extends Component {
           <hr />
         </div>
         <div className="container">
-          <SchedulingForm sendEmail={this.sendEmail} />
+          <Questionnaire sendEmail={this.sendEmail} />
         </div>
-
-        {/* <div>
-            <div className="col-md-6">
-              <Form.Group controlId="formBasicPassword">
-                <Form.Label>First Name</Form.Label>
-                <Form.Control type="password" placeholder="Password" />
-              </Form.Group>
-            </div>
-          </div> */}
       </div>
     );
   }

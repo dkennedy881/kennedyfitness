@@ -107,15 +107,13 @@ export function AboutMe() {
 
             <div id="abouMessageParagraphContainer">
               <p id="abouMessageParagraph">
-                I love fitness....It's what makes me feel good inside and out.
-                There's ALWAYS something I can work on or get better at. Pushing
-                myself physically is what I chase because it reminds me that
-                pain is temporary, and my hard work will pay off. Fitness
-                improves and trains my mental strength.
-                <br />
-                <br /> When I want to quit, I find my inner strength to keep
-                going because LIFE, is much harder then workouts. Let's get
-                Training!
+                Helping the world become a fitter place! I offer "in person
+                training" and "online training". Currently living in Austin TX,
+                I've been personal training since 2017. My workout style
+                includes strength training, muscle endurance training and high
+                intensity training. Health and fitness is my passion and I enjoy
+                helping others become best versions of themselves through
+                fitness!
               </p>
             </div>
           </div>

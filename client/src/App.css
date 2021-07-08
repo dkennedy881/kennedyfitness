@@ -38,8 +38,11 @@ p {
 #mainContainer {
   background-color: #090909;
 }
+#mainContainer.alt {
+  background-color: white;
+}
 .pageTitle {
-  color: white;
+  color: black;
 }
 /* dkestop */
 @media (min-width: 1026px) {
