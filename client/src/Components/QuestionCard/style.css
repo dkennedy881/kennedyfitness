@@ -20,10 +20,10 @@
 /* desktop */
 @media only screen and (min-device-width: 1025px) and (-webkit-min-device-pixel-ratio: 1) {
   #QuestionCard {
-    min-height: 700px;
+    min-height: 200px;
     height: auto;
     display: flex;
-    margin: 50px 75px 0px 75px;
+    margin: 50px 300px 0px 300px;
     width: auto;
   }
   #QuestionCardQuestionHeaderContainer {

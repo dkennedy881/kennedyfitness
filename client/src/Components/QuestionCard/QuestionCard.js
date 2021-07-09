@@ -14,13 +14,16 @@ design views for other devices
 export const QuestionCard = ({ data, handleNext, handleSelectedAnswer }) => {
   const [selectedAnswer, setAnswerSelected] = useState(null);
 
-  const checkAnswer = (answerData) => {
+  const checkAnswer = async (answerData) => {
     setAnswerSelected(answerData);
-    const ansChoiceWithCorrectAns = {
+    handleSelectedAnswer({
       ...data,
       selected: answerData,
-    };
-    handleSelectedAnswer(ansChoiceWithCorrectAns);
+    });
+  };
+
+  const setAnsweredStyle = (choice) => {
+    return choice === selectedAnswer ? "bg-secondary text-light" : "bg-light";
   };
 
   useEffect(() => {
@@ -52,8 +55,14 @@ export const QuestionCard = ({ data, handleNext, handleSelectedAnswer }) => {
                 onClick={() => {
                   checkAnswer(answer);
                 }}
-                className="m-2"
+                className={`m-2 ${selectedAnswer && setAnsweredStyle(answer)}`}
                 variant="light"
+                style={{
+                  backgroundColor:
+                    selectedAnswer && selectedAnswer.selected === answer
+                      ? "green"
+                      : "",
+                }}
               >
                 <span className="QuestionCardAnswerText">{answer}</span>
               </Button>

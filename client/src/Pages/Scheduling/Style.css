@@ -14,6 +14,9 @@ label {
   #schedulingFormContainer {
     padding-bottom: 300px;
   }
+  .fields {
+    margin: 50px 200px;
+  }
 }
 
 /* iPads */
@@ -58,5 +61,4 @@ label {
 
 .fields {
   display: flex;
-  margin: 0px;
 }
