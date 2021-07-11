@@ -33,7 +33,7 @@ class Scheduling extends Component {
       <div className="container flex-fill alt" id="mainContainer">
         <div className="row headerContainer">
           <div className="col-md-12">
-            <p className="pageTitle">Schedule your Personal Training</p>
+            <p className="pageTitle">Book your workout</p>
           </div>
           {/* <div className="col-md-6 d-flex flex-column justify-content-center text-center">
             <p className="pageMessage"> </p>

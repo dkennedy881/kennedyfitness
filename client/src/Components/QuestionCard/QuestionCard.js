@@ -76,7 +76,7 @@ export const QuestionCard = ({ data, handleNext, handleSelectedAnswer }) => {
           <div>
             {selectedAnswer && (
               <Button
-                variant="dark"
+                variant="light"
                 onClick={() => {
                   handleNext();
                 }}

@@ -43,6 +43,7 @@ p {
 }
 .pageTitle {
   color: black;
+  padding: 15px 0px 0px 0px;
 }
 /* dkestop */
 @media (min-width: 1026px) {

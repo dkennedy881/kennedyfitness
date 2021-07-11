@@ -132,6 +132,24 @@ export function AboutMe() {
           </div>
         </div>
       </div>
+      <div className="fadeIt" id="TestimonialContainer">
+        <div className="col-md-12">
+          <img
+            alt="headerImage"
+            src={process.env.PUBLIC_URL + "/images/testa1.JPG"}
+            style={{ display: loadingImg ? "none" : "" }}
+            width="100%"
+          />
+        </div>
+        <div className="col-md-12">
+          <img
+            alt="headerImage"
+            src={process.env.PUBLIC_URL + "/images/testa2.JPG"}
+            style={{ display: loadingImg ? "none" : "" }}
+            width="100%"
+          />
+        </div>
+      </div>
     </div>
   );
 }

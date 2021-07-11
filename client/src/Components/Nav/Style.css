@@ -2,7 +2,8 @@
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar.navbar-expand.navbar-dark.bg-dark.fixed-top {
-  background-color: #090909 !important;
+  background-color: white !important;
+  border-bottom: solid 0.5px rgb(229 229 229);
 }
 
 @media (min-width: 760px) and (max-width: 1366px) {
@@ -13,4 +14,9 @@
 }
 .nav-link {
   margin: 0px 20px;
+  color: rgb(88 88 88) !important;
+}
+.nav-link.active {
+  margin: 0px 20px;
+  color: black !important;
 }
