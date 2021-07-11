@@ -31,7 +31,11 @@ export const QuestionCard = ({ data, handleNext, handleSelectedAnswer }) => {
   }, [data]);
 
   return (
-    <Row fluid={"false"} id="QuestionCard">
+    <Row
+      fluid={"false"}
+      id="QuestionCard"
+      style={{ display: "flex", alignItems: "center" }}
+    >
       <Col lg={12} id="QuestionCardContainer">
         <div id="QuestionCardQuestionHeaderContainer">
           <div className="QuestionCardCountTextContainer">

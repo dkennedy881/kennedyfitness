@@ -34,6 +34,9 @@ class Scheduling extends Component {
         <div className="row headerContainer">
           <div className="col-md-12">
             <p className="pageTitle">Book your workout</p>
+            <p className="text-center pt-3">
+              Complete the questionnaire to get a workout tailor made for you
+            </p>
           </div>
           {/* <div className="col-md-6 d-flex flex-column justify-content-center text-center">
             <p className="pageMessage"> </p>
